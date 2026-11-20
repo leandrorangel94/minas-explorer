@@ -1,7 +1,7 @@
 <div class="me-container py-8">
   @switch (status()) {
     @case ('loading') {
-      <p class="me-note" role="status">Carregando…</p>
+      <me-detail-skeleton />
     }
     @case ('error') {
       <me-empty-state [level]="1" title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">

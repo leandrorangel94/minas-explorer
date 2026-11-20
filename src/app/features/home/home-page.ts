@@ -7,11 +7,12 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
 import { catchError, map, of } from 'rxjs';
 import { GeoDataService } from '../../core/services/geo-data.service';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
-import { SectionTitle } from '../../shared/components/section-title/section-title';
 import { ExplorerStore } from '../explore/explorer.store';
 import { FiltersPanel } from '../explore/filters-panel/filters-panel';
 import { ResultsList } from '../explore/results-list/results-list';
 import { MapPoint, MinasMap } from '../map/minas-map';
+import { ExplorerSkeleton } from '../explore/explorer-skeleton';
+import { expandCollapse, fadeIn } from '../../shared/animations';
 import { Icon } from '../../shared/components/icon/icon';
 
 type View = 'map' | 'list';
@@ -19,8 +20,10 @@ type View = 'map' | 'list';
 @Component({
   selector: 'me-home-page',
   imports: [
-    MatButtonModule, MatButtonToggleModule, EmptyState, SectionTitle, MinasMap, FiltersPanel, ResultsList, Icon,
+    MatButtonModule, MatButtonToggleModule, EmptyState, MinasMap, FiltersPanel, ResultsList, Icon,
+    ExplorerSkeleton,
   ],
+  animations: [expandCollapse, fadeIn],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -56,6 +59,8 @@ export class HomePage {
       color: category?.color,
       categoryName: category?.name,
       href: this.location.prepareExternalUrl(`/cidades/${city.slug}/${attraction.slug}`),
+      imageUrl: attraction.images[0]?.thumbUrl ?? attraction.images[0]?.url,
+      imageAlt: attraction.images[0]?.alt,
     })),
   );
 

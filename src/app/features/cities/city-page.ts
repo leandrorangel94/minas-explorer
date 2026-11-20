@@ -10,13 +10,16 @@ import { DestinationCard } from '../../shared/components/destination-card/destin
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
+import { DetailSkeleton } from '../../shared/components/skeleton/page-skeletons';
+import { WeatherSection } from '../../shared/components/weather/weather';
+import { PlaceExtras } from '../../shared/components/place-extras/place-extras';
 import { ExplorerStore } from '../explore/explorer.store';
 import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-city-page',
   imports: [
-    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, ImageGallery, Icon,
+    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, ImageGallery, Icon, DetailSkeleton, WeatherSection, PlaceExtras,
   ],
   templateUrl: './city-page.html',
   styleUrl: './city-page.scss',

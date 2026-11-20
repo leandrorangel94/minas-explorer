@@ -1,5 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, input, signal } from '@angular/core';
 import { CatalogImage } from '../../../core/models/catalog.models';
+import { crossFade } from '../../animations';
 import { Icon } from '../icon/icon';
 
 /**
@@ -11,6 +12,7 @@ import { Icon } from '../icon/icon';
   imports: [
     Icon,
   ],
+  animations: [crossFade],
   templateUrl: './image-gallery.html',
   styleUrl: './image-gallery.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

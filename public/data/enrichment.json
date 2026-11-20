@@ -1,0 +1,1554 @@
+{
+  "generatedAt": "2026-11-20",
+  "items": {
+    "3102050": {
+      "about": {
+        "description": "Alto Caparaó é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na Zona da Mata Mineira, estando situado a cerca de 320 km a sudeste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 100 km², sendo que 1 km² está em área urbana, e sua população foi estimada em 6 014 habitantes em 2025."
+        ],
+        "source": {
+          "name": "Wikipédia: Alto Caparaó",
+          "url": "https://pt.wikipedia.org/wiki/Alto_Capara%C3%B3",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Estalagem e Restaurante Cantinho Bistrô",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 39,
+            "osmUrl": "https://www.openstreetmap.org/node/6266893485"
+          },
+          {
+            "name": "Pousada",
+            "type": "Hotel",
+            "distanceMeters": 171,
+            "osmUrl": "https://www.openstreetmap.org/node/3554720006"
+          },
+          {
+            "name": "Pousada Vale do Caparaó",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 300,
+            "osmUrl": "https://www.openstreetmap.org/node/3675616927"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3106200": {
+      "about": {
+        "description": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado.",
+        "curiosities": [
+          "Com uma área de aproximadamente 331 km², possui uma geografia diversificada, com morros e baixadas.",
+          "Dista cerca de 716 km de Brasília, é a segunda capital estadual mais próxima da capital federal, depois de Goiânia.",
+          "Sofreu um inesperado crescimento populacional acelerado, chegando a mais de um milhão de habitantes com quase setenta anos de fundação."
+        ],
+        "source": {
+          "name": "Wikipédia: Belo Horizonte",
+          "url": "https://pt.wikipedia.org/wiki/Belo_Horizonte",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Bristol",
+            "type": "Hotel",
+            "distanceMeters": 162,
+            "osmUrl": "https://www.openstreetmap.org/node/1849662584"
+          },
+          {
+            "name": "Ibis Budget Minascentro",
+            "type": "Hotel",
+            "distanceMeters": 169,
+            "osmUrl": "https://www.openstreetmap.org/way/433275972"
+          },
+          {
+            "name": "Transamerica Belo Horizonte Lourdes",
+            "type": "Hotel",
+            "distanceMeters": 190,
+            "osmUrl": "https://www.openstreetmap.org/way/1328225612"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3109006": {
+      "about": {
+        "description": "Brumadinho é um município brasileiro no estado de Minas Gerais, região Sudeste. Está localizado na Região Metropolitana de Belo Horizonte e sua população recenseada em 2022 era de 38 915 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Brumadinho",
+          "url": "https://pt.wikipedia.org/wiki/Brumadinho",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hostel Canto do Rio",
+            "type": "Hostel",
+            "distanceMeters": 355,
+            "osmUrl": "https://www.openstreetmap.org/node/13300533718"
+          },
+          {
+            "name": "Estrada Real Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 685,
+            "osmUrl": "https://www.openstreetmap.org/node/5625280629"
+          },
+          {
+            "name": "Pousada Dona Carmita",
+            "type": "Hotel",
+            "distanceMeters": 1743,
+            "osmUrl": "https://www.openstreetmap.org/node/5182349024"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3112802": {
+      "about": {
+        "description": "Capitólio é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se no sudoeste do estado e ocupa uma área de 521,802 km², sendo que 7,5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi recenseada em 10 380 habitantes em 2022.",
+          "Capitólio se tornou um importante destino turístico de Minas Gerais, muito procurado nos últimos anos por conta de suas belas cachoeiras e rios de águas transparentes.",
+          "O Cânion de Furnas é a principal atração, com suas paredes de pedra invadidas pelas águas esverdeadas do Lago de Furnas, formado pela represa da Usina Hidrelétrica de Furnas."
+        ],
+        "source": {
+          "name": "Wikipédia: Capitólio (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Capit%C3%B3lio_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Casarão Hostel",
+            "type": "Hostel",
+            "distanceMeters": 115,
+            "osmUrl": "https://www.openstreetmap.org/way/599536081"
+          },
+          {
+            "name": "Reserva Central Pousada & Hotel",
+            "type": "Hotel",
+            "distanceMeters": 164,
+            "osmUrl": "https://www.openstreetmap.org/node/13315536317"
+          },
+          {
+            "name": "Hotel Minas Tur",
+            "type": "Hotel",
+            "distanceMeters": 319,
+            "website": "https://www.hotelminastur.com.br/",
+            "phone": "+55 37 3373 1309",
+            "osmUrl": "https://www.openstreetmap.org/node/2069592576"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3114600": {
+      "about": {
+        "description": "Carrancas é um município brasileiro localizado no estado de Minas Gerais situado na região sul do estado, a uma distância aproximada de 300 quilômetros da capital, Belo Horizonte.. Sua população recenseada em 2022 era de 4 049 habitantes.Os habitantes naturais deste município são designados pelo gentílico \"carranquense\".",
+        "curiosities": [
+          "O município está registrado e catalogado sob o código identificador 3114600 no Instituto Brasileiro de Geografia e Estatística (IBGE)."
+        ],
+        "source": {
+          "name": "Wikipédia: Carrancas",
+          "url": "https://pt.wikipedia.org/wiki/Carrancas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Carrancas",
+            "type": "Hotel",
+            "distanceMeters": 26,
+            "osmUrl": "https://www.openstreetmap.org/node/4086636030"
+          },
+          {
+            "name": "Roda Viva",
+            "type": "Hotel",
+            "distanceMeters": 171,
+            "osmUrl": "https://www.openstreetmap.org/node/4086635303"
+          },
+          {
+            "name": "Camping Sossego do Jeca",
+            "type": "Camping",
+            "distanceMeters": 204,
+            "osmUrl": "https://www.openstreetmap.org/node/4086635411"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3115359": {
+      "about": {
+        "description": "Catas Altas é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se a cerca de 120 km a leste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 240 km², sendo que 2 km² estão em área urbana, e sua população foi estimada em 5 706 habitantes em 2025.",
+          "O nome 'provém das profundas escavações que se faziam no alto do morro' (Eschwege, Rev."
+        ],
+        "source": {
+          "name": "Wikipédia: Catas Altas",
+          "url": "https://pt.wikipedia.org/wiki/Catas_Altas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Refúgio dos Horizontes",
+            "type": "Camping",
+            "distanceMeters": 1070,
+            "osmUrl": "https://www.openstreetmap.org/node/6569605387"
+          },
+          {
+            "name": "Hospedaria",
+            "type": "Hotel",
+            "distanceMeters": 8756,
+            "osmUrl": "https://www.openstreetmap.org/way/241976761"
+          },
+          {
+            "name": "Pousada Flores de Minas",
+            "type": "Hotel",
+            "distanceMeters": 10032,
+            "osmUrl": "https://www.openstreetmap.org/node/3461809825"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3117504": {
+      "about": {
+        "description": "Conceição do Mato Dentro é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira, estando situado a cerca de 170 km a norte da capital do estado.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 1 720 km², sendo que 7 km² estão em área urbana, e sua população foi estimada em 24 559 habitantes em 2025.",
+          "A cidade é conectada a Belo Horizonte através da rodovia MG-010.",
+          "É conhecida como a \"capital mineira do ecoturismo\" tendo como principal atrativo a Cachoeira do Tabuleiro."
+        ],
+        "source": {
+          "name": "Wikipédia: Conceição do Mato Dentro",
+          "url": "https://pt.wikipedia.org/wiki/Concei%C3%A7%C3%A3o_do_Mato_Dentro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pires Pousada",
+            "type": "Hotel",
+            "distanceMeters": 137,
+            "phone": "+55 31 3868 1020",
+            "osmUrl": "https://www.openstreetmap.org/node/10038191063"
+          },
+          {
+            "name": "Pousada do Carioca",
+            "type": "Hotel",
+            "distanceMeters": 245,
+            "osmUrl": "https://www.openstreetmap.org/node/10038920938"
+          },
+          {
+            "name": "Pousada Serra Velha",
+            "type": "Hotel",
+            "distanceMeters": 313,
+            "website": "https://www.serravelha.com.br/",
+            "phone": "+55 31 3868 1351",
+            "osmUrl": "https://www.openstreetmap.org/node/10038191064"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3118007": {
+      "about": {
+        "description": "Congonhas é um município da região central de Minas Gerais, no Brasil. Sua sede cresceu durante a corrida do ouro no início do século XVIII e tornou-se um centro regional de peregrinação depois que a construção do Santuário do Bom Jesus de Matosinhos começou em 1757.",
+        "curiosities": [
+          "O município ocupa 304,067 km² (117 mi²) e tinha aproximadamente 55.542 habitantes em 2026.",
+          "Acima da parte mais antiga da cidade, o Santuário do Bom Jesus de Matosinhos reúne uma igreja do século XVIII, um adro em terraços ladeado pelos doze profetas de pedra-sabão e capelas que guardam grupos escultóricos policromados da Paixão de Cristo.",
+          "Grande parte das esculturas foi feita por Antônio Francisco Lisboa, o Aleijadinho, junto de integrantes de sua oficina."
+        ],
+        "source": {
+          "name": "Wikipédia: Congonhas",
+          "url": "https://pt.wikipedia.org/wiki/Congonhas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Vartuli",
+            "type": "Hotel",
+            "distanceMeters": 476,
+            "osmUrl": "https://www.openstreetmap.org/node/2544266654"
+          },
+          {
+            "name": "Hotel Colonial Cova do Daniel",
+            "type": "Hotel",
+            "distanceMeters": 893,
+            "osmUrl": "https://www.openstreetmap.org/way/197820768"
+          },
+          {
+            "name": "Pousada",
+            "type": "Motel",
+            "distanceMeters": 5407,
+            "osmUrl": "https://www.openstreetmap.org/node/2090313281"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3118908": {
+      "about": {
+        "description": "Cordisburgo é um município brasileiro localizado no estado de Minas Gerais.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Cordisburgo",
+          "url": "https://pt.wikipedia.org/wiki/Cordisburgo",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Gruta da Guiné - Estac Apoio",
+            "type": "Camping",
+            "distanceMeters": 3350,
+            "osmUrl": "https://www.openstreetmap.org/node/7868515185"
+          },
+          {
+            "name": "Hotel Fazenda Arraial do Conto",
+            "type": "Hotel",
+            "distanceMeters": 5085,
+            "osmUrl": "https://www.openstreetmap.org/way/396098257"
+          },
+          {
+            "name": "Pousada",
+            "type": "Motel",
+            "distanceMeters": 16917,
+            "osmUrl": "https://www.openstreetmap.org/way/233808991"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121605": {
+      "about": {
+        "description": "Diamantina é um município brasileiro no estado de Minas Gerais, Região Sudeste. Localiza-se no Vale do Jequitinhonha, na região central mineira, e ocupa uma área de 3 891,659 km², sendo que 11,98 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Tem uma população estimada de 49 493 habitantes em 2025.",
+          "Fundada no início do século XVIII, Diamantina teve sua origem ligada à descoberta de diamantes na região, o que impulsionou seu desenvolvimento e a transformou em um importante centro de mineração.",
+          "O município preserva até hoje um conjunto arquitetônico colonial, com casarões, igrejas e ruas de pedra que refletem seu passado histórico."
+        ],
+        "source": {
+          "name": "Wikipédia: Diamantina",
+          "url": "https://pt.wikipedia.org/wiki/Diamantina",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada da Seresta",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 246,
+            "website": "http://www.pousadadaseresta.com",
+            "phone": "+55 38 9 9922 2368",
+            "osmUrl": "https://www.openstreetmap.org/node/9951303517"
+          },
+          {
+            "name": "Pousada Dona Dazinha",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 473,
+            "phone": "+55 38 3531 1351",
+            "osmUrl": "https://www.openstreetmap.org/node/3342937510"
+          },
+          {
+            "name": "Pousada do Garimpo",
+            "type": "Hotel",
+            "distanceMeters": 556,
+            "website": "https://www.pousadadogarimpo.com.br/",
+            "phone": "+55 38 3531 2782",
+            "osmUrl": "https://www.openstreetmap.org/node/9796445497"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3122306": {
+      "about": {
+        "description": "Divinópolis é um município brasileiro do estado de Minas Gerais. Está localizada próxima à região metropolitana de Belo Horizonte.",
+        "curiosities": [
+          "Considerada a capital do Centro-Oeste de Minas Gerais distante a cerca de 110 quilômetros de BH.",
+          "Segundo a estimativa de 2024 do Instituto Brasileiro de Geografia e Estatística (IBGE), sua população reúne 242 328 habitantes, sendo o mais populoso município do oeste de Minas Gerais e o 10ª mais populoso do estado.",
+          "Ocupa uma área de pouco mais de 708 km²."
+        ],
+        "source": {
+          "name": "Wikipédia: Divinópolis",
+          "url": "https://pt.wikipedia.org/wiki/Divin%C3%B3polis",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Cabral",
+            "type": "Hotel",
+            "distanceMeters": 629,
+            "osmUrl": "https://www.openstreetmap.org/node/5026657294"
+          },
+          {
+            "name": "Hotel dos Viajantes",
+            "type": "Hotel",
+            "distanceMeters": 631,
+            "osmUrl": "https://www.openstreetmap.org/node/5026689097"
+          },
+          {
+            "name": "Fatima",
+            "type": "Hotel",
+            "distanceMeters": 1016,
+            "osmUrl": "https://www.openstreetmap.org/node/9785740570"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3125507": {
+      "about": {
+        "description": "São Gonçalo do Rio Preto é um município brasileiro do estado de Minas Gerais. Sua população em 2022 era de 3 032 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: São Gonçalo do Rio Preto",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Gon%C3%A7alo_do_Rio_Preto",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Raiz Parque",
+            "type": "Hotel",
+            "distanceMeters": 10186,
+            "website": "https://www.pousadaraizparque.com/",
+            "phone": "+55 31 98470 3785",
+            "osmUrl": "https://www.openstreetmap.org/node/11008690563"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3127404": {
+      "about": {
+        "description": "Gonçalves é um município brasileiro do estado de Minas Gerais, localizado na Região Imediata de Cambuí . Sua população segundo o censo de 2022 é de 4 727 habitantes.",
+        "curiosities": [
+          "Gonçalves é atualmente um dos pólos turísticos em forte desenvolvimento na Serra da Mantiqueira, fazendo parte do circuito turístico Serras Verdes do Sul de Minas."
+        ],
+        "source": {
+          "name": "Wikipédia: Gonçalves (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Gon%C3%A7alves_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Encontro Das Aguas",
+            "type": "Hotel",
+            "distanceMeters": 1238,
+            "osmUrl": "https://www.openstreetmap.org/way/1085308442"
+          },
+          {
+            "name": "Pousada Colina das Andorinhas",
+            "type": "Hotel",
+            "distanceMeters": 1338,
+            "osmUrl": "https://www.openstreetmap.org/way/885222431"
+          },
+          {
+            "name": "Camping Recanto do sol",
+            "type": "Camping",
+            "distanceMeters": 1540,
+            "osmUrl": "https://www.openstreetmap.org/node/8909616519"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3127701": {
+      "about": {
+        "description": "Governador Valadares é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se no Vale do Rio Doce e está situado a cerca de 320 km a leste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de pouco mais de 2 340 km², sendo aproximadamente 50 km² em área urbana, e sua população foi estimada em 266 478 habitantes em 2026, posicionando-se assim como o nono mais populoso do estado mineiro.",
+          "O desbravamento da região da atual cidade teve início no século XVI, em expedições como a de Sebastião Fernandes Tourinho que seguiam pelo curso do rio Doce à procura de metais preciosos em suas margens.",
+          "No entanto, o povoamento foi iniciado somente entre os séculos XVIII e XIX, com a instalação de quartéis destinados a dominar os boruns em favor dos colonos que navegavam pelo rio Doce."
+        ],
+        "source": {
+          "name": "Wikipédia: Governador Valadares",
+          "url": "https://pt.wikipedia.org/wiki/Governador_Valadares",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Oitis",
+            "type": "Hotel",
+            "distanceMeters": 468,
+            "phone": "+55 33 3271-7525",
+            "osmUrl": "https://www.openstreetmap.org/node/2558391209"
+          },
+          {
+            "name": "vovó Conceição",
+            "type": "Apartamentos",
+            "distanceMeters": 654,
+            "osmUrl": "https://www.openstreetmap.org/node/5417177821"
+          },
+          {
+            "name": "Hotel San Diego Valadares",
+            "type": "Hotel",
+            "distanceMeters": 730,
+            "osmUrl": "https://www.openstreetmap.org/node/4701781314"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3131307": {
+      "about": {
+        "description": "Ipatinga é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se no Vale do Rio Doce e pertence à Região Metropolitana do Vale do Aço, estando situado a cerca de 210 km a leste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de pouco mais de 160 km², sendo aproximadamente 40 km² em área urbana, e sua população foi estimada em 234 930 habitantes em 2026, posicionando-se assim como o décimo primeiro mais populoso do estado mineiro.",
+          "A sede do município localiza-se nas proximidades do local em que as águas do rio Piracicaba se encontram com o rio Doce.",
+          "A exploração da região da atual cidade teve início no século XIX, quando bandeirantes estiveram na região."
+        ],
+        "source": {
+          "name": "Wikipédia: Ipatinga",
+          "url": "https://pt.wikipedia.org/wiki/Ipatinga",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Independência",
+            "type": "Hotel",
+            "distanceMeters": 421,
+            "osmUrl": "https://www.openstreetmap.org/node/4685163992"
+          },
+          {
+            "name": "San Diego Suites",
+            "type": "Hotel",
+            "distanceMeters": 5434,
+            "osmUrl": "https://www.openstreetmap.org/way/560111809"
+          },
+          {
+            "name": "Hotel Metropolitano",
+            "type": "Hotel",
+            "distanceMeters": 10782,
+            "osmUrl": "https://www.openstreetmap.org/node/8866623344"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3131703": {
+      "about": {
+        "description": "Itabira é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se no Quadrilátero Ferrífero, estando situado a cerca de 110 km a leste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 1 250 km², sendo que 26 km² estão em área urbana, e sua população foi estimada em 118 053 habitantes em 2025.",
+          "A região começou a ser desbravada no final do século XVII, porém foi somente no decorrer do século XVIII que ocorreu um povoamento do lugar, após a descoberta de ouro nas montanhas itabiranas.",
+          "Entre o final do século XVIII e começo do século XIX, a mineração do ouro entrou em declínio, mas ao mesmo tempo a exploração do ferro começava a ganhar impulso, surgindo então as primeiras forjas."
+        ],
+        "source": {
+          "name": "Wikipédia: Itabira",
+          "url": "https://pt.wikipedia.org/wiki/Itabira",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Italia",
+            "type": "Hotel",
+            "distanceMeters": 899,
+            "osmUrl": "https://www.openstreetmap.org/node/7201320975"
+          },
+          {
+            "name": "Hotel It",
+            "type": "Hotel",
+            "distanceMeters": 1124,
+            "website": "https://ititabirahotel.com.br/",
+            "phone": "+55313833-4050",
+            "osmUrl": "https://www.openstreetmap.org/node/7208731343"
+          },
+          {
+            "name": "Domus Hoteis",
+            "type": "Hotel",
+            "distanceMeters": 1321,
+            "osmUrl": "https://www.openstreetmap.org/node/7208750910"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3135209": {
+      "about": {
+        "description": "Januária é um município brasileiro do estado de Minas Gerais situado na região do Médio São Francisco, localizada ao lado esquerdo do rio do mesmo nome. De acordo com o censo realizado em 2022 sua população era de 65 150 habitantes.",
+        "curiosities": [
+          "Januária, considerada uma cidade universitária, conta com um campus do IFNMG, Unimontes, Unopar, Unip, FUNAM e Funorte Campus Januária.",
+          "Sua economia concentra-se na agricultura, na pecuária e nos serviços gerais.",
+          "Januária é uma das principais cidades do Norte de Minas, sendo cidade-polo da microrregião do alto médio São Francisco."
+        ],
+        "source": {
+          "name": "Wikipédia: Januária",
+          "url": "https://pt.wikipedia.org/wiki/Janu%C3%A1ria",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3136702": {
+      "about": {
+        "description": "A Paróquia Melquita Católica de São Jorge é uma igreja localizada no bairro Santa Helena da cidade de Juiz de Fora. Foi fundada em 1958 pelos sírios praticantes do Rito Bizantino que chegaram na cidade junto com as imigrações de outros árabes para o local no fim do século XIX e início do XX.",
+        "curiosities": [
+          "A primeira missa foi realizada em 1965, quando a construção ficou pronta.",
+          "Ainda hoje é frequentada pela colônia árabe."
+        ],
+        "source": {
+          "name": "Wikipédia: Igreja de São Jorge (Juiz de Fora)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Jorge_(Juiz_de_Fora)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Omega Apart Hotel",
+            "type": "Hotel",
+            "distanceMeters": 802,
+            "phone": "+55 32 3217 4034",
+            "osmUrl": "https://www.openstreetmap.org/way/339799833"
+          },
+          {
+            "name": "Ritz Plaza Hotel",
+            "type": "Hotel",
+            "distanceMeters": 1054,
+            "phone": "+55 32 3249 7300",
+            "osmUrl": "https://www.openstreetmap.org/way/339599465"
+          },
+          {
+            "name": "Hotel Constantino",
+            "type": "Hotel",
+            "distanceMeters": 1131,
+            "phone": "+55 32 3229 9800",
+            "osmUrl": "https://www.openstreetmap.org/way/343536361"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3138609": {
+      "about": {
+        "description": "Lima Duarte é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na Zona da Mata Mineira, estando situado a cerca de 280 km a sul da capital do estado.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 850 km², sendo que 5 km² estão em área urbana, e sua população foi estimada em 17 782 habitantes em 2025.",
+          "A sede tem uma temperatura média anual de 20,1°C e na vegetação do município predomina a mata atlântica.",
+          "Com uma taxa de urbanização da ordem de 72%, o município contava, em 2009, com 22 estabelecimentos de saúde."
+        ],
+        "source": {
+          "name": "Wikipédia: Lima Duarte (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Lima_Duarte_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sitio Wanderley",
+            "type": "Chalé",
+            "distanceMeters": 17253,
+            "osmUrl": "https://www.openstreetmap.org/node/4909471321"
+          },
+          {
+            "name": "Pousada Reserva Canto da Vida",
+            "type": "Hotel",
+            "distanceMeters": 19077,
+            "osmUrl": "https://www.openstreetmap.org/way/496110003"
+          },
+          {
+            "name": "Meu Recanto Chalés",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 19122,
+            "osmUrl": "https://www.openstreetmap.org/node/8883562617"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140001": {
+      "about": {
+        "description": "A Catedral Basílica Nossa Senhora da Assunção, também chamada Catedral de Mariana ou Catedral da Sé de Mariana, é uma catedral católica situada em Mariana, Minas Gerais. A igreja tornou-se catedral da recém-criada Diocese de Mariana em 1745 e possui o título de basílica menor desde 1963.",
+        "curiosities": [
+          "O edifício atual desenvolveu-se a partir de uma igreja matriz do início do século XVIII.",
+          "A fachada sóbria, ladeada por duas torres, abriga retábulos entalhados e dourados de diferentes fases do barroco brasileiro, pintura no forro da capela-mor, cadeiral e um órgão de tubos do século XVIII.",
+          "O Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN) tombou a catedral e seu acervo em 1939."
+        ],
+        "source": {
+          "name": "Wikipédia: Catedral Basílica Nossa Senhora da Assunção (Mariana)",
+          "url": "https://pt.wikipedia.org/wiki/Catedral_Bas%C3%ADlica_Nossa_Senhora_da_Assun%C3%A7%C3%A3o_(Mariana)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Müller",
+            "type": "Hotel",
+            "distanceMeters": 230,
+            "osmUrl": "https://www.openstreetmap.org/node/650842002"
+          },
+          {
+            "name": "Hotel Providência",
+            "type": "Hotel",
+            "distanceMeters": 390,
+            "osmUrl": "https://www.openstreetmap.org/node/4712293591"
+          },
+          {
+            "name": "Hotel Aguas Claras",
+            "type": "Hotel",
+            "distanceMeters": 1226,
+            "osmUrl": "https://www.openstreetmap.org/node/4423745893"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140308": {
+      "about": {
+        "description": "Marliéria é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se no Vale do Rio Doce e pertence ao colar metropolitano do Vale do Aço, estando situado a cerca de 190 km a leste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 550 km², sendo que 1 km² está em área urbana, e sua população foi estimada em 4 796 habitantes em 2025.",
+          "A área da atual cidade pertenceu originalmente a Maria José da Fonseca Lana, que recebeu as terras de presente de seu pai Lizardo José da Fonseca Lana, comandante do quartel local (Onça Pequena).",
+          "O povoamento teve início após a instalação de cinco choupanas às margens do ribeirão Onça Grande, onde mais tarde foi construída uma capela dedicada à Nossa Senhora das Dores."
+        ],
+        "source": {
+          "name": "Wikipédia: Marliéria",
+          "url": "https://pt.wikipedia.org/wiki/Marli%C3%A9ria",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Solar das Hortências",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 1181,
+            "osmUrl": "https://www.openstreetmap.org/node/2374328108"
+          },
+          {
+            "name": "Pousada",
+            "type": "Hotel",
+            "distanceMeters": 10842,
+            "osmUrl": "https://www.openstreetmap.org/node/3779477271"
+          },
+          {
+            "name": "Retiro iBJ2020 sítio do Jair",
+            "type": "Camping",
+            "distanceMeters": 11446,
+            "osmUrl": "https://www.openstreetmap.org/node/7281052385"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107": {
+      "about": {
+        "description": "Grande Hotel de Ouro Preto é um hotel localizado em Ouro Preto, Minas Gerais. Construído em 1940, é uma das primeiras obras do arquiteto Oscar Niemeyer (1907-2012).",
+        "curiosities": [
+          "O Serviço do Patrimônio Histórico e Artístico (SPHAN), precursor do Instituto do Patrimônio Histórico e Artístico Nacional , designou a cidade de Ouro Preto como local histórico e destino turístico nacional.",
+          "SPHAN, em consulta com o arquiteto Lúcio Costa, encomendou a construção de um hotel moderno na cidade.",
+          "O design de Niemeyer foi escolhido em detrimento de Carlos Leão (1906-1983)."
+        ],
+        "source": {
+          "name": "Wikipédia: Grande Hotel de Ouro Preto",
+          "url": "https://pt.wikipedia.org/wiki/Grande_Hotel_de_Ouro_Preto",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "La musica Hostel ouro Preto",
+            "type": "Hostel",
+            "distanceMeters": 50,
+            "phone": "+5531987361072",
+            "osmUrl": "https://www.openstreetmap.org/node/11220325329"
+          },
+          {
+            "name": "Pousada Cláudio Manoel",
+            "type": "Hotel",
+            "distanceMeters": 54,
+            "osmUrl": "https://www.openstreetmap.org/node/2044485109"
+          },
+          {
+            "name": "Pousada Tiradentes",
+            "type": "Hotel",
+            "distanceMeters": 66,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290429"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3147006": {
+      "about": {
+        "description": "Paracatu é um município brasileiro do estado de Minas Gerais, localizado na Mesorregião Noroeste do estado. Paracatu é o principal município da sua microrregião, sendo um polo atrativo educacional e de trabalho devido à presença de várias instituições de ensino e de empresas.",
+        "curiosities": [
+          "O município da sinais de desenvolvimento e consumo, com muitos comerciantes e produtores de materiais voltados para agricultura e pecuária (selas, botinas e calçados de couro).",
+          "Fabricações de doces de leite e de frutas, queijos, quitandas, pão de queijo.",
+          "Algumas fábricas de cachaça também estão presentes no município."
+        ],
+        "source": {
+          "name": "Wikipédia: Paracatu",
+          "url": "https://pt.wikipedia.org/wiki/Paracatu",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Presidente",
+            "type": "Hotel",
+            "distanceMeters": 430,
+            "osmUrl": "https://www.openstreetmap.org/node/4359226246"
+          },
+          {
+            "name": "Hotel Albernaz",
+            "type": "Hotel",
+            "distanceMeters": 476,
+            "osmUrl": "https://www.openstreetmap.org/node/7174110812"
+          },
+          {
+            "name": "El Dorado",
+            "type": "Hotel",
+            "distanceMeters": 727,
+            "osmUrl": "https://www.openstreetmap.org/node/7182622130"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3151800": {
+      "about": {
+        "description": "Poços de Caldas é um município brasileiro do estado de Minas Gerais, na Região Sudeste do país. Está localizado na Região Imediata de Poços de Caldas e na Região Geográfica Intermediária de Pouso Alegre.",
+        "curiosities": [
+          "Segundo a estimativa do IBGE para 2024, possui 171 533 habitantes, sendo o 15º município mais populoso do estado e o mais populoso do Sul de Minas."
+        ],
+        "source": {
+          "name": "Wikipédia: Poços de Caldas",
+          "url": "https://pt.wikipedia.org/wiki/Po%C3%A7os_de_Caldas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Central",
+            "type": "Hotel",
+            "distanceMeters": 454,
+            "osmUrl": "https://www.openstreetmap.org/node/1665859636"
+          },
+          {
+            "name": "Joia Hotel",
+            "type": "Hotel",
+            "distanceMeters": 458,
+            "osmUrl": "https://www.openstreetmap.org/way/838252895"
+          },
+          {
+            "name": "Hotel Villa Fiori",
+            "type": "Hotel",
+            "distanceMeters": 532,
+            "osmUrl": "https://www.openstreetmap.org/way/1025373783"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3156700": {
+      "about": {
+        "description": "Sabará é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se na Região Metropolitana de Belo Horizonte e ocupa uma área de 302,453 km², sendo que 31 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi recenseada em 129 372 habitantes em 2022.",
+          "É constituído pelos distritos de Carvalho de Brito, Ravena e Mestre Caetano, além do distrito-sede."
+        ],
+        "source": {
+          "name": "Wikipédia: Sabará",
+          "url": "https://pt.wikipedia.org/wiki/Sabar%C3%A1",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Beira Rio",
+            "type": "Hotel",
+            "distanceMeters": 11963,
+            "osmUrl": "https://www.openstreetmap.org/node/2148101829"
+          },
+          {
+            "name": "Chalé Mineiro Hostel",
+            "type": "Hostel",
+            "distanceMeters": 11973,
+            "website": "http://www.chalemineirohostel.com.br/",
+            "phone": "+55 31 34671576",
+            "osmUrl": "https://www.openstreetmap.org/node/1651200805"
+          },
+          {
+            "name": "HI La em Casa Hostel",
+            "type": "Hostel",
+            "distanceMeters": 12567,
+            "osmUrl": "https://www.openstreetmap.org/node/4182330589"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3159001": {
+      "about": {
+        "description": "Santana do Riacho é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira, a norte da capital estadual, distando desta cerca de 130 km.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 680 km², sendo que 4 km² estão em área urbana, e sua população foi estimada em 5 654 habitantes em 2025.",
+          "O povoamento do lugar teve início no decorrer do século XVIII, com a extração de minerais, atividade econômica que, juntamente com a agricultura, foi a responsável pelo crescimento demográfico observado até o século XX.",
+          "Estando a cidade situada entre as serras do Cipó e do Espinhaço, o turismo ecológico passou a ser mais explorado a partir da década de 1950, vindo a ser emancipada em 1962 e instalada em 1º de março de 1963."
+        ],
+        "source": {
+          "name": "Wikipédia: Santana do Riacho",
+          "url": "https://pt.wikipedia.org/wiki/Santana_do_Riacho",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada do Jacaré",
+            "type": "Hotel",
+            "distanceMeters": 94,
+            "osmUrl": "https://www.openstreetmap.org/node/2856168508"
+          },
+          {
+            "name": "Ilaci",
+            "type": "Chalé",
+            "distanceMeters": 6401,
+            "osmUrl": "https://www.openstreetmap.org/node/9364423564"
+          },
+          {
+            "name": "Maurício Leão",
+            "type": "Chalé",
+            "distanceMeters": 6431,
+            "osmUrl": "https://www.openstreetmap.org/node/9364404873"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3160702": {
+      "about": {
+        "description": "Santos Dumont é um município da Mesorregião da Zona da Mata, e microrregião de Juiz de Fora, no estado de Minas Gerais, no Brasil. Distante, aproximadamente 207 km de Belo Horizonte, a capital do estado; e 900 km de Brasília, capital brasileira.",
+        "curiosities": [
+          "O município faz parte do trajeto da BR‑040, entre as cidades de Barbacena e Juiz de Fora.",
+          "É conhecido como \"Terra do Pai da Aviação\".",
+          "É uma cidade rica em manifestações culturais e em pontos turísticos, principalmente em belezas naturais, fazendo parte do Circuito Turístico Caminho Novo e também integra o renomado circuito da Estrada Real."
+        ],
+        "source": {
+          "name": "Wikipédia: Santos Dumont (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Santos_Dumont_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Villa Dumont",
+            "type": "Hotel",
+            "distanceMeters": 134,
+            "osmUrl": "https://www.openstreetmap.org/node/5343985759"
+          },
+          {
+            "name": "Hotel Itaipú",
+            "type": "Hotel",
+            "distanceMeters": 363,
+            "osmUrl": "https://www.openstreetmap.org/node/5351605896"
+          },
+          {
+            "name": "Hotel 14 Bis",
+            "type": "Hotel",
+            "distanceMeters": 2451,
+            "osmUrl": "https://www.openstreetmap.org/way/376388388"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3162500": {
+      "about": {
+        "description": "São João del-Rei é um município brasileiro localizado no interior do estado de Minas Gerais, na região Sudeste do Brasil. Mesmo com o declínio da mineração a partir da segunda metade do século XVIII, a cidade manteve vitalidade econômica e urbana, apoiada na diversificação produtiva e na centralidade administrativa regional.",
+        "curiosities": [
+          "No século XXI, São João del-Rei mantém sua condição de polo regional, articulando funções administrativas, educacionais, culturais e econômicas.",
+          "A presença de instituições de ensino superior, a centralidade nos serviços e o turismo histórico-cultural coexistem com desafios contemporâneos relacionados à expansão urbana, à preservação ambiental e à gestão do patrimônio cultural.",
+          "Segundo estimativa do Instituto Brasileiro de Geografia e Estatística, o município possuía cerca de 94 mil habitantes em 2024, figurando entre os mais populosos centros históricos mineiros."
+        ],
+        "source": {
+          "name": "Wikipédia: São João del-Rei",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Del Mundo Hostel",
+            "type": "Hostel",
+            "distanceMeters": 340,
+            "osmUrl": "https://www.openstreetmap.org/node/13339264902"
+          },
+          {
+            "name": "Pousada Beco do Bispo",
+            "type": "Hotel",
+            "distanceMeters": 371,
+            "osmUrl": "https://www.openstreetmap.org/way/949165892"
+          },
+          {
+            "name": "Villa Magnolia Pousada",
+            "type": "Hotel",
+            "distanceMeters": 441,
+            "osmUrl": "https://www.openstreetmap.org/node/2424668301"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3164308": {
+      "about": {
+        "description": "São Roque de Minas é um município brasileiro do estado de Minas Gerais que faz parte do circuito turístico Nascentes das Gerais e Canastra.. Sua população em 2022 era de 7.129 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: São Roque de Minas",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Roque_de_Minas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Fazenda",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 149,
+            "osmUrl": "https://www.openstreetmap.org/node/5168865626"
+          },
+          {
+            "name": "Hostel Travessias",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 227,
+            "osmUrl": "https://www.openstreetmap.org/node/6634490710"
+          },
+          {
+            "name": "Pousada e Camping Chalé da Mata",
+            "type": "Hotel",
+            "distanceMeters": 2167,
+            "osmUrl": "https://www.openstreetmap.org/node/9718116615"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3167103": {
+      "about": {
+        "description": "Serro é um município brasileiro da região geográfica imediata de Diamantina, no estado de Minas Gerais. Sua população foi estimada em 22 550 habitantes em 2024.",
+        "curiosities": [
+          "Situado no centro-nordeste de Minas Gerais, na região central da Serra do Espinhaço, Serro fica a 325 quilômetros de Belo Horizonte.",
+          "Faz parte do Caminho dos Diamantes e da Estrada Real, uma herança das minas que atraíram os bandeirantes paulistas e nordestinos no século XVIII.",
+          "Município rodeado por serras, morros, rios e cachoeiras, o Serro se apresenta como destino para os apreciadores do turismo histórico e ecológico."
+        ],
+        "source": {
+          "name": "Wikipédia: Serro",
+          "url": "https://pt.wikipedia.org/wiki/Serro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada do Queijo",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 130,
+            "phone": "+55 38 3541 1239",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495937"
+          },
+          {
+            "name": "Pousada Serrana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 353,
+            "phone": "+55 38 3541 1949",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495928"
+          },
+          {
+            "name": "Pousada Mariana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 717,
+            "phone": "+55 38 3541 1569",
+            "osmUrl": "https://www.openstreetmap.org/node/10035103612"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3167202": {
+      "about": {
+        "description": "Sete Lagoas é um município brasileiro do estado de Minas Gerais, localizado a aproximadamente 72 quilômetros de Belo Horizonte.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Sete Lagoas",
+          "url": "https://pt.wikipedia.org/wiki/Sete_Lagoas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Riviera Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 321,
+            "osmUrl": "https://www.openstreetmap.org/node/2806205409"
+          },
+          {
+            "name": "Suíte Hotel",
+            "type": "Hotel",
+            "distanceMeters": 421,
+            "osmUrl": "https://www.openstreetmap.org/node/2806510672"
+          },
+          {
+            "name": "Hotel Turi",
+            "type": "Hotel",
+            "distanceMeters": 443,
+            "osmUrl": "https://www.openstreetmap.org/node/2806510671"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3168804": {
+      "about": {
+        "description": "Tiradentes é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira e ocupa uma área de cerca de 80 km², sendo que 5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi estimada em 7 744 habitantes em 2022.",
+          "Anteriormente denominada São José del Rei, foi uma das mais importantes vilas mineiras do Brasil Colônia, sendo um dos polos da produção aurífera.",
+          "O seu atual nome é uma homenagem a Tiradentes."
+        ],
+        "source": {
+          "name": "Wikipédia: Tiradentes (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Rústica",
+            "type": "Hotel",
+            "distanceMeters": 208,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508737"
+          },
+          {
+            "name": "Pousada Amaryllis",
+            "type": "Hotel",
+            "distanceMeters": 208,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508738"
+          },
+          {
+            "name": "Pousada Arco Iris",
+            "type": "Hotel",
+            "distanceMeters": 208,
+            "osmUrl": "https://www.openstreetmap.org/node/4146511048"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3170107": {
+      "about": {
+        "description": "Uberaba é um município brasileiro no interior do estado de Minas Gerais, localizado no Triângulo Mineiro a 481 km a oeste da capital estadual. Possui uma área de 4 523,957 km², e sua população, segundo a estimativa do Instituto Brasileiro de Geografia e Estatística para o ano de 2026, reúne 359 275 habitantes, sendo o sétimo município mais populoso do estado.",
+        "curiosities": [
+          "A demografia de Uberaba, segundo o censo demográfico do Brasil de 2022, revela uma densidade populacional de 74,68 habitantes por quilômetro quadrado.",
+          "A maioria da população reside na periferia, com uma média de 2,66 moradores por residência.",
+          "A faixa etária predominante está entre 40 e 44 anos, e a cidade apresenta uma distribuição de gênero com 175.301 mulheres e 162.535 homens."
+        ],
+        "source": {
+          "name": "Wikipédia: Uberaba",
+          "url": "https://pt.wikipedia.org/wiki/Uberaba",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Metrópole",
+            "type": "Hotel",
+            "distanceMeters": 272,
+            "osmUrl": "https://www.openstreetmap.org/node/5212436032"
+          },
+          {
+            "name": "Hotel Tamareiras",
+            "type": "Hotel",
+            "distanceMeters": 801,
+            "osmUrl": "https://www.openstreetmap.org/node/2629963332"
+          },
+          {
+            "name": "Havana Palace Hotel II",
+            "type": "Hotel",
+            "distanceMeters": 1681,
+            "osmUrl": "https://www.openstreetmap.org/node/14040191157"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3170206": {
+      "about": {
+        "description": "Uberlândia é um município brasileiro no interior do estado de Minas Gerais, na região conhecida como Triângulo Mineiro, Região Sudeste do país. Com 768 339 habitantes, segundo a estimativa populacional de 2026 do Instituto Brasileiro de Geografia e Estatística (IBGE), é o segundo município mais populoso do estado depois da capital estadual, Belo Horizonte, do qual está distante 537 quilômetros.",
+        "curiosities": [
+          "A região de Uberlândia era habitada por índios caiapós e bororós até a chegada do bandeirante paulista Bartolomeu Bueno da Silva, em 1632.",
+          "No final da década de 1880, o então distrito de São Pedro de Uberabinha se emancipou de Uberaba, mas foi apenas em 1929 que a cidade passou a ser chamada de \"Uberlândia\".",
+          "Após a emancipação, houve um grande crescimento da área urbana da cidade, sendo que, no início do século XX, a Uberlândia já possuía uma diversificação nos ramos industriais."
+        ],
+        "source": {
+          "name": "Wikipédia: Uberlândia",
+          "url": "https://pt.wikipedia.org/wiki/Uberl%C3%A2ndia",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "B&B Hotel",
+            "type": "Hotel",
+            "distanceMeters": 280,
+            "osmUrl": "https://www.openstreetmap.org/node/1668155101"
+          },
+          {
+            "name": "Montblanc Hotel",
+            "type": "Hotel",
+            "distanceMeters": 354,
+            "website": "https://www.fenixhoteis.com.br/room/montblanc-hotel-uberlandia",
+            "phone": "+55 34 3228-3209",
+            "osmUrl": "https://www.openstreetmap.org/node/14003867975"
+          },
+          {
+            "name": "Hotel Alpha",
+            "type": "Hotel",
+            "distanceMeters": 391,
+            "osmUrl": "https://www.openstreetmap.org/way/1560020732"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-basilica-nossa-senhora-do-pilar": {
+      "about": {
+        "description": "A Basílica Menor Nossa Senhora do Pilar de Ouro Preto, Minas Gerais, popularmente chamada Igreja Matriz Nossa Senhora do Pilar, é uma das edificações católicas mais conhecidas entre as que foram erguidas durante o ciclo do ouro. É monumento tombado pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN).",
+        "curiosities": [
+          "Está localizada na Praça Monsenhor Castilho Barbosa."
+        ],
+        "source": {
+          "name": "Wikipédia: Basílica Menor de Nossa Senhora do Pilar (Ouro Preto)",
+          "url": "https://pt.wikipedia.org/wiki/Bas%C3%ADlica_Menor_de_Nossa_Senhora_do_Pilar_(Ouro_Preto)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "wheelchair": "no",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4535019961",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Villa dos Pilares",
+            "type": "Hotel",
+            "distanceMeters": 33,
+            "osmUrl": "https://www.openstreetmap.org/node/4536655469"
+          },
+          {
+            "name": "Hostel Goiabada com Queijo",
+            "type": "Hostel",
+            "distanceMeters": 136,
+            "osmUrl": "https://www.openstreetmap.org/node/3967274581"
+          },
+          {
+            "name": "Pousada e Restaurante",
+            "type": "Hotel",
+            "distanceMeters": 252,
+            "osmUrl": "https://www.openstreetmap.org/node/2044485112"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3112802-cachoeira-da-capivara": {
+      "about": {
+        "description": "Capitólio é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se no sudoeste do estado e ocupa uma área de 521,802 km², sendo que 7,5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi recenseada em 10 380 habitantes em 2022.",
+          "Capitólio se tornou um importante destino turístico de Minas Gerais, muito procurado nos últimos anos por conta de suas belas cachoeiras e rios de águas transparentes.",
+          "O Cânion de Furnas é a principal atração, com suas paredes de pedra invadidas pelas águas esverdeadas do Lago de Furnas, formado pela represa da Usina Hidrelétrica de Furnas."
+        ],
+        "source": {
+          "name": "Wikipédia: Capitólio (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Capit%C3%B3lio_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Cascata Eco Parque",
+            "type": "Hostel",
+            "distanceMeters": 2452,
+            "phone": "+55 35 99904-0001",
+            "osmUrl": "https://www.openstreetmap.org/way/452299988"
+          },
+          {
+            "name": "Camping Tamanduá",
+            "type": "Camping",
+            "distanceMeters": 2544,
+            "osmUrl": "https://www.openstreetmap.org/node/7098389093"
+          },
+          {
+            "name": "Lagoa Azul",
+            "type": "Hotel",
+            "distanceMeters": 3620,
+            "website": "https://www.lagoazul.tur.br/",
+            "phone": "+55 35 3584-0626",
+            "osmUrl": "https://www.openstreetmap.org/way/452299987"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    }
+  }
+}

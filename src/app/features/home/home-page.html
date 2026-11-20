@@ -2,8 +2,8 @@
   <div class="me-container me-hero__grid">
     <div class="me-hero__copy">
       <p class="me-hero__eyebrow">Guia turístico de Minas Gerais</p>
-      <h1>Minas Gerais está mais perto do que você imagina.</h1>
-      <p class="me-hero__lead">Descubra cidades históricas, cachoeiras, serras e sabores de Minas em um mapa interativo.</p>
+      <h1>Minas tem um destino para cada jeito de viajar.</h1>
+      <p class="me-hero__lead">Cidades históricas, cachoeiras, serras, museus e sabores em um só mapa.</p>
     </div>
     @if (store.status() === 'ready') {
       <dl class="me-hero__stats" aria-label="O catálogo em números">
@@ -19,23 +19,24 @@
 </section>
 
 <section class="me-container me-section" aria-labelledby="explorar-titulo">
-  <div id="explorar-titulo">
-    <me-section-title eyebrow="Explorar" title="Mapa de destinos" subtitle="Busque por cidade ou atração e filtre por categoria e região." />
-  </div>
-
   @switch (store.status()) {
     @case ('loading') {
-      <p class="me-note" role="status">Carregando destinos…</p>
+      <div class="me-toolbar">
+        <h2 id="explorar-titulo" class="me-toolbar__title">Mapa de destinos</h2>
+      </div>
+      <me-explorer-skeleton />
     }
     @case ('error') {
-      <div class="mt-6">
-        <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
-          <me-icon icon name="triangle-alert" [size]="28" />
-        </me-empty-state>
+      <div class="me-toolbar">
+        <h2 id="explorar-titulo" class="me-toolbar__title">Mapa de destinos</h2>
       </div>
+      <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
+        <me-icon icon name="triangle-alert" [size]="28" />
+      </me-empty-state>
     }
     @default {
       <div class="me-toolbar">
+        <h2 id="explorar-titulo" class="me-toolbar__title">Mapa de destinos</h2>
         <p class="me-toolbar__count" aria-live="polite" role="status">{{ countLabel() }}</p>
 
         <div class="me-toolbar__mobile">
@@ -50,21 +51,22 @@
         </div>
       </div>
 
-      <div class="me-explorer">
-        <aside class="me-explorer__panel" aria-label="Filtros e resultados">
-          <div id="painel-filtros" class="me-explorer__filters" [class.is-collapsed]="!filtersOpen()">
+      <div class="me-explorer" @fadeIn>
+        @if (isDesktop() || filtersOpen()) {
+          <div id="painel-filtros" class="me-explorer__filters" @expandCollapse>
             <me-filters-panel />
           </div>
-          <div class="me-explorer__list" [class.is-hidden-mobile]="view() !== 'list'">
-            <me-results-list
-              [items]="store.results()"
-              [selectedId]="store.selectedId()"
-              [filtersActive]="store.filtersActive()"
-              [compact]="isDesktop()"
-              (itemSelected)="store.select($event)"
-              (filtersCleared)="store.clearFilters()"
-            />
-          </div>
+        }
+
+        <aside class="me-explorer__panel" aria-label="Resultados" [class.is-hidden-mobile]="view() !== 'list'">
+          <me-results-list
+            [items]="store.results()"
+            [selectedId]="store.selectedId()"
+            [filtersActive]="store.filtersActive()"
+            [compact]="isDesktop()"
+            (itemSelected)="store.select($event)"
+            (filtersCleared)="store.clearFilters()"
+          />
         </aside>
 
         <div class="me-explorer__map" [class.is-hidden-mobile]="view() !== 'map'">

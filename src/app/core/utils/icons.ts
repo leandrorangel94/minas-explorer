@@ -1,5 +1,5 @@
 import {
-  Building2, Check, Church, Compass, createElement, Droplets, ExternalLink, FilterX, Heart, IconNode, ImageOff, Info,
+  Building2, Check, Church, Cloud, CloudDrizzle, CloudFog, CloudLightning, CloudMoon, CloudRain, CloudSun, Snowflake, Thermometer, Wind, Umbrella, Compass, createElement, Droplets, ExternalLink, FilterX, Heart, IconNode, ImageOff, Info,
   Landmark, List, LocateFixed, Map as MapIcon, MapPin, Menu, Monitor, Moon, Mountain, Navigation, Route, Search, SearchX,
   SlidersHorizontal, Sun, Trees, TriangleAlert, Utensils, Waves, Wheat, X,
 } from 'lucide';
@@ -32,6 +32,18 @@ const ICONS: Readonly<Record<string, IconNode>> = {
   sun: Sun,
   'triangle-alert': TriangleAlert,
   x: X,
+  // Clima
+  cloud: Cloud,
+  'cloud-drizzle': CloudDrizzle,
+  'cloud-fog': CloudFog,
+  'cloud-lightning': CloudLightning,
+  'cloud-moon': CloudMoon,
+  'cloud-rain': CloudRain,
+  'cloud-sun': CloudSun,
+  snowflake: Snowflake,
+  thermometer: Thermometer,
+  umbrella: Umbrella,
+  wind: Wind,
   // Categorias
   landmark: Landmark,
   'building-2': Building2,

@@ -1,7 +1,7 @@
 <div class="me-container py-8">
   @switch (store.status()) {
     @case ('loading') {
-      <p class="me-note" role="status">Carregando…</p>
+      <me-detail-skeleton />
     }
     @case ('error') {
       <me-empty-state [level]="1" title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">
@@ -52,9 +52,18 @@
 
           <section aria-labelledby="pratico">
             <h2 id="pratico">Informações práticas</h2>
-            <me-practical-info [info]="a.practicalInfo" />
+            <mat-card appearance="outlined">
+              <mat-card-content><me-practical-info [info]="a.practicalInfo" /></mat-card-content>
+            </mat-card>
           </section>
         </div>
+
+        <me-place-extras [placeId]="a.id" />
+
+        <section class="me-detail__weather" aria-labelledby="clima">
+          <h2 id="clima">Clima em {{ city()!.name }}</h2>
+          <me-weather [latitude]="a.coordinates.latitude" [longitude]="a.coordinates.longitude" [place]="a.name" />
+        </section>
 
         @if (a.tags.length > 0) {
           <ul class="me-detail__tags" aria-label="Tags">

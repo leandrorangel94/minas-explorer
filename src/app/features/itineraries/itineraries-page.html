@@ -4,7 +4,7 @@
 
   @switch (store.itinerariesStatus()) {
     @case ('loading') {
-      <p class="me-it-loading" role="status">Carregando…</p>
+      <me-cards-skeleton [count]="4" />
     }
     @case ('error') {
       <div class="mt-6">
@@ -22,7 +22,7 @@
           </me-empty-state>
         </div>
       } @else {
-        <ul class="me-it-grid">
+        <ul class="me-it-grid" [@staggerIn]="items().length">
           @for (item of items(); track item.it.id) {
             <li class="me-it-card">
               <p class="me-it-card__meta">{{ item.regionName ?? 'Minas Gerais' }}</p>

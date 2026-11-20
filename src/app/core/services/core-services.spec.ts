@@ -16,7 +16,7 @@ describe('PageMetaService', () => {
   it('sem título usa só o nome do site e a descrição padrão', () => {
     TestBed.inject(PageMetaService).set(null);
     expect(TestBed.inject(Title).getTitle()).toBe('Minas Explorer');
-    expect(TestBed.inject(Meta).getTag('name="description"')?.content).toContain('mais perto do que você imagina');
+    expect(TestBed.inject(Meta).getTag('name="description"')?.content).toContain('um destino para cada jeito de viajar');
   });
 });
 

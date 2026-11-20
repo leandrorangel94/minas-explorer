@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { FavoriteKind, FavoritesService } from '../../../core/services/favorites.service';
+import { heartPop } from '../../animations';
 import { Icon } from '../icon/icon';
 
 /** Botão de favoritar (alternância). O estado é anunciado por `aria-pressed` e não só pelo ícone. */
@@ -19,7 +20,7 @@ import { Icon } from '../icon/icon';
       [attr.aria-label]="'Favoritar ' + label()"
       (click)="toggle($event)"
     >
-      <me-icon name="heart" [size]="22" />
+      <me-icon name="heart" [size]="22" [@heartPop]="active()" />
     </button>
   `,
   styles: `
@@ -28,6 +29,7 @@ import { Icon } from '../icon/icon';
     .me-fav--on { color: var(--me-danger); }
     .me-fav--on svg { fill: currentColor; }
   `,
+  animations: [heartPop],
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class FavoriteButton {

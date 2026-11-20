@@ -17,7 +17,7 @@
   }
 
   @if (store.status() === 'loading') {
-    <p class="me-fav-loading" role="status">Carregando…</p>
+    <me-cards-skeleton [count]="3" />
   } @else if (store.status() === 'error') {
     <div class="mt-6">
       <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
@@ -57,7 +57,7 @@
 
     @if (cities().length > 0) {
       <h2 class="me-fav-heading">Cidades</h2>
-      <ul class="me-fav-grid">
+      <ul class="me-fav-grid" [@staggerIn]="cities().length">
         @for (c of cities(); track c.id) {
           <li>
             <me-destination-card [name]="c.name" [city]="store.regionName(c.regionId)" [imageUrl]="c.coverImage?.url" [imageAlt]="c.coverImage?.alt ?? ''">
@@ -71,7 +71,7 @@
 
     @if (attractions().length > 0) {
       <h2 class="me-fav-heading">Atrações</h2>
-      <ul class="me-fav-grid">
+      <ul class="me-fav-grid" [@staggerIn]="attractions().length">
         @for (item of attractions(); track item.attraction.id) {
           <li>
             <me-destination-card

@@ -2,6 +2,7 @@
 
 .me-map {
   position: relative;
+  isolation: isolate; // o mapa (z-index 400 a 1000 do Leaflet) não pode passar por cima do cabeçalho fixo
   height: var(--me-explorer-height, clamp(360px, 62vh, 680px));
   border: 1px solid var(--me-border);
   border-radius: var(--me-radius);

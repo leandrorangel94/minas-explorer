@@ -6,7 +6,7 @@
     }
   </me-empty-state>
 } @else {
-  <ul class="me-results" [class.me-results--compact]="compact()">
+  <ul class="me-results" [class.me-results--compact]="compact()" [@staggerIn]="items().length">
     @for (item of items(); track item.attraction.id) {
       <li [attr.data-id]="item.attraction.id">
         <me-destination-card

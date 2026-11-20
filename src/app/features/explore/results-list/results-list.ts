@@ -3,6 +3,7 @@ import { RouterLink } from '@angular/router';
 import { DestinationCard } from '../../../shared/components/destination-card/destination-card';
 import { EmptyState } from '../../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../../shared/components/favorite-button/favorite-button';
+import { staggerIn } from '../../../shared/animations';
 import { ExplorerItem } from '../explorer.store';
 import { Icon } from '../../../shared/components/icon/icon';
 
@@ -12,6 +13,7 @@ import { Icon } from '../../../shared/components/icon/icon';
   imports: [
     RouterLink, DestinationCard, EmptyState, FavoriteButton, Icon,
   ],
+  animations: [staggerIn],
   templateUrl: './results-list.html',
   styleUrl: './results-list.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -1,0 +1,94 @@
+<mat-card appearance="outlined" class="me-weather">
+  <mat-card-content>
+    @switch (state().status) {
+      @case ('loading') {
+        <div role="status" aria-busy="true" class="me-weather__loading">
+          <span class="me-visually-hidden">Carregando previsão do tempo…</span>
+          <me-skeleton width="9rem" height="3rem" />
+          <me-skeleton width="60%" height="1rem" />
+          <div class="me-weather__days">
+            @for (n of [1, 2, 3, 4, 5, 6, 7]; track n) {
+              <me-skeleton height="96px" />
+            }
+          </div>
+        </div>
+      }
+      @case ('error') {
+        <p class="me-weather__error" role="status">
+          Não foi possível carregar a previsão do tempo agora. Tente novamente mais tarde.
+        </p>
+      }
+      @default {
+        @if (state(); as s) {
+          @if (s.status === 'ok') {
+            <div @fadeIn>
+              <div class="me-weather__now">
+                <me-icon [name]="condition(s.weather.current.code, s.weather.current.isDay).icon" [size]="48" />
+                <div>
+                  <p class="me-weather__temp">{{ s.weather.current.temperature | number: '1.0-0' }}°C</p>
+                  <p class="me-weather__cond">
+                    {{ condition(s.weather.current.code, s.weather.current.isDay).label }} agora · {{ place() }}
+                  </p>
+                </div>
+              </div>
+
+              <dl class="me-weather__facts">
+                <div>
+                  <dt>Sensação</dt>
+                  <dd>{{ s.weather.current.apparent | number: '1.0-0' }}°C</dd>
+                </div>
+                <div>
+                  <dt>Chance de chuva hoje</dt>
+                  <dd>{{ s.weather.days[0].rainProbability ?? '—' }}{{ s.weather.days[0].rainProbability !== null ? '%' : '' }}</dd>
+                </div>
+                <div>
+                  <dt>Umidade</dt>
+                  <dd>{{ s.weather.current.humidity }}%</dd>
+                </div>
+                <div>
+                  <dt>Vento</dt>
+                  <dd>{{ s.weather.current.windSpeed | number: '1.0-0' }} km/h</dd>
+                </div>
+                @if (s.weather.days[0].uvIndex !== null) {
+                  <div>
+                    <dt>Índice UV (máx.)</dt>
+                    <dd>{{ s.weather.days[0].uvIndex | number: '1.0-0' }}</dd>
+                  </div>
+                }
+                <div>
+                  <dt>Nascer / pôr do sol</dt>
+                  <dd>{{ time(s.weather.days[0].sunrise) }} / {{ time(s.weather.days[0].sunset) }}</dd>
+                </div>
+              </dl>
+
+              <h3 class="me-weather__sub">Próximos 7 dias</h3>
+              <ul class="me-weather__days">
+                @for (d of s.weather.days; track d.date; let i = $index) {
+                  <li>
+                    <span class="me-weather__day">{{ weekday(d.date, i) }}</span>
+                    <me-icon [name]="condition(d.code).icon" [size]="24" />
+                    <span class="me-visually-hidden">{{ condition(d.code).label }}.</span>
+                    <span class="me-weather__range">
+                      <span class="me-visually-hidden">Máxima</span>{{ d.tempMax | number: '1.0-0' }}°
+                      <span class="me-weather__min"><span class="me-visually-hidden">Mínima</span>{{ d.tempMin | number: '1.0-0' }}°</span>
+                    </span>
+                    @if (d.rainProbability !== null) {
+                      <span class="me-weather__rain">
+                        <me-icon name="umbrella" [size]="14" />
+                        <span class="me-visually-hidden">Chance de chuva</span> {{ d.rainProbability }}%
+                      </span>
+                    }
+                  </li>
+                }
+              </ul>
+            </div>
+          }
+        }
+      }
+    }
+  </mat-card-content>
+  <mat-card-footer class="me-weather__credit">
+    Previsão: <a href="https://open-meteo.com/" target="_blank" rel="noopener noreferrer">Weather data by Open-Meteo.com<span class="me-visually-hidden"> (abre em nova aba)</span></a>
+    (CC BY 4.0). Condições atuais e previsão do tempo, sujeitas a alterações.
+  </mat-card-footer>
+</mat-card>

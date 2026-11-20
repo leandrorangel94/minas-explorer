@@ -12,6 +12,7 @@
       </div>
     } @else {
       <img
+        [@crossFade]="current().url"
         [src]="current().url"
         [attr.srcset]="current().thumbUrl ? current().thumbUrl + ' 480w, ' + current().url + ' 960w' : null"
         [attr.sizes]="current().thumbUrl ? '(min-width: 900px) 52vw, 100vw' : null"

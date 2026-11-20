@@ -1,6 +1,7 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
+import { MatCardModule } from '@angular/material/card';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { findAttraction, findCityBySlug } from '../../core/utils/catalog.utils';
 import { googleMapsDirectionsUrl, googleMapsPlaceUrl } from '../../core/utils/external-links';
@@ -10,13 +11,16 @@ import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
 import { PracticalInfoView } from '../../shared/components/practical-info/practical-info';
+import { DetailSkeleton } from '../../shared/components/skeleton/page-skeletons';
+import { WeatherSection } from '../../shared/components/weather/weather';
+import { PlaceExtras } from '../../shared/components/place-extras/place-extras';
 import { ExplorerStore } from '../explore/explorer.store';
 import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-attraction-page',
   imports: [
-    RouterLink, MatButtonModule, Breadcrumbs, EmptyState, FavoriteButton, ImageGallery, PracticalInfoView, Icon,
+    RouterLink, MatButtonModule, MatCardModule, Breadcrumbs, EmptyState, FavoriteButton, ImageGallery, PracticalInfoView, Icon, DetailSkeleton, WeatherSection, PlaceExtras,
   ],
   templateUrl: './attraction-page.html',
   styleUrl: './attraction-page.scss',

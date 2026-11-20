@@ -79,3 +79,8 @@ Outras medidas já existentes: rotas e mapa em chunks lazy (Leaflet só carrega 
 - A atribuição do mapa e os tiles vêm do OpenStreetMap (servidor público, sem SLA).
 - Descrições do catálogo são editoriais e carecem de revisão por fonte local (ver [catalogo.md](catalogo.md)).
 - Não há teste automatizado de ponta a ponta em navegador; a verificação no navegador real foi manual.
+
+## Verificações de 20/11/2026 (animações, clima, complementares)
+
+- Navegador real (build de produção): Open-Meteo responde com CORS, popup do mapa carrega a miniatura, botão "−" desabilitado usa o fundo escuro no modo escuro, o cabeçalho fica acima do mapa e não há overflow horizontal em 375 px.
+- Testes novos: `weather-enrichment.spec.ts` (serviço de clima com `HttpTestingController`, cache, erro, códigos WMO, enrichment, horários e distâncias).

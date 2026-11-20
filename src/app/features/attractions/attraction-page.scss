@@ -14,3 +14,4 @@
 }
 .me-detail__sources { margin-top: 40px; font-size: .9rem; color: var(--me-muted); h2 { font-size: 1.1rem; margin-bottom: 8px; } ul { margin: 8px 0; padding-left: 20px; } }
 @media (min-width: 900px) { .me-detail__grid { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); align-items: start; } }
+.me-detail__weather { margin-top: var(--me-space-5, 32px); h2 { font-size: 1.25rem; margin-bottom: 12px; } }

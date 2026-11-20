@@ -1,0 +1,92 @@
+@if (state().loading) {
+  <div class="me-extras" role="status" aria-busy="true">
+    <span class="me-visually-hidden">Carregando informações complementares…</span>
+    <me-skeleton height="150px" />
+    <me-skeleton height="150px" />
+  </div>
+} @else if (data(); as d) {
+  <div class="me-extras" @fadeIn>
+    @if (d.about; as about) {
+      <section aria-labelledby="sobre">
+        <h2 id="sobre">Sobre o local</h2>
+        <mat-card appearance="outlined">
+          <mat-card-content>
+            <p>{{ about.description }}</p>
+            @if (about.curiosities.length > 0) {
+              <h3>Curiosidades</h3>
+              <ul class="me-extras__list">
+                @for (c of about.curiosities; track c) {
+                  <li>{{ c }}</li>
+                }
+              </ul>
+            }
+          </mat-card-content>
+          <mat-card-footer class="me-extras__credit">
+            Fonte: <a [href]="about.source.url" target="_blank" rel="noopener noreferrer">{{ about.source.name }}<span class="me-visually-hidden"> (abre em nova aba)</span></a>,
+            {{ about.source.license }}, consultada em {{ date(about.source.retrievedAt) }}.
+          </mat-card-footer>
+        </mat-card>
+      </section>
+    }
+
+    @if (practicalRows().length > 0 && d.practical; as practical) {
+      <section aria-labelledby="osm">
+        <h2 id="osm">Mais informações práticas</h2>
+        <mat-card appearance="outlined">
+          <mat-card-content>
+            <dl class="me-extras__rows">
+              @for (r of practicalRows(); track r.label) {
+                <div>
+                  <dt>{{ r.label }}</dt>
+                  <dd>
+                    @if (r.href) {
+                      <a [href]="r.href" target="_blank" rel="noopener noreferrer">{{ r.value }}<span class="me-visually-hidden"> (abre em nova aba)</span></a>
+                    } @else {
+                      {{ r.value }}
+                    }
+                  </dd>
+                </div>
+              }
+            </dl>
+            <p class="me-extras__warn">Dados colaborativos: confirme antes de ir.</p>
+          </mat-card-content>
+          <mat-card-footer class="me-extras__credit">
+            Fonte: <a [href]="practical.source.url" target="_blank" rel="noopener noreferrer">{{ practical.source.name }}<span class="me-visually-hidden"> (abre em nova aba)</span></a>,
+            {{ practical.source.license }}, consultada em {{ date(practical.source.retrievedAt) }}.
+          </mat-card-footer>
+        </mat-card>
+      </section>
+    }
+
+    @if (d.lodging; as lodging) {
+      <section aria-labelledby="pousadas">
+        <h2 id="pousadas">Onde ficar por perto</h2>
+        <ul class="me-extras__lodging">
+          @for (l of lodging.items; track l.osmUrl) {
+            <li>
+              <mat-card appearance="outlined">
+                <mat-card-content>
+                  <p class="me-extras__type"><me-icon name="map-pin" [size]="14" /> {{ l.type }} · a {{ distance(l.distanceMeters) }}</p>
+                  <h3>{{ l.name }}</h3>
+                  <p class="me-extras__links">
+                    @if (safeUrl(l.website); as w) {
+                      <a [href]="w" target="_blank" rel="noopener noreferrer">Site<span class="me-visually-hidden"> de {{ l.name }} (abre em nova aba)</span></a>
+                    }
+                    <a [href]="l.osmUrl" target="_blank" rel="noopener noreferrer">No mapa<span class="me-visually-hidden"> ({{ l.name }}, OpenStreetMap, abre em nova aba)</span></a>
+                  </p>
+                  @if (l.phone) {
+                    <p class="me-extras__phone">{{ l.phone }}</p>
+                  }
+                </mat-card-content>
+              </mat-card>
+            </li>
+          }
+        </ul>
+        <p class="me-extras__credit me-extras__credit--free">
+          Os três mais próximos segundo o <a [href]="lodging.source.url" target="_blank" rel="noopener noreferrer">OpenStreetMap<span class="me-visually-hidden"> (abre em nova aba)</span></a>
+          ({{ lodging.source.license }}), consultado em {{ date(lodging.source.retrievedAt) }}. Não é indicação nem garantia de disponibilidade.
+        </p>
+      </section>
+    }
+  </div>
+}

@@ -49,6 +49,9 @@ export interface MapPoint {
   readonly categoryName?: string;
   /** Link da página de detalhes (já pronto para `href`, compatível com a estratégia de rotas). */
   readonly href?: string;
+  /** Miniatura exibida no popup (carregada só quando o popup abre). */
+  readonly imageUrl?: string;
+  readonly imageAlt?: string;
 }
 
 /**
@@ -137,6 +140,11 @@ export class MinasMap {
     });
     L.control.zoom({ zoomInTitle: 'Aproximar', zoomOutTitle: 'Afastar' }).addTo(map);
     map.on('popupopen', (e) => {
+      const thumb = e.popup.getElement()?.querySelector<HTMLImageElement>('img.me-popup-thumb[data-src]');
+      if (thumb) {
+        thumb.src = thumb.dataset['src']!;
+        thumb.addEventListener('load', () => e.popup.update(), { once: true });
+      }
       e.popup.getElement()?.querySelector('.leaflet-popup-close-button')?.setAttribute('aria-label', 'Fechar');
     });
     L.tileLayer(TILE_PROVIDER.urlTemplate, {
@@ -257,6 +265,17 @@ export class MinasMap {
   /** Popup montado com nós de DOM (textContent), sem injetar HTML. */
   private popupContent(point: MapPoint): HTMLElement {
     const box = document.createElement('div');
+    if (point.imageUrl) {
+      const img = document.createElement('img');
+      img.className = 'me-popup-thumb';
+      img.alt = point.imageAlt ?? '';
+      img.width = 240;
+      img.height = 140;
+      img.decoding = 'async';
+      img.dataset['src'] = point.imageUrl; // src só é definido ao abrir o popup (evita baixar dezenas de miniaturas)
+      img.addEventListener('error', () => img.remove(), { once: true });
+      box.appendChild(img);
+    }
     const title = document.createElement('strong');
     title.textContent = point.name;
     box.appendChild(title);

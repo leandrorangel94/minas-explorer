@@ -141,6 +141,25 @@ itineraries.forEach((it, i) => {
     if (banned in it) err(w, `campo logístico "${banned}" não é permitido em roteiros editoriais`);
 });
 
+// --- Dados complementares (opcional, gerado por `npm run enrich`) -----------
+if (existsSync(join(data, 'enrichment.json'))) {
+  const enrichment = await readJson('enrichment.json');
+  const okSource = (w, s) => {
+    if (!s || !/^https:\/\//.test(s.url ?? '') || !isStr(s.name) || !isStr(s.license) || !DATE.test(s.retrievedAt ?? '')) err(w, 'fonte incompleta (name, url https, license, retrievedAt)');
+  };
+  for (const [id, e] of Object.entries(enrichment.items ?? {})) {
+    const w = `enrichment.json["${id}"]`;
+    if (!cityIds.has(id) && !attractionIds.has(id)) err(w, 'id não existe no catálogo');
+    if (e.about) { okSource(`${w}.about`, e.about.source); if (!isStr(e.about.description)) err(w, 'about.description obrigatório'); }
+    if (e.practical) okSource(`${w}.practical`, e.practical.source);
+    if (e.lodging) {
+      okSource(`${w}.lodging`, e.lodging.source);
+      if (!Array.isArray(e.lodging.items) || e.lodging.items.length > 3) err(w, 'lodging.items deve ter no máximo 3 itens');
+      for (const l of e.lodging.items ?? []) if (!isStr(l.name) || typeof l.distanceMeters !== 'number' || !/^https:\/\//.test(l.osmUrl ?? '')) err(w, 'hospedagem inválida');
+    }
+  }
+}
+
 if (errors.length) {
   console.error(`Catálogo inválido (${errors.length} erro(s)):\n- ${errors.join('\n- ')}`);
   process.exit(1);

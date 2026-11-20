@@ -87,3 +87,13 @@ Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda
 
 ## Layout para telas grandes
 Um único contêiner (`--me-container`: 1920 px, 2240 px a partir de 2200 px) com margem fluida (`--me-gutter`) alinha cabeçalho, hero, conteúdo e rodapé nas mesmas bordas. Tokens de espaçamento em múltiplos de 8 px, escala de texto por largura (106% a 1600 px, 112,5% a 2200 px), painel e mapa com altura relativa à tela e hero em duas colunas com os números do catálogo. Princípios usados: hierarquia, alinhamento, proximidade e consistência. Não foi possível consultar material específico da Insany Design nem do uiBoost.
+
+## Animações, esqueletos e clima (20/11/2026)
+
+- **Animações** (`@angular/animations`, `provideAnimationsAsync()`): os gatilhos ficam em `shared/animations.ts` (`pageTransition`, `staggerIn`, `fadeIn`, `expandCollapse`, `crossFade`, `heartPop`). Com `prefers-reduced-motion`, `app.html` desliga tudo via `[@.disabled]`. Nos testes, `src/test-providers.ts` (configurado em `angular.json`) usa `provideAnimationsAsync('noop')`.
+- **Esqueletos** (`shared/components/skeleton`): `me-skeleton` (bloco com brilho), `me-explorer-skeleton` (home), `me-detail-skeleton` e `me-cards-skeleton` (detalhes, favoritos, roteiros), todos com `role="status"` e texto oculto "Carregando…". Cores em `--me-skeleton-base/shine`.
+- **Clima** (`core/services/weather.service.ts` + `shared/components/weather`): Open-Meteo (atual + 7 dias: temperatura, sensação, chance de chuva, umidade, vento, UV, nascer/pôr do sol), códigos WMO traduzidos para pt-BR, cache por coordenada, estados de carregamento e erro, atribuição visível.
+- **Complementares** (`core/services/enrichment.service.ts` + `shared/components/place-extras`): leem `data/enrichment.json` (opcional). `npm run catalog` valida ids, fontes (https, licença, data) e o limite de 3 hospedagens. Gerado por `scripts/enrich-catalog.mjs`.
+- **Popup do mapa**: `MapPoint.imageUrl/imageAlt`; a miniatura só recebe `src` ao abrir o popup (não baixa dezenas de imagens de uma vez).
+- **Camadas**: `.me-map` usa `isolation: isolate`, então os painéis do Leaflet (z-index até 1000) nunca passam por cima do cabeçalho fixo. O botão de zoom desabilitado usa tokens (`_leaflet.scss`).
+- **Home**: filtros em faixa horizontal no desktop; lista + mapa lado a lado com altura derivada da janela (`--me-explorer-height`), para caber na primeira tela.

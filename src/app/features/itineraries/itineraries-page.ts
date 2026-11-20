@@ -5,14 +5,17 @@ import { PageMetaService } from '../../core/services/page-meta.service';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { SectionTitle } from '../../shared/components/section-title/section-title';
 import { ExplorerStore } from '../explore/explorer.store';
+import { CardsSkeleton } from '../../shared/components/skeleton/page-skeletons';
+import { staggerIn } from '../../shared/animations';
 import { EditorialNote } from './editorial-note';
 import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-itineraries-page',
   imports: [
-    RouterLink, MatButtonModule, EmptyState, SectionTitle, EditorialNote, Icon,
+    RouterLink, MatButtonModule, EmptyState, SectionTitle, EditorialNote, Icon, CardsSkeleton,
   ],
+  animations: [staggerIn],
   templateUrl: './itineraries-page.html',
   styleUrl: './itineraries-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -15,6 +15,7 @@ html {
     outlined-container-height: 44px,
   ));
   @include mat.icon-button-overrides((state-layer-size: 44px));
+  @include mat.card-overrides((outlined-container-color: var(--me-surface), outlined-outline-color: var(--me-border), outlined-container-shape: var(--me-radius), outlined-container-elevation: none, elevated-container-color: var(--me-surface)));
   @include mat.button-toggle-overrides((height: 44px));
 
   // Papéis do Material ligados aos tokens do projeto (mudam sozinhos com o tema)

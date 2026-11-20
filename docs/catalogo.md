@@ -81,3 +81,13 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 - +11 cidades e +38 atrações (cachoeiras, museus, igrejas e cidades históricas, parques e serras), com coordenadas e município do Wikidata conferidos contra o IBGE, e +33 fotos do Wikimedia Commons (CC BY ou CC BY-SA), conferidas visualmente. Descartadas fotos com menos de 800 px e a da Cachoeira das Andorinhas (não representa o lugar).
 - Casos de associação mais fraca (o Wikidata só traz a localização na descrição): Gruta de Maquiné (Cordisburgo) e Parque Estadual do Rio Preto (São Gonçalo do Rio Preto). Sem foto: Maquiné, Andorinhas, Museu de Cabangu, Museu dos Dinossauros e Catedral de Governador Valadares.
 - 4 novos roteiros editoriais (Diamantina e Serro, cachoeiras de Poços de Caldas, Sabará e Belo Horizonte).
+
+## Dados complementares (`enrichment.json`)
+
+Arquivo gerado por `npm run enrich` (não editar à mão), chave = id da cidade ou atração:
+
+- `about`: descrição e curiosidades extraídas da introdução do artigo da Wikipédia (pt), aceitas só se o artigo estiver a até 40 km do destino e o título for parecido com o nome. Licença CC BY-SA 4.0.
+- `practical` (atrações): horário, entrada, acessibilidade, telefone e site encontrados no OpenStreetMap por nome em até 400 m. Dados colaborativos (ODbL); a tela avisa para confirmar antes de ir.
+- `lodging`: até 3 hospedagens mais próximas (`tourism=hotel|guest_house|hostel|motel|chalet|apartment|camp_site`), buscando em 3 km, 10 km e 25 km.
+
+Cada bloco tem `source` (nome, url, licença, `retrievedAt`). Execução: `npm run enrich` (retoma de onde parou), `-- --only=<id>` para um item, `-- --force` para refazer. Use com moderação: o Overpass é um serviço público compartilhado. Uma alternativa paga (Google Places) **não** está implementada; exigiria chave própria, que nunca deve ser versionada.

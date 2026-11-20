@@ -57,6 +57,7 @@ describe('ImageGallery', () => {
     const { fixture, el } = await create([img(1)]);
     (el.querySelector('figure img') as HTMLImageElement).dispatchEvent(new Event('error'));
     fixture.detectChanges();
+    await fixture.whenStable(); // a saída de elementos animados é assíncrona
     expect(el.querySelector('figure img')).toBeNull();
     expect(el.querySelector('.me-gallery__placeholder')?.textContent).toContain('Imagem indisponível');
     expect(el.querySelector('figcaption')).toBeTruthy();

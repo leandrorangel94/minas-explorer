@@ -2,7 +2,7 @@ import { Injectable, inject } from '@angular/core';
 import { Meta, Title } from '@angular/platform-browser';
 
 const SUFFIX = 'Minas Explorer';
-const DEFAULT_DESCRIPTION = 'Minas Gerais está mais perto do que você imagina.';
+const DEFAULT_DESCRIPTION = 'Minas tem um destino para cada jeito de viajar.';
 
 /** Título e meta description por página (SPA: ajuda abas, histórico e compartilhamento; não substitui SSR). */
 @Injectable({ providedIn: 'root' })

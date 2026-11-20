@@ -7,14 +7,17 @@ import { DestinationCard } from '../../shared/components/destination-card/destin
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { SectionTitle } from '../../shared/components/section-title/section-title';
+import { CardsSkeleton } from '../../shared/components/skeleton/page-skeletons';
+import { staggerIn } from '../../shared/animations';
 import { ExplorerStore } from '../explore/explorer.store';
 import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-favorites-page',
   imports: [
-    RouterLink, MatButtonModule, DestinationCard, EmptyState, FavoriteButton, SectionTitle, Icon,
+    RouterLink, MatButtonModule, DestinationCard, EmptyState, FavoriteButton, SectionTitle, Icon, CardsSkeleton,
   ],
+  animations: [staggerIn],
   templateUrl: './favorites-page.html',
   styleUrl: './favorites-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

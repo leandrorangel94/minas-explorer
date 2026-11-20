@@ -1,6 +1,10 @@
 <a class="me-skip-link" href="#conteudo" (click)="skipToContent($event)">Ir para o conteúdo</a>
 <me-header />
-<main #main id="conteudo" tabindex="-1">
-  <router-outlet />
-</main>
+<div [@.disabled]="reduceMotion()">
+  <main #main id="conteudo" tabindex="-1">
+    <div [@pageTransition]="routeKey()">
+      <router-outlet />
+    </div>
+  </main>
+</div>
 <me-footer />

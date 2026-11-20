@@ -8,6 +8,7 @@ import { Breadcrumbs } from '../../shared/components/breadcrumbs/breadcrumbs';
 import { DestinationCard } from '../../shared/components/destination-card/destination-card';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
+import { DetailSkeleton } from '../../shared/components/skeleton/page-skeletons';
 import { ExplorerStore } from '../explore/explorer.store';
 import { EditorialNote } from './editorial-note';
 import { Icon } from '../../shared/components/icon/icon';
@@ -15,7 +16,7 @@ import { Icon } from '../../shared/components/icon/icon';
 @Component({
   selector: 'me-itinerary-page',
   imports: [
-    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, EditorialNote, Icon,
+    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, EditorialNote, Icon, DetailSkeleton,
   ],
   templateUrl: './itinerary-page.html',
   styleUrl: './itinerary-page.scss',

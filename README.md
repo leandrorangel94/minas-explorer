@@ -1,6 +1,6 @@
 # Minas Explorer
 
-> **Minas Gerais está mais perto do que você imagina.**
+> **Minas tem um destino para cada jeito de viajar.**
 
 Guia turístico interativo de Minas Gerais: descubra cidades históricas, parques, cachoeiras, museus e sabores em um mapa, filtre por categoria e região, consulte fotografias com crédito, salve favoritos e siga roteiros sugeridos.
 
@@ -24,6 +24,7 @@ Aplicação **100% frontend** (sem backend, sem banco de dados, sem login), publ
 | Tailwind CSS (layout e espaçamento, via `@tailwindcss/postcss`) | 4.3 |
 | SCSS (tokens, tema claro/escuro, componentes) | — |
 | Leaflet + `leaflet.markercluster` | 1.9.4 / 1.5.3 |
+| `@angular/animations` (transições de página, listas, filtros, galeria) | 22.3 |
 | Ícones: `lucide` (SVG puro, registro em `core/utils/icons.ts`) | 1.x |
 | Testes: Vitest (via `ng test`), jsdom, `axe-core` | — |
 | Qualidade: ESLint + `angular-eslint` | — |
@@ -54,6 +55,12 @@ npm start          # valida o catálogo e abre http://localhost:4200
 | `npm run preview:pages` | serve o build de publicação em `http://localhost:4600/minas-explorer/` (como no Pages) |
 | `npm run catalog` | valida e consolida o catálogo (`public/data/catalog.json`) e atualiza `docs/creditos.md` |
 | `npm run geo` | regenera os dados geográficos do IBGE |
+
+## Clima, informações complementares e hospedagens
+
+- **Clima** (seção em cada cidade e atração): consulta ao vivo o [Open-Meteo](https://open-meteo.com/) (sem chave; CC BY 4.0, com atribuição na tela). O cache fica em memória.
+- **Sobre o local, curiosidades, dados práticos do OpenStreetMap e as 3 hospedagens mais próximas**: gerados **offline** por `npm run enrich` (Wikipédia em pt, CC BY-SA 4.0, e OpenStreetMap via Overpass, ODbL) e gravados em `public/data/enrichment.json`. Cada bloco traz fonte, licença e data; só aparece o que foi encontrado. O script é retomável (preserva o que já existe; `--force` refaz) e faz uma requisição por vez.
+- Nenhuma chave de API é usada nem fica no repositório. Detalhes em [docs/arquitetura.md](docs/arquitetura.md).
 
 ## Publicação no GitHub Pages
 
