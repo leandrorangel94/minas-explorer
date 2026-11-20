@@ -78,3 +78,8 @@
   .me-desktop-only { display: flex !important; }
   .me-mobile-only { display: none !important; }
 }
+
+.me-badge {
+  display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 6px; padding: 0 6px;
+  border-radius: 999px; background: var(--me-forest); color: #fff; font-size: .75rem; font-weight: 600;
+}

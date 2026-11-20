@@ -9,6 +9,7 @@ import { formatIsoDate } from '../../core/utils/format';
 import { Breadcrumbs, Crumb } from '../../shared/components/breadcrumbs/breadcrumbs';
 import { CategoryIcon } from '../../shared/components/category-icon/category-icon';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
+import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
 import { PracticalInfoView } from '../../shared/components/practical-info/practical-info';
 import { ExplorerStore } from '../explore/explorer.store';
@@ -17,7 +18,7 @@ import { ExplorerStore } from '../explore/explorer.store';
   selector: 'me-attraction-page',
   imports: [
     RouterLink, MatButtonModule, LucideExternalLink, LucideMap, LucideNavigation, LucideSearchX, LucideTriangleAlert,
-    Breadcrumbs, CategoryIcon, EmptyState, ImageGallery, PracticalInfoView,
+    Breadcrumbs, CategoryIcon, EmptyState, FavoriteButton, ImageGallery, PracticalInfoView,
   ],
   templateUrl: './attraction-page.html',
   styleUrl: './attraction-page.scss',

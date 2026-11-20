@@ -11,8 +11,8 @@ Fonte: prompt mestre (etapas 0 a 11) + etapa adicional definida durante o desenv
 | 4 | Geografia e regiões | concluída |
 | 5 | Modelos e catálogo JSON | concluída |
 | 6 | Marcadores, busca e filtros (+ mapa minimalista focado em MG) | concluída |
-| 7 | Detalhes de cidades e atrações | pendente |
-| 8 | Favoritos e roteiros | pendente |
+| 7 | Detalhes de cidades e atrações | concluída |
+| 8 | Favoritos e roteiros | concluída |
 | 9 | Curadoria e expansão do catálogo | pendente |
 | 10 | Qualidade, acessibilidade e otimização | pendente |
 | 11 | GitHub Pages e documentação final | pendente |

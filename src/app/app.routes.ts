@@ -21,6 +21,10 @@ export const routes: Routes = [
     loadComponent: () => import('./features/itineraries/itineraries-page').then((m) => m.ItinerariesPage),
   },
   {
+    path: 'roteiros/:slug',
+    loadComponent: () => import('./features/itineraries/itinerary-page').then((m) => m.ItineraryPage),
+  },
+  {
     path: 'favoritos',
     title: 'Favoritos – Minas Explorer',
     loadComponent: () => import('./features/favorites/favorites-page').then((m) => m.FavoritesPage),

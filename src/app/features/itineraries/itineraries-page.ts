@@ -1,24 +1,32 @@
-import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideRoute } from '@lucide/angular';
+import { LucideRoute, LucideTriangleAlert } from '@lucide/angular';
+import { PageMetaService } from '../../core/services/page-meta.service';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { SectionTitle } from '../../shared/components/section-title/section-title';
+import { ExplorerStore } from '../explore/explorer.store';
+import { EditorialNote } from './editorial-note';
 
 @Component({
   selector: 'me-itineraries-page',
-  imports: [RouterLink, MatButtonModule, LucideRoute, EmptyState, SectionTitle],
-  template: `
-    <section class="me-container py-10">
-      <me-section-title title="Roteiros" subtitle="Sugestões editoriais de passeios por Minas Gerais." />
-      <div class="mt-6">
-        <me-empty-state title="Nenhum roteiro disponível ainda" description="Os roteiros serão adicionados em uma etapa futura.">
-          <svg icon lucideRoute [size]="28" aria-hidden="true"></svg>
-          <a matButton="outlined" routerLink="/">Voltar ao início</a>
-        </me-empty-state>
-      </div>
-    </section>
-  `,
+  imports: [RouterLink, MatButtonModule, LucideRoute, LucideTriangleAlert, EmptyState, SectionTitle, EditorialNote],
+  templateUrl: './itineraries-page.html',
+  styleUrl: './itineraries-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class ItinerariesPage {}
+export class ItinerariesPage {
+  protected readonly store = inject(ExplorerStore);
+
+  protected readonly items = computed(() =>
+    this.store.itineraries().map((it) => ({
+      it,
+      regionName: this.store.regionName(it.regionId),
+      stops: it.days.reduce((n, d) => n + d.stopIds.length, 0),
+    })),
+  );
+
+  constructor() {
+    inject(PageMetaService).set('Roteiros', 'Sugestões editoriais de roteiros por Minas Gerais.');
+  }
+}

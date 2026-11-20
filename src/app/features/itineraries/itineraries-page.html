@@ -1,0 +1,41 @@
+<section class="me-container py-10">
+  <me-section-title title="Roteiros" subtitle="Sugestões editoriais de passeios por Minas Gerais." />
+  <me-editorial-note />
+
+  @switch (store.itinerariesStatus()) {
+    @case ('loading') {
+      <p class="me-it-loading" role="status">Carregando…</p>
+    }
+    @case ('error') {
+      <div class="mt-6">
+        <me-empty-state title="Não foi possível carregar os roteiros" description="Verifique sua conexão e recarregue a página.">
+          <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+        </me-empty-state>
+      </div>
+    }
+    @default {
+      @if (items().length === 0) {
+        <div class="mt-6">
+          <me-empty-state title="Nenhum roteiro disponível ainda" description="Os roteiros serão adicionados aos poucos.">
+            <svg icon lucideRoute [size]="28" aria-hidden="true"></svg>
+            <a matButton="outlined" routerLink="/">Voltar ao início</a>
+          </me-empty-state>
+        </div>
+      } @else {
+        <ul class="me-it-grid">
+          @for (item of items(); track item.it.id) {
+            <li class="me-it-card">
+              <p class="me-it-card__meta">{{ item.regionName ?? 'Minas Gerais' }}</p>
+              <h2><a [routerLink]="['/roteiros', item.it.slug]">{{ item.it.title }}</a></h2>
+              <p>{{ item.it.summary }}</p>
+              <p class="me-it-card__count">
+                {{ item.it.days.length === 1 ? '1 dia' : item.it.days.length + ' dias' }} ·
+                {{ item.stops === 1 ? '1 destino' : item.stops + ' destinos' }}
+              </p>
+            </li>
+          }
+        </ul>
+      }
+    }
+  }
+</section>

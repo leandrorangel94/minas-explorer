@@ -1,0 +1,24 @@
+import { ChangeDetectionStrategy, Component } from '@angular/core';
+import { LucideInfo } from '@lucide/angular';
+
+/** Aviso fixo: roteiros são sugestões editoriais, sem dados logísticos. */
+@Component({
+  selector: 'me-editorial-note',
+  imports: [LucideInfo],
+  template: `
+    <p class="me-editorial" role="note">
+      <svg lucideInfo [size]="18" aria-hidden="true"></svg>
+      <span>
+        <strong>Sugestão editorial.</strong> Os roteiros indicam apenas destinos e uma ordem temática. Não informamos distâncias, tempos de
+        deslocamento nem duração ideal: planeje o trajeto e confirme horários e condições de acesso antes de viajar.
+      </span>
+    </p>
+  `,
+  styles: `
+    .me-editorial { display: flex; gap: 10px; align-items: flex-start; margin: 16px 0 0; padding: 12px 14px;
+      border-radius: var(--me-radius-sm); background: var(--me-sage-light); color: var(--me-forest-dark); font-size: .9rem; }
+    svg { flex: none; margin-top: 2px; }
+  `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class EditorialNote {}

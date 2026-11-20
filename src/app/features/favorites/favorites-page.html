@@ -1,0 +1,94 @@
+<section class="me-container py-10">
+  <me-section-title title="Favoritos" subtitle="Seus destinos salvos neste navegador." />
+
+  <p class="me-fav-note" role="note">
+    <svg lucideInfo [size]="18" aria-hidden="true"></svg>
+    <span>
+      Os favoritos ficam salvos <strong>apenas neste navegador e neste dispositivo</strong>. Eles não são sincronizados com outros
+      aparelhos e podem ser perdidos se você limpar os dados do navegador.
+    </span>
+  </p>
+
+  @if (!favorites.persistent()) {
+    <p class="me-fav-warning" role="alert">
+      <svg lucideTriangleAlert [size]="18" aria-hidden="true"></svg>
+      <span>Este navegador não permite salvar dados locais (modo privado ou bloqueio). Seus favoritos valem só enquanto esta página estiver aberta.</span>
+    </p>
+  }
+
+  @if (store.status() === 'loading') {
+    <p class="me-fav-loading" role="status">Carregando…</p>
+  } @else if (store.status() === 'error') {
+    <div class="mt-6">
+      <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
+        <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+      </me-empty-state>
+    </div>
+  } @else if (favorites.count() === 0) {
+    <div class="mt-6">
+      <me-empty-state title="Você ainda não tem favoritos" description="Use o coração nos destinos para guardá-los aqui.">
+        <svg icon lucideHeart [size]="28" aria-hidden="true"></svg>
+        <a matButton="filled" routerLink="/">Explorar destinos</a>
+      </me-empty-state>
+    </div>
+  } @else {
+    <div class="me-fav-toolbar">
+      <p aria-live="polite" role="status">{{ favorites.count() === 1 ? '1 favorito' : favorites.count() + ' favoritos' }}</p>
+      @if (confirmingClear()) {
+        <span class="me-fav-confirm">
+          Remover todos os favoritos?
+          <button matButton="filled" type="button" (click)="confirmClear()">Sim, remover</button>
+          <button matButton type="button" (click)="confirmingClear.set(false)">Cancelar</button>
+        </span>
+      } @else {
+        <button matButton type="button" (click)="askClear()">Remover todos</button>
+      }
+    </div>
+
+    @if (orphans().length > 0) {
+      <p class="me-fav-warning" role="note">
+        <svg lucideTriangleAlert [size]="18" aria-hidden="true"></svg>
+        <span>
+          {{ orphans().length === 1 ? '1 favorito não existe mais' : orphans().length + ' favoritos não existem mais' }} no catálogo.
+          <button class="me-fav-link" type="button" (click)="removeOrphans()">Remover</button>
+        </span>
+      </p>
+    }
+
+    @if (cities().length > 0) {
+      <h2 class="me-fav-heading">Cidades</h2>
+      <ul class="me-fav-grid">
+        @for (c of cities(); track c.id) {
+          <li>
+            <me-destination-card [name]="c.name" [city]="store.regionName(c.regionId)" [imageUrl]="c.coverImage?.url" [imageAlt]="c.coverImage?.alt ?? ''">
+              <a class="me-fav-more" [routerLink]="['/cidades', c.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ c.name }}</span></a>
+              <me-favorite-button kind="city" [id]="c.id" [label]="c.name" />
+            </me-destination-card>
+          </li>
+        }
+      </ul>
+    }
+
+    @if (attractions().length > 0) {
+      <h2 class="me-fav-heading">Atrações</h2>
+      <ul class="me-fav-grid">
+        @for (item of attractions(); track item.attraction.id) {
+          <li>
+            <me-destination-card
+              [name]="item.attraction.name"
+              [city]="item.city.name"
+              [category]="item.category?.name"
+              [categoryIcon]="item.category?.icon"
+              [categoryColor]="item.category?.color"
+              [imageUrl]="item.attraction.images[0]?.url"
+              [imageAlt]="item.attraction.images[0]?.alt ?? ''"
+            >
+              <a class="me-fav-more" [routerLink]="['/cidades', item.city.slug, item.attraction.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ item.attraction.name }}</span></a>
+              <me-favorite-button kind="attraction" [id]="item.attraction.id" [label]="item.attraction.name" />
+            </me-destination-card>
+          </li>
+        }
+      </ul>
+    }
+  }
+</section>

@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable, inject } from '@angular/core';
 import { Observable, map, shareReplay } from 'rxjs';
-import { Attraction, Category, City } from '../models/catalog.models';
+import { Attraction, Category, City, Itinerary } from '../models/catalog.models';
 
 /** Formato de `public/data/catalog.json` (gerado por `npm run catalog`). */
 export interface Catalog {
@@ -20,6 +20,10 @@ export class CatalogService {
 
   readonly categories$: Observable<readonly Category[]> = this.http
     .get<Category[]>('data/categories.json')
+    .pipe(shareReplay({ bufferSize: 1, refCount: false }));
+
+  readonly itineraries$: Observable<readonly Itinerary[]> = this.http
+    .get<Itinerary[]>('data/itineraries.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: false }));
 
   readonly cities$ = this.catalog$.pipe(map((c) => c.cities));

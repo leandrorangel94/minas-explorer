@@ -5,7 +5,7 @@ Aplicação 100% frontend (sem backend), publicável no GitHub Pages.
 
 > Minas Gerais está mais perto do que você imagina.
 
-**Status:** Etapa 6 (marcadores, busca e filtros) concluída. Roteiro completo em [docs/etapas.md](docs/etapas.md), incluindo a Etapa 12 (modo escuro).
+**Status:** Etapa 8 (favoritos e roteiros) concluída. Roteiro completo em [docs/etapas.md](docs/etapas.md), incluindo a Etapa 12 (modo escuro).
 
 ## Tecnologias
 

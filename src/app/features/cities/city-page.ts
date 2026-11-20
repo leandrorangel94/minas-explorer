@@ -9,6 +9,7 @@ import { formatIsoDate } from '../../core/utils/format';
 import { Breadcrumbs } from '../../shared/components/breadcrumbs/breadcrumbs';
 import { DestinationCard } from '../../shared/components/destination-card/destination-card';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
+import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
 import { ExplorerStore } from '../explore/explorer.store';
 
@@ -16,7 +17,7 @@ import { ExplorerStore } from '../explore/explorer.store';
   selector: 'me-city-page',
   imports: [
     RouterLink, MatButtonModule, LucideExternalLink, LucideMap, LucideSearchX, LucideTriangleAlert,
-    Breadcrumbs, DestinationCard, EmptyState, ImageGallery,
+    Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, ImageGallery,
   ],
   templateUrl: './city-page.html',
   styleUrl: './city-page.scss',

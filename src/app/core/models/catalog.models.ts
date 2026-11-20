@@ -72,3 +72,24 @@ export interface Attraction {
   readonly sources: readonly SourceRef[];
   readonly lastVerifiedAt: string;
 }
+
+export interface ItineraryDay {
+  readonly title: string;
+  /** Ids de atrações (de attractions/), na ordem sugerida editorialmente. */
+  readonly stopIds: readonly string[];
+}
+
+/**
+ * Roteiro EDITORIAL: sugestão de temas e ordem, sem cálculo de distância, duração
+ * ou trajeto. Não contém informações logísticas.
+ */
+export interface Itinerary {
+  readonly id: string;
+  readonly slug: string;
+  readonly title: string;
+  readonly summary: string;
+  /** Região IBGE em que os destinos se concentram. */
+  readonly regionId: string;
+  readonly days: readonly ItineraryDay[];
+  readonly lastReviewedAt: string;
+}

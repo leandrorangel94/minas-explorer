@@ -3,12 +3,13 @@ import { RouterLink } from '@angular/router';
 import { LucideSearchX } from '@lucide/angular';
 import { DestinationCard } from '../../../shared/components/destination-card/destination-card';
 import { EmptyState } from '../../../shared/components/empty-state/empty-state';
+import { FavoriteButton } from '../../../shared/components/favorite-button/favorite-button';
 import { ExplorerItem } from '../explorer.store';
 
 /** Lista de resultados: alternativa ao mapa e painel lateral. Mesmos itens do mapa. */
 @Component({
   selector: 'me-results-list',
-  imports: [RouterLink, DestinationCard, EmptyState, LucideSearchX],
+  imports: [RouterLink, DestinationCard, EmptyState, FavoriteButton, LucideSearchX],
   templateUrl: './results-list.html',
   styleUrl: './results-list.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

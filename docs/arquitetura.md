@@ -49,3 +49,17 @@ Técnicas combinadas, sem trocar de provedor de tiles (continua OpenStreetMap):
 3. **Navegação limitada** ao entorno do estado (`setMaxBounds` com folga de 12% + `minZoom` calculado), com `zoomSnap` 0,25 para enquadrar melhor.
 4. Controles, atribuição, popup e marcadores com visual discreto, todos via variáveis CSS (preparado para o modo escuro).
 Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda mais limpo e com variante escura), por depender de outro provedor e de termos de uso a confirmar; a troca continua possível em `TILE_PROVIDER`.
+
+## Páginas de detalhe (Etapa 7)
+- Rotas (hash): `/cidades/:citySlug` e `/cidades/:citySlug/:attractionSlug`, lazy, com `withComponentInputBinding()` (os slugs chegam como `input()`).
+- `features/cities/city-page` e `features/attractions/attraction-page` leem a `ExplorerStore` (catálogo único). Estados: carregando, erro, "não encontrada".
+- `PageMetaService` define título da aba e meta description por página (SPA; não substitui SSR).
+- Componentes compartilhados: `me-image-gallery` (créditos obrigatórios: autor, licença, fonte; `loading="lazy"`; imagem com erro vira placeholder; sem imagem, mensagem honesta), `me-practical-info` (só campos informados, sempre com fonte e data; após 12 meses avisa que pode estar desatualizada; sem dados, diz que não foram verificados), `me-breadcrumbs`.
+- Links externos (`core/utils/external-links.ts`): Google Maps (ponto e rota) montados só com as coordenadas do catálogo, sempre com `target="_blank" rel="noopener noreferrer"`.
+- Ligação com a home: card ("Ver detalhes") e popup do marcador (`href` via `Location.prepareExternalUrl`, compatível com hash routing). Nas páginas de detalhe, "Ver no mapa" volta à home com a cidade filtrada ou a atração selecionada.
+
+## Favoritos e roteiros (Etapa 8)
+- `core/services/favorites.service.ts`: favoritos (cidade/atração) em signals, salvos **só no LocalStorage** (`minas-explorer:favorites:v1`, formato `{version, items}`). Valida o que lê (descarta itens inválidos/duplicados, limite de 500), tolera storage indisponível (modo privado/bloqueio/cota cheia: continua em memória e `persistent()` vira `false`, o que a tela de favoritos avisa) e sincroniza abas pelo evento `storage`. Não guarda dados pessoais.
+- `me-favorite-button` (alternância com `aria-pressed`), usado na lista, nas páginas de cidade/atração, na tela de favoritos e nos roteiros. O cabeçalho mostra o contador.
+- `features/favorites/favorites-page`: lista cidades e atrações favoritas, explica que ficam apenas neste navegador/dispositivo e não sincronizam, "Remover todos" com confirmação e limpeza de favoritos que não existem mais no catálogo.
+- Roteiros: `public/data/itineraries.json` (escrito à mão e validado por `npm run catalog`). Rotas `/roteiros` e `/roteiros/:slug`. São **editoriais**: dias e paradas por id de atração, sem distância, duração ou trajeto (o validador recusa esses campos). Cada parada abre detalhes, o mapa interno e o Google Maps.

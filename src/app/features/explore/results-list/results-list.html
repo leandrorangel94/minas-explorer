@@ -22,6 +22,7 @@
           (activated)="itemSelected.emit(item.attraction.id)"
         >
           <a class="me-results__more" [routerLink]="['/cidades', item.city.slug, item.attraction.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ item.attraction.name }}</span></a>
+          <me-favorite-button kind="attraction" [id]="item.attraction.id" [label]="item.attraction.name" />
         </me-destination-card>
       </li>
     }

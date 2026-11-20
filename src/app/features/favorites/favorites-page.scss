@@ -1,0 +1,14 @@
+.me-fav-note, .me-fav-warning {
+  display: flex; gap: 10px; align-items: flex-start; margin-top: 16px; padding: 12px 14px;
+  border-radius: var(--me-radius-sm); font-size: .9rem;
+  svg { flex: none; margin-top: 2px; }
+}
+.me-fav-note { background: var(--me-sage-light); color: var(--me-forest-dark); }
+.me-fav-warning { background: #fff4d6; color: #5c4400; }
+.me-fav-loading { margin-top: 16px; color: var(--me-muted); }
+.me-fav-toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-block: 24px 8px; font-weight: 600; }
+.me-fav-confirm { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; font-weight: 400; }
+.me-fav-heading { margin-block: 24px 12px; }
+.me-fav-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.me-fav-more { position: relative; z-index: 1; color: var(--me-forest); font-size: .9rem; font-weight: 600; margin-right: 8px; }
+.me-fav-link { all: unset; cursor: pointer; text-decoration: underline; font-weight: 600; &:focus-visible { outline: 3px solid var(--me-focus); } }

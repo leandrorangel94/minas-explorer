@@ -21,6 +21,7 @@
               <svg lucideMap [size]="18" aria-hidden="true"></svg>
               Ver no mapa
             </button>
+            <me-favorite-button kind="city" [id]="city.id" [label]="city.name" />
             <a matButton="outlined" [href]="mapsUrl()" target="_blank" rel="noopener noreferrer">
               <svg lucideExternalLink [size]="18" aria-hidden="true"></svg>
               Abrir no Google Maps<span class="me-visually-hidden"> (abre em nova aba)</span>

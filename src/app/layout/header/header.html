@@ -20,7 +20,7 @@
           routerLinkActive="me-nav-link--active"
           [routerLinkActiveOptions]="{ exact: true }"
           ariaCurrentWhenActive="page"
-        >{{ item.label }}</a>
+        >{{ item.label }}@if (item.path === '/favoritos' && favorites.count() > 0) {<span class="me-badge" aria-hidden="true">{{ favorites.count() }}</span><span class="me-visually-hidden"> ({{ favorites.count() }} salvos)</span>}</a>
       }
     </nav>
 
@@ -35,7 +35,7 @@
     </button>
     <mat-menu #mobileMenu="matMenu" xPosition="before">
       @for (item of navItems; track item.path) {
-        <a mat-menu-item [routerLink]="item.path">{{ item.label }}</a>
+        <a mat-menu-item [routerLink]="item.path">{{ item.label }}@if (item.path === '/favoritos' && favorites.count() > 0) { ({{ favorites.count() }})}</a>
       }
     </mat-menu>
   </div>

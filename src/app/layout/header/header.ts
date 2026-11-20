@@ -4,6 +4,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
 import { LucideCompass, LucideMenu, LucideSearch } from '@lucide/angular';
 import { ExplorerStore } from '../../features/explore/explorer.store';
+import { FavoritesService } from '../../core/services/favorites.service';
 
 export interface NavItem {
   readonly label: string;
@@ -19,6 +20,7 @@ export interface NavItem {
 })
 export class Header {
   protected readonly store = inject(ExplorerStore);
+  protected readonly favorites = inject(FavoritesService);
   private readonly router = inject(Router);
 
   protected readonly navItems: readonly NavItem[] = [

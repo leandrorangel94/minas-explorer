@@ -9,3 +9,4 @@
 }
 .me-results--compact { grid-template-columns: 1fr; gap: 8px; }
 .me-results__more { position: relative; z-index: 1; color: var(--me-forest); font-size: .85rem; font-weight: 600; }
+.me-results li me-favorite-button { margin-left: 8px; }

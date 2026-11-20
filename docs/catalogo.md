@@ -44,3 +44,11 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 - **Descrições:** textos curtos **editoriais, escritos pelo projeto**, sem cópia de texto de terceiros. Não foram revisados por fonte local (prefeitura, turismo oficial); revisar antes da publicação.
 - **Imagens:** nenhuma ainda (`images: []`). Entram na Etapa 9, uma a uma, com licença verificada.
 - **Informações práticas** (horário, preço etc.): nenhuma; só entram com fonte e data.
+
+## Como o catálogo aparece nas páginas
+- **Imagens:** a galeria mostra autor, licença, atribuição e link da fonte de cada foto. Sem `images`, a página informa que não há fotografia com direitos verificados.
+- **Informações práticas:** só aparecem os campos preenchidos em `practicalInfo`, com fonte e data. Com mais de 12 meses, a página avisa que podem estar desatualizadas.
+- **Fontes:** cada página lista `coordinatesSource`, `sources` e `lastVerifiedAt`.
+
+## Roteiros editoriais
+`public/data/itineraries.json` lista os roteiros: `id`, `slug`, `title`, `summary`, `regionId`, `days[{title, stopIds[]}]` e `lastReviewedAt`. Os `stopIds` são ids de atrações existentes. Roteiros são sugestões editoriais: **não** incluem distância, duração nem trajeto, e `npm run catalog` recusa esses campos. Para criar um, agrupe destinos da mesma região/cidade e rode o comando.

@@ -32,6 +32,7 @@
               <svg lucideMap [size]="18" aria-hidden="true"></svg>
               Ver no mapa
             </button>
+            <me-favorite-button kind="attraction" [id]="a.id" [label]="a.name" />
             <a matButton="outlined" [href]="directionsUrl()" target="_blank" rel="noopener noreferrer">
               <svg lucideNavigation [size]="18" aria-hidden="true"></svg>
               Como chegar<span class="me-visually-hidden"> (Google Maps, abre em nova aba)</span>

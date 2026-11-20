@@ -26,6 +26,8 @@ export class ExplorerStore {
   private readonly categoryList = toSignal(inject(CatalogService).categories$.pipe(catchError(() => of(null))));
   private readonly regionList = toSignal(inject(GeoDataService).regions$.pipe(catchError(() => of(null))));
 
+  private readonly itineraryList = toSignal(inject(CatalogService).itineraries$.pipe(catchError(() => of(null))));
+
   readonly query = signal('');
   readonly categoryIds = signal<readonly string[]>([]);
   readonly regionId = signal<string | null>(null);
@@ -41,6 +43,14 @@ export class ExplorerStore {
   private readonly cityById = computed(() => new Map((this.catalog()?.cities ?? []).map((c) => [c.id, c])));
   readonly categoryById = computed(() => new Map((this.categoryList() ?? []).map((c) => [c.id, c])));
 
+  readonly itineraries = computed(() => this.itineraryList() ?? []);
+  /** Roteiros carregam separado: falha neles não derruba o mapa. */
+  readonly itinerariesStatus = computed<ExplorerStatus>(() => {
+    const l = this.itineraryList();
+    return l === null ? 'error' : l === undefined ? 'loading' : 'ready';
+  });
+  readonly attractionById = computed(() => new Map((this.catalog()?.attractions ?? []).map((a) => [a.id, a])));
+  readonly cityByIdMap = computed(() => this.cityById());
   readonly cities = computed(() => this.catalog()?.cities ?? []);
   readonly attractions = computed(() => this.catalog()?.attractions ?? []);
   private readonly regionNameById = computed(() => new Map((this.regionList() ?? []).map((r) => [r.id, r.name])));

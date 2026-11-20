@@ -3,9 +3,10 @@
   width: 100%; aspect-ratio: 16 / 10; object-fit: cover; display: block;
   border-radius: var(--me-radius); background: var(--me-sage-light);
 }
+.me-gallery__placeholder { aspect-ratio: 16 / 10; }
 .me-gallery__empty, .me-gallery__placeholder {
   display: grid; place-items: center; align-content: center; gap: 8px; text-align: center;
-  aspect-ratio: 16 / 10; padding: 16px; color: var(--me-muted);
+  min-height: 160px; padding: 24px 16px; color: var(--me-muted);
   border-radius: var(--me-radius); background: linear-gradient(135deg, var(--me-sage-light), var(--me-sand));
 }
 .me-gallery__credit {

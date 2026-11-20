@@ -107,6 +107,28 @@ const attractions = attractionFiles.map(({ file, value: a }) => {
   return a;
 });
 
+// --- Roteiros editoriais ----------------------------------------------------
+const itineraries = await readJson('itineraries.json');
+const itinerarySlugs = new Set();
+itineraries.forEach((it, i) => {
+  const w = `itineraries.json[${i}]`;
+  for (const k of ['id', 'title', 'summary']) if (!isStr(it[k])) err(w, `"${k}" obrigatório`);
+  if (!SLUG.test(it.slug ?? '')) err(w, 'slug inválido');
+  else if (itinerarySlugs.has(it.slug)) err(w, `slug duplicado "${it.slug}"`);
+  else itinerarySlugs.add(it.slug);
+  if (!regionIds.has(it.regionId)) err(w, `regionId "${it.regionId}" inexistente`);
+  if (!DATE.test(it.lastReviewedAt ?? '')) err(w, 'lastReviewedAt deve ser AAAA-MM-DD');
+  if (!Array.isArray(it.days) || it.days.length === 0) return err(w, 'days deve ter ao menos um dia');
+  it.days.forEach((d, j) => {
+    if (!isStr(d.title)) err(`${w}.days[${j}]`, 'title obrigatório');
+    if (!Array.isArray(d.stopIds) || d.stopIds.length === 0) return err(`${w}.days[${j}]`, 'stopIds deve ter ao menos uma atração');
+    for (const id of d.stopIds) if (!attractionIds.has(id)) err(`${w}.days[${j}]`, `atração "${id}" não existe em attractions/`);
+  });
+  // Roteiros são editoriais: nenhum campo logístico é aceito.
+  for (const banned of ['duration', 'distance', 'distanceKm', 'durationMinutes', 'route'])
+    if (banned in it) err(w, `campo logístico "${banned}" não é permitido em roteiros editoriais`);
+});
+
 if (errors.length) {
   console.error(`Catálogo inválido (${errors.length} erro(s)):\n- ${errors.join('\n- ')}`);
   process.exit(1);
@@ -115,4 +137,4 @@ if (errors.length) {
 const byName = (a, b) => a.name.localeCompare(b.name, 'pt-BR');
 await writeFile(join(data, 'catalog.json'),
   JSON.stringify({ cities: cities.sort(byName), attractions: attractions.sort(byName) }, null, 2) + '\n');
-console.log(`OK: ${cities.length} cidades, ${attractions.length} atrações, ${categories.length} categorias.`);
+console.log(`OK: ${cities.length} cidades, ${attractions.length} atrações, ${categories.length} categorias, ${itineraries.length} roteiros.`);

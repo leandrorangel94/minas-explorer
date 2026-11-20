@@ -1,0 +1,29 @@
+[
+  {
+    "id": "belo-horizonte-arquitetura-e-sabores",
+    "slug": "belo-horizonte-arquitetura-e-sabores",
+    "title": "Belo Horizonte: arquitetura e sabores",
+    "summary": "Um dia em Belo Horizonte combinando o conjunto modernista da Pampulha e o Mercado Central.",
+    "regionId": "3101",
+    "days": [
+      {
+        "title": "Dia 1",
+        "stopIds": ["3106200-conjunto-arquitetonico-da-pampulha", "3106200-mercado-central"]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "regiao-de-bh-historia-e-natureza",
+    "slug": "regiao-de-bh-historia-e-natureza",
+    "title": "Região de Belo Horizonte: história e natureza",
+    "summary": "Três dias com destinos de história e natureza na região de Belo Horizonte: Ouro Preto, Serra do Cipó e Conceição do Mato Dentro.",
+    "regionId": "3101",
+    "days": [
+      { "title": "Dia 1: história", "stopIds": ["3146107-museu-da-inconfidencia"] },
+      { "title": "Dia 2: serra", "stopIds": ["3159001-parque-nacional-da-serra-do-cipo"] },
+      { "title": "Dia 3: cachoeira", "stopIds": ["3117504-cachoeira-do-tabuleiro"] }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  }
+]

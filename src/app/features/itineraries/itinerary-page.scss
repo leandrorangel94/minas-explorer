@@ -1,0 +1,14 @@
+.me-note { color: var(--me-muted); }
+.me-itd__header { display: grid; gap: 12px; margin-block: 16px 0; max-width: 70ch; }
+.me-itd__eyebrow { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; font-weight: 600; color: var(--me-muted); }
+.me-itd__lead { font-size: 1.1rem; }
+.me-itd__day { margin-top: 32px; h2 { margin-bottom: 12px; } }
+.me-itd__stops { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; max-width: 720px; }
+.me-itd__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
+.me-itd__link {
+  all: unset; box-sizing: border-box; cursor: pointer;
+  position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 4px;
+  color: var(--me-forest); font-size: .85rem; font-weight: 600; text-decoration: underline;
+  &:focus-visible { outline: 3px solid var(--me-focus); outline-offset: 2px; }
+}
+.me-itd__review { margin-top: 32px; font-size: .875rem; color: var(--me-muted); }

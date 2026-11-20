@@ -1,0 +1,64 @@
+<div class="me-container py-8">
+  @switch (status()) {
+    @case ('loading') {
+      <p class="me-note" role="status">Carregando…</p>
+    }
+    @case ('error') {
+      <me-empty-state title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">
+        <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+      </me-empty-state>
+    }
+    @default {
+      @if (itinerary(); as it) {
+        <me-breadcrumbs [items]="[{ label: 'Roteiros', link: '/roteiros' }, { label: it.title }]" />
+
+        <header class="me-itd__header">
+          <p class="me-itd__eyebrow">{{ regionName() ?? 'Minas Gerais' }}</p>
+          <h1>{{ it.title }}</h1>
+          <p class="me-itd__lead">{{ it.summary }}</p>
+        </header>
+        <me-editorial-note />
+
+        @for (day of days(); track day.title) {
+          <section class="me-itd__day" [attr.aria-labelledby]="'dia-' + $index">
+            <h2 [id]="'dia-' + $index">{{ day.title }}</h2>
+            <ol class="me-itd__stops">
+              @for (stop of day.stops; track stop.attraction.id) {
+                <li>
+                  <me-destination-card
+                    [name]="stop.attraction.name"
+                    [city]="stop.city.name"
+                    [category]="stop.category?.name"
+                    [categoryIcon]="stop.category?.icon"
+                    [categoryColor]="stop.category?.color"
+                    [imageUrl]="stop.attraction.images[0]?.url"
+                    [imageAlt]="stop.attraction.images[0]?.alt ?? ''"
+                    [compact]="true"
+                  >
+                    <div class="me-itd__actions">
+                      <a class="me-itd__link" [routerLink]="['/cidades', stop.city.slug, stop.attraction.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ stop.attraction.name }}</span></a>
+                      <button class="me-itd__link" type="button" (click)="showOnMap(stop.attraction.id)">
+                        <svg lucideMap [size]="14" aria-hidden="true"></svg> Ver no mapa<span class="me-visually-hidden"> {{ stop.attraction.name }}</span>
+                      </button>
+                      <a class="me-itd__link" [href]="stop.mapsUrl" target="_blank" rel="noopener noreferrer">
+                        <svg lucideExternalLink [size]="14" aria-hidden="true"></svg> Google Maps<span class="me-visually-hidden"> {{ stop.attraction.name }} (abre em nova aba)</span>
+                      </a>
+                      <me-favorite-button kind="attraction" [id]="stop.attraction.id" [label]="stop.attraction.name" />
+                    </div>
+                  </me-destination-card>
+                </li>
+              }
+            </ol>
+          </section>
+        }
+
+        <p class="me-itd__review">Roteiro editorial revisado em {{ reviewedOn() }}.</p>
+      } @else {
+        <me-empty-state title="Roteiro não encontrado" description="Não encontramos esse roteiro.">
+          <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+          <a matButton="filled" routerLink="/roteiros">Ver roteiros</a>
+        </me-empty-state>
+      }
+    }
+  }
+</div>
