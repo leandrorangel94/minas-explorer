@@ -1,0 +1,39 @@
+{
+  "id": "3156700-casa-azul-sabara",
+  "name": "Casa Azul",
+  "slug": "casa-azul-sabara",
+  "cityId": "3156700",
+  "categoryId": "historic-heritage",
+  "description": "Casa histórica em Sabará.",
+  "coordinates": {
+    "latitude": -19.892082,
+    "longitude": -43.811036
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q104907771)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907771#P625"
+  },
+  "images": [
+    {
+      "url": "images/casa-azul-sabara.webp",
+      "thumbUrl": "images/casa-azul-sabara-480.webp",
+      "alt": "Casarão colonial de janelas e porta alinhadas, em preto e branco",
+      "author": "Ary Kerner",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa%20Azul%20Sabar%C3%A1%20MG%20(7351295784).jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "patrimônio"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q104907771)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907771"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "3146107-igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto",
+  "name": "Igreja de Nossa Senhora das Mercês e Perdões",
+  "slug": "igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto",
+  "cityId": "3146107",
+  "categoryId": "church",
+  "description": "Igreja em Ouro Preto.",
+  "coordinates": {
+    "latitude": -20.387775,
+    "longitude": -43.502035
+  },
+  "coordinatesSource": {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/way/192370204"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto-480.webp",
+      "alt": "Torres brancas e amarelas de uma igreja colonial, com serra ao fundo",
+      "author": "RolandRaia",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_das_Merc%C3%AAs_e_Perd%C3%B5es.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/way/192370204"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

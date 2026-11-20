@@ -1,0 +1,39 @@
+{
+  "id": "3168804-igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes",
+  "name": "Igreja de Nossa Senhora do Rosário dos Pretos",
+  "slug": "igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes",
+  "cityId": "3168804",
+  "categoryId": "church",
+  "description": "Igreja em Tiradentes.",
+  "coordinates": {
+    "latitude": -21.109816,
+    "longitude": -44.176813
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q25444815)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25444815#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes-480.webp",
+      "alt": "Pequena igreja branca com detalhes amarelos e portal vermelho",
+      "author": "Rejane Sarmento",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20dos%20Pretos%20-%20Tiradentes%20-%20MG.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q25444815)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25444815"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

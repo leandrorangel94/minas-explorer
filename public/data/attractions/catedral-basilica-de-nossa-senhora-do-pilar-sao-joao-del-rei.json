@@ -1,0 +1,39 @@
+{
+  "id": "3162500-catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei",
+  "name": "Catedral Basílica de Nossa Senhora do Pilar",
+  "slug": "catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei",
+  "cityId": "3162500",
+  "categoryId": "church",
+  "description": "Catedral em São João del Rei.",
+  "coordinates": {
+    "latitude": -21.135161,
+    "longitude": -44.2619
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q9709516)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q9709516#P625"
+  },
+  "images": [
+    {
+      "url": "images/catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei.webp",
+      "thumbUrl": "images/catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei-480.webp",
+      "alt": "Fachada de catedral com duas torres, relógio e portais",
+      "author": "Ricardo André Frantz",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral%20Bas%C3%ADlica%20de%20Nossa%20Senhora%20do%20Pilar%20-%20S%C3%A3o%20Jo%C3%A3o%20del-Rei.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q9709516)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q9709516"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

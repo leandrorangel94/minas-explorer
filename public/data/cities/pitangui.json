@@ -1,0 +1,26 @@
+{
+  "id": "3151404",
+  "name": "Pitangui",
+  "slug": "pitangui",
+  "regionId": "3113",
+  "description": "Município de Minas Gerais, na região intermediária de Divinópolis.",
+  "coordinates": {
+    "latitude": -19.682778,
+    "longitude": -44.89
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q749248)",
+    "url": "https://www.wikidata.org/wiki/Q749248#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q749248)",
+      "url": "https://www.wikidata.org/wiki/Q749248"
+    },
+    {
+      "name": "IBGE – Localidades (Pitangui)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3151404"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

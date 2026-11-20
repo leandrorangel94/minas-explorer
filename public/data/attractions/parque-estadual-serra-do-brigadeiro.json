@@ -1,0 +1,39 @@
+{
+  "id": "3125952-parque-estadual-serra-do-brigadeiro",
+  "name": "Parque Estadual Serra do Brigadeiro",
+  "slug": "parque-estadual-serra-do-brigadeiro",
+  "cityId": "3125952",
+  "categoryId": "park",
+  "description": "Unidade de conservação em Fervedouro.",
+  "coordinates": {
+    "latitude": -20.717742,
+    "longitude": -42.449401
+  },
+  "coordinatesSource": {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/relation/6083705"
+  },
+  "images": [
+    {
+      "url": "images/parque-estadual-serra-do-brigadeiro.webp",
+      "thumbUrl": "images/parque-estadual-serra-do-brigadeiro-480.webp",
+      "alt": "Silhueta de uma árvore em uma encosta, com serras azuladas ao fundo no entardecer",
+      "author": "Tedd Santana from Vitória, Brasil",
+      "license": "CC BY-SA 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_do_Brigadeiro_(50818318967).jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "unidade de conservação"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/relation/6083705"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "3156700-chafariz-do-caquende-sabara",
+  "name": "Chafariz do Caquende",
+  "slug": "chafariz-do-caquende-sabara",
+  "cityId": "3156700",
+  "categoryId": "historic-heritage",
+  "description": "Chafariz em Sabará.",
+  "coordinates": {
+    "latitude": -19.892958,
+    "longitude": -43.812967
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q104907650)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907650#P625"
+  },
+  "images": [
+    {
+      "url": "images/chafariz-do-caquende-sabara.webp",
+      "thumbUrl": "images/chafariz-do-caquende-sabara-480.webp",
+      "alt": "Chafariz branco e azul com cruz, em uma rua de casario colonial",
+      "author": "Bernardo Gouvêa",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChafarizKaquende.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "patrimônio"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q104907650)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907650"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

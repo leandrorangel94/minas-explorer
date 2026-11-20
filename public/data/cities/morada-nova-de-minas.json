@@ -1,0 +1,26 @@
+{
+  "id": "3143500",
+  "name": "Morada Nova de Minas",
+  "slug": "morada-nova-de-minas",
+  "regionId": "3113",
+  "description": "Município de Minas Gerais, na região intermediária de Divinópolis.",
+  "coordinates": {
+    "latitude": -18.603889,
+    "longitude": -45.356944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1790181)",
+    "url": "https://www.wikidata.org/wiki/Q1790181#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1790181)",
+      "url": "https://www.wikidata.org/wiki/Q1790181"
+    },
+    {
+      "name": "IBGE – Localidades (Morada Nova de Minas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3143500"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

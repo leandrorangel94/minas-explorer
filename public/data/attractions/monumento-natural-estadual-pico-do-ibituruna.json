@@ -1,0 +1,39 @@
+{
+  "id": "3127701-monumento-natural-estadual-pico-do-ibituruna",
+  "name": "Monumento Natural Estadual Pico do Ibituruna",
+  "slug": "monumento-natural-estadual-pico-do-ibituruna",
+  "cityId": "3127701",
+  "categoryId": "park",
+  "description": "Unidade de conservação em Governador Valadares.",
+  "coordinates": {
+    "latitude": -18.88791,
+    "longitude": -41.903103
+  },
+  "coordinatesSource": {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/way/326732953"
+  },
+  "images": [
+    {
+      "url": "images/monumento-natural-estadual-pico-do-ibituruna.webp",
+      "thumbUrl": "images/monumento-natural-estadual-pico-do-ibituruna-480.webp",
+      "alt": "Pico de montanha ao lado de um rio, com um parapente no céu",
+      "author": "Santiagogvmgbra",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Area_de_Prote%C3%A7%C3%A3o_Ambiental_Pico_do_Ibituruna.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "unidade de conservação"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/way/326732953"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "3121605-igreja-de-sao-francisco-de-assis-diamantina",
+  "name": "Igreja de São Francisco de Assis (Diamantina)",
+  "slug": "igreja-de-sao-francisco-de-assis-diamantina",
+  "cityId": "3121605",
+  "categoryId": "church",
+  "description": "Igreja em Diamantina.",
+  "coordinates": {
+    "latitude": -18.243764,
+    "longitude": -43.598654
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q30939467)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q30939467#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-sao-francisco-de-assis-diamantina.webp",
+      "thumbUrl": "images/igreja-de-sao-francisco-de-assis-diamantina-480.webp",
+      "alt": "Torre com relógio e telhado de uma igreja colonial, sob céu com nuvens",
+      "author": "Elvécio Fernandes",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Impon%C3%AAncia%20da%20Igreja%20de%20S%C3%A3o%20Francisco%20de%20Assis.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q30939467)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q30939467"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

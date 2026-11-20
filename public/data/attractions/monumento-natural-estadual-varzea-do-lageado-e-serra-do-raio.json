@@ -1,0 +1,39 @@
+{
+  "id": "3167103-monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio",
+  "name": "Monumento Natural Estadual Várzea do Lageado e Serra do Raio",
+  "slug": "monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio",
+  "cityId": "3167103",
+  "categoryId": "park",
+  "description": "Unidade de conservação em Serro.",
+  "coordinates": {
+    "latitude": -18.460927,
+    "longitude": -43.470683
+  },
+  "coordinatesSource": {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/way/326730825"
+  },
+  "images": [
+    {
+      "url": "images/monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio.webp",
+      "thumbUrl": "images/monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio-480.webp",
+      "alt": "Poça de água sobre lajes de rocha clara, entre paredões e vegetação",
+      "author": "Maria Paranhos",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_Natural_Estadual_V%C3%A1rzea_do_Lageado_e_Serra_do_Raio_-_Maria_Paranhos_(4).jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "unidade de conservação"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/way/326730825"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

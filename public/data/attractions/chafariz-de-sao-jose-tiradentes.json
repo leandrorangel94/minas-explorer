@@ -1,0 +1,39 @@
+{
+  "id": "3168804-chafariz-de-sao-jose-tiradentes",
+  "name": "Chafariz de São José",
+  "slug": "chafariz-de-sao-jose-tiradentes",
+  "cityId": "3168804",
+  "categoryId": "historic-heritage",
+  "description": "Chafariz em Tiradentes.",
+  "coordinates": {
+    "latitude": -21.107378,
+    "longitude": -44.176528
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q105062183)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q105062183#P625"
+  },
+  "images": [
+    {
+      "url": "images/chafariz-de-sao-jose-tiradentes.webp",
+      "thumbUrl": "images/chafariz-de-sao-jose-tiradentes-480.webp",
+      "alt": "Chafariz de pedra com painel azul, em praça arborizada",
+      "author": "Paulo SP/ Wikimedia",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chafariz%20de%20S%C3%A3o%20Jos%C3%A9%2C%20Tiradentes%2C%20MG%20-%202023-11-08%20-%20DSC04552.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "patrimônio"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q105062183)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q105062183"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

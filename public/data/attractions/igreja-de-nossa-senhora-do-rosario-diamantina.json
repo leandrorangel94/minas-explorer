@@ -1,0 +1,39 @@
+{
+  "id": "3121605-igreja-de-nossa-senhora-do-rosario-diamantina",
+  "name": "Igreja de Nossa Senhora do Rosário",
+  "slug": "igreja-de-nossa-senhora-do-rosario-diamantina",
+  "cityId": "3121605",
+  "categoryId": "church",
+  "description": "Igreja em Diamantina.",
+  "coordinates": {
+    "latitude": -18.245917,
+    "longitude": -43.594328
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q55762509)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q55762509#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-do-rosario-diamantina.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-do-rosario-diamantina-480.webp",
+      "alt": "Igreja de fachada branca com detalhes azuis e torre sineira",
+      "author": "Elizeu Marcos Franco",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20de%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20e%20a%20sombra%20da%20gameleira.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q55762509)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q55762509"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

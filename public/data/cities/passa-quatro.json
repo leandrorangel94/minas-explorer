@@ -1,0 +1,26 @@
+{
+  "id": "3147600",
+  "name": "Passa Quatro",
+  "slug": "passa-quatro",
+  "regionId": "3109",
+  "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+  "coordinates": {
+    "latitude": -22.39,
+    "longitude": -44.966944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1638378)",
+    "url": "https://www.wikidata.org/wiki/Q1638378#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1638378)",
+      "url": "https://www.wikidata.org/wiki/Q1638378"
+    },
+    {
+      "name": "IBGE – Localidades (Passa Quatro)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3147600"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

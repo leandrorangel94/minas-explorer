@@ -417,6 +417,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3125952",
+      "name": "Fervedouro",
+      "slug": "fervedouro",
+      "regionId": "3106",
+      "description": "Município de Minas Gerais, na região intermediária de Juiz de Fora.",
+      "coordinates": {
+        "latitude": -20.725833,
+        "longitude": -42.278889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1791201)",
+        "url": "https://www.wikidata.org/wiki/Q1791201#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1791201)",
+          "url": "https://www.wikidata.org/wiki/Q1791201"
+        },
+        {
+          "name": "IBGE – Localidades (Fervedouro)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125952"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3127404",
       "name": "Gonçalves",
       "slug": "goncalves",
@@ -703,6 +729,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3143500",
+      "name": "Morada Nova de Minas",
+      "slug": "morada-nova-de-minas",
+      "regionId": "3113",
+      "description": "Município de Minas Gerais, na região intermediária de Divinópolis.",
+      "coordinates": {
+        "latitude": -18.603889,
+        "longitude": -45.356944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1790181)",
+        "url": "https://www.wikidata.org/wiki/Q1790181#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1790181)",
+          "url": "https://www.wikidata.org/wiki/Q1790181"
+        },
+        {
+          "name": "IBGE – Localidades (Morada Nova de Minas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3143500"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3146107",
       "name": "Ouro Preto",
       "slug": "ouro-preto",
@@ -755,6 +807,58 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3147600",
+      "name": "Passa Quatro",
+      "slug": "passa-quatro",
+      "regionId": "3109",
+      "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+      "coordinates": {
+        "latitude": -22.39,
+        "longitude": -44.966944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1638378)",
+        "url": "https://www.wikidata.org/wiki/Q1638378#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1638378)",
+          "url": "https://www.wikidata.org/wiki/Q1638378"
+        },
+        {
+          "name": "IBGE – Localidades (Passa Quatro)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3147600"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3151404",
+      "name": "Pitangui",
+      "slug": "pitangui",
+      "regionId": "3113",
+      "description": "Município de Minas Gerais, na região intermediária de Divinópolis.",
+      "coordinates": {
+        "latitude": -19.682778,
+        "longitude": -44.89
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q749248)",
+        "url": "https://www.wikidata.org/wiki/Q749248#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q749248)",
+          "url": "https://www.wikidata.org/wiki/Q749248"
+        },
+        {
+          "name": "IBGE – Localidades (Pitangui)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3151404"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3151800",
       "name": "Poços de Caldas",
       "slug": "pocos-de-caldas",
@@ -776,6 +880,32 @@
         {
           "name": "IBGE – Localidades (Poços de Caldas)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3151800"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3154804",
+      "name": "Rio Acima",
+      "slug": "rio-acima",
+      "regionId": "3101",
+      "description": "Município de Minas Gerais, na região intermediária de Belo Horizonte.",
+      "coordinates": {
+        "latitude": -20.087778,
+        "longitude": -43.788889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q732563)",
+        "url": "https://www.wikidata.org/wiki/Q732563#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q732563)",
+          "url": "https://www.wikidata.org/wiki/Q732563"
+        },
+        {
+          "name": "IBGE – Localidades (Rio Acima)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3154804"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -1727,6 +1857,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3168804-capela-de-nossa-senhora-das-merces-tiradentes",
+      "name": "Capela de Nossa Senhora das Mercês",
+      "slug": "capela-de-nossa-senhora-das-merces-tiradentes",
+      "cityId": "3168804",
+      "categoryId": "church",
+      "description": "Capela em Tiradentes.",
+      "coordinates": {
+        "latitude": -21.10879,
+        "longitude": -44.172006
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q25438297)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25438297#P625"
+      },
+      "images": [
+        {
+          "url": "images/capela-de-nossa-senhora-das-merces-tiradentes.webp",
+          "thumbUrl": "images/capela-de-nossa-senhora-das-merces-tiradentes-480.webp",
+          "alt": "Capela branca com detalhes amarelos e uma palmeira ao lado",
+          "author": "tetraktys (talk) 05:21, 22 November 2020 (UTC)",
+          "license": "CC BY 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capela%20das%20Merc%C3%AAs%20em%20Tiradentes.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q25438297)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25438297"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3156700-casa-azul-sabara",
+      "name": "Casa Azul",
+      "slug": "casa-azul-sabara",
+      "cityId": "3156700",
+      "categoryId": "historic-heritage",
+      "description": "Casa histórica em Sabará.",
+      "coordinates": {
+        "latitude": -19.892082,
+        "longitude": -43.811036
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q104907771)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907771#P625"
+      },
+      "images": [
+        {
+          "url": "images/casa-azul-sabara.webp",
+          "thumbUrl": "images/casa-azul-sabara-480.webp",
+          "alt": "Casarão colonial de janelas e porta alinhadas, em preto e branco",
+          "author": "Ary Kerner",
+          "license": "CC BY-SA 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa%20Azul%20Sabar%C3%A1%20MG%20(7351295784).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q104907771)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907771"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3140001-casa-de-camara-e-cadeia-de-mariana",
       "name": "Casa de Câmara e Cadeia de Mariana",
       "slug": "casa-de-camara-e-cadeia-de-mariana",
@@ -1805,6 +2013,45 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3151404-casa-do-padre-belchior-pitangui",
+      "name": "Casa do Padre Belchior",
+      "slug": "casa-do-padre-belchior-pitangui",
+      "cityId": "3151404",
+      "categoryId": "historic-heritage",
+      "description": "Casa histórica em Pitangui.",
+      "coordinates": {
+        "latitude": -19.6825,
+        "longitude": -44.891667
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q62053796)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q62053796#P625"
+      },
+      "images": [
+        {
+          "url": "images/casa-do-padre-belchior-pitangui.webp",
+          "thumbUrl": "images/casa-do-padre-belchior-pitangui-480.webp",
+          "alt": "Sobrado colonial de esquina com janelas emolduradas, em preto e branco",
+          "author": "Eduardo Gabão",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa%20do%20Padre%20Belchior.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q62053796)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q62053796"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3151800-cascata-das-antas",
       "name": "Cascata das Antas",
       "slug": "cascata-das-antas",
@@ -1839,6 +2086,45 @@
         {
           "name": "Wikidata (Q86923724)",
           "url": "https://www.wikidata.org/wiki/Q86923724"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3162500-catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei",
+      "name": "Catedral Basílica de Nossa Senhora do Pilar",
+      "slug": "catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei",
+      "cityId": "3162500",
+      "categoryId": "church",
+      "description": "Catedral em São João del Rei.",
+      "coordinates": {
+        "latitude": -21.135161,
+        "longitude": -44.2619
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q9709516)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q9709516#P625"
+      },
+      "images": [
+        {
+          "url": "images/catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei.webp",
+          "thumbUrl": "images/catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei-480.webp",
+          "alt": "Fachada de catedral com duas torres, relógio e portais",
+          "author": "Ricardo André Frantz",
+          "license": "CC BY 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral%20Bas%C3%ADlica%20de%20Nossa%20Senhora%20do%20Pilar%20-%20S%C3%A3o%20Jo%C3%A3o%20del-Rei.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q9709516)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q9709516"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2056,6 +2342,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3168804-chafariz-de-sao-jose-tiradentes",
+      "name": "Chafariz de São José",
+      "slug": "chafariz-de-sao-jose-tiradentes",
+      "cityId": "3168804",
+      "categoryId": "historic-heritage",
+      "description": "Chafariz em Tiradentes.",
+      "coordinates": {
+        "latitude": -21.107378,
+        "longitude": -44.176528
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q105062183)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q105062183#P625"
+      },
+      "images": [
+        {
+          "url": "images/chafariz-de-sao-jose-tiradentes.webp",
+          "thumbUrl": "images/chafariz-de-sao-jose-tiradentes-480.webp",
+          "alt": "Chafariz de pedra com painel azul, em praça arborizada",
+          "author": "Paulo SP/ Wikimedia",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chafariz%20de%20S%C3%A3o%20Jos%C3%A9%2C%20Tiradentes%2C%20MG%20-%202023-11-08%20-%20DSC04552.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q105062183)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q105062183"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3156700-chafariz-do-caquende-sabara",
+      "name": "Chafariz do Caquende",
+      "slug": "chafariz-do-caquende-sabara",
+      "cityId": "3156700",
+      "categoryId": "historic-heritage",
+      "description": "Chafariz em Sabará.",
+      "coordinates": {
+        "latitude": -19.892958,
+        "longitude": -43.812967
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q104907650)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907650#P625"
+      },
+      "images": [
+        {
+          "url": "images/chafariz-do-caquende-sabara.webp",
+          "thumbUrl": "images/chafariz-do-caquende-sabara-480.webp",
+          "alt": "Chafariz branco e azul com cruz, em uma rua de casario colonial",
+          "author": "Bernardo Gouvêa",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:ChafarizKaquende.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q104907650)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q104907650"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3106200-conjunto-arquitetonico-da-pampulha",
       "name": "Conjunto Arquitetônico da Pampulha",
       "slug": "conjunto-arquitetonico-da-pampulha",
@@ -2119,6 +2483,84 @@
         {
           "name": "Wikidata (Q10276309)",
           "url": "https://www.wikidata.org/wiki/Q10276309"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3143500-estacao-ecologica-de-pirapitinga",
+      "name": "Estação Ecológica de Pirapitinga",
+      "slug": "estacao-ecologica-de-pirapitinga",
+      "cityId": "3143500",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Morada Nova de Minas.",
+      "coordinates": {
+        "latitude": -18.360626,
+        "longitude": -45.320852
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/255739396"
+      },
+      "images": [
+        {
+          "url": "images/estacao-ecologica-de-pirapitinga.webp",
+          "thumbUrl": "images/estacao-ecologica-de-pirapitinga-480.webp",
+          "alt": "Duas aves de papo vermelho (jacus) sobre o gramado",
+          "author": "José Henrique Pezzonia",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Pirapitinga_-_Jos%C3%A9_Henrique_(01).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/255739396"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3147600-floresta-nacional-de-passa-quatro",
+      "name": "Floresta Nacional de Passa Quatro",
+      "slug": "floresta-nacional-de-passa-quatro",
+      "cityId": "3147600",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Passa Quatro.",
+      "coordinates": {
+        "latitude": -22.390467,
+        "longitude": -44.94006
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/relation/19559833"
+      },
+      "images": [
+        {
+          "url": "images/floresta-nacional-de-passa-quatro.webp",
+          "thumbUrl": "images/floresta-nacional-de-passa-quatro-480.webp",
+          "alt": "Floresta de árvores altas e finas, com céu azul ao fundo",
+          "author": "Juliana Aparecida Schionato",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Floresta_Nacional_Passa_Quatro_Juliana_A_Schionato_(01).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/19559833"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2221,6 +2663,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3146107-igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto",
+      "name": "Igreja de Nossa Senhora das Mercês e Perdões",
+      "slug": "igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto",
+      "cityId": "3146107",
+      "categoryId": "church",
+      "description": "Igreja em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.387775,
+        "longitude": -43.502035
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/192370204"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto-480.webp",
+          "alt": "Torres brancas e amarelas de uma igreja colonial, com serra ao fundo",
+          "author": "RolandRaia",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_das_Merc%C3%AAs_e_Perd%C3%B5es.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/192370204"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-igreja-de-nossa-senhora-do-carmo-diamantina",
+      "name": "Igreja de Nossa Senhora do Carmo (Diamantina)",
+      "slug": "igreja-de-nossa-senhora-do-carmo-diamantina",
+      "cityId": "3121605",
+      "categoryId": "church",
+      "description": "Igreja em Diamantina.",
+      "coordinates": {
+        "latitude": -18.245728,
+        "longitude": -43.595972
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q10300503)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300503#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-carmo-diamantina.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-carmo-diamantina-480.webp",
+          "alt": "Fachada lateral de igreja barroca branca com detalhes escuros",
+          "author": "Raquel Mendes Silva",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20da%20Ordem%20Terceira%20de%20Nossa%20Senhora%20do%20Monte%20do%20Carmo.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q10300503)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300503"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3146107-igreja-de-nossa-senhora-do-carmo",
       "name": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
       "slug": "igreja-de-nossa-senhora-do-carmo",
@@ -2256,6 +2776,45 @@
         {
           "name": "Wikidata (Q10300162)",
           "url": "https://www.wikidata.org/wiki/Q10300162"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3162500-igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei",
+      "name": "Igreja de Nossa Senhora do Carmo (São João del Rei)",
+      "slug": "igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei",
+      "cityId": "3162500",
+      "categoryId": "church",
+      "description": "Igreja em São João del Rei.",
+      "coordinates": {
+        "latitude": -21.133289,
+        "longitude": -44.260653
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q10300511)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300511#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei-480.webp",
+          "alt": "Fachada barroca de duas torres com portal esculpido e sacadas ao lado",
+          "author": "Py4nf",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20n%20s%20carmo%20sjdr.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q10300511)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300511"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2300,6 +2859,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3121605-igreja-de-nossa-senhora-do-rosario-diamantina",
+      "name": "Igreja de Nossa Senhora do Rosário",
+      "slug": "igreja-de-nossa-senhora-do-rosario-diamantina",
+      "cityId": "3121605",
+      "categoryId": "church",
+      "description": "Igreja em Diamantina.",
+      "coordinates": {
+        "latitude": -18.245917,
+        "longitude": -43.594328
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q55762509)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q55762509#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-rosario-diamantina.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-rosario-diamantina-480.webp",
+          "alt": "Igreja de fachada branca com detalhes azuis e torre sineira",
+          "author": "Elizeu Marcos Franco",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20de%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20e%20a%20sombra%20da%20gameleira.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q55762509)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q55762509"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3168804-igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes",
+      "name": "Igreja de Nossa Senhora do Rosário dos Pretos",
+      "slug": "igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes",
+      "cityId": "3168804",
+      "categoryId": "church",
+      "description": "Igreja em Tiradentes.",
+      "coordinates": {
+        "latitude": -21.109816,
+        "longitude": -44.176813
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q25444815)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25444815#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes-480.webp",
+          "alt": "Pequena igreja branca com detalhes amarelos e portal vermelho",
+          "author": "Rejane Sarmento",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20Nossa%20Senhora%20do%20Ros%C3%A1rio%20dos%20Pretos%20-%20Tiradentes%20-%20MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q25444815)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25444815"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3170107-igreja-de-santa-rita",
       "name": "Igreja de Santa Rita",
       "slug": "igreja-de-santa-rita",
@@ -2334,6 +2971,45 @@
         {
           "name": "Wikidata (Q10300215)",
           "url": "https://www.wikidata.org/wiki/Q10300215"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-igreja-de-sao-francisco-de-assis-diamantina",
+      "name": "Igreja de São Francisco de Assis (Diamantina)",
+      "slug": "igreja-de-sao-francisco-de-assis-diamantina",
+      "cityId": "3121605",
+      "categoryId": "church",
+      "description": "Igreja em Diamantina.",
+      "coordinates": {
+        "latitude": -18.243764,
+        "longitude": -43.598654
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q30939467)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q30939467#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-sao-francisco-de-assis-diamantina.webp",
+          "thumbUrl": "images/igreja-de-sao-francisco-de-assis-diamantina-480.webp",
+          "alt": "Torre com relógio e telhado de uma igreja colonial, sob céu com nuvens",
+          "author": "Elvécio Fernandes",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Impon%C3%AAncia%20da%20Igreja%20de%20S%C3%A3o%20Francisco%20de%20Assis.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q30939467)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q30939467"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2414,6 +3090,84 @@
         {
           "name": "Wikidata (Q10300224)",
           "url": "https://www.wikidata.org/wiki/Q10300224"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-igreja-de-sao-francisco-de-assis-ouro-preto",
+      "name": "Igreja de São Francisco de Assis (Ouro Preto)",
+      "slug": "igreja-de-sao-francisco-de-assis-ouro-preto",
+      "cityId": "3146107",
+      "categoryId": "church",
+      "description": "Igreja em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.386859,
+        "longitude": -43.502778
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/182626848"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-sao-francisco-de-assis-ouro-preto.webp",
+          "thumbUrl": "images/igreja-de-sao-francisco-de-assis-ouro-preto-480.webp",
+          "alt": "Altar dourado e pinturas no interior de uma igreja barroca",
+          "author": "Rezende1968",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sao_Francisco_de_Assis_Church_(14_of_16).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/182626848"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3162500-igreja-de-sao-francisco-de-assis-sao-joao-del-rei",
+      "name": "Igreja de São Francisco de Assis (São João del Rei)",
+      "slug": "igreja-de-sao-francisco-de-assis-sao-joao-del-rei",
+      "cityId": "3162500",
+      "categoryId": "church",
+      "description": "Igreja em São João del Rei.",
+      "coordinates": {
+        "latitude": -21.138897,
+        "longitude": -44.260016
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q10300735)",
+        "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300735#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-sao-francisco-de-assis-sao-joao-del-rei.webp",
+          "thumbUrl": "images/igreja-de-sao-francisco-de-assis-sao-joao-del-rei-480.webp",
+          "alt": "Fachada barroca branca com portal de pedra e janela redonda",
+          "author": "Ricardo André Frantz",
+          "license": "CC BY 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20de%20S%C3%A3o%20Francisco%20de%20Assis%20-%20S%C3%A3o%20Jo%C3%A3o%20del-Rei.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (https://www.wikidata.org/wiki/Q10300735)",
+          "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300735"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2571,6 +3325,45 @@
         {
           "name": "Wikidata (Q25444807)",
           "url": "https://www.wikidata.org/wiki/Q25444807"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-igreja-nossa-senhora-das-merces-e-misericordia-ouro-preto",
+      "name": "Igreja Nossa Senhora das Mercês e Misericórdia",
+      "slug": "igreja-nossa-senhora-das-merces-e-misericordia-ouro-preto",
+      "cityId": "3146107",
+      "categoryId": "church",
+      "description": "Igreja em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.383579,
+        "longitude": -43.504422
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/182627026"
+      },
+      "images": [
+        {
+          "url": "images/igreja-nossa-senhora-das-merces-e-misericordia-ouro-preto.webp",
+          "thumbUrl": "images/igreja-nossa-senhora-das-merces-e-misericordia-ouro-preto-480.webp",
+          "alt": "Pequena igreja colonial de torre única ao pôr do sol, em um largo de pedra",
+          "author": "Venturamarina",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_Nossa_Senhora_das_Merc%C3%AAs_e_Miseric%C3%B3rdia%2C_Ouro_Preto%2C_MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/182627026"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -2767,6 +3560,84 @@
         {
           "name": "Wikidata (Q10330195)",
           "url": "https://www.wikidata.org/wiki/Q10330195"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3127701-monumento-natural-estadual-pico-do-ibituruna",
+      "name": "Monumento Natural Estadual Pico do Ibituruna",
+      "slug": "monumento-natural-estadual-pico-do-ibituruna",
+      "cityId": "3127701",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Governador Valadares.",
+      "coordinates": {
+        "latitude": -18.88791,
+        "longitude": -41.903103
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/326732953"
+      },
+      "images": [
+        {
+          "url": "images/monumento-natural-estadual-pico-do-ibituruna.webp",
+          "thumbUrl": "images/monumento-natural-estadual-pico-do-ibituruna-480.webp",
+          "alt": "Pico de montanha ao lado de um rio, com um parapente no céu",
+          "author": "Santiagogvmgbra",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Area_de_Prote%C3%A7%C3%A3o_Ambiental_Pico_do_Ibituruna.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/326732953"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3167103-monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio",
+      "name": "Monumento Natural Estadual Várzea do Lageado e Serra do Raio",
+      "slug": "monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio",
+      "cityId": "3167103",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Serro.",
+      "coordinates": {
+        "latitude": -18.460927,
+        "longitude": -43.470683
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/326730825"
+      },
+      "images": [
+        {
+          "url": "images/monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio.webp",
+          "thumbUrl": "images/monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio-480.webp",
+          "alt": "Poça de água sobre lajes de rocha clara, entre paredões e vegetação",
+          "author": "Maria Paranhos",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_Natural_Estadual_V%C3%A1rzea_do_Lageado_e_Serra_do_Raio_-_Maria_Paranhos_(4).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/326730825"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -3380,6 +4251,45 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3137601-parque-estadual-do-sumidouro",
+      "name": "Parque Estadual do Sumidouro",
+      "slug": "parque-estadual-do-sumidouro",
+      "cityId": "3137601",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Lagoa Santa.",
+      "coordinates": {
+        "latitude": -19.556491,
+        "longitude": -43.953641
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/way/183216538"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-do-sumidouro.webp",
+          "thumbUrl": "images/parque-estadual-do-sumidouro-480.webp",
+          "alt": "Estrada de terra vermelha entre a vegetação, com um arco de entrada do parque ao fundo",
+          "author": "Sudhertzen",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:State_Park_of_Sumidouro_entrance.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/183216538"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3121605-parque-estadual-pico-do-itambe",
       "name": "Parque Estadual Pico do Itambé",
       "slug": "parque-estadual-pico-do-itambe",
@@ -3415,6 +4325,45 @@
         {
           "name": "Wikidata (Q56695104)",
           "url": "https://www.wikidata.org/wiki/Q56695104"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3125952-parque-estadual-serra-do-brigadeiro",
+      "name": "Parque Estadual Serra do Brigadeiro",
+      "slug": "parque-estadual-serra-do-brigadeiro",
+      "cityId": "3125952",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Fervedouro.",
+      "coordinates": {
+        "latitude": -20.717742,
+        "longitude": -42.449401
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/relation/6083705"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-serra-do-brigadeiro.webp",
+          "thumbUrl": "images/parque-estadual-serra-do-brigadeiro-480.webp",
+          "alt": "Silhueta de uma árvore em uma encosta, com serras azuladas ao fundo no entardecer",
+          "author": "Tedd Santana from Vitória, Brasil",
+          "license": "CC BY-SA 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_do_Brigadeiro_(50818318967).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/6083705"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -3603,6 +4552,45 @@
         {
           "name": "Wikidata (Q1136747)",
           "url": "https://www.wikidata.org/wiki/Q1136747"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3154804-parque-nacional-da-serra-do-gandarela",
+      "name": "Parque Nacional da Serra do Gandarela",
+      "slug": "parque-nacional-da-serra-do-gandarela",
+      "cityId": "3154804",
+      "categoryId": "park",
+      "description": "Unidade de conservação em Rio Acima.",
+      "coordinates": {
+        "latitude": -20.108674,
+        "longitude": -43.668412
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/relation/4287261"
+      },
+      "images": [
+        {
+          "url": "images/parque-nacional-da-serra-do-gandarela.webp",
+          "thumbUrl": "images/parque-nacional-da-serra-do-gandarela-480.webp",
+          "alt": "Vista de serras cobertas de vegetação sob céu nublado",
+          "author": "Eduardo Fabri",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_da_Gandarela_Vista_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/4287261"
         }
       ],
       "lastVerifiedAt": "2026-11-20"

@@ -1,0 +1,39 @@
+{
+  "id": "3162500-igreja-de-sao-francisco-de-assis-sao-joao-del-rei",
+  "name": "Igreja de São Francisco de Assis (São João del Rei)",
+  "slug": "igreja-de-sao-francisco-de-assis-sao-joao-del-rei",
+  "cityId": "3162500",
+  "categoryId": "church",
+  "description": "Igreja em São João del Rei.",
+  "coordinates": {
+    "latitude": -21.138897,
+    "longitude": -44.260016
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q10300735)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300735#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-sao-francisco-de-assis-sao-joao-del-rei.webp",
+      "thumbUrl": "images/igreja-de-sao-francisco-de-assis-sao-joao-del-rei-480.webp",
+      "alt": "Fachada barroca branca com portal de pedra e janela redonda",
+      "author": "Ricardo André Frantz",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20de%20S%C3%A3o%20Francisco%20de%20Assis%20-%20S%C3%A3o%20Jo%C3%A3o%20del-Rei.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q10300735)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300735"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

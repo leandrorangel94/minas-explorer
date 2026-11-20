@@ -1,0 +1,39 @@
+{
+  "id": "3162500-igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei",
+  "name": "Igreja de Nossa Senhora do Carmo (São João del Rei)",
+  "slug": "igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei",
+  "cityId": "3162500",
+  "categoryId": "church",
+  "description": "Igreja em São João del Rei.",
+  "coordinates": {
+    "latitude": -21.133289,
+    "longitude": -44.260653
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q10300511)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300511#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei-480.webp",
+      "alt": "Fachada barroca de duas torres com portal esculpido e sacadas ao lado",
+      "author": "Py4nf",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja%20n%20s%20carmo%20sjdr.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q10300511)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q10300511"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

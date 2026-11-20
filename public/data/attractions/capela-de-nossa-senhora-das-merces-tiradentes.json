@@ -1,0 +1,39 @@
+{
+  "id": "3168804-capela-de-nossa-senhora-das-merces-tiradentes",
+  "name": "Capela de Nossa Senhora das Mercês",
+  "slug": "capela-de-nossa-senhora-das-merces-tiradentes",
+  "cityId": "3168804",
+  "categoryId": "church",
+  "description": "Capela em Tiradentes.",
+  "coordinates": {
+    "latitude": -21.10879,
+    "longitude": -44.172006
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (https://www.wikidata.org/wiki/Q25438297)",
+    "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25438297#P625"
+  },
+  "images": [
+    {
+      "url": "images/capela-de-nossa-senhora-das-merces-tiradentes.webp",
+      "thumbUrl": "images/capela-de-nossa-senhora-das-merces-tiradentes-480.webp",
+      "alt": "Capela branca com detalhes amarelos e uma palmeira ao lado",
+      "author": "tetraktys (talk) 05:21, 22 November 2020 (UTC)",
+      "license": "CC BY 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Capela%20das%20Merc%C3%AAs%20em%20Tiradentes.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (https://www.wikidata.org/wiki/Q25438297)",
+      "url": "https://www.wikidata.org/wiki/https://www.wikidata.org/wiki/Q25438297"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

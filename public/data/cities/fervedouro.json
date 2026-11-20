@@ -1,0 +1,26 @@
+{
+  "id": "3125952",
+  "name": "Fervedouro",
+  "slug": "fervedouro",
+  "regionId": "3106",
+  "description": "Município de Minas Gerais, na região intermediária de Juiz de Fora.",
+  "coordinates": {
+    "latitude": -20.725833,
+    "longitude": -42.278889
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1791201)",
+    "url": "https://www.wikidata.org/wiki/Q1791201#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1791201)",
+      "url": "https://www.wikidata.org/wiki/Q1791201"
+    },
+    {
+      "name": "IBGE – Localidades (Fervedouro)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125952"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

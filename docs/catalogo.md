@@ -55,7 +55,7 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 
 ## Curadoria da Etapa 9 (20/11/2026)
 
-**Estado do catálogo:** 34 cidades, 60 atrações (50 com fotografia), as **13 regiões** do IBGE representadas e 7 roteiros.
+**Estado do catálogo (20/11/2026):** 48 cidades, 93 atrações (83 com fotografia), as **13 regiões** do IBGE representadas e 7 roteiros.
 
 **Como foi levantado**
 - Candidatos: consulta SPARQL ao Wikidata (itens turísticos com coordenadas, município com código IBGE e número de artigos) e buscas por nome. Descartados os sem coordenadas (Parque do Sabiá, Serra do Papagaio) ou sem município (Lago de Furnas).
@@ -95,3 +95,10 @@ Cada bloco tem `source` (nome, url, licença, `retrievedAt`). Execução: `npm r
 ## Candidatos a novos destinos
 
 `npm run candidates` consulta o Wikidata (CC0) por categoria e a licença das fotos no Commons, e gera `candidates/candidates.md` e `candidates.json` (pasta ignorada pelo Git) para revisão manual; não altera o catálogo. Opções: `--category=<id>`, `--limit=<n>`, `--no-licenses`. O mapeamento categoria → classes do Wikidata fica em `scripts/find-candidates.mjs` e pode ser refinado com o prompt de [prompt-categorias.md](prompt-categorias.md).
+
+## Lotes por tema (20/11/2026)
+
+- **Lote 1 (cachoeiras e grutas):** 10 cachoeiras e a Gruta da Lapinha, achadas no OpenStreetMap (`waterway=waterfall`, `natural=cave_entrance`), mais 9 municípios novos.
+- **Lote 2 (parques e cidades históricas):** 7 unidades de conservação, 15 igrejas, chafarizes e casarões tombados de Ouro Preto, Diamantina, São João del-Rei, Tiradentes, Sabará e Pitangui, e 5 municípios novos.
+- Método: `node scripts/find-candidates-osm.mjs <waterfall|cave|park|historic>` lista os candidatos com foto do Commons por proximidade (só vale foto cujo título cita o lugar). Cada foto foi conferida visualmente antes de entrar; as que não mostravam o lugar foram descartadas.
+- Textos de apresentação são curtos e factuais (tipo + município); o conteúdo descritivo vem do `enrichment.json` (Wikipédia).
