@@ -2,10 +2,10 @@
 <!--
   O app usa hash routing: as páginas internas (/#/cidades/...) compartilham o mesmo documento e
   não são URLs distintas para buscadores. Por isso, só a URL real e existente entra aqui.
-  Se o app passar a ter páginas pré-renderizadas, liste-as neste arquivo. O marcador de URL é trocado no build (scripts/apply-site-url.mjs). Ver docs/publicacao.md.
+  Se o app passar a ter páginas pré-renderizadas, liste-as neste arquivo. Ver docs/publicacao.md.
 -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>%SITE_URL%/</loc>
+    <loc>https://leandrorangel94.github.io/minas-explorer/</loc>
   </url>
 </urlset>

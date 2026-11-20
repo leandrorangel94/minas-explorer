@@ -4,7 +4,7 @@
 
 Guia turístico interativo de Minas Gerais: descubra cidades históricas, parques, cachoeiras, museus e sabores em um mapa, filtre por categoria e região, consulte fotografias com crédito, salve favoritos e siga roteiros sugeridos.
 
-Aplicação **100% frontend** (sem backend, sem banco de dados, sem login), publicada como site estático na **Vercel** (plano gratuito, aceita repositório privado); o endereço é definido no primeiro deploy (ver [docs/publicacao.md](docs/publicacao.md))
+Aplicação **100% frontend** (sem backend, sem banco de dados, sem login), publicada como site estático no GitHub Pages: **https://leandrorangel94.github.io/minas-explorer/**
 
 ## Funcionalidades
 
@@ -27,7 +27,7 @@ Aplicação **100% frontend** (sem backend, sem banco de dados, sem login), publ
 | Ícones: `lucide` (SVG puro, registro em `core/utils/icons.ts`) | 1.x |
 | Testes: Vitest (via `ng test`), jsdom, `axe-core` | — |
 | Qualidade: ESLint + `angular-eslint` | — |
-| Hospedagem: Vercel (site estático) · CI: GitHub Actions | — |
+| Hospedagem: GitHub Pages via GitHub Actions | — |
 
 Divisão de estilos: **Material** = componentes e tema; **Tailwind** = utilitários de layout (`src/tailwind.css`, sem reset); **SCSS** = tokens e estilos de componentes (`src/styles/`).
 
@@ -49,14 +49,15 @@ npm start          # valida o catálogo e abre http://localhost:4200
 | `npm start` | valida o catálogo e inicia o servidor de desenvolvimento |
 | `npm test` | valida o catálogo e roda os testes (unitários, de integração e de acessibilidade) |
 | `npm run lint` | ESLint (TypeScript e acessibilidade de templates) |
-| `npm run build` | valida o catálogo, gera o build de produção em `dist/minas-explorer/browser` e aplica a URL do site |
-| `npm run preview` | serve o build de produção em `http://localhost:4600/` (como a hospedagem) |
+| `npm run build` | valida o catálogo e gera o build de produção em `dist/minas-explorer` |
+| `npm run build:pages` | build de publicação, com `--base-href /minas-explorer/` |
+| `npm run preview:pages` | serve o build de publicação em `http://localhost:4600/minas-explorer/` (como no Pages) |
 | `npm run catalog` | valida e consolida o catálogo (`public/data/catalog.json`) e atualiza `docs/creditos.md` |
 | `npm run geo` | regenera os dados geográficos do IBGE |
 
-## Publicação na Vercel
+## Publicação no GitHub Pages
 
-O site é publicado pela Vercel a partir do GitHub: importe o repositório em [vercel.com](https://vercel.com) (*Add New → Project*); a configuração está no [`vercel.json`](vercel.json) (`npm run build`, saída em `dist/minas-explorer/browser`, Node 24). Depois disso, cada `git push` na `main` publica sozinho e cada branch ganha uma prévia. O workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml) só verifica lint, testes e build. Passo a passo, URL do site, domínio próprio e solução de problemas em [docs/publicacao.md](docs/publicacao.md).
+O workflow [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml) roda lint, testes e build a cada push na `main` e publica o resultado. **Passo único:** em *Settings → Pages → Source*, escolha **GitHub Actions**. Instruções completas, teste local do artefato e solução de problemas em [docs/publicacao.md](docs/publicacao.md).
 
 ## Estrutura de pastas
 
@@ -72,10 +73,9 @@ public/
   data/        catálogo (cities/, attractions/, categories.json, itineraries.json),
                geo/ (contorno do IBGE), regions.json, municipalities.json
   images/      fotografias (WebP, 960 px e 480 px)
-scripts/       validação do catálogo, dados do IBGE, URL do site no build, preview
+scripts/       validação do catálogo, preparo dos dados do IBGE, preview do Pages
 docs/          documentação detalhada
-vercel.json    configuração de publicação (build, saída e cabeçalhos)
-.github/       CI (lint, testes e build) e Dependabot
+.github/       workflow de deploy e Dependabot
 ```
 
 ## Fontes de dados e créditos
@@ -88,7 +88,7 @@ vercel.json    configuração de publicação (build, saída e cabeçalhos)
 | Fotografias | [Wikimedia Commons](https://commons.wikimedia.org/): domínio público, CC BY ou CC BY-SA, com autor e licença em [docs/creditos.md](docs/creditos.md) |
 | Textos de apresentação e roteiros | editoriais, escritos pelo projeto (ainda sem revisão por fonte local) |
 
-**Pendência de licença:** os termos de uso exatos dos dados do IBGE ainda precisam ser confirmados (ver `docs/dados-geograficos.md`). O projeto ainda não define uma licença de código.
+**Pendência:** os termos de uso exatos dos dados do IBGE ainda precisam ser confirmados (ver `docs/dados-geograficos.md`).
 
 ## Como adicionar conteúdo
 

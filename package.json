@@ -1,19 +1,24 @@
 {
   "name": "minas-explorer",
   "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
   "scripts": {
     "ng": "ng",
     "catalog": "node scripts/build-catalog.mjs",
     "geo": "node scripts/prepare-geo-data.mjs",
     "start": "npm run catalog && ng serve",
-    "build": "npm run catalog && ng build && node scripts/apply-site-url.mjs",
-    "preview": "node scripts/preview.mjs",
+    "build": "npm run catalog && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "npm run catalog && ng test",
-    "lint": "eslint \"src/**/*.{ts,html}\""
+    "lint": "eslint \"src/**/*.{ts,html}\"",
+    "build:pages": "npm run catalog && ng build --base-href /minas-explorer/",
+    "preview:pages": "node scripts/preview-pages.mjs"
   },
-  "private": true,
   "packageManager": "npm@12.2.2",
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26"
+  },
   "dependencies": {
     "@angular/cdk": "^22.3.0",
     "@angular/common": "^22.3.0",
@@ -48,8 +53,5 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.73.0",
     "vitest": "^5.0.0"
-  },
-  "engines": {
-    "node": "^22.22.3 || ^24.15.0 || >=26"
   }
 }

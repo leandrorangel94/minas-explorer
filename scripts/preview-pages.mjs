@@ -1,19 +1,18 @@
 #!/usr/bin/env node
 /**
- * Serve o build de produção (`npm run build`) como a hospedagem estática fará, para testar
- * caminhos de assets, dados, imagens, links diretos e a página 404 antes de publicar.
+ * Serve o build de publicação (`npm run build:pages`) em /minas-explorer/, como no GitHub Pages,
+ * para testar base href, caminhos de assets e links diretos antes de publicar.
  *
- *   npm run build
- *   npm run preview        # abre http://localhost:4600/
+ *   npm run build:pages
+ *   npm run preview:pages        # abre http://localhost:4600/minas-explorer/
  *
- * Variáveis: PORT (padrão 4600) e BASE (padrão "/"; use "/subpasta/" para simular um subdiretório).
  * Sem dependências: servidor estático mínimo em Node.
  */
 import { createReadStream, existsSync, statSync } from 'node:fs';
 import { createServer } from 'node:http';
 import { extname, join, normalize, resolve } from 'node:path';
 
-const BASE = process.env.BASE ?? '/';
+const BASE = '/minas-explorer/';
 const PORT = Number(process.env.PORT ?? 4600);
 const ROOT = resolve('dist/minas-explorer/browser');
 const TYPES = {
@@ -23,13 +22,13 @@ const TYPES = {
 };
 
 if (!existsSync(join(ROOT, 'index.html'))) {
-  console.error('Build não encontrado. Rode antes: npm run build');
+  console.error('Build não encontrado. Rode antes: npm run build:pages');
   process.exit(1);
 }
 
 createServer((req, res) => {
   const url = new URL(req.url ?? '/', 'http://localhost');
-  // Como na hospedagem: caminhos inexistentes respondem 404 com o 404.html do site.
+  // Como no GitHub Pages: tudo fora de /minas-explorer/ é 404 e usa o 404.html do site.
   const inside = url.pathname.startsWith(BASE);
   let file = inside ? normalize(join(ROOT, decodeURIComponent(url.pathname.slice(BASE.length)))) : '';
   if (inside && (!file.startsWith(ROOT) || (existsSync(file) && statSync(file).isDirectory()))) file = join(file, 'index.html');

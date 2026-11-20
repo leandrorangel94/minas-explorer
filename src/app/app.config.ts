@@ -7,7 +7,7 @@ export const appConfig: ApplicationConfig = {
   providers: [
     provideBrowserGlobalErrorListeners(),
     provideHttpClient(),
-    // Hash routing: links diretos e recarga funcionam em qualquer hospedagem estática, sem reescritas.
+    // Hash routing: links diretos e recarga funcionam no GitHub Pages (sem fallback de SPA).
     provideRouter(
       routes,
       withHashLocation(),

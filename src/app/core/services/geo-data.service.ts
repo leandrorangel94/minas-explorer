@@ -6,7 +6,7 @@ import { Municipality, Region } from '../models/geo.models';
 
 /**
  * Lê os dados geográficos estáticos (IBGE) de `public/data`.
- * URLs relativas ao `<base href>` para funcionar em subdiretório (hospedagem estática).
+ * URLs relativas ao `<base href>` para funcionar em subdiretório (GitHub Pages).
  */
 @Injectable({ providedIn: 'root' })
 export class GeoDataService {
