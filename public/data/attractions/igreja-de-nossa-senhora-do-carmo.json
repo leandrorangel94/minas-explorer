@@ -1,0 +1,40 @@
+{
+  "id": "3146107-igreja-de-nossa-senhora-do-carmo",
+  "name": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+  "slug": "igreja-de-nossa-senhora-do-carmo",
+  "cityId": "3146107",
+  "categoryId": "church",
+  "description": "Igreja em Ouro Preto.",
+  "coordinates": {
+    "latitude": -20.386118,
+    "longitude": -43.504402
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300162)",
+    "url": "https://www.wikidata.org/wiki/Q10300162#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-do-carmo.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-do-carmo-480.webp",
+      "alt": "Fachada da Igreja de Nossa Senhora do Carmo, em Ouro Preto, entre telhados e palmeiras",
+      "author": "Hgsjunior",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_da_V._O._T._de_N._Sra._do_Carmo%2C_em_Ouro_Preto.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "barroco",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300162)",
+      "url": "https://www.wikidata.org/wiki/Q10300162"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

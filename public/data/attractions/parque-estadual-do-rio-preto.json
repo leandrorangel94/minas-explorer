@@ -1,0 +1,39 @@
+{
+  "id": "3125507-parque-estadual-do-rio-preto",
+  "name": "Parque Estadual do Rio Preto",
+  "slug": "parque-estadual-do-rio-preto",
+  "cityId": "3125507",
+  "categoryId": "park",
+  "description": "Unidade de conservação estadual em São Gonçalo do Rio Preto.",
+  "coordinates": {
+    "latitude": -18.168036,
+    "longitude": -43.337813
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q123177024)",
+    "url": "https://www.wikidata.org/wiki/Q123177024#P625"
+  },
+  "images": [
+    {
+      "url": "images/parque-estadual-do-rio-preto.webp",
+      "thumbUrl": "images/parque-estadual-do-rio-preto-480.webp",
+      "alt": "Paisagem de serras e campos do Parque Estadual do Rio Preto",
+      "author": "Edersonsguedes",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_do_Rio_Preto_-_MG.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "unidade de conservação"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q123177024)",
+      "url": "https://www.wikidata.org/wiki/Q123177024"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

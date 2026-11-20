@@ -1,0 +1,40 @@
+{
+  "id": "3106200-museu-de-arte-da-pampulha",
+  "name": "Museu de Arte da Pampulha",
+  "slug": "museu-de-arte-da-pampulha",
+  "cityId": "3106200",
+  "categoryId": "museum",
+  "description": "Museu de arte na região da Pampulha, em Belo Horizonte.",
+  "coordinates": {
+    "latitude": -19.851833,
+    "longitude": -43.973722
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q3890034)",
+    "url": "https://www.wikidata.org/wiki/Q3890034#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-de-arte-da-pampulha.webp",
+      "thumbUrl": "images/museu-de-arte-da-pampulha-480.webp",
+      "alt": "Fachada iluminada do Museu de Arte da Pampulha ao entardecer",
+      "author": "Pinheiro",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_do_Museu_de_Arte_da_Pampulha.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "arte",
+    "arquitetura"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q3890034)",
+      "url": "https://www.wikidata.org/wiki/Q3890034"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

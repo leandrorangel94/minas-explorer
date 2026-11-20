@@ -1,0 +1,26 @@
+{
+  "id": "3125507",
+  "name": "São Gonçalo do Rio Preto",
+  "slug": "sao-goncalo-do-rio-preto",
+  "regionId": "3103",
+  "description": "Município onde fica o Parque Estadual do Rio Preto.",
+  "coordinates": {
+    "latitude": -18.003889,
+    "longitude": -43.390833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1787350)",
+    "url": "https://www.wikidata.org/wiki/Q1787350#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1787350)",
+      "url": "https://www.wikidata.org/wiki/Q1787350"
+    },
+    {
+      "name": "IBGE – Localidades (São Gonçalo do Rio Preto)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125507"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

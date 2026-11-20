@@ -1,0 +1,26 @@
+{
+  "id": "3170107",
+  "name": "Uberaba",
+  "slug": "uberaba",
+  "regionId": "3110",
+  "description": "Município do Triângulo Mineiro.",
+  "coordinates": {
+    "latitude": -19.747778,
+    "longitude": -47.931944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q381733)",
+    "url": "https://www.wikidata.org/wiki/Q381733#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q381733)",
+      "url": "https://www.wikidata.org/wiki/Q381733"
+    },
+    {
+      "name": "IBGE – Localidades (Uberaba)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3170107"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

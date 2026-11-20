@@ -1,0 +1,39 @@
+{
+  "id": "3162500-museu-regional-de-sao-joao-del-rei",
+  "name": "Museu Regional de São João del-Rei",
+  "slug": "museu-regional-de-sao-joao-del-rei",
+  "cityId": "3162500",
+  "categoryId": "museum",
+  "description": "Museu regional em São João del-Rei.",
+  "coordinates": {
+    "latitude": -21.135833,
+    "longitude": -44.261111
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10333615)",
+    "url": "https://www.wikidata.org/wiki/Q10333615#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-regional-de-sao-joao-del-rei.webp",
+      "thumbUrl": "images/museu-regional-de-sao-joao-del-rei-480.webp",
+      "alt": "Casarão colonial branco de portas azuis às margens de um córrego, em São João del-Rei",
+      "author": "João Victor Vilas Boas Militani",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_Regional_de_S%C3%A3o_Jo%C3%A3o_del-Rei.png",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10333615)",
+      "url": "https://www.wikidata.org/wiki/Q10333615"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

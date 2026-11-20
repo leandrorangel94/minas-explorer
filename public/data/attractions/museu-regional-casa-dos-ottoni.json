@@ -1,0 +1,39 @@
+{
+  "id": "3167103-museu-regional-casa-dos-ottoni",
+  "name": "Museu Regional Casa dos Ottoni",
+  "slug": "museu-regional-casa-dos-ottoni",
+  "cityId": "3167103",
+  "categoryId": "museum",
+  "description": "Museu regional instalado na Casa dos Ottoni, no Serro.",
+  "coordinates": {
+    "latitude": -18.600733,
+    "longitude": -43.378567
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q9699153)",
+    "url": "https://www.wikidata.org/wiki/Q9699153#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-regional-casa-dos-ottoni.webp",
+      "thumbUrl": "images/museu-regional-casa-dos-ottoni-480.webp",
+      "alt": "Casarão colonial com varanda de madeira, sede do Museu Regional Casa dos Ottoni",
+      "author": "Ministério da Cultura",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_dos_Ottoni_01.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q9699153)",
+      "url": "https://www.wikidata.org/wiki/Q9699153"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

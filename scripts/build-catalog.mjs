@@ -42,7 +42,7 @@ function checkCoordinates(where, c) {
     err(where, `coordenadas fora de Minas Gerais (${c.latitude}, ${c.longitude})`);
 }
 // Licenças que permitem redistribuição com atribuição (ver docs/catalogo.md).
-const ALLOWED_LICENSES = /^(Domínio público|Public domain|CC0( 1\.0)?|CC BY( \d\.\d)?|CC BY-SA( \d\.\d)?)$/;
+const ALLOWED_LICENSES = /^(Domínio público|Public domain|CC0( 1\.0)?|CC BY( \d\.\d)?( [a-zA-Z]{2})?|CC BY-SA( \d\.\d)?( [a-zA-Z]{2})?)$/;
 function checkImage(where, img) {
   // Só imagens versionadas no repositório (sem hotlink): caminho relativo "images/arquivo.ext".
   if (!isStr(img?.url) || !/^images\/[\w.-]+\.(webp|jpe?g|png|avif)$/.test(img.url)) return err(where, 'url deve ser um arquivo local em "images/" (hotlink não é permitido)');

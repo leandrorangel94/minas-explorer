@@ -1,11 +1,11 @@
 .me-footer {
-  margin-top: 48px;
+  margin-top: var(--me-space-6);
   background: var(--me-footer-bg);
   color: var(--me-footer-text);
-  padding-block: 32px;
+  padding-block: var(--me-space-5);
 
   a { color: var(--me-on-footer); }
 }
-.me-footer__inner { display: grid; gap: 8px; }
+.me-footer__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--me-space-2) var(--me-space-6); }
 .me-footer__slogan { font-family: var(--me-font-display); font-size: 1.1rem; color: var(--me-on-footer); }
-.me-footer__note { font-size: 0.875rem; }
+.me-footer__note { font-size: 0.875rem; max-width: 64ch; }

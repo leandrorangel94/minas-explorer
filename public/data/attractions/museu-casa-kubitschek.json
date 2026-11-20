@@ -1,0 +1,39 @@
+{
+  "id": "3106200-museu-casa-kubitschek",
+  "name": "Museu Casa Kubitschek",
+  "slug": "museu-casa-kubitschek",
+  "cityId": "3106200",
+  "categoryId": "museum",
+  "description": "Casa-museu em Belo Horizonte, ligada a Juscelino Kubitschek.",
+  "coordinates": {
+    "latitude": -19.854911,
+    "longitude": -43.980525
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q40357761)",
+    "url": "https://www.wikidata.org/wiki/Q40357761#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-casa-kubitschek.webp",
+      "thumbUrl": "images/museu-casa-kubitschek-480.webp",
+      "alt": "Casa modernista com jardim, a Casa Kubitschek, em Belo Horizonte",
+      "author": "Sudhertzen",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Kubitschek_frente_01.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q40357761)",
+      "url": "https://www.wikidata.org/wiki/Q40357761"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

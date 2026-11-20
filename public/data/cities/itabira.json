@@ -1,0 +1,26 @@
+{
+  "id": "3131703",
+  "name": "Itabira",
+  "slug": "itabira",
+  "regionId": "3101",
+  "description": "Cidade natal do poeta Carlos Drummond de Andrade.",
+  "coordinates": {
+    "latitude": -19.618889,
+    "longitude": -43.226944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1638413)",
+    "url": "https://www.wikidata.org/wiki/Q1638413#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1638413)",
+      "url": "https://www.wikidata.org/wiki/Q1638413"
+    },
+    {
+      "name": "IBGE – Localidades (Itabira)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3131703"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

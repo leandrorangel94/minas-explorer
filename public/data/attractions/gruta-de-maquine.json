@@ -1,0 +1,29 @@
+{
+  "id": "3118908-gruta-de-maquine",
+  "name": "Gruta de Maquiné",
+  "slug": "gruta-de-maquine",
+  "cityId": "3118908",
+  "categoryId": "other",
+  "description": "Gruta em Cordisburgo.",
+  "coordinates": {
+    "latitude": -19.125278,
+    "longitude": -44.352778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q5612347)",
+    "url": "https://www.wikidata.org/wiki/Q5612347#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "caverna"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q5612347)",
+      "url": "https://www.wikidata.org/wiki/Q5612347"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

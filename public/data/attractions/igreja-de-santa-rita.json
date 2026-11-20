@@ -1,0 +1,39 @@
+{
+  "id": "3170107-igreja-de-santa-rita",
+  "name": "Igreja de Santa Rita",
+  "slug": "igreja-de-santa-rita",
+  "cityId": "3170107",
+  "categoryId": "church",
+  "description": "Igreja em Uberaba.",
+  "coordinates": {
+    "latitude": -19.749487,
+    "longitude": -47.931387
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300215)",
+    "url": "https://www.wikidata.org/wiki/Q10300215#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-santa-rita.webp",
+      "thumbUrl": "images/igreja-de-santa-rita-480.webp",
+      "alt": "Igreja de Santa Rita, em Uberaba, com torre e gramado em frente",
+      "author": "Ederlucio Melo",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Santa_Rita_Uberaba%2C_MG%2C_Brasil.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300215)",
+      "url": "https://www.wikidata.org/wiki/Q10300215"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

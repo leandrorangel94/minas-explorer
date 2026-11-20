@@ -1,0 +1,40 @@
+{
+  "id": "3106200-igrejinha-da-pampulha",
+  "name": "Igreja de São Francisco de Assis (Igrejinha da Pampulha)",
+  "slug": "igrejinha-da-pampulha",
+  "cityId": "3106200",
+  "categoryId": "church",
+  "description": "Igreja de São Francisco de Assis, conhecida como Igrejinha da Pampulha, em Belo Horizonte.",
+  "coordinates": {
+    "latitude": -19.858364,
+    "longitude": -43.978975
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q636642)",
+    "url": "https://www.wikidata.org/wiki/Q636642#P625"
+  },
+  "images": [
+    {
+      "url": "images/igrejinha-da-pampulha.webp",
+      "thumbUrl": "images/igrejinha-da-pampulha-480.webp",
+      "alt": "Igrejinha da Pampulha, de formato curvo, refletida na lagoa",
+      "author": "Bernardo Gouvêa",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:IgrejaPampulha.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "arquitetura",
+    "modernismo",
+    "igreja"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q636642)",
+      "url": "https://www.wikidata.org/wiki/Q636642"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

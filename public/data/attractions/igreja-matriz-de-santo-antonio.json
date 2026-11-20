@@ -1,0 +1,40 @@
+{
+  "id": "3168804-igreja-matriz-de-santo-antonio",
+  "name": "Igreja Matriz de Santo Antônio",
+  "slug": "igreja-matriz-de-santo-antonio",
+  "cityId": "3168804",
+  "categoryId": "church",
+  "description": "Igreja matriz de Tiradentes.",
+  "coordinates": {
+    "latitude": -21.110409,
+    "longitude": -44.178229
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q25444807)",
+    "url": "https://www.wikidata.org/wiki/Q25444807#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-matriz-de-santo-antonio.webp",
+      "thumbUrl": "images/igreja-matriz-de-santo-antonio-480.webp",
+      "alt": "Fachada barroca amarela e branca da Igreja Matriz de Santo Antônio, em Tiradentes",
+      "author": "Ricardo André Frantz",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matriz_de_Santo_Ant%C3%B4nio_-_Tiradentes.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "barroco",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q25444807)",
+      "url": "https://www.wikidata.org/wiki/Q25444807"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

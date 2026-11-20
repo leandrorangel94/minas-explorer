@@ -1,0 +1,29 @@
+{
+  "id": "3146107-cachoeira-das-andorinhas",
+  "name": "Cachoeira das Andorinhas",
+  "slug": "cachoeira-das-andorinhas",
+  "cityId": "3146107",
+  "categoryId": "waterfall",
+  "description": "Cachoeira em Ouro Preto.",
+  "coordinates": {
+    "latitude": -20.367131,
+    "longitude": -43.500376
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q18466482)",
+    "url": "https://www.wikidata.org/wiki/Q18466482#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "cachoeira"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q18466482)",
+      "url": "https://www.wikidata.org/wiki/Q18466482"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

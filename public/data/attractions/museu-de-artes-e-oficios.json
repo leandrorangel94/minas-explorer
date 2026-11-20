@@ -1,0 +1,39 @@
+{
+  "id": "3106200-museu-de-artes-e-oficios",
+  "name": "Museu de Artes e Ofícios",
+  "slug": "museu-de-artes-e-oficios",
+  "cityId": "3106200",
+  "categoryId": "museum",
+  "description": "Museu em Belo Horizonte, instalado no prédio da antiga estação ferroviária.",
+  "coordinates": {
+    "latitude": -19.916917,
+    "longitude": -43.9335
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10333800)",
+    "url": "https://www.wikidata.org/wiki/Q10333800#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-de-artes-e-oficios.webp",
+      "thumbUrl": "images/museu-de-artes-e-oficios-480.webp",
+      "alt": "Edifício histórico com torre de relógio, sede do Museu de Artes e Ofícios, em Belo Horizonte",
+      "author": "Iswzo",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_de_Artes_e_Of%C3%ADcios_2022.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "cultura"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10333800)",
+      "url": "https://www.wikidata.org/wiki/Q10333800"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

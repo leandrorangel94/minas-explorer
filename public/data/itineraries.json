@@ -67,5 +67,91 @@
       }
     ],
     "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "diamantina-e-serro-historia-e-cultura",
+    "slug": "diamantina-e-serro-historia-e-cultura",
+    "title": "Diamantina e Serro: história e cultura",
+    "summary": "Dois dias entre cidades históricas do ciclo do diamante: catedral, casarões e museus em Diamantina e no Serro.",
+    "regionId": "3103",
+    "days": [
+      {
+        "title": "Dia 1: Diamantina",
+        "stopIds": [
+          "3121605-catedral-metropolitana-de-diamantina",
+          "3121605-museu-do-diamante",
+          "3121605-casa-de-chica-da-silva"
+        ]
+      },
+      {
+        "title": "Dia 2: Serro",
+        "stopIds": [
+          "3167103-matriz-de-nossa-senhora-da-conceicao",
+          "3167103-igreja-do-senhor-bom-jesus-de-matosinhos",
+          "3167103-museu-regional-casa-dos-ottoni"
+        ]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "pocos-de-caldas-cachoeiras",
+    "slug": "pocos-de-caldas-cachoeiras",
+    "title": "Poços de Caldas: cachoeiras",
+    "summary": "Um dia com duas cachoeiras de Poços de Caldas: o Véu das Noivas e a Cascata das Antas.",
+    "regionId": "3109",
+    "days": [
+      {
+        "title": "Dia 1",
+        "stopIds": [
+          "3151800-veu-das-noivas",
+          "3151800-cascata-das-antas"
+        ]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "sabara-ouro-e-igrejas",
+    "slug": "sabara-ouro-e-igrejas",
+    "title": "Sabará: ouro e igrejas",
+    "summary": "Um dia na cidade histórica de Sabará: centro histórico, igreja colonial e o Museu do Ouro.",
+    "regionId": "3101",
+    "days": [
+      {
+        "title": "Dia 1",
+        "stopIds": [
+          "3156700-centro-historico-de-sabara",
+          "3156700-igreja-de-nossa-senhora-do-o",
+          "3156700-museu-do-ouro"
+        ]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "belo-horizonte-pampulha-e-serra-do-curral",
+    "slug": "belo-horizonte-pampulha-e-serra-do-curral",
+    "title": "Belo Horizonte: Pampulha e Serra do Curral",
+    "summary": "Dois dias em Belo Horizonte: a Igrejinha, o museu de arte e a Casa Kubitschek na Pampulha, e a Serra do Curral com o Parque das Mangabeiras.",
+    "regionId": "3101",
+    "days": [
+      {
+        "title": "Dia 1: Pampulha",
+        "stopIds": [
+          "3106200-igrejinha-da-pampulha",
+          "3106200-museu-de-arte-da-pampulha",
+          "3106200-museu-casa-kubitschek"
+        ]
+      },
+      {
+        "title": "Dia 2: Serra do Curral",
+        "stopIds": [
+          "3106200-serra-do-curral",
+          "3106200-parque-das-mangabeiras"
+        ]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
   }
 ]

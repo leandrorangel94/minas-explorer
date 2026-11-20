@@ -1,0 +1,39 @@
+{
+  "id": "3167103-igreja-do-senhor-bom-jesus-de-matosinhos",
+  "name": "Igreja do Senhor Bom Jesus de Matosinhos",
+  "slug": "igreja-do-senhor-bom-jesus-de-matosinhos",
+  "cityId": "3167103",
+  "categoryId": "church",
+  "description": "Igreja no Serro.",
+  "coordinates": {
+    "latitude": -18.600515,
+    "longitude": -43.378729
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300943)",
+    "url": "https://www.wikidata.org/wiki/Q10300943#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-do-senhor-bom-jesus-de-matosinhos.webp",
+      "thumbUrl": "images/igreja-do-senhor-bom-jesus-de-matosinhos-480.webp",
+      "alt": "Igreja do Senhor Bom Jesus de Matosinhos, no Serro, com duas torres, vista do alto",
+      "author": "Raquel Mendes Silva",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_Senhor_Bom_Jesus_de_Matozinhos.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300943)",
+      "url": "https://www.wikidata.org/wiki/Q10300943"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

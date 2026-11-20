@@ -209,6 +209,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3118908",
+      "name": "Cordisburgo",
+      "slug": "cordisburgo",
+      "regionId": "3101",
+      "description": "Município onde fica a Gruta de Maquiné.",
+      "coordinates": {
+        "latitude": -19.125,
+        "longitude": -44.320833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1792063)",
+        "url": "https://www.wikidata.org/wiki/Q1792063#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1792063)",
+          "url": "https://www.wikidata.org/wiki/Q1792063"
+        },
+        {
+          "name": "IBGE – Localidades (Cordisburgo)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118908"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3121605",
       "name": "Diamantina",
       "slug": "diamantina",
@@ -256,6 +282,110 @@
         {
           "name": "IBGE – Localidades (Divinópolis)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3122306"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3127404",
+      "name": "Gonçalves",
+      "slug": "goncalves",
+      "regionId": "3109",
+      "description": "Município onde fica a Cachoeira dos Henriques.",
+      "coordinates": {
+        "latitude": -22.658889,
+        "longitude": -45.855833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1970369)",
+        "url": "https://www.wikidata.org/wiki/Q1970369#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1970369)",
+          "url": "https://www.wikidata.org/wiki/Q1970369"
+        },
+        {
+          "name": "IBGE – Localidades (Gonçalves)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3127404"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3127701",
+      "name": "Governador Valadares",
+      "slug": "governador-valadares",
+      "regionId": "3104",
+      "description": "Município do leste de Minas Gerais, no Vale do Rio Doce.",
+      "coordinates": {
+        "latitude": -18.850833,
+        "longitude": -41.948889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q462218)",
+        "url": "https://www.wikidata.org/wiki/Q462218#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q462218)",
+          "url": "https://www.wikidata.org/wiki/Q462218"
+        },
+        {
+          "name": "IBGE – Localidades (Governador Valadares)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3127701"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3131307",
+      "name": "Ipatinga",
+      "slug": "ipatinga",
+      "regionId": "3105",
+      "description": "Município do Vale do Aço.",
+      "coordinates": {
+        "latitude": -19.467778,
+        "longitude": -42.536944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q318314)",
+        "url": "https://www.wikidata.org/wiki/Q318314#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q318314)",
+          "url": "https://www.wikidata.org/wiki/Q318314"
+        },
+        {
+          "name": "IBGE – Localidades (Ipatinga)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3131307"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3131703",
+      "name": "Itabira",
+      "slug": "itabira",
+      "regionId": "3101",
+      "description": "Cidade natal do poeta Carlos Drummond de Andrade.",
+      "coordinates": {
+        "latitude": -19.618889,
+        "longitude": -43.226944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1638413)",
+        "url": "https://www.wikidata.org/wiki/Q1638413#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1638413)",
+          "url": "https://www.wikidata.org/wiki/Q1638413"
+        },
+        {
+          "name": "IBGE – Localidades (Itabira)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3131703"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -417,6 +547,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3147006",
+      "name": "Paracatu",
+      "slug": "paracatu",
+      "regionId": "3112",
+      "description": "Município do noroeste de Minas Gerais.",
+      "coordinates": {
+        "latitude": -17.221667,
+        "longitude": -46.875
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1755739)",
+        "url": "https://www.wikidata.org/wiki/Q1755739#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1755739)",
+          "url": "https://www.wikidata.org/wiki/Q1755739"
+        },
+        {
+          "name": "IBGE – Localidades (Paracatu)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3147006"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3151800",
       "name": "Poços de Caldas",
       "slug": "pocos-de-caldas",
@@ -443,6 +599,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3156700",
+      "name": "Sabará",
+      "slug": "sabara",
+      "regionId": "3101",
+      "description": "Cidade histórica da região metropolitana de Belo Horizonte, com centro histórico e igrejas coloniais.",
+      "coordinates": {
+        "latitude": -19.885833,
+        "longitude": -43.806944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1451808)",
+        "url": "https://www.wikidata.org/wiki/Q1451808#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1451808)",
+          "url": "https://www.wikidata.org/wiki/Q1451808"
+        },
+        {
+          "name": "IBGE – Localidades (Sabará)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3156700"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3159001",
       "name": "Santana do Riacho",
       "slug": "santana-do-riacho",
@@ -464,6 +646,58 @@
         {
           "name": "IBGE – Localidades (Santana do Riacho)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3159001"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3160702",
+      "name": "Santos Dumont",
+      "slug": "santos-dumont",
+      "regionId": "3106",
+      "description": "Município onde fica o Museu de Cabangu, na casa onde nasceu Alberto Santos Dumont.",
+      "coordinates": {
+        "latitude": -21.456667,
+        "longitude": -43.5525
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1754760)",
+        "url": "https://www.wikidata.org/wiki/Q1754760#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1754760)",
+          "url": "https://www.wikidata.org/wiki/Q1754760"
+        },
+        {
+          "name": "IBGE – Localidades (Santos Dumont)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3160702"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3125507",
+      "name": "São Gonçalo do Rio Preto",
+      "slug": "sao-goncalo-do-rio-preto",
+      "regionId": "3103",
+      "description": "Município onde fica o Parque Estadual do Rio Preto.",
+      "coordinates": {
+        "latitude": -18.003889,
+        "longitude": -43.390833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1787350)",
+        "url": "https://www.wikidata.org/wiki/Q1787350#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1787350)",
+          "url": "https://www.wikidata.org/wiki/Q1787350"
+        },
+        {
+          "name": "IBGE – Localidades (São Gonçalo do Rio Preto)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125507"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -521,6 +755,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3167103",
+      "name": "Serro",
+      "slug": "serro",
+      "regionId": "3103",
+      "description": "Cidade histórica do período colonial, com igrejas e casarões.",
+      "coordinates": {
+        "latitude": -18.604444,
+        "longitude": -43.379445
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q919904)",
+        "url": "https://www.wikidata.org/wiki/Q919904#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q919904)",
+          "url": "https://www.wikidata.org/wiki/Q919904"
+        },
+        {
+          "name": "IBGE – Localidades (Serro)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3167103"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3167202",
       "name": "Sete Lagoas",
       "slug": "sete-lagoas",
@@ -568,6 +828,32 @@
         {
           "name": "IBGE – Localidades (Tiradentes)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3168804"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3170107",
+      "name": "Uberaba",
+      "slug": "uberaba",
+      "regionId": "3110",
+      "description": "Município do Triângulo Mineiro.",
+      "coordinates": {
+        "latitude": -19.747778,
+        "longitude": -47.931944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q381733)",
+        "url": "https://www.wikidata.org/wiki/Q381733#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q381733)",
+          "url": "https://www.wikidata.org/wiki/Q381733"
+        },
+        {
+          "name": "IBGE – Localidades (Uberaba)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3170107"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -631,6 +917,74 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3112802-cachoeira-da-capivara",
+      "name": "Cachoeira da Capivara",
+      "slug": "cachoeira-da-capivara",
+      "cityId": "3112802",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Capitólio.",
+      "coordinates": {
+        "latitude": -20.62917,
+        "longitude": -46.28779
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q111957632)",
+        "url": "https://www.wikidata.org/wiki/Q111957632#P625"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-da-capivara.webp",
+          "thumbUrl": "images/cachoeira-da-capivara-480.webp",
+          "alt": "Cachoeira em degraus sobre a rocha, com poço de água escura",
+          "author": "Isabela Romão",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_capivara.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q111957632)",
+          "url": "https://www.wikidata.org/wiki/Q111957632"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-cachoeira-das-andorinhas",
+      "name": "Cachoeira das Andorinhas",
+      "slug": "cachoeira-das-andorinhas",
+      "cityId": "3146107",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.367131,
+        "longitude": -43.500376
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q18466482)",
+        "url": "https://www.wikidata.org/wiki/Q18466482#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q18466482)",
+          "url": "https://www.wikidata.org/wiki/Q18466482"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3117504-cachoeira-do-tabuleiro",
       "name": "Cachoeira do Tabuleiro",
       "slug": "cachoeira-do-tabuleiro",
@@ -670,6 +1024,124 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3127404-cachoeira-dos-henriques",
+      "name": "Cachoeira dos Henriques",
+      "slug": "cachoeira-dos-henriques",
+      "cityId": "3127404",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Gonçalves.",
+      "coordinates": {
+        "latitude": -22.611951,
+        "longitude": -45.885291
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q5716817)",
+        "url": "https://www.wikidata.org/wiki/Q5716817#P625"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-dos-henriques.webp",
+          "thumbUrl": "images/cachoeira-dos-henriques-480.webp",
+          "alt": "Cachoeira em meio à mata, com a água descendo entre paredões de rocha",
+          "author": "Aisfer",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:CachoeiradosMartinsHenriques.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q5716817)",
+          "url": "https://www.wikidata.org/wiki/Q5716817"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3159001-cachoeira-serra-morena",
+      "name": "Cachoeira Serra Morena",
+      "slug": "cachoeira-serra-morena",
+      "cityId": "3159001",
+      "categoryId": "waterfall",
+      "description": "Cachoeira na Serra do Cipó, em Santana do Riacho.",
+      "coordinates": {
+        "latitude": -19.26654,
+        "longitude": -43.58201
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q124386442)",
+        "url": "https://www.wikidata.org/wiki/Q124386442#P625"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-serra-morena.webp",
+          "thumbUrl": "images/cachoeira-serra-morena-480.webp",
+          "alt": "Cachoeira entre rochas e flores cor-de-rosa, na Serra do Cipó",
+          "author": "Eliezerscosta",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_Serra_Morena_-_Serra_do_Cip%C3%B3.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira",
+        "serra"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q124386442)",
+          "url": "https://www.wikidata.org/wiki/Q124386442"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001-casa-de-camara-e-cadeia-de-mariana",
+      "name": "Casa de Câmara e Cadeia de Mariana",
+      "slug": "casa-de-camara-e-cadeia-de-mariana",
+      "cityId": "3140001",
+      "categoryId": "historic-heritage",
+      "description": "Edifício histórico que reuniu a câmara municipal e a cadeia, em Mariana.",
+      "coordinates": {
+        "latitude": -20.37807,
+        "longitude": -43.418289
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q9698278)",
+        "url": "https://www.wikidata.org/wiki/Q9698278#P625"
+      },
+      "images": [
+        {
+          "url": "images/casa-de-camara-e-cadeia-de-mariana.webp",
+          "thumbUrl": "images/casa-de-camara-e-cadeia-de-mariana-480.webp",
+          "alt": "Casa de Câmara e Cadeia de Mariana, edifício colonial com escadaria dupla",
+          "author": "Danielodist",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_C%C3%A2mara_e_Cadeia_de_Mariana.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q9698278)",
+          "url": "https://www.wikidata.org/wiki/Q9698278"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3121605-casa-de-chica-da-silva",
       "name": "Casa de Chica da Silva",
       "slug": "casa-de-chica-da-silva",
@@ -704,6 +1176,45 @@
         {
           "name": "Wikidata (Q55763725)",
           "url": "https://www.wikidata.org/wiki/Q55763725"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3151800-cascata-das-antas",
+      "name": "Cascata das Antas",
+      "slug": "cascata-das-antas",
+      "cityId": "3151800",
+      "categoryId": "waterfall",
+      "description": "Cascata em Poços de Caldas.",
+      "coordinates": {
+        "latitude": -21.765222,
+        "longitude": -46.606556
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q86923724)",
+        "url": "https://www.wikidata.org/wiki/Q86923724#P625"
+      },
+      "images": [
+        {
+          "url": "images/cascata-das-antas.webp",
+          "thumbUrl": "images/cascata-das-antas-480.webp",
+          "alt": "Grande cachoeira com muita água descendo em cascata",
+          "author": "Fadbrício da Silva",
+          "license": "CC BY 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Po%C3%A7os_de_Caldas_-_Cachoeira_Cascata_das_Antas_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q86923724)",
+          "url": "https://www.wikidata.org/wiki/Q86923724"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -786,6 +1297,73 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3121605-catedral-metropolitana-de-diamantina",
+      "name": "Catedral Metropolitana de Diamantina",
+      "slug": "catedral-metropolitana-de-diamantina",
+      "cityId": "3121605",
+      "categoryId": "church",
+      "description": "Catedral de Diamantina.",
+      "coordinates": {
+        "latitude": -18.244693,
+        "longitude": -43.597476
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q18482299)",
+        "url": "https://www.wikidata.org/wiki/Q18482299#P625"
+      },
+      "images": [
+        {
+          "url": "images/catedral-metropolitana-de-diamantina.webp",
+          "thumbUrl": "images/catedral-metropolitana-de-diamantina-480.webp",
+          "alt": "Fachada azul e branca da Catedral Metropolitana de Diamantina",
+          "author": "Rodrigo Tetsuo Argenton",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_Metropolitana_%28Diamantina%2C_Minas_Gerais%29_02.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q18482299)",
+          "url": "https://www.wikidata.org/wiki/Q18482299"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3127701-catedral-santo-antonio",
+      "name": "Catedral Santo Antônio",
+      "slug": "catedral-santo-antonio",
+      "cityId": "3127701",
+      "categoryId": "church",
+      "description": "Catedral de Governador Valadares.",
+      "coordinates": {
+        "latitude": -18.856194,
+        "longitude": -41.939231
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q18482357)",
+        "url": "https://www.wikidata.org/wiki/Q18482357#P625"
+      },
+      "images": [],
+      "tags": [
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q18482357)",
+          "url": "https://www.wikidata.org/wiki/Q18482357"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3121605-centro-historico-de-diamantina",
       "name": "Centro Histórico de Diamantina",
       "slug": "centro-historico-de-diamantina",
@@ -810,6 +1388,45 @@
         {
           "name": "Wikidata (Q8343760)",
           "url": "https://www.wikidata.org/wiki/Q8343760"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3156700-centro-historico-de-sabara",
+      "name": "Centro Histórico de Sabará",
+      "slug": "centro-historico-de-sabara",
+      "cityId": "3156700",
+      "categoryId": "historic-heritage",
+      "description": "Centro histórico de Sabará.",
+      "coordinates": {
+        "latitude": -19.891741,
+        "longitude": -43.81055
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q128305835)",
+        "url": "https://www.wikidata.org/wiki/Q128305835#P625"
+      },
+      "images": [
+        {
+          "url": "images/centro-historico-de-sabara.webp",
+          "thumbUrl": "images/centro-historico-de-sabara-480.webp",
+          "alt": "Vista noturna de Sabará, com casas iluminadas em uma encosta",
+          "author": "GMVR92",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico_de_Sabar%C3%A1_a_noite.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q128305835)",
+          "url": "https://www.wikidata.org/wiki/Q128305835"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -883,6 +1500,35 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3118908-gruta-de-maquine",
+      "name": "Gruta de Maquiné",
+      "slug": "gruta-de-maquine",
+      "cityId": "3118908",
+      "categoryId": "other",
+      "description": "Gruta em Cordisburgo.",
+      "coordinates": {
+        "latitude": -19.125278,
+        "longitude": -44.352778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q5612347)",
+        "url": "https://www.wikidata.org/wiki/Q5612347#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "caverna"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q5612347)",
+          "url": "https://www.wikidata.org/wiki/Q5612347"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3167202-gruta-rei-do-mato",
       "name": "Gruta Rei do Mato",
       "slug": "gruta-rei-do-mato",
@@ -907,6 +1553,361 @@
         {
           "name": "Wikidata (Q2301571)",
           "url": "https://www.wikidata.org/wiki/Q2301571"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-igreja-de-nossa-senhora-do-carmo",
+      "name": "Igreja de Nossa Senhora do Carmo (Ouro Preto)",
+      "slug": "igreja-de-nossa-senhora-do-carmo",
+      "cityId": "3146107",
+      "categoryId": "church",
+      "description": "Igreja em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.386118,
+        "longitude": -43.504402
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300162)",
+        "url": "https://www.wikidata.org/wiki/Q10300162#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-carmo.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-carmo-480.webp",
+          "alt": "Fachada da Igreja de Nossa Senhora do Carmo, em Ouro Preto, entre telhados e palmeiras",
+          "author": "Hgsjunior",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_da_V._O._T._de_N._Sra._do_Carmo%2C_em_Ouro_Preto.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "barroco",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300162)",
+          "url": "https://www.wikidata.org/wiki/Q10300162"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3156700-igreja-de-nossa-senhora-do-o",
+      "name": "Igreja de Nossa Senhora do Ó",
+      "slug": "igreja-de-nossa-senhora-do-o",
+      "cityId": "3156700",
+      "categoryId": "church",
+      "description": "Igreja em Sabará.",
+      "coordinates": {
+        "latitude": -19.884889,
+        "longitude": -43.796
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300561)",
+        "url": "https://www.wikidata.org/wiki/Q10300561#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-nossa-senhora-do-o.webp",
+          "thumbUrl": "images/igreja-de-nossa-senhora-do-o-480.webp",
+          "alt": "Igreja branca de torre única em uma rua de Sabará",
+          "author": "Ricardo André Frantz",
+          "license": "CC BY 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_do_%C3%93_-_Sabar%C3%A1_-_3.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300561)",
+          "url": "https://www.wikidata.org/wiki/Q10300561"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3170107-igreja-de-santa-rita",
+      "name": "Igreja de Santa Rita",
+      "slug": "igreja-de-santa-rita",
+      "cityId": "3170107",
+      "categoryId": "church",
+      "description": "Igreja em Uberaba.",
+      "coordinates": {
+        "latitude": -19.749487,
+        "longitude": -47.931387
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300215)",
+        "url": "https://www.wikidata.org/wiki/Q10300215#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-santa-rita.webp",
+          "thumbUrl": "images/igreja-de-santa-rita-480.webp",
+          "alt": "Igreja de Santa Rita, em Uberaba, com torre e gramado em frente",
+          "author": "Ederlucio Melo",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Santa_Rita_Uberaba%2C_MG%2C_Brasil.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300215)",
+          "url": "https://www.wikidata.org/wiki/Q10300215"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-igrejinha-da-pampulha",
+      "name": "Igreja de São Francisco de Assis (Igrejinha da Pampulha)",
+      "slug": "igrejinha-da-pampulha",
+      "cityId": "3106200",
+      "categoryId": "church",
+      "description": "Igreja de São Francisco de Assis, conhecida como Igrejinha da Pampulha, em Belo Horizonte.",
+      "coordinates": {
+        "latitude": -19.858364,
+        "longitude": -43.978975
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q636642)",
+        "url": "https://www.wikidata.org/wiki/Q636642#P625"
+      },
+      "images": [
+        {
+          "url": "images/igrejinha-da-pampulha.webp",
+          "thumbUrl": "images/igrejinha-da-pampulha-480.webp",
+          "alt": "Igrejinha da Pampulha, de formato curvo, refletida na lagoa",
+          "author": "Bernardo Gouvêa",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:IgrejaPampulha.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "arquitetura",
+        "modernismo",
+        "igreja"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q636642)",
+          "url": "https://www.wikidata.org/wiki/Q636642"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001-igreja-de-sao-francisco-de-assis-mariana",
+      "name": "Igreja de São Francisco de Assis (Mariana)",
+      "slug": "igreja-de-sao-francisco-de-assis-mariana",
+      "cityId": "3140001",
+      "categoryId": "church",
+      "description": "Igreja em Mariana.",
+      "coordinates": {
+        "latitude": -20.378306,
+        "longitude": -43.417671
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300224)",
+        "url": "https://www.wikidata.org/wiki/Q10300224#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-de-sao-francisco-de-assis-mariana.webp",
+          "thumbUrl": "images/igreja-de-sao-francisco-de-assis-mariana-480.webp",
+          "alt": "Fachada barroca de duas torres da Igreja de São Francisco de Assis, em Mariana",
+          "author": "HVL",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_da_Igreja_de_S%C3%A3o_Francisco_de_Assis%2C_Mariana_MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "barroco",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300224)",
+          "url": "https://www.wikidata.org/wiki/Q10300224"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3167103-igreja-do-senhor-bom-jesus-de-matosinhos",
+      "name": "Igreja do Senhor Bom Jesus de Matosinhos",
+      "slug": "igreja-do-senhor-bom-jesus-de-matosinhos",
+      "cityId": "3167103",
+      "categoryId": "church",
+      "description": "Igreja no Serro.",
+      "coordinates": {
+        "latitude": -18.600515,
+        "longitude": -43.378729
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300943)",
+        "url": "https://www.wikidata.org/wiki/Q10300943#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-do-senhor-bom-jesus-de-matosinhos.webp",
+          "thumbUrl": "images/igreja-do-senhor-bom-jesus-de-matosinhos-480.webp",
+          "alt": "Igreja do Senhor Bom Jesus de Matosinhos, no Serro, com duas torres, vista do alto",
+          "author": "Raquel Mendes Silva",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_Senhor_Bom_Jesus_de_Matozinhos.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300943)",
+          "url": "https://www.wikidata.org/wiki/Q10300943"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3167103-matriz-de-nossa-senhora-da-conceicao",
+      "name": "Igreja Matriz de Nossa Senhora da Conceição",
+      "slug": "matriz-de-nossa-senhora-da-conceicao",
+      "cityId": "3167103",
+      "categoryId": "church",
+      "description": "Igreja matriz do Serro.",
+      "coordinates": {
+        "latitude": -18.603776,
+        "longitude": -43.379124
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300062)",
+        "url": "https://www.wikidata.org/wiki/Q10300062#P625"
+      },
+      "images": [
+        {
+          "url": "images/matriz-de-nossa-senhora-da-conceicao.webp",
+          "thumbUrl": "images/matriz-de-nossa-senhora-da-conceicao-480.webp",
+          "alt": "Igreja Matriz de Nossa Senhora da Conceição em meio às casas da encosta, no Serro",
+          "author": "Halleypo",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_nossa_senhora_da_conceicao_%28Serro%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300062)",
+          "url": "https://www.wikidata.org/wiki/Q10300062"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3147006-igreja-matriz-de-paracatu",
+      "name": "Igreja Matriz de Paracatu",
+      "slug": "igreja-matriz-de-paracatu",
+      "cityId": "3147006",
+      "categoryId": "church",
+      "description": "Igreja matriz de Paracatu.",
+      "coordinates": {
+        "latitude": -17.224021,
+        "longitude": -46.875055
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300084)",
+        "url": "https://www.wikidata.org/wiki/Q10300084#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-matriz-de-paracatu.webp",
+          "thumbUrl": "images/igreja-matriz-de-paracatu-480.webp",
+          "alt": "Igreja Matriz de Paracatu e casario, com praça arborizada",
+          "author": "José Cruz/Agência Brasil",
+          "license": "CC BY 3.0 br",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:MatrizParacatu.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300084)",
+          "url": "https://www.wikidata.org/wiki/Q10300084"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3168804-igreja-matriz-de-santo-antonio",
+      "name": "Igreja Matriz de Santo Antônio",
+      "slug": "igreja-matriz-de-santo-antonio",
+      "cityId": "3168804",
+      "categoryId": "church",
+      "description": "Igreja matriz de Tiradentes.",
+      "coordinates": {
+        "latitude": -21.110409,
+        "longitude": -44.178229
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q25444807)",
+        "url": "https://www.wikidata.org/wiki/Q25444807#P625"
+      },
+      "images": [
+        {
+          "url": "images/igreja-matriz-de-santo-antonio.webp",
+          "thumbUrl": "images/igreja-matriz-de-santo-antonio-480.webp",
+          "alt": "Fachada barroca amarela e branca da Igreja Matriz de Santo Antônio, em Tiradentes",
+          "author": "Ricardo André Frantz",
+          "license": "CC BY 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Matriz_de_Santo_Ant%C3%B4nio_-_Tiradentes.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "barroco",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q25444807)",
+          "url": "https://www.wikidata.org/wiki/Q25444807"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -991,6 +1992,45 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3131703-memorial-carlos-drummond-de-andrade",
+      "name": "Memorial Carlos Drummond de Andrade",
+      "slug": "memorial-carlos-drummond-de-andrade",
+      "cityId": "3131703",
+      "categoryId": "museum",
+      "description": "Memorial dedicado ao poeta Carlos Drummond de Andrade, em Itabira.",
+      "coordinates": {
+        "latitude": -19.617206,
+        "longitude": -43.221613
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q56693686)",
+        "url": "https://www.wikidata.org/wiki/Q56693686#P625"
+      },
+      "images": [
+        {
+          "url": "images/memorial-carlos-drummond-de-andrade.webp",
+          "thumbUrl": "images/memorial-carlos-drummond-de-andrade-480.webp",
+          "alt": "Muro branco com monumento em forma de página curva, no Memorial Carlos Drummond de Andrade",
+          "author": "Nasseralmeida at Portuguese Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Drummond.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "literatura"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q56693686)",
+          "url": "https://www.wikidata.org/wiki/Q56693686"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3106200-mercado-central",
       "name": "Mercado Central de Belo Horizonte",
       "slug": "mercado-central",
@@ -1069,6 +2109,45 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3106200-museu-casa-kubitschek",
+      "name": "Museu Casa Kubitschek",
+      "slug": "museu-casa-kubitschek",
+      "cityId": "3106200",
+      "categoryId": "museum",
+      "description": "Casa-museu em Belo Horizonte, ligada a Juscelino Kubitschek.",
+      "coordinates": {
+        "latitude": -19.854911,
+        "longitude": -43.980525
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q40357761)",
+        "url": "https://www.wikidata.org/wiki/Q40357761#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-casa-kubitschek.webp",
+          "thumbUrl": "images/museu-casa-kubitschek-480.webp",
+          "alt": "Casa modernista com jardim, a Casa Kubitschek, em Belo Horizonte",
+          "author": "Sudhertzen",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_Kubitschek_frente_01.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q40357761)",
+          "url": "https://www.wikidata.org/wiki/Q40357761"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3146107-museu-da-inconfidencia",
       "name": "Museu da Inconfidência",
       "slug": "museu-da-inconfidencia",
@@ -1104,6 +2183,299 @@
         {
           "name": "Wikidata (Q10333699)",
           "url": "https://www.wikidata.org/wiki/Q10333699"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-museu-de-arte-da-pampulha",
+      "name": "Museu de Arte da Pampulha",
+      "slug": "museu-de-arte-da-pampulha",
+      "cityId": "3106200",
+      "categoryId": "museum",
+      "description": "Museu de arte na região da Pampulha, em Belo Horizonte.",
+      "coordinates": {
+        "latitude": -19.851833,
+        "longitude": -43.973722
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q3890034)",
+        "url": "https://www.wikidata.org/wiki/Q3890034#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-de-arte-da-pampulha.webp",
+          "thumbUrl": "images/museu-de-arte-da-pampulha-480.webp",
+          "alt": "Fachada iluminada do Museu de Arte da Pampulha ao entardecer",
+          "author": "Pinheiro",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_do_Museu_de_Arte_da_Pampulha.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "arte",
+        "arquitetura"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q3890034)",
+          "url": "https://www.wikidata.org/wiki/Q3890034"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001-museu-de-arte-sacra-de-mariana",
+      "name": "Museu de Arte Sacra de Mariana",
+      "slug": "museu-de-arte-sacra-de-mariana",
+      "cityId": "3140001",
+      "categoryId": "museum",
+      "description": "Museu de arte sacra em Mariana.",
+      "coordinates": {
+        "latitude": -20.378667,
+        "longitude": -43.416528
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333781)",
+        "url": "https://www.wikidata.org/wiki/Q10333781#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-de-arte-sacra-de-mariana.webp",
+          "thumbUrl": "images/museu-de-arte-sacra-de-mariana-480.webp",
+          "alt": "Fachada branca com porta azul e janelas de grade, do Museu de Arte Sacra de Mariana",
+          "author": "Wakawakaphoto",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_de_arte_sacra_de_Mariana.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "arte sacra"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333781)",
+          "url": "https://www.wikidata.org/wiki/Q10333781"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-museu-de-artes-e-oficios",
+      "name": "Museu de Artes e Ofícios",
+      "slug": "museu-de-artes-e-oficios",
+      "cityId": "3106200",
+      "categoryId": "museum",
+      "description": "Museu em Belo Horizonte, instalado no prédio da antiga estação ferroviária.",
+      "coordinates": {
+        "latitude": -19.916917,
+        "longitude": -43.9335
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333800)",
+        "url": "https://www.wikidata.org/wiki/Q10333800#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-de-artes-e-oficios.webp",
+          "thumbUrl": "images/museu-de-artes-e-oficios-480.webp",
+          "alt": "Edifício histórico com torre de relógio, sede do Museu de Artes e Ofícios, em Belo Horizonte",
+          "author": "Iswzo",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_de_Artes_e_Of%C3%ADcios_2022.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "cultura"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333800)",
+          "url": "https://www.wikidata.org/wiki/Q10333800"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3160702-museu-de-cabangu",
+      "name": "Museu de Cabangu",
+      "slug": "museu-de-cabangu",
+      "cityId": "3160702",
+      "categoryId": "museum",
+      "description": "Museu na casa onde nasceu Alberto Santos Dumont, em Santos Dumont.",
+      "coordinates": {
+        "latitude": -21.42506,
+        "longitude": -43.67451
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q5666625)",
+        "url": "https://www.wikidata.org/wiki/Q5666625#P625"
+      },
+      "images": [],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q5666625)",
+          "url": "https://www.wikidata.org/wiki/Q5666625"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-museu-do-diamante",
+      "name": "Museu do Diamante",
+      "slug": "museu-do-diamante",
+      "cityId": "3121605",
+      "categoryId": "museum",
+      "description": "Museu em Diamantina.",
+      "coordinates": {
+        "latitude": -18.244583,
+        "longitude": -43.597833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q56694289)",
+        "url": "https://www.wikidata.org/wiki/Q56694289#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-do-diamante.webp",
+          "thumbUrl": "images/museu-do-diamante-480.webp",
+          "alt": "Casarão branco de janelas com molduras amarelas e portas azuis, sede do Museu do Diamante",
+          "author": "Ministério da Cultura",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_do_Diamante_%288364468813%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q56694289)",
+          "url": "https://www.wikidata.org/wiki/Q56694289"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-museu-do-oratorio",
+      "name": "Museu do Oratório",
+      "slug": "museu-do-oratorio",
+      "cityId": "3146107",
+      "categoryId": "museum",
+      "description": "Museu em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.386322,
+        "longitude": -43.504424
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333913)",
+        "url": "https://www.wikidata.org/wiki/Q10333913#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-do-oratorio.webp",
+          "thumbUrl": "images/museu-do-oratorio-480.webp",
+          "alt": "Oratório de viagem em madeira entalhada com imagens de santos, do acervo do Museu do Oratório",
+          "author": "Py4nf",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oratorio_de_viagem_-_museu_do_oratorio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "arte sacra"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333913)",
+          "url": "https://www.wikidata.org/wiki/Q10333913"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3156700-museu-do-ouro",
+      "name": "Museu do Ouro",
+      "slug": "museu-do-ouro",
+      "cityId": "3156700",
+      "categoryId": "museum",
+      "description": "Museu em Sabará.",
+      "coordinates": {
+        "latitude": -19.888968,
+        "longitude": -43.807087
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q30939517)",
+        "url": "https://www.wikidata.org/wiki/Q30939517#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-do-ouro.webp",
+          "thumbUrl": "images/museu-do-ouro-480.webp",
+          "alt": "Casarão histórico de paredes brancas e portal azul, sede do Museu do Ouro, em Sabará",
+          "author": "Ministério da Cultura",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_do_Ouro_%288365535112%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q30939517)",
+          "url": "https://www.wikidata.org/wiki/Q30939517"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3170107-museu-dos-dinossauros",
+      "name": "Museu dos Dinossauros",
+      "slug": "museu-dos-dinossauros",
+      "cityId": "3170107",
+      "categoryId": "museum",
+      "description": "Museu de dinossauros em Uberaba.",
+      "coordinates": {
+        "latitude": -19.742921,
+        "longitude": -47.743096
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333961)",
+        "url": "https://www.wikidata.org/wiki/Q10333961#P625"
+      },
+      "images": [],
+      "tags": [
+        "museu",
+        "paleontologia"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333961)",
+          "url": "https://www.wikidata.org/wiki/Q10333961"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -1148,6 +2520,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3167103-museu-regional-casa-dos-ottoni",
+      "name": "Museu Regional Casa dos Ottoni",
+      "slug": "museu-regional-casa-dos-ottoni",
+      "cityId": "3167103",
+      "categoryId": "museum",
+      "description": "Museu regional instalado na Casa dos Ottoni, no Serro.",
+      "coordinates": {
+        "latitude": -18.600733,
+        "longitude": -43.378567
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q9699153)",
+        "url": "https://www.wikidata.org/wiki/Q9699153#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-regional-casa-dos-ottoni.webp",
+          "thumbUrl": "images/museu-regional-casa-dos-ottoni-480.webp",
+          "alt": "Casarão colonial com varanda de madeira, sede do Museu Regional Casa dos Ottoni",
+          "author": "Ministério da Cultura",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_dos_Ottoni_01.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q9699153)",
+          "url": "https://www.wikidata.org/wiki/Q9699153"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3162500-museu-regional-de-sao-joao-del-rei",
+      "name": "Museu Regional de São João del-Rei",
+      "slug": "museu-regional-de-sao-joao-del-rei",
+      "cityId": "3162500",
+      "categoryId": "museum",
+      "description": "Museu regional em São João del-Rei.",
+      "coordinates": {
+        "latitude": -21.135833,
+        "longitude": -44.261111
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333615)",
+        "url": "https://www.wikidata.org/wiki/Q10333615#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-regional-de-sao-joao-del-rei.webp",
+          "thumbUrl": "images/museu-regional-de-sao-joao-del-rei-480.webp",
+          "alt": "Casarão colonial branco de portas azuis às margens de um córrego, em São João del-Rei",
+          "author": "João Victor Vilas Boas Militani",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_Regional_de_S%C3%A3o_Jo%C3%A3o_del-Rei.png",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333615)",
+          "url": "https://www.wikidata.org/wiki/Q10333615"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3138609-parque-estadual-do-ibitipoca",
       "name": "Parque Estadual do Ibitipoca",
       "slug": "parque-estadual-do-ibitipoca",
@@ -1183,6 +2633,203 @@
         {
           "name": "Wikidata (Q10345074)",
           "url": "https://www.wikidata.org/wiki/Q10345074"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-parque-estadual-do-itacolomi",
+      "name": "Parque Estadual do Itacolomi",
+      "slug": "parque-estadual-do-itacolomi",
+      "cityId": "3146107",
+      "categoryId": "park",
+      "description": "Unidade de conservação estadual entre Ouro Preto e Mariana, onde fica o Pico do Itacolomi.",
+      "coordinates": {
+        "latitude": -20.408076,
+        "longitude": -43.48765
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10345077)",
+        "url": "https://www.wikidata.org/wiki/Q10345077#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-do-itacolomi.webp",
+          "thumbUrl": "images/parque-estadual-do-itacolomi-480.webp",
+          "alt": "Cruz de madeira em primeiro plano e o Pico do Itacolomi ao fundo",
+          "author": "Glauco Umbelino from Diamantina, Brasil",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:A_f%C3%A9_sempre_foi_e_ainda_%C3%A9_muito_presente_em_Ouro_Preto_%281511566713%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "serra",
+        "unidade de conservação"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q10345077)",
+          "url": "https://www.wikidata.org/wiki/Q10345077"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3125507-parque-estadual-do-rio-preto",
+      "name": "Parque Estadual do Rio Preto",
+      "slug": "parque-estadual-do-rio-preto",
+      "cityId": "3125507",
+      "categoryId": "park",
+      "description": "Unidade de conservação estadual em São Gonçalo do Rio Preto.",
+      "coordinates": {
+        "latitude": -18.168036,
+        "longitude": -43.337813
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q123177024)",
+        "url": "https://www.wikidata.org/wiki/Q123177024#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-do-rio-preto.webp",
+          "thumbUrl": "images/parque-estadual-do-rio-preto-480.webp",
+          "alt": "Paisagem de serras e campos do Parque Estadual do Rio Preto",
+          "author": "Edersonsguedes",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_do_Rio_Preto_-_MG.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q123177024)",
+          "url": "https://www.wikidata.org/wiki/Q123177024"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-parque-estadual-pico-do-itambe",
+      "name": "Parque Estadual Pico do Itambé",
+      "slug": "parque-estadual-pico-do-itambe",
+      "cityId": "3121605",
+      "categoryId": "park",
+      "description": "Unidade de conservação estadual com o Pico do Itambé. O parque abrange vários municípios; aqui está associado a Diamantina, um dos municípios listados na fonte.",
+      "coordinates": {
+        "latitude": -18.398611,
+        "longitude": -43.348889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q56695104)",
+        "url": "https://www.wikidata.org/wiki/Q56695104#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-pico-do-itambe.webp",
+          "thumbUrl": "images/parque-estadual-pico-do-itambe-480.webp",
+          "alt": "Vegetação de altitude em meio à neblina, no Parque Estadual do Pico do Itambé",
+          "author": "C. R. Malaquias",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_Estadual_do_Pico_do_Itamb%C3%A9.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "montanha",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q56695104)",
+          "url": "https://www.wikidata.org/wiki/Q56695104"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3131307-parque-ipanema",
+      "name": "Parque Ipanema",
+      "slug": "parque-ipanema",
+      "cityId": "3131307",
+      "categoryId": "park",
+      "description": "Parque em Ipatinga.",
+      "coordinates": {
+        "latitude": -19.469008,
+        "longitude": -42.543506
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10345148)",
+        "url": "https://www.wikidata.org/wiki/Q10345148#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-ipanema.webp",
+          "thumbUrl": "images/parque-ipanema-480.webp",
+          "alt": "Ponte de madeira sobre o lago do Parque Ipanema, em Ipatinga",
+          "author": "HVL",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_de_madeira_e_ilha_do_Parque_Ipanema%2C_Ipatinga_MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "parque"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10345148)",
+          "url": "https://www.wikidata.org/wiki/Q10345148"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-parque-das-mangabeiras",
+      "name": "Parque Municipal das Mangabeiras",
+      "slug": "parque-das-mangabeiras",
+      "cityId": "3106200",
+      "categoryId": "park",
+      "description": "Parque municipal em Belo Horizonte, na Serra do Curral.",
+      "coordinates": {
+        "latitude": -19.950833,
+        "longitude": -43.905
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q9055881)",
+        "url": "https://www.wikidata.org/wiki/Q9055881#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-das-mangabeiras.webp",
+          "thumbUrl": "images/parque-das-mangabeiras-480.webp",
+          "alt": "Jatos de água diante da Serra do Curral, no Parque das Mangabeiras",
+          "author": "Eliezerscosta",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_das_Mangabeiras_-_Belo_Horizonte-MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "parque"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q9055881)",
+          "url": "https://www.wikidata.org/wiki/Q9055881"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -1412,6 +3059,85 @@
         {
           "name": "Wikidata (Q56641251)",
           "url": "https://www.wikidata.org/wiki/Q56641251"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-serra-do-curral",
+      "name": "Serra do Curral",
+      "slug": "serra-do-curral",
+      "cityId": "3106200",
+      "categoryId": "mountain",
+      "description": "Serra que acompanha o sul de Belo Horizonte.",
+      "coordinates": {
+        "latitude": -19.960833,
+        "longitude": -43.909722
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q9077173)",
+        "url": "https://www.wikidata.org/wiki/Q9077173#P625"
+      },
+      "images": [
+        {
+          "url": "images/serra-do-curral.webp",
+          "thumbUrl": "images/serra-do-curral-480.webp",
+          "alt": "Serra do Curral vista de dentro do Parque das Mangabeiras",
+          "author": "Eduardo Elias Camponez",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_do_Curral_vista_de_dentro_do_Parque_das_Mangabeiras.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "serra",
+        "mirante"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q9077173)",
+          "url": "https://www.wikidata.org/wiki/Q9077173"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3151800-veu-das-noivas",
+      "name": "Véu das Noivas",
+      "slug": "veu-das-noivas",
+      "cityId": "3151800",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Poços de Caldas.",
+      "coordinates": {
+        "latitude": -21.776131,
+        "longitude": -46.612083
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q86926470)",
+        "url": "https://www.wikidata.org/wiki/Q86926470#P625"
+      },
+      "images": [
+        {
+          "url": "images/veu-das-noivas.webp",
+          "thumbUrl": "images/veu-das-noivas-480.webp",
+          "alt": "Cachoeira larga em cascata, com água branca descendo entre rochas e mata",
+          "author": "Vicente Eugenio",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A9u_das_Noivas%2C_Po%C3%A7os_de_Caldas_-_MG_%285711207139%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q86926470)",
+          "url": "https://www.wikidata.org/wiki/Q86926470"
         }
       ],
       "lastVerifiedAt": "2026-11-20"

@@ -1,0 +1,39 @@
+{
+  "id": "3167103-matriz-de-nossa-senhora-da-conceicao",
+  "name": "Igreja Matriz de Nossa Senhora da Conceição",
+  "slug": "matriz-de-nossa-senhora-da-conceicao",
+  "cityId": "3167103",
+  "categoryId": "church",
+  "description": "Igreja matriz do Serro.",
+  "coordinates": {
+    "latitude": -18.603776,
+    "longitude": -43.379124
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300062)",
+    "url": "https://www.wikidata.org/wiki/Q10300062#P625"
+  },
+  "images": [
+    {
+      "url": "images/matriz-de-nossa-senhora-da-conceicao.webp",
+      "thumbUrl": "images/matriz-de-nossa-senhora-da-conceicao-480.webp",
+      "alt": "Igreja Matriz de Nossa Senhora da Conceição em meio às casas da encosta, no Serro",
+      "author": "Halleypo",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_nossa_senhora_da_conceicao_%28Serro%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300062)",
+      "url": "https://www.wikidata.org/wiki/Q10300062"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

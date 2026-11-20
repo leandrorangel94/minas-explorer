@@ -1,0 +1,26 @@
+{
+  "id": "3118908",
+  "name": "Cordisburgo",
+  "slug": "cordisburgo",
+  "regionId": "3101",
+  "description": "Município onde fica a Gruta de Maquiné.",
+  "coordinates": {
+    "latitude": -19.125,
+    "longitude": -44.320833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1792063)",
+    "url": "https://www.wikidata.org/wiki/Q1792063#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1792063)",
+      "url": "https://www.wikidata.org/wiki/Q1792063"
+    },
+    {
+      "name": "IBGE – Localidades (Cordisburgo)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118908"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

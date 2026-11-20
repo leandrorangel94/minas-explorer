@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 16px;
+  gap: var(--me-space-4);
   min-height: var(--me-header-height);
 }
 
@@ -32,7 +32,7 @@
   align-items: center;
   gap: 8px;
   flex: 1;
-  max-width: 440px;
+  max-width: clamp(440px, 34vw, 640px);
   margin-inline: auto;
   padding: 0 14px;
   height: 44px;

@@ -88,7 +88,9 @@ describe('ExplorerStore', () => {
     respond();
     const usedCategories = new Set(catalogJson.attractions.map((a) => a.categoryId));
     expect(store.categories().map((c) => c.id).sort()).toEqual([...usedCategories].sort());
-    expect(store.categories().length).toBeLessThan(categoriesJson.length);
-    expect(store.regions().length).toBeLessThan(regionsJson.length);
+    const usedRegions = new Set(catalogJson.cities.map((c) => c.regionId));
+    expect(store.regions().map((r) => r.id).sort()).toEqual([...usedRegions].sort());
+    expect(store.categories().length).toBeLessThanOrEqual(categoriesJson.length);
+    expect(store.regions().length).toBeLessThanOrEqual(regionsJson.length);
   });
 });

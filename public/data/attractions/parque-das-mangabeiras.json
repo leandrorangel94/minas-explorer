@@ -1,0 +1,39 @@
+{
+  "id": "3106200-parque-das-mangabeiras",
+  "name": "Parque Municipal das Mangabeiras",
+  "slug": "parque-das-mangabeiras",
+  "cityId": "3106200",
+  "categoryId": "park",
+  "description": "Parque municipal em Belo Horizonte, na Serra do Curral.",
+  "coordinates": {
+    "latitude": -19.950833,
+    "longitude": -43.905
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q9055881)",
+    "url": "https://www.wikidata.org/wiki/Q9055881#P625"
+  },
+  "images": [
+    {
+      "url": "images/parque-das-mangabeiras.webp",
+      "thumbUrl": "images/parque-das-mangabeiras-480.webp",
+      "alt": "Jatos de água diante da Serra do Curral, no Parque das Mangabeiras",
+      "author": "Eliezerscosta",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Parque_das_Mangabeiras_-_Belo_Horizonte-MG.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "parque"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q9055881)",
+      "url": "https://www.wikidata.org/wiki/Q9055881"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3170107-museu-dos-dinossauros",
+  "name": "Museu dos Dinossauros",
+  "slug": "museu-dos-dinossauros",
+  "cityId": "3170107",
+  "categoryId": "museum",
+  "description": "Museu de dinossauros em Uberaba.",
+  "coordinates": {
+    "latitude": -19.742921,
+    "longitude": -47.743096
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10333961)",
+    "url": "https://www.wikidata.org/wiki/Q10333961#P625"
+  },
+  "images": [],
+  "tags": [
+    "museu",
+    "paleontologia"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10333961)",
+      "url": "https://www.wikidata.org/wiki/Q10333961"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

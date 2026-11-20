@@ -59,6 +59,13 @@ export class HomePage {
     })),
   );
 
+  /** Números do catálogo para o hero (derivados dos dados, nunca fixos no código). */
+  protected readonly stats = computed(() => [
+    { value: this.store.attractions().length, label: 'destinos' },
+    { value: this.store.cities().length, label: 'cidades' },
+    { value: new Set(this.store.cities().map((c) => c.regionId)).size, label: 'regiões' },
+  ]);
+
   protected readonly countLabel = computed(() => {
     const n = this.store.results().length;
     return n === 1 ? '1 destino' : `${n} destinos`;

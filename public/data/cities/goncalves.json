@@ -1,0 +1,26 @@
+{
+  "id": "3127404",
+  "name": "Gonçalves",
+  "slug": "goncalves",
+  "regionId": "3109",
+  "description": "Município onde fica a Cachoeira dos Henriques.",
+  "coordinates": {
+    "latitude": -22.658889,
+    "longitude": -45.855833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1970369)",
+    "url": "https://www.wikidata.org/wiki/Q1970369#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1970369)",
+      "url": "https://www.wikidata.org/wiki/Q1970369"
+    },
+    {
+      "name": "IBGE – Localidades (Gonçalves)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3127404"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

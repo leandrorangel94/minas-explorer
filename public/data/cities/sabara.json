@@ -1,0 +1,26 @@
+{
+  "id": "3156700",
+  "name": "Sabará",
+  "slug": "sabara",
+  "regionId": "3101",
+  "description": "Cidade histórica da região metropolitana de Belo Horizonte, com centro histórico e igrejas coloniais.",
+  "coordinates": {
+    "latitude": -19.885833,
+    "longitude": -43.806944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1451808)",
+    "url": "https://www.wikidata.org/wiki/Q1451808#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1451808)",
+      "url": "https://www.wikidata.org/wiki/Q1451808"
+    },
+    {
+      "name": "IBGE – Localidades (Sabará)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3156700"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

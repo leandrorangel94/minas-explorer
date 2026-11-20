@@ -1,0 +1,39 @@
+{
+  "id": "3156700-igreja-de-nossa-senhora-do-o",
+  "name": "Igreja de Nossa Senhora do Ó",
+  "slug": "igreja-de-nossa-senhora-do-o",
+  "cityId": "3156700",
+  "categoryId": "church",
+  "description": "Igreja em Sabará.",
+  "coordinates": {
+    "latitude": -19.884889,
+    "longitude": -43.796
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300561)",
+    "url": "https://www.wikidata.org/wiki/Q10300561#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-nossa-senhora-do-o.webp",
+      "thumbUrl": "images/igreja-de-nossa-senhora-do-o-480.webp",
+      "alt": "Igreja branca de torre única em uma rua de Sabará",
+      "author": "Ricardo André Frantz",
+      "license": "CC BY 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Igreja_de_Nossa_Senhora_do_%C3%93_-_Sabar%C3%A1_-_3.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300561)",
+      "url": "https://www.wikidata.org/wiki/Q10300561"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

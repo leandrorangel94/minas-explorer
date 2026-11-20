@@ -1,0 +1,26 @@
+{
+  "id": "3167103",
+  "name": "Serro",
+  "slug": "serro",
+  "regionId": "3103",
+  "description": "Cidade histórica do período colonial, com igrejas e casarões.",
+  "coordinates": {
+    "latitude": -18.604444,
+    "longitude": -43.379445
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q919904)",
+    "url": "https://www.wikidata.org/wiki/Q919904#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q919904)",
+      "url": "https://www.wikidata.org/wiki/Q919904"
+    },
+    {
+      "name": "IBGE – Localidades (Serro)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3167103"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

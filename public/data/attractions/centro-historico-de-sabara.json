@@ -1,0 +1,39 @@
+{
+  "id": "3156700-centro-historico-de-sabara",
+  "name": "Centro Histórico de Sabará",
+  "slug": "centro-historico-de-sabara",
+  "cityId": "3156700",
+  "categoryId": "historic-heritage",
+  "description": "Centro histórico de Sabará.",
+  "coordinates": {
+    "latitude": -19.891741,
+    "longitude": -43.81055
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q128305835)",
+    "url": "https://www.wikidata.org/wiki/Q128305835#P625"
+  },
+  "images": [
+    {
+      "url": "images/centro-historico-de-sabara.webp",
+      "thumbUrl": "images/centro-historico-de-sabara-480.webp",
+      "alt": "Vista noturna de Sabará, com casas iluminadas em uma encosta",
+      "author": "GMVR92",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Centro_Hist%C3%B3rico_de_Sabar%C3%A1_a_noite.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "patrimônio"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q128305835)",
+      "url": "https://www.wikidata.org/wiki/Q128305835"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

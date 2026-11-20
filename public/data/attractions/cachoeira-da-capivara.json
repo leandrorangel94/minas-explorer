@@ -1,0 +1,39 @@
+{
+  "id": "3112802-cachoeira-da-capivara",
+  "name": "Cachoeira da Capivara",
+  "slug": "cachoeira-da-capivara",
+  "cityId": "3112802",
+  "categoryId": "waterfall",
+  "description": "Cachoeira em Capitólio.",
+  "coordinates": {
+    "latitude": -20.62917,
+    "longitude": -46.28779
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q111957632)",
+    "url": "https://www.wikidata.org/wiki/Q111957632#P625"
+  },
+  "images": [
+    {
+      "url": "images/cachoeira-da-capivara.webp",
+      "thumbUrl": "images/cachoeira-da-capivara-480.webp",
+      "alt": "Cachoeira em degraus sobre a rocha, com poço de água escura",
+      "author": "Isabela Romão",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_da_capivara.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "cachoeira"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q111957632)",
+      "url": "https://www.wikidata.org/wiki/Q111957632"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

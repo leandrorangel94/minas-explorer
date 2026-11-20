@@ -1,0 +1,26 @@
+{
+  "id": "3127701",
+  "name": "Governador Valadares",
+  "slug": "governador-valadares",
+  "regionId": "3104",
+  "description": "Município do leste de Minas Gerais, no Vale do Rio Doce.",
+  "coordinates": {
+    "latitude": -18.850833,
+    "longitude": -41.948889
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q462218)",
+    "url": "https://www.wikidata.org/wiki/Q462218#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q462218)",
+      "url": "https://www.wikidata.org/wiki/Q462218"
+    },
+    {
+      "name": "IBGE – Localidades (Governador Valadares)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3127701"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

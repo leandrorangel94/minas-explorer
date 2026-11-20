@@ -104,9 +104,20 @@
   --me-shadow: 0 1px 2px rgb(29 42 36 / 0.08), 0 4px 14px rgb(29 42 36 / 0.06);
   --me-shadow-hover: 0 2px 4px rgb(29 42 36 / 0.1), 0 10px 24px rgb(29 42 36 / 0.12);
 
-  // Layout
+  // Layout: UM contêiner para cabeçalho, hero, conteúdo e rodapé (tudo alinhado nas mesmas bordas)
   --me-header-height: 64px;
-  --me-container: 1280px;
+  --me-container: 1920px;
+  --me-gutter: clamp(16px, 3vw, 64px); // margem lateral fluida
+
+  // Espaçamento em múltiplos de 8px (proximidade: itens relacionados ficam mais perto)
+  --me-space-1: 4px;
+  --me-space-2: 8px;
+  --me-space-3: 16px;
+  --me-space-4: 24px;
+  --me-space-5: 32px;
+  --me-space-6: 48px;
+  --me-space-7: 64px;
+  --me-section: clamp(32px, 4vw, 64px); // respiro vertical entre seções
 }
 
 // Sistema escuro, a menos que o usuário tenha forçado o claro
@@ -123,3 +134,11 @@
 
 // Cor da categoria, clareada no tema escuro (usar onde a cor vira texto, ícone ou borda)
 // Uso em CSS: color: color-mix(in srgb, var(--cat, #1f4d3a) calc(100% - var(--me-cat-lighten)), white)
+
+// Telas grandes: cabeçalho mais alto e contêiner um pouco mais largo em monitores ultrawide
+@media (min-width: 1280px) {
+  :root { --me-header-height: 72px; }
+}
+@media (min-width: 2200px) {
+  :root { --me-container: 2240px; }
+}

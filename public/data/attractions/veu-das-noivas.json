@@ -1,0 +1,39 @@
+{
+  "id": "3151800-veu-das-noivas",
+  "name": "Véu das Noivas",
+  "slug": "veu-das-noivas",
+  "cityId": "3151800",
+  "categoryId": "waterfall",
+  "description": "Cachoeira em Poços de Caldas.",
+  "coordinates": {
+    "latitude": -21.776131,
+    "longitude": -46.612083
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q86926470)",
+    "url": "https://www.wikidata.org/wiki/Q86926470#P625"
+  },
+  "images": [
+    {
+      "url": "images/veu-das-noivas.webp",
+      "thumbUrl": "images/veu-das-noivas-480.webp",
+      "alt": "Cachoeira larga em cascata, com água branca descendo entre rochas e mata",
+      "author": "Vicente Eugenio",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:V%C3%A9u_das_Noivas%2C_Po%C3%A7os_de_Caldas_-_MG_%285711207139%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "cachoeira"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q86926470)",
+      "url": "https://www.wikidata.org/wiki/Q86926470"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

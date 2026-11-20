@@ -1,0 +1,39 @@
+{
+  "id": "3131307-parque-ipanema",
+  "name": "Parque Ipanema",
+  "slug": "parque-ipanema",
+  "cityId": "3131307",
+  "categoryId": "park",
+  "description": "Parque em Ipatinga.",
+  "coordinates": {
+    "latitude": -19.469008,
+    "longitude": -42.543506
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10345148)",
+    "url": "https://www.wikidata.org/wiki/Q10345148#P625"
+  },
+  "images": [
+    {
+      "url": "images/parque-ipanema.webp",
+      "thumbUrl": "images/parque-ipanema-480.webp",
+      "alt": "Ponte de madeira sobre o lago do Parque Ipanema, em Ipatinga",
+      "author": "HVL",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ponte_de_madeira_e_ilha_do_Parque_Ipanema%2C_Ipatinga_MG.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "parque"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10345148)",
+      "url": "https://www.wikidata.org/wiki/Q10345148"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

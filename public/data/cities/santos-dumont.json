@@ -1,0 +1,26 @@
+{
+  "id": "3160702",
+  "name": "Santos Dumont",
+  "slug": "santos-dumont",
+  "regionId": "3106",
+  "description": "Município onde fica o Museu de Cabangu, na casa onde nasceu Alberto Santos Dumont.",
+  "coordinates": {
+    "latitude": -21.456667,
+    "longitude": -43.5525
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1754760)",
+    "url": "https://www.wikidata.org/wiki/Q1754760#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1754760)",
+      "url": "https://www.wikidata.org/wiki/Q1754760"
+    },
+    {
+      "name": "IBGE – Localidades (Santos Dumont)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3160702"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

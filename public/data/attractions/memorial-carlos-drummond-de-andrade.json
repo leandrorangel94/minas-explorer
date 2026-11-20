@@ -1,0 +1,39 @@
+{
+  "id": "3131703-memorial-carlos-drummond-de-andrade",
+  "name": "Memorial Carlos Drummond de Andrade",
+  "slug": "memorial-carlos-drummond-de-andrade",
+  "cityId": "3131703",
+  "categoryId": "museum",
+  "description": "Memorial dedicado ao poeta Carlos Drummond de Andrade, em Itabira.",
+  "coordinates": {
+    "latitude": -19.617206,
+    "longitude": -43.221613
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q56693686)",
+    "url": "https://www.wikidata.org/wiki/Q56693686#P625"
+  },
+  "images": [
+    {
+      "url": "images/memorial-carlos-drummond-de-andrade.webp",
+      "thumbUrl": "images/memorial-carlos-drummond-de-andrade-480.webp",
+      "alt": "Muro branco com monumento em forma de página curva, no Memorial Carlos Drummond de Andrade",
+      "author": "Nasseralmeida at Portuguese Wikipedia",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Memorial_Drummond.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "literatura"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q56693686)",
+      "url": "https://www.wikidata.org/wiki/Q56693686"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

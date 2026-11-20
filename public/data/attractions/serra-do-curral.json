@@ -1,0 +1,40 @@
+{
+  "id": "3106200-serra-do-curral",
+  "name": "Serra do Curral",
+  "slug": "serra-do-curral",
+  "cityId": "3106200",
+  "categoryId": "mountain",
+  "description": "Serra que acompanha o sul de Belo Horizonte.",
+  "coordinates": {
+    "latitude": -19.960833,
+    "longitude": -43.909722
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q9077173)",
+    "url": "https://www.wikidata.org/wiki/Q9077173#P625"
+  },
+  "images": [
+    {
+      "url": "images/serra-do-curral.webp",
+      "thumbUrl": "images/serra-do-curral-480.webp",
+      "alt": "Serra do Curral vista de dentro do Parque das Mangabeiras",
+      "author": "Eduardo Elias Camponez",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_do_Curral_vista_de_dentro_do_Parque_das_Mangabeiras.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "serra",
+    "mirante"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q9077173)",
+      "url": "https://www.wikidata.org/wiki/Q9077173"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

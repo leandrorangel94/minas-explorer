@@ -1,0 +1,40 @@
+{
+  "id": "3140001-igreja-de-sao-francisco-de-assis-mariana",
+  "name": "Igreja de São Francisco de Assis (Mariana)",
+  "slug": "igreja-de-sao-francisco-de-assis-mariana",
+  "cityId": "3140001",
+  "categoryId": "church",
+  "description": "Igreja em Mariana.",
+  "coordinates": {
+    "latitude": -20.378306,
+    "longitude": -43.417671
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300224)",
+    "url": "https://www.wikidata.org/wiki/Q10300224#P625"
+  },
+  "images": [
+    {
+      "url": "images/igreja-de-sao-francisco-de-assis-mariana.webp",
+      "thumbUrl": "images/igreja-de-sao-francisco-de-assis-mariana-480.webp",
+      "alt": "Fachada barroca de duas torres da Igreja de São Francisco de Assis, em Mariana",
+      "author": "HVL",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fachada_da_Igreja_de_S%C3%A3o_Francisco_de_Assis%2C_Mariana_MG.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "barroco",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300224)",
+      "url": "https://www.wikidata.org/wiki/Q10300224"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

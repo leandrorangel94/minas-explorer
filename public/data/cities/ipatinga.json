@@ -1,0 +1,26 @@
+{
+  "id": "3131307",
+  "name": "Ipatinga",
+  "slug": "ipatinga",
+  "regionId": "3105",
+  "description": "Município do Vale do Aço.",
+  "coordinates": {
+    "latitude": -19.467778,
+    "longitude": -42.536944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q318314)",
+    "url": "https://www.wikidata.org/wiki/Q318314#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q318314)",
+      "url": "https://www.wikidata.org/wiki/Q318314"
+    },
+    {
+      "name": "IBGE – Localidades (Ipatinga)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3131307"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

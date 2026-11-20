@@ -1,0 +1,39 @@
+{
+  "id": "3156700-museu-do-ouro",
+  "name": "Museu do Ouro",
+  "slug": "museu-do-ouro",
+  "cityId": "3156700",
+  "categoryId": "museum",
+  "description": "Museu em Sabará.",
+  "coordinates": {
+    "latitude": -19.888968,
+    "longitude": -43.807087
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q30939517)",
+    "url": "https://www.wikidata.org/wiki/Q30939517#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-do-ouro.webp",
+      "thumbUrl": "images/museu-do-ouro-480.webp",
+      "alt": "Casarão histórico de paredes brancas e portal azul, sede do Museu do Ouro, em Sabará",
+      "author": "Ministério da Cultura",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_do_Ouro_%288365535112%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q30939517)",
+      "url": "https://www.wikidata.org/wiki/Q30939517"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

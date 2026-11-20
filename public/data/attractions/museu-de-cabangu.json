@@ -1,0 +1,29 @@
+{
+  "id": "3160702-museu-de-cabangu",
+  "name": "Museu de Cabangu",
+  "slug": "museu-de-cabangu",
+  "cityId": "3160702",
+  "categoryId": "museum",
+  "description": "Museu na casa onde nasceu Alberto Santos Dumont, em Santos Dumont.",
+  "coordinates": {
+    "latitude": -21.42506,
+    "longitude": -43.67451
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q5666625)",
+    "url": "https://www.wikidata.org/wiki/Q5666625#P625"
+  },
+  "images": [],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q5666625)",
+      "url": "https://www.wikidata.org/wiki/Q5666625"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

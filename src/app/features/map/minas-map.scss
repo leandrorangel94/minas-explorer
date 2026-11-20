@@ -2,7 +2,7 @@
 
 .me-map {
   position: relative;
-  height: clamp(360px, 62vh, 680px);
+  height: var(--me-explorer-height, clamp(360px, 62vh, 680px));
   border: 1px solid var(--me-border);
   border-radius: var(--me-radius);
   overflow: hidden;

@@ -1,0 +1,26 @@
+{
+  "id": "3147006",
+  "name": "Paracatu",
+  "slug": "paracatu",
+  "regionId": "3112",
+  "description": "Município do noroeste de Minas Gerais.",
+  "coordinates": {
+    "latitude": -17.221667,
+    "longitude": -46.875
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1755739)",
+    "url": "https://www.wikidata.org/wiki/Q1755739#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1755739)",
+      "url": "https://www.wikidata.org/wiki/Q1755739"
+    },
+    {
+      "name": "IBGE – Localidades (Paracatu)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3147006"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

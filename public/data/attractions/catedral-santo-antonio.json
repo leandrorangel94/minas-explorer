@@ -1,0 +1,28 @@
+{
+  "id": "3127701-catedral-santo-antonio",
+  "name": "Catedral Santo Antônio",
+  "slug": "catedral-santo-antonio",
+  "cityId": "3127701",
+  "categoryId": "church",
+  "description": "Catedral de Governador Valadares.",
+  "coordinates": {
+    "latitude": -18.856194,
+    "longitude": -41.939231
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q18482357)",
+    "url": "https://www.wikidata.org/wiki/Q18482357#P625"
+  },
+  "images": [],
+  "tags": [
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q18482357)",
+      "url": "https://www.wikidata.org/wiki/Q18482357"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -84,3 +84,6 @@ Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda
 - **Títulos:** cada página tem um único `<h1>` (`me-section-title [level]="1"`, hero da home ou `me-empty-state [level]="1"` nas páginas "não encontrada").
 - **Imagens:** cada foto tem `url` (960 px) e `thumbUrl` (480 px); cards e galeria usam `srcset`/`sizes` e `decoding="async"`.
 - Detalhes e resultados da revisão em [qualidade.md](qualidade.md).
+
+## Layout para telas grandes
+Um único contêiner (`--me-container`: 1920 px, 2240 px a partir de 2200 px) com margem fluida (`--me-gutter`) alinha cabeçalho, hero, conteúdo e rodapé nas mesmas bordas. Tokens de espaçamento em múltiplos de 8 px, escala de texto por largura (106% a 1600 px, 112,5% a 2200 px), painel e mapa com altura relativa à tela e hero em duas colunas com os números do catálogo. Princípios usados: hierarquia, alinhamento, proximidade e consistência. Não foi possível consultar material específico da Insany Design nem do uiBoost.

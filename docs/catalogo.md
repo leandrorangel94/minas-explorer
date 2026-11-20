@@ -55,7 +55,7 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 
 ## Curadoria da Etapa 9 (20/11/2026)
 
-**Estado do catálogo:** 23 cidades, 22 atrações (17 com fotografia), 10 das 13 regiões do IBGE representadas, 3 roteiros. Faltam cidades nas regiões de Governador Valadares, Uberaba e Patos de Minas.
+**Estado do catálogo:** 34 cidades, 60 atrações (50 com fotografia), as **13 regiões** do IBGE representadas e 7 roteiros.
 
 **Como foi levantado**
 - Candidatos: consulta SPARQL ao Wikidata (itens turísticos com coordenadas, município com código IBGE e número de artigos) e buscas por nome. Descartados os sem coordenadas (Parque do Sabiá, Serra do Papagaio) ou sem município (Lago de Furnas).
@@ -76,3 +76,8 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 - Revisão das descrições por fonte local e ampliação nas 3 regiões sem cidades.
 
 > Nota (Etapa 12): a cor de `categories.json` precisa ter contraste ≥ 4,5:1 sobre branco (é usada como texto); o teste `theme-contrast.spec.ts` verifica isso também no tema escuro, onde a cor é clareada automaticamente.
+
+## Expansão de 20/11/2026
+- +11 cidades e +38 atrações (cachoeiras, museus, igrejas e cidades históricas, parques e serras), com coordenadas e município do Wikidata conferidos contra o IBGE, e +33 fotos do Wikimedia Commons (CC BY ou CC BY-SA), conferidas visualmente. Descartadas fotos com menos de 800 px e a da Cachoeira das Andorinhas (não representa o lugar).
+- Casos de associação mais fraca (o Wikidata só traz a localização na descrição): Gruta de Maquiné (Cordisburgo) e Parque Estadual do Rio Preto (São Gonçalo do Rio Preto). Sem foto: Maquiné, Andorinhas, Museu de Cabangu, Museu dos Dinossauros e Catedral de Governador Valadares.
+- 4 novos roteiros editoriais (Diamantina e Serro, cachoeiras de Poços de Caldas, Sabará e Belo Horizonte).
