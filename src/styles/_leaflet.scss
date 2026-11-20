@@ -91,3 +91,10 @@
   border: 3px solid var(--me-surface); box-shadow: var(--me-shadow-hover);
   font-weight: 600; font-size: .9rem;
 }
+
+.me-popup-links { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.me-municipality-tooltip {
+  background: var(--me-surface); color: var(--me-heading); border: 1px solid var(--me-border);
+  border-radius: var(--me-radius-sm); box-shadow: var(--me-shadow-hover); font-weight: 600; padding: 4px 10px;
+  &::before { display: none; }
+}

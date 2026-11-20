@@ -91,3 +91,7 @@ Arquivo gerado por `npm run enrich` (não editar à mão), chave = id da cidade 
 - `lodging`: até 3 hospedagens mais próximas (`tourism=hotel|guest_house|hostel|motel|chalet|apartment|camp_site`), buscando em 3 km, 10 km e 25 km.
 
 Cada bloco tem `source` (nome, url, licença, `retrievedAt`). Execução: `npm run enrich` (retoma de onde parou), `-- --only=<id>` para um item, `-- --force` para refazer. Use com moderação: o Overpass é um serviço público compartilhado. Uma alternativa paga (Google Places) **não** está implementada; exigiria chave própria, que nunca deve ser versionada.
+
+## Candidatos a novos destinos
+
+`npm run candidates` consulta o Wikidata (CC0) por categoria e a licença das fotos no Commons, e gera `candidates/candidates.md` e `candidates.json` (pasta ignorada pelo Git) para revisão manual; não altera o catálogo. Opções: `--category=<id>`, `--limit=<n>`, `--no-licenses`. O mapeamento categoria → classes do Wikidata fica em `scripts/find-candidates.mjs` e pode ser refinado com o prompt de [prompt-categorias.md](prompt-categorias.md).

@@ -7,10 +7,10 @@
  *   node scripts/prepare-geo-data.mjs --from <dir>  # usa arquivos já baixados (nomes abaixo)
  *
  * Arquivos de origem (nomes usados em --from):
- *   mg-intermediaria.geojson, regioes-intermediarias.json, municipios.json
+ *   mg-intermediaria.geojson, regioes-intermediarias.json, municipios.json, mg-municipios.geojson
  *
  * Saídas (em public/data):
- *   geo/minas-gerais.geo.json, regions.json, municipalities.json
+ *   geo/minas-gerais.geo.json, geo/municipios.geo.json (divisas municipais), regions.json, municipalities.json
  *
  * Documentação da fonte e do tratamento: docs/dados-geograficos.md
  */
@@ -23,6 +23,7 @@ const SOURCES = {
   'mg-intermediaria.geojson': `${API}/v3/malhas/estados/31?formato=application/vnd.geo%2Bjson&qualidade=intermediaria`,
   'regioes-intermediarias.json': `${API}/v1/localidades/estados/31/regioes-intermediarias`,
   'municipios.json': `${API}/v1/localidades/estados/31/municipios`,
+  'mg-municipios.geojson': `${API}/v3/malhas/estados/31?intrarregiao=municipio&formato=application/vnd.geo%2Bjson&qualidade=minima`,
 };
 
 /** Correções de grafia sobre o texto retornado pela API (documentadas em docs/dados-geograficos.md). */
@@ -49,11 +50,14 @@ function assert(cond, msg) {
   if (!cond) throw new Error(`Validação falhou: ${msg}`);
 }
 
-const [geo, rawRegions, rawMunicipalities] = await Promise.all(Object.keys(SOURCES).map(load));
+const [geo, rawRegions, rawMunicipalities, muniMesh] = await Promise.all(Object.keys(SOURCES).map(load));
 
 // --- Contorno estadual -------------------------------------------------------
 assert(geo.type === 'FeatureCollection' && geo.features.length === 1, 'contorno deve ter 1 feature');
 assert(geo.features[0].properties.codarea === '31', 'codarea do contorno deve ser 31 (MG)');
+
+// --- Divisas municipais ---------------------------------------------------------
+assert(muniMesh.type === 'FeatureCollection' && muniMesh.features.length === 853, 'malha municipal deve ter 853 features');
 
 // --- Regiões -----------------------------------------------------------------
 const regions = rawRegions
@@ -81,6 +85,10 @@ for (const m of municipalities) {
 
 await mkdir(out('geo'), { recursive: true });
 await writeFile(out('geo', 'minas-gerais.geo.json'), JSON.stringify(geo));
+await writeFile(out('geo', 'municipios.geo.json'), JSON.stringify({
+  type: 'FeatureCollection',
+  features: muniMesh.features.map((f) => ({ type: 'Feature', properties: { id: f.properties.codarea }, geometry: f.geometry })),
+}));
 await writeFile(out('regions.json'), JSON.stringify(regions, null, 2) + '\n');
 await writeFile(out('municipalities.json'), JSON.stringify(municipalities) + '\n');
-console.log(`OK: contorno (1 feature), ${regions.length} regiões, ${municipalities.length} municípios.`);
+console.log(`OK: contorno (1 feature), malha de 853 municípios, ${regions.length} regiões, ${municipalities.length} municípios.`);

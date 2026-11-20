@@ -35,6 +35,14 @@ import { Icon } from '../../shared/components/icon/icon';
 
 const prefersReducedMotion = (): boolean => globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 
+/** Dados de um município para o hover/popup da camada de divisas. */
+export interface MunicipalityInfo {
+  readonly name: string;
+  readonly href?: string;
+}
+
+const MUNICIPALITY_PANE = 'me-municipios';
+
 export interface MapPoint {
   readonly id: string;
   readonly name: string;
@@ -49,6 +57,8 @@ export interface MapPoint {
   readonly categoryName?: string;
   /** Link da página de detalhes (já pronto para `href`, compatível com a estratégia de rotas). */
   readonly href?: string;
+  /** Link da página do município (aparece como "Ver município" no popup). */
+  readonly cityHref?: string;
   /** Miniatura exibida no popup (carregada só quando o popup abre). */
   readonly imageUrl?: string;
   readonly imageAlt?: string;
@@ -70,6 +80,10 @@ export interface MapPoint {
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MinasMap {
+  /** Divisas municipais (propriedade `id` = código IBGE). Destacam e mostram o nome ao passar o mouse. */
+  readonly municipalities = input<FeatureCollection | null>(null);
+  /** Nome e link (se o município tem página) por código IBGE. */
+  readonly municipalityInfo = input<ReadonlyMap<string, MunicipalityInfo>>(new Map());
   readonly points = input<readonly MapPoint[]>([]);
   /** Contorno do estado (GeoJSON do IBGE): desenhado e usado para esmaecer o entorno. */
   readonly boundary = input<FeatureCollection | null>(null);
@@ -104,6 +118,7 @@ export class MinasMap {
   private readonly markers = new Map<string, L.Marker>();
   private readonly boundaryLayer = L.geoJSON(undefined, { style: () => this.boundaryStyle() });
   private maskLayer?: L.Polygon;
+  private municipalityLayer?: L.GeoJSON;
   private resizeObserver?: ResizeObserver;
 
   constructor() {
@@ -112,6 +127,7 @@ export class MinasMap {
     effect(() => {
       this.theme.effective(); // redesenha contorno e máscara com as cores do tema atual
       this.renderBoundary(this.boundary());
+      this.renderMunicipalities(this.municipalities(), this.municipalityInfo());
     });
     effect(() => {
       const points = this.points();
@@ -154,12 +170,14 @@ export class MinasMap {
     }).addTo(map);
     map.createPane(MASK_PANE).style.zIndex = '250'; // entre os tiles (200) e o contorno (400)
     map.getPane(MASK_PANE)!.style.pointerEvents = 'none';
+    map.createPane(MUNICIPALITY_PANE).style.zIndex = '420'; // acima do contorno, abaixo dos marcadores (600)
     this.boundaryLayer.addTo(map);
     this.markerLayer.addTo(map);
     this.map = map;
 
     this.fitState();
     this.renderBoundary(this.boundary());
+    this.renderMunicipalities(this.municipalities(), this.municipalityInfo());
     this.renderMarkers(this.points());
     this.applyViewport(this.points(), this.fitToPoints());
     this.applySelection(this.selectedId());
@@ -285,12 +303,18 @@ export class MinasMap {
       p.textContent = line;
       box.appendChild(p);
     }
-    if (point.href) {
-      const a = document.createElement('a');
-      a.href = point.href;
-      a.textContent = 'Ver detalhes';
-      a.className = 'me-popup-link';
-      box.appendChild(a);
+    if (point.href || point.cityHref) {
+      const links = document.createElement('div');
+      links.className = 'me-popup-links';
+      for (const [href, text] of [[point.href, 'Ver detalhes'], [point.cityHref, 'Ver município']] as const) {
+        if (!href) continue;
+        const a = document.createElement('a');
+        a.href = href;
+        a.textContent = text;
+        a.className = 'me-popup-link';
+        links.appendChild(a);
+      }
+      box.appendChild(links);
     }
     return box;
   }
@@ -309,6 +333,46 @@ export class MinasMap {
     const world: L.LatLngTuple[] = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
     const hole = ring.map(([lng, lat]) => [lat, lng] as L.LatLngTuple);
     this.maskLayer = L.polygon([world, hole], { ...MASK_STYLE, fillColor: this.cssVar('--me-map-mask', '#f4f1e8'), pane: MASK_PANE }).addTo(this.map);
+  }
+
+  /** Divisas municipais: linhas finas; no hover, realça a área e mostra o nome. */
+  private renderMunicipalities(mesh: FeatureCollection | null, info: ReadonlyMap<string, MunicipalityInfo>): void {
+    if (!this.map) return;
+    this.municipalityLayer?.remove();
+    this.municipalityLayer = undefined;
+    if (!mesh) return;
+    const base = (): L.PathOptions => ({
+      pane: MUNICIPALITY_PANE,
+      color: this.cssVar('--me-map-boundary', '#1f4d3a'),
+      weight: 0.7,
+      opacity: 0.45,
+      fillColor: this.cssVar('--me-map-boundary-fill', '#8fa98b'),
+      fillOpacity: 0.001, // quase transparente, mas capta o mouse
+    });
+    const hover = (): L.PathOptions => ({ weight: 2, opacity: 1, fillOpacity: 0.28 });
+    this.municipalityLayer = L.geoJSON(mesh, {
+      style: base,
+      onEachFeature: (feature, layer) => {
+        const entry = info.get(String(feature.properties?.['id']));
+        if (!entry) return;
+        const path = layer as L.Path;
+        layer.bindTooltip(entry.name, { sticky: true, direction: 'top', className: 'me-municipality-tooltip' });
+        layer.on('mouseover', () => { path.setStyle(hover()); path.bringToFront(); });
+        layer.on('mouseout', () => path.setStyle(base()));
+        const box = document.createElement('div');
+        const title = document.createElement('strong');
+        title.textContent = entry.name;
+        box.appendChild(title);
+        if (entry.href) {
+          const a = document.createElement('a');
+          a.href = entry.href;
+          a.textContent = 'Ver município';
+          a.className = 'me-popup-link';
+          box.appendChild(a);
+        }
+        layer.bindPopup(box, { closeButton: true, autoPan: true });
+      },
+    }).addTo(this.map);
   }
 
   /** Cores do contorno vindas dos tokens CSS do tema atual. */

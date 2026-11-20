@@ -73,6 +73,8 @@
           <me-minas-map
             [points]="points()"
             [boundary]="boundary()"
+            [municipalities]="municipalityMesh()"
+            [municipalityInfo]="municipalityInfo()"
             [selectedId]="store.selectedId()"
             [fitToPoints]="store.filtersActive()"
             (pointSelected)="store.select($event)"

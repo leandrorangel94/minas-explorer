@@ -8,6 +8,7 @@
     "catalog": "node scripts/build-catalog.mjs",
     "geo": "node scripts/prepare-geo-data.mjs",
     "enrich": "node scripts/enrich-catalog.mjs",
+    "candidates": "node scripts/find-candidates.mjs",
     "start": "npm run catalog && ng serve",
     "build": "npm run catalog && ng build",
     "watch": "ng build --watch --configuration development",

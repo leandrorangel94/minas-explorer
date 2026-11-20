@@ -10,7 +10,7 @@ import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { ExplorerStore } from '../explore/explorer.store';
 import { FiltersPanel } from '../explore/filters-panel/filters-panel';
 import { ResultsList } from '../explore/results-list/results-list';
-import { MapPoint, MinasMap } from '../map/minas-map';
+import { MapPoint, MinasMap, MunicipalityInfo } from '../map/minas-map';
 import { ExplorerSkeleton } from '../explore/explorer-skeleton';
 import { expandCollapse, fadeIn } from '../../shared/animations';
 import { Icon } from '../../shared/components/icon/icon';
@@ -41,6 +41,26 @@ export class HomePage {
   protected readonly view = signal<View>('map');
   protected readonly filtersOpen = signal(false);
 
+  /** Divisas municipais (opcional): se falhar ao carregar, o mapa segue sem elas. */
+  protected readonly municipalityMesh = toSignal(
+    inject(GeoDataService).municipalityMesh$.pipe(catchError(() => of(null))),
+    { initialValue: null },
+  );
+  private readonly geoMunicipalities = toSignal(
+    inject(GeoDataService).municipalities$.pipe(catchError(() => of([]))),
+    { initialValue: [] },
+  );
+  /** Nome de todos os municípios; link só para os que têm página no catálogo. */
+  protected readonly municipalityInfo = computed(() => {
+    const withPage = new Map(this.store.cities().map((c) => [c.id, c.slug]));
+    return new Map<string, MunicipalityInfo>(
+      this.geoMunicipalities().map((m) => {
+        const slug = withPage.get(m.id);
+        return [m.id, { name: m.name, href: slug ? this.location.prepareExternalUrl(`/cidades/${slug}`) : undefined }];
+      }),
+    );
+  });
+
   /** Se o contorno falhar ao carregar, o mapa segue funcionando sem ele. */
   protected readonly boundary = toSignal(
     inject(GeoDataService).boundary$.pipe(catchError(() => of(null))),
@@ -61,6 +81,7 @@ export class HomePage {
       href: this.location.prepareExternalUrl(`/cidades/${city.slug}/${attraction.slug}`),
       imageUrl: attraction.images[0]?.thumbUrl ?? attraction.images[0]?.url,
       imageAlt: attraction.images[0]?.alt,
+      cityHref: this.location.prepareExternalUrl(`/cidades/${city.slug}`),
     })),
   );
 

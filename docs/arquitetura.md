@@ -97,3 +97,7 @@ Um único contêiner (`--me-container`: 1920 px, 2240 px a partir de 2200 px) co
 - **Popup do mapa**: `MapPoint.imageUrl/imageAlt`; a miniatura só recebe `src` ao abrir o popup (não baixa dezenas de imagens de uma vez).
 - **Camadas**: `.me-map` usa `isolation: isolate`, então os painéis do Leaflet (z-index até 1000) nunca passam por cima do cabeçalho fixo. O botão de zoom desabilitado usa tokens (`_leaflet.scss`).
 - **Home**: filtros em faixa horizontal no desktop; lista + mapa lado a lado com altura derivada da janela (`--me-explorer-height`), para caber na primeira tela.
+
+## Divisas municipais no mapa
+
+`public/data/geo/municipios.geo.json` (malha dos 853 municípios, IBGE, qualidade mínima, ~450 KB) é gerada por `npm run geo` e carregada pelo `GeoDataService.municipalityMesh$`. O `me-minas-map` a desenha num pane próprio (`me-municipios`, z-index 420: acima do contorno e abaixo dos marcadores). Ao passar o mouse, a área é realçada e um tooltip mostra o nome; ao clicar, abre um popup com o nome e, se o município tem página no catálogo, o link "Ver município". O popup dos destinos também traz "Ver detalhes" e "Ver município". Se a malha falhar ao carregar, o mapa continua sem ela.

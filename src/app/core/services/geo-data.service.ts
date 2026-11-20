@@ -16,6 +16,11 @@ export class GeoDataService {
     .get<FeatureCollection>('data/geo/minas-gerais.geo.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: false }));
 
+  /** Divisas dos 853 municípios (IBGE, qualidade mínima); carregada sob demanda. */
+  readonly municipalityMesh$: Observable<FeatureCollection> = this.http
+    .get<FeatureCollection>('data/geo/municipios.geo.json')
+    .pipe(shareReplay({ bufferSize: 1, refCount: false }));
+
   readonly regions$: Observable<readonly Region[]> = this.http
     .get<Region[]>('data/regions.json')
     .pipe(shareReplay({ bufferSize: 1, refCount: false }));
