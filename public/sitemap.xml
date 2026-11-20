@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  O app usa hash routing: as páginas internas (/#/cidades/...) compartilham o mesmo documento e
+  não são URLs distintas para buscadores. Por isso, só a URL real e existente entra aqui.
+  Se o app passar a ter páginas pré-renderizadas, liste-as neste arquivo. Ver docs/publicacao.md.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://leandrorangel94.github.io/minas-explorer/</loc>
+  </url>
+</urlset>

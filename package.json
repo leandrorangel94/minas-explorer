@@ -9,7 +9,9 @@
     "build": "npm run catalog && ng build",
     "watch": "ng build --watch --configuration development",
     "test": "npm run catalog && ng test",
-    "lint": "eslint \"src/**/*.{ts,html}\""
+    "lint": "eslint \"src/**/*.{ts,html}\"",
+    "build:pages": "npm run catalog && ng build --base-href /minas-explorer/",
+    "preview:pages": "node scripts/preview-pages.mjs"
   },
   "private": true,
   "packageManager": "npm@12.2.2",
