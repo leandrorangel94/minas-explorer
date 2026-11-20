@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideExternalLink, LucideMap, LucideSearchX, LucideTriangleAlert } from '@lucide/angular';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { googleMapsPlaceUrl } from '../../core/utils/external-links';
 import { formatIsoDate } from '../../core/utils/format';
@@ -11,12 +10,12 @@ import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ExplorerStore } from '../explore/explorer.store';
 import { EditorialNote } from './editorial-note';
+import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-itinerary-page',
   imports: [
-    RouterLink, MatButtonModule, LucideExternalLink, LucideMap, LucideSearchX, LucideTriangleAlert,
-    Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, EditorialNote,
+    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, EditorialNote, Icon,
   ],
   templateUrl: './itinerary-page.html',
   styleUrl: './itinerary-page.scss',

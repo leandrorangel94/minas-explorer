@@ -7,6 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Minas Gerais está mais perto do que você imagina.">
   <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#faf8f3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#111a15" media="(prefers-color-scheme: dark)">
+  <!-- Compartilhamento (Open Graph/Twitter). og:image e og:url exigem URL absoluta: definidos na publicação (Etapa 11). -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Minas Explorer">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Minas Explorer">
+  <meta property="og:description" content="Minas Gerais está mais perto do que você imagina. Guia turístico interativo com mapa, cidades, atrações e roteiros.">
+  <meta name="twitter:card" content="summary">
   <!-- Aplica o tema escolhido antes do primeiro render (evita "flash" de tema errado). Ver ThemeService. -->
   <script>
     try {
@@ -14,10 +23,12 @@
       if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
     } catch (e) { /* sem LocalStorage: segue o sistema */ }
   </script>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <app-root></app-root>

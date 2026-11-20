@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, inject, signal } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideHeart, LucideInfo, LucideTriangleAlert } from '@lucide/angular';
 import { FavoritesService } from '../../core/services/favorites.service';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { DestinationCard } from '../../shared/components/destination-card/destination-card';
@@ -9,12 +8,12 @@ import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { SectionTitle } from '../../shared/components/section-title/section-title';
 import { ExplorerStore } from '../explore/explorer.store';
+import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-favorites-page',
   imports: [
-    RouterLink, MatButtonModule, LucideHeart, LucideInfo, LucideTriangleAlert,
-    DestinationCard, EmptyState, FavoriteButton, SectionTitle,
+    RouterLink, MatButtonModule, DestinationCard, EmptyState, FavoriteButton, SectionTitle, Icon,
   ],
   templateUrl: './favorites-page.html',
   styleUrl: './favorites-page.scss',

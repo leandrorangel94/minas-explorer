@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/museu-mariano-procopio.webp",
+      "thumbUrl": "images/museu-mariano-procopio-480.webp",
       "alt": "Edifício do Museu Mariano Procópio, com jardim e palmeira",
       "author": "Rodrigo Tetsuo Argenton",
       "license": "CC BY-SA 4.0",

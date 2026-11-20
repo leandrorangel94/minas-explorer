@@ -1,16 +1,24 @@
 <article class="me-card" [class.me-card--selected]="selected()" [class.me-card--compact]="compact()">
   <div class="me-card__media">
     @if (showImage()) {
-      <img [src]="imageUrl()" [alt]="imageAlt()" loading="lazy" (error)="onImageError()" />
+      <img
+        [src]="compact() && imageThumbUrl() ? imageThumbUrl() : imageUrl()"
+        [attr.srcset]="srcset()"
+        [attr.sizes]="srcset() ? sizes() : null"
+        [alt]="imageAlt()"
+        loading="lazy"
+        decoding="async"
+        (error)="onImageError()"
+      />
     } @else {
       <div class="me-card__placeholder" role="img" aria-label="Imagem indisponível">
-        <svg lucideImageOff [size]="32" aria-hidden="true"></svg>
+        <me-icon name="image-off" [size]="32" />
       </div>
     }
     @if (category() && !compact()) {
       <span class="me-card__chip" [style.--chip-color]="categoryColor()">
         @if (categoryIcon()) {
-          <me-category-icon [name]="categoryIcon()" [size]="14" />
+          <me-icon [name]="categoryIcon()" [size]="14" />
         }
         {{ category() }}
       </span>
@@ -26,7 +34,7 @@
     @if (category() && compact()) {
       <p class="me-card__category" [style.--chip-color]="categoryColor()">
         @if (categoryIcon()) {
-          <me-category-icon [name]="categoryIcon()" [size]="14" />
+          <me-icon [name]="categoryIcon()" [size]="14" />
         }
         {{ category() }}
       </p>

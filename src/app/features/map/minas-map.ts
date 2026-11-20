@@ -13,7 +13,6 @@ import {
 } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
-import { LucideLocateFixed } from '@lucide/angular';
 import type { FeatureCollection, Polygon } from 'geojson';
 import * as L from 'leaflet';
 import LeafletModule from 'leaflet';
@@ -29,9 +28,12 @@ import {
   BOUNDARY_STYLE, FOCUS_PADDING, MASK_PANE, MASK_STYLE, MINAS_FALLBACK_VIEW, MINAS_VIEW_BOUNDS, RESULTS_FIT_OPTIONS,
   TILE_PROVIDER,
 } from '../../core/config/map.config';
-import { createCategoryIcon } from '../../core/utils/category-icons';
+import { createIcon } from '../../core/utils/icons';
 import { ThemeService } from '../../core/services/theme.service';
 import { configureLeafletIcons } from '../../core/utils/leaflet-icons';
+import { Icon } from '../../shared/components/icon/icon';
+
+const prefersReducedMotion = (): boolean => globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 
 export interface MapPoint {
   readonly id: string;
@@ -57,7 +59,9 @@ export interface MapPoint {
  */
 @Component({
   selector: 'me-minas-map',
-  imports: [MatButtonModule, MatTooltipModule, LucideLocateFixed],
+  imports: [
+    MatButtonModule, MatTooltipModule, Icon,
+  ],
   templateUrl: './minas-map.html',
   styleUrl: './minas-map.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
@@ -88,7 +92,7 @@ export class MinasMap {
     iconCreateFunction: (cluster) => {
       const n = cluster.getChildCount();
       return L.divIcon({
-        html: `<div class="me-cluster" aria-label="${n} destinos agrupados"><span>${n}</span></div>`,
+        html: `<div class="me-cluster" data-count="${n}"><span aria-hidden="true">${n}</span><span class="me-visually-hidden">${n} destinos agrupados. Ative para aproximar.</span></div>`,
         className: 'me-cluster-wrap',
         iconSize: [40, 40],
       });
@@ -121,11 +125,19 @@ export class MinasMap {
   }
 
   private initMap(): void {
+    const reduceMotion = prefersReducedMotion();
     const map = L.map(this.mapEl().nativeElement, {
-      zoomControl: true,
+      zoomControl: false, // adicionado abaixo, com rótulos em português
       zoomSnap: 0.25,
       maxBoundsViscosity: 0.9,
       worldCopyJump: false,
+      zoomAnimation: !reduceMotion,
+      fadeAnimation: !reduceMotion,
+      markerZoomAnimation: !reduceMotion,
+    });
+    L.control.zoom({ zoomInTitle: 'Aproximar', zoomOutTitle: 'Afastar' }).addTo(map);
+    map.on('popupopen', (e) => {
+      e.popup.getElement()?.querySelector('.leaflet-popup-close-button')?.setAttribute('aria-label', 'Fechar');
     });
     L.tileLayer(TILE_PROVIDER.urlTemplate, {
       attribution: TILE_PROVIDER.attribution,
@@ -180,7 +192,10 @@ export class MinasMap {
     const map = this.map;
     if (!map) return;
     if (fit && points.length > 0) {
-      map.fitBounds(L.latLngBounds(points.map((p) => [p.latitude, p.longitude] as [number, number])), RESULTS_FIT_OPTIONS);
+      map.fitBounds(L.latLngBounds(points.map((p) => [p.latitude, p.longitude] as [number, number])), {
+        ...RESULTS_FIT_OPTIONS,
+        animate: RESULTS_FIT_OPTIONS.animate && !prefersReducedMotion(),
+      });
     } else {
       this.fitState();
     }
@@ -193,11 +208,12 @@ export class MinasMap {
     for (const point of points) {
       const marker = L.marker([point.latitude, point.longitude], {
         title: point.name,
-        alt: [point.name, point.subtitle, point.categoryName].filter(Boolean).join(', '),
+        alt: this.markerLabel(point),
         icon: point.icon ? this.categoryDivIcon(point, false) : new L.Icon.Default(),
         riseOnHover: true,
       })
         .bindPopup(this.popupContent(point), { closeButton: true, autoPan: true, offset: [0, -8] })
+        .on('add', (e) => (e.target as L.Marker).getElement()?.setAttribute('aria-label', this.markerLabel(point)))
         .on('click', () => this.zone.run(() => this.pointSelected.emit(point.id)))
         .on('popupclose', () => {
           if (this.selectedId() === point.id) this.zone.run(() => this.selectionCleared.emit());
@@ -225,12 +241,16 @@ export class MinasMap {
     }
   }
 
+  private markerLabel(point: MapPoint): string {
+    return [point.name, point.subtitle, point.categoryName].filter(Boolean).join(', ');
+  }
+
   private categoryDivIcon(point: MapPoint, selected: boolean): L.DivIcon {
     const size = selected ? 44 : 34;
     const el = document.createElement('div');
     el.className = `me-marker${selected ? ' me-marker--selected' : ''}`;
     el.style.setProperty('--me-marker-color', point.color ?? '#1f4d3a');
-    el.appendChild(createCategoryIcon(point.icon, selected ? 22 : 18));
+    el.appendChild(createIcon(point.icon, selected ? 22 : 18));
     return L.divIcon({ html: el, className: 'me-marker-wrap', iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
   }
 

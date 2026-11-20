@@ -1,5 +1,5 @@
 <section class="me-container py-10">
-  <me-section-title title="Roteiros" subtitle="Sugestões editoriais de passeios por Minas Gerais." />
+  <me-section-title [level]="1" title="Roteiros" subtitle="Sugestões editoriais de passeios por Minas Gerais." />
   <me-editorial-note />
 
   @switch (store.itinerariesStatus()) {
@@ -9,7 +9,7 @@
     @case ('error') {
       <div class="mt-6">
         <me-empty-state title="Não foi possível carregar os roteiros" description="Verifique sua conexão e recarregue a página.">
-          <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+          <me-icon icon name="triangle-alert" [size]="28" />
         </me-empty-state>
       </div>
     }
@@ -17,7 +17,7 @@
       @if (items().length === 0) {
         <div class="mt-6">
           <me-empty-state title="Nenhum roteiro disponível ainda" description="Os roteiros serão adicionados aos poucos.">
-            <svg icon lucideRoute [size]="28" aria-hidden="true"></svg>
+            <me-icon icon name="route" [size]="28" />
             <a matButton="outlined" routerLink="/">Voltar ao início</a>
           </me-empty-state>
         </div>

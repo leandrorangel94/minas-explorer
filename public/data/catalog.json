@@ -648,6 +648,7 @@
       "images": [
         {
           "url": "images/cachoeira-do-tabuleiro.webp",
+          "thumbUrl": "images/cachoeira-do-tabuleiro-480.webp",
           "alt": "Vista frontal da Cachoeira do Tabuleiro, queda d'água entre paredões de rocha",
           "author": "Rafael dos Reis Pereira",
           "license": "CC BY-SA 3.0",
@@ -686,6 +687,7 @@
       "images": [
         {
           "url": "images/casa-de-chica-da-silva.webp",
+          "thumbUrl": "images/casa-de-chica-da-silva-480.webp",
           "alt": "Casarão colonial de paredes brancas e janelas verdes, com rua de pedras na frente",
           "author": "Raquel Mendes Silva",
           "license": "CC BY-SA 4.0",
@@ -724,6 +726,7 @@
       "images": [
         {
           "url": "images/catedral-basilica-nossa-senhora-da-assuncao.webp",
+          "thumbUrl": "images/catedral-basilica-nossa-senhora-da-assuncao-480.webp",
           "alt": "Fachada da Catedral Basílica Nossa Senhora da Assunção, em Mariana",
           "author": "Pedro Vilela / MTur Destinos",
           "license": "Domínio público",
@@ -762,6 +765,7 @@
       "images": [
         {
           "url": "images/catedral-divino-espirito-santo.webp",
+          "thumbUrl": "images/catedral-divino-espirito-santo-480.webp",
           "alt": "Fachada amarela da Catedral Divino Espírito Santo, em Divinópolis",
           "author": "Paulo JC Nogueira",
           "license": "CC BY-SA 3.0",
@@ -828,6 +832,7 @@
       "images": [
         {
           "url": "images/conjunto-arquitetonico-da-pampulha.webp",
+          "thumbUrl": "images/conjunto-arquitetonico-da-pampulha-480.webp",
           "alt": "Lagoa da Pampulha com edificações e vegetação na margem",
           "author": "Daniel Raposo",
           "license": "CC BY-SA 4.0",
@@ -924,6 +929,7 @@
       "images": [
         {
           "url": "images/inhotim.webp",
+          "thumbUrl": "images/inhotim-480.webp",
           "alt": "Vista aérea de jardins e lagos do Inhotim, em meio à mata",
           "author": "Oswalney Costa Galvã…",
           "license": "CC BY-SA 3.0",
@@ -963,6 +969,7 @@
       "images": [
         {
           "url": "images/lagoa-dom-helvecio.webp",
+          "thumbUrl": "images/lagoa-dom-helvecio-480.webp",
           "alt": "Vista da Lagoa Dom Helvécio cercada por mata",
           "author": "Fernando Marino",
           "license": "CC BY-SA 3.0",
@@ -1001,6 +1008,7 @@
       "images": [
         {
           "url": "images/mercado-central.webp",
+          "thumbUrl": "images/mercado-central-480.webp",
           "alt": "Fachada do Mercado Central de Belo Horizonte, com palmeiras na frente",
           "author": "Paulo SP/ Wikimedia",
           "license": "CC BY-SA 4.0",
@@ -1039,6 +1047,7 @@
       "images": [
         {
           "url": "images/mina-da-passagem.webp",
+          "thumbUrl": "images/mina-da-passagem-480.webp",
           "alt": "Entrada da recepção da Mina de Ouro, na Mina da Passagem, em Mariana",
           "author": "Túllio F",
           "license": "CC BY-SA 4.0",
@@ -1077,6 +1086,7 @@
       "images": [
         {
           "url": "images/museu-da-inconfidencia.webp",
+          "thumbUrl": "images/museu-da-inconfidencia-480.webp",
           "alt": "Fachada do Museu da Inconfidência, em Ouro Preto",
           "author": "Ministério da Cultura",
           "license": "CC BY 2.0",
@@ -1116,6 +1126,7 @@
       "images": [
         {
           "url": "images/museu-mariano-procopio.webp",
+          "thumbUrl": "images/museu-mariano-procopio-480.webp",
           "alt": "Edifício do Museu Mariano Procópio, com jardim e palmeira",
           "author": "Rodrigo Tetsuo Argenton",
           "license": "CC BY-SA 4.0",
@@ -1154,6 +1165,7 @@
       "images": [
         {
           "url": "images/parque-estadual-do-ibitipoca.webp",
+          "thumbUrl": "images/parque-estadual-do-ibitipoca-480.webp",
           "alt": "Cachoeira no Lago dos Espelhos, no circuito das águas do Parque Estadual do Ibitipoca",
           "author": "Econt",
           "license": "Domínio público",
@@ -1223,6 +1235,7 @@
       "images": [
         {
           "url": "images/parque-nacional-da-serra-da-canastra.webp",
+          "thumbUrl": "images/parque-nacional-da-serra-da-canastra-480.webp",
           "alt": "Paisagem de serras cobertas de vegetação sob céu nublado, no Parque Nacional da Serra da Canastra",
           "author": "Jairo Abud from São Paulo, Brazil",
           "license": "CC BY 2.0",
@@ -1262,6 +1275,7 @@
       "images": [
         {
           "url": "images/parque-nacional-da-serra-do-cipo.webp",
+          "thumbUrl": "images/parque-nacional-da-serra-do-cipo-480.webp",
           "alt": "Riacho entre paredões de rocha, com pequena cachoeira ao fundo",
           "author": "Felipe L.",
           "license": "CC BY-SA 4.0",
@@ -1301,6 +1315,7 @@
       "images": [
         {
           "url": "images/parque-nacional-de-caparao.webp",
+          "thumbUrl": "images/parque-nacional-de-caparao-480.webp",
           "alt": "Formação rochosa conhecida como Face de Cristo, em meio à vegetação",
           "author": "RonanW Humberto do Lago Müller",
           "license": "Domínio público",
@@ -1340,6 +1355,7 @@
       "images": [
         {
           "url": "images/santuario-do-bom-jesus-de-matosinhos.webp",
+          "thumbUrl": "images/santuario-do-bom-jesus-de-matosinhos-480.webp",
           "alt": "Vista geral do Santuário do Bom Jesus de Matosinhos e das capelas ao redor",
           "author": "Antônio Ricardo Gomes de Souza",
           "license": "CC BY-SA 4.0",
@@ -1379,6 +1395,7 @@
       "images": [
         {
           "url": "images/santuario-do-caraca.webp",
+          "thumbUrl": "images/santuario-do-caraca-480.webp",
           "alt": "Santuário do Caraça entre montanhas cobertas de mata",
           "author": "Sérgio Mourão",
           "license": "CC BY-SA 4.0",

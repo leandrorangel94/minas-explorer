@@ -1,24 +1,22 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideExternalLink, LucideMap, LucideNavigation, LucideSearchX, LucideTriangleAlert } from '@lucide/angular';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { findAttraction, findCityBySlug } from '../../core/utils/catalog.utils';
 import { googleMapsDirectionsUrl, googleMapsPlaceUrl } from '../../core/utils/external-links';
 import { formatIsoDate } from '../../core/utils/format';
 import { Breadcrumbs, Crumb } from '../../shared/components/breadcrumbs/breadcrumbs';
-import { CategoryIcon } from '../../shared/components/category-icon/category-icon';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
 import { PracticalInfoView } from '../../shared/components/practical-info/practical-info';
 import { ExplorerStore } from '../explore/explorer.store';
+import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-attraction-page',
   imports: [
-    RouterLink, MatButtonModule, LucideExternalLink, LucideMap, LucideNavigation, LucideSearchX, LucideTriangleAlert,
-    Breadcrumbs, CategoryIcon, EmptyState, FavoriteButton, ImageGallery, PracticalInfoView,
+    RouterLink, MatButtonModule, Breadcrumbs, EmptyState, FavoriteButton, ImageGallery, PracticalInfoView, Icon,
   ],
   templateUrl: './attraction-page.html',
   styleUrl: './attraction-page.scss',

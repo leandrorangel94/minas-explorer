@@ -47,6 +47,10 @@ function checkImage(where, img) {
   // Só imagens versionadas no repositório (sem hotlink): caminho relativo "images/arquivo.ext".
   if (!isStr(img?.url) || !/^images\/[\w.-]+\.(webp|jpe?g|png|avif)$/.test(img.url)) return err(where, 'url deve ser um arquivo local em "images/" (hotlink não é permitido)');
   if (!existsSync(join(data, '..', img.url))) err(where, `arquivo ${img.url} não existe em public/`);
+  if (img.thumbUrl !== undefined) {
+    if (!/^images\/[\w.-]+\.(webp|jpe?g|png|avif)$/.test(img.thumbUrl)) err(where, 'thumbUrl deve ser um arquivo local em "images/"');
+    else if (!existsSync(join(data, '..', img.thumbUrl))) err(where, `miniatura ${img.thumbUrl} não existe em public/`);
+  }
   if (!isStr(img.alt) || img.alt.length < 10) err(where, 'alt descritivo obrigatório');
   for (const k of ['author', 'license', 'sourceUrl', 'attribution'])
     if (!isStr(img[k])) err(where, `imagem sem "${k}" (procedência obrigatória)`);

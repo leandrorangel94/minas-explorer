@@ -8,6 +8,15 @@ html {
     density: 0,
   ));
 
+  // Alvos de toque de 44px (recomendação WCAG; o mínimo AA 2.2 é 24px)
+  @include mat.button-overrides((
+    text-container-height: 44px,
+    filled-container-height: 44px,
+    outlined-container-height: 44px,
+  ));
+  @include mat.icon-button-overrides((state-layer-size: 44px));
+  @include mat.button-toggle-overrides((height: 44px));
+
   // Papéis do Material ligados aos tokens do projeto (mudam sozinhos com o tema)
   --mat-sys-primary: var(--me-primary);
   --mat-sys-on-primary: var(--me-on-primary);
@@ -96,3 +105,6 @@ a { color: var(--me-forest); }
   border-radius: var(--me-radius-sm);
   &:focus { top: 8px; }
 }
+
+// O contêiner principal recebe foco programático na troca de página: sem contorno (não é um controle).
+main:focus { outline: none; }

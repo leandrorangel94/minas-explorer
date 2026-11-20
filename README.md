@@ -5,7 +5,7 @@ Aplicação 100% frontend (sem backend), publicável no GitHub Pages.
 
 > Minas Gerais está mais perto do que você imagina.
 
-**Status:** Etapas 0 a 9 e 12 (modo escuro) concluídas; faltam 10 (qualidade, acessibilidade e otimização) e 11 (GitHub Pages). Roteiro em [docs/etapas.md](docs/etapas.md).
+**Status:** Etapas 0 a 10 e 12 concluídas; falta a 11 (GitHub Pages e documentação final). Roteiro em [docs/etapas.md](docs/etapas.md); revisão de qualidade em [docs/qualidade.md](docs/qualidade.md).
 
 ## Tecnologias
 
@@ -16,7 +16,7 @@ Aplicação 100% frontend (sem backend), publicável no GitHub Pages.
 | Tailwind CSS (via `@tailwindcss/postcss`) | 4.3 |
 | SCSS | — |
 | Leaflet (+ `@types/leaflet`) | 1.9.4 |
-| Ícones: `@lucide/angular` | 1.x |
+| Ícones: `lucide` (SVG puro, registro em `core/utils/icons.ts`) | 1.x |
 | Testes: Vitest (via `ng test`) | — |
 
 Divisão de estilos: **Material** = componentes e tema; **Tailwind** = utilitários de layout/espaçamento
@@ -38,6 +38,7 @@ npm start        # http://localhost:4200
 | Comando | Ação |
 |---|---|
 | `npm start` | valida o catálogo e inicia o servidor de desenvolvimento |
+| `npm run lint` | ESLint (TypeScript e acessibilidade de templates) |
 | `npm run catalog` | valida e consolida o catálogo (`public/data/catalog.json`) |
 | `npm run geo` | regenera os dados geográficos do IBGE |
 | `npm test` | testes unitários |

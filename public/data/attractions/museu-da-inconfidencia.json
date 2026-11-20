@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/museu-da-inconfidencia.webp",
+      "thumbUrl": "images/museu-da-inconfidencia-480.webp",
       "alt": "Fachada do Museu da Inconfidência, em Ouro Preto",
       "author": "Ministério da Cultura",
       "license": "CC BY 2.0",

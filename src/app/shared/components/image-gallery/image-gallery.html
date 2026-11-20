@@ -1,17 +1,25 @@
 @if (images().length === 0) {
   <div class="me-gallery__empty" role="img" [attr.aria-label]="'Sem fotografia de ' + subject()">
-    <svg lucideImageOff [size]="36" aria-hidden="true"></svg>
+    <me-icon name="image-off" [size]="36" />
     <p>Ainda não há fotografia de {{ subject() }} com direitos de uso verificados.</p>
   </div>
 } @else {
   <figure class="me-gallery__main">
     @if (currentFailed()) {
       <div class="me-gallery__placeholder" role="img" aria-label="Imagem indisponível">
-        <svg lucideImageOff [size]="36" aria-hidden="true"></svg>
+        <me-icon name="image-off" [size]="36" />
         <p>Imagem indisponível no momento.</p>
       </div>
     } @else {
-      <img [src]="current().url" [alt]="current().alt" loading="lazy" (error)="onError(current())" />
+      <img
+        [src]="current().url"
+        [attr.srcset]="current().thumbUrl ? current().thumbUrl + ' 480w, ' + current().url + ' 960w' : null"
+        [attr.sizes]="current().thumbUrl ? '(min-width: 900px) 52vw, 100vw' : null"
+        [alt]="current().alt"
+        loading="lazy"
+        decoding="async"
+        (error)="onError(current())"
+      />
     }
     <figcaption class="me-gallery__credit">
       @if (current().author) {
@@ -41,9 +49,9 @@
             (click)="select(i)"
           >
             @if (isFailed(img)) {
-              <svg lucideImageOff [size]="20" aria-hidden="true"></svg>
+              <me-icon name="image-off" [size]="20" />
             } @else {
-              <img [src]="img.url" alt="" loading="lazy" (error)="onError(img)" />
+              <img [src]="img.thumbUrl ?? img.url" alt="" loading="lazy" decoding="async" (error)="onError(img)" />
             }
           </button>
         </li>

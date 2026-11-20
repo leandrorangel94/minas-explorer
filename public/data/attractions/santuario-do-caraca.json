@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/santuario-do-caraca.webp",
+      "thumbUrl": "images/santuario-do-caraca-480.webp",
       "alt": "Santuário do Caraça entre montanhas cobertas de mata",
       "author": "Sérgio Mourão",
       "license": "CC BY-SA 4.0",

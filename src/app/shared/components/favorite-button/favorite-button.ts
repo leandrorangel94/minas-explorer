@@ -1,12 +1,14 @@
 import { ChangeDetectionStrategy, Component, computed, inject, input } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideHeart } from '@lucide/angular';
 import { FavoriteKind, FavoritesService } from '../../../core/services/favorites.service';
+import { Icon } from '../icon/icon';
 
 /** Botão de favoritar (alternância). O estado é anunciado por `aria-pressed` e não só pelo ícone. */
 @Component({
   selector: 'me-favorite-button',
-  imports: [MatButtonModule, LucideHeart],
+  imports: [
+    MatButtonModule, Icon,
+  ],
   template: `
     <button
       matIconButton
@@ -17,7 +19,7 @@ import { FavoriteKind, FavoritesService } from '../../../core/services/favorites
       [attr.aria-label]="'Favoritar ' + label()"
       (click)="toggle($event)"
     >
-      <svg lucideHeart [size]="22" aria-hidden="true"></svg>
+      <me-icon name="heart" [size]="22" />
     </button>
   `,
   styles: `

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" role="img" aria-label="Minas Explorer">
+  <style>
+    .bg { fill: #faf8f3; }
+    .fg { stroke: #1f4d3a; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #111a15; }
+      .fg { stroke: #8fd0a8; }
+    }
+  </style>
+  <rect class="bg" width="32" height="32" rx="7"/>
+  <g transform="translate(4 4) scale(1)">
+    <circle class="fg" cx="12" cy="12" r="10"/>
+    <polygon class="fg" points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+  </g>
+</svg>

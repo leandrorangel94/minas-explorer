@@ -7,7 +7,7 @@
 .me-itd__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; }
 .me-itd__link {
   all: unset; box-sizing: border-box; cursor: pointer;
-  position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 4px;
+  position: relative; z-index: 1; display: inline-flex; align-items: center; gap: 4px; min-height: 32px;
   color: var(--me-forest); font-size: .85rem; font-weight: 600; text-decoration: underline;
   &:focus-visible { outline: 3px solid var(--me-focus); outline-offset: 2px; }
 }

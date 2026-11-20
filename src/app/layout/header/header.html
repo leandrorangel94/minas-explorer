@@ -1,13 +1,13 @@
 <header class="me-header">
   <div class="me-container me-header__bar">
     <a routerLink="/" class="me-brand" aria-label="Minas Explorer – página inicial">
-      <svg lucideCompass [size]="26" aria-hidden="true"></svg>
+      <me-icon name="compass" [size]="26" />
       <span class="me-brand__name">Minas Explorer</span>
     </a>
 
     <form class="me-search me-desktop-only" role="search" (submit)="onSearchSubmit($event)">
       <label for="me-search-desktop" class="me-visually-hidden">Buscar cidade ou atração</label>
-      <svg lucideSearch [size]="18" aria-hidden="true"></svg>
+      <me-icon name="search" [size]="18" />
       <input id="me-search-desktop" type="search" placeholder="Buscar cidade ou atração" autocomplete="off" [value]="store.query()" (input)="onSearchInput($event)" />
     </form>
 
@@ -32,9 +32,9 @@
       [matMenuTriggerFor]="themeMenu"
     >
       @if (theme.effective() === 'dark') {
-        <svg lucideMoon [size]="20" aria-hidden="true"></svg>
+        <me-icon name="moon" [size]="20" />
       } @else {
-        <svg lucideSun [size]="20" aria-hidden="true"></svg>
+        <me-icon name="sun" [size]="20" />
       }
     </button>
     <mat-menu #themeMenu="matMenu" xPosition="before" aria-label="Tema da interface">
@@ -47,13 +47,13 @@
           (click)="theme.set(opt.value)"
         >
           @switch (opt.value) {
-            @case ('light') { <svg lucideSun [size]="18" aria-hidden="true"></svg> }
-            @case ('dark') { <svg lucideMoon [size]="18" aria-hidden="true"></svg> }
-            @default { <svg lucideMonitor [size]="18" aria-hidden="true"></svg> }
+            @case ('light') { <me-icon name="sun" [size]="18" /> }
+            @case ('dark') { <me-icon name="moon" [size]="18" /> }
+            @default { <me-icon name="monitor" [size]="18" /> }
           }
           <span>{{ opt.label }}</span>
           @if (theme.preference() === opt.value) {
-            <svg lucideCheck class="me-theme-check" [size]="16" aria-hidden="true"></svg>
+            <me-icon name="check" class="me-theme-check" [size]="16" />
           }
         </button>
       }
@@ -66,7 +66,7 @@
       aria-label="Abrir menu de navegação"
       [matMenuTriggerFor]="mobileMenu"
     >
-      <svg lucideMenu [size]="24" aria-hidden="true"></svg>
+      <me-icon name="menu" [size]="24" />
     </button>
     <mat-menu #mobileMenu="matMenu" xPosition="before">
       @for (item of navItems; track item.path) {
@@ -77,7 +77,7 @@
 
   <form class="me-container me-search me-search--mobile me-mobile-only" role="search" (submit)="onSearchSubmit($event)">
     <label for="me-search-mobile" class="me-visually-hidden">Buscar cidade ou atração</label>
-    <svg lucideSearch [size]="18" aria-hidden="true"></svg>
+    <me-icon name="search" [size]="18" />
     <input id="me-search-mobile" type="search" placeholder="Buscar cidade ou atração" autocomplete="off" [value]="store.query()" (input)="onSearchInput($event)" />
   </form>
 </header>

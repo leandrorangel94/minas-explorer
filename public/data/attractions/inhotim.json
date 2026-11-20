@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/inhotim.webp",
+      "thumbUrl": "images/inhotim-480.webp",
       "alt": "Vista aérea de jardins e lagos do Inhotim, em meio à mata",
       "author": "Oswalney Costa Galvã…",
       "license": "CC BY-SA 3.0",

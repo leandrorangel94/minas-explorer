@@ -81,7 +81,7 @@ describe('HomePage: mapa e lista sincronizados', () => {
     const { el } = await create();
     // Em zoom de estado alguns destinos ficam agrupados; os marcadores soltos devem ter ícone, e os grupos, contagem.
     const icons = el.querySelectorAll('.me-marker svg').length;
-    const clustered = [...el.querySelectorAll('.me-cluster span')].reduce((n, c) => n + Number(c.textContent), 0);
+    const clustered = [...el.querySelectorAll('.me-cluster')].reduce((n, c) => n + Number(c.getAttribute('data-count')), 0);
     expect(icons + clustered).toBe(catalogJson.attractions.length);
     expect(el.querySelectorAll('.me-marker:not(:has(svg))').length).toBe(0);
   });

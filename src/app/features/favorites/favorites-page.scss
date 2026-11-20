@@ -10,5 +10,5 @@
 .me-fav-confirm { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 8px; font-weight: 400; }
 .me-fav-heading { margin-block: 24px 12px; }
 .me-fav-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
-.me-fav-more { position: relative; z-index: 1; color: var(--me-forest); font-size: .9rem; font-weight: 600; margin-right: 8px; }
+.me-fav-more { position: relative; z-index: 1; display: inline-flex; align-items: center; min-height: 32px; color: var(--me-forest); font-size: .9rem; font-weight: 600; margin-right: 8px; }
 .me-fav-link { all: unset; cursor: pointer; text-decoration: underline; font-weight: 600; &:focus-visible { outline: 3px solid var(--me-focus); } }

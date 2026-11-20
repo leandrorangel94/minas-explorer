@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/mina-da-passagem.webp",
+      "thumbUrl": "images/mina-da-passagem-480.webp",
       "alt": "Entrada da recepção da Mina de Ouro, na Mina da Passagem, em Mariana",
       "author": "Túllio F",
       "license": "CC BY-SA 4.0",

@@ -29,7 +29,7 @@ describe('FiltersPanel', () => {
   it('um chip por categoria existente, com ícone', async () => {
     const { el, store } = await create();
     expect(el.querySelectorAll('mat-chip-option').length).toBe(store.categories().length);
-    expect(el.querySelectorAll('mat-chip-option me-category-icon svg').length).toBe(store.categories().length);
+    expect(el.querySelectorAll('mat-chip-option me-icon svg').length).toBe(store.categories().length);
   });
 
   it('clicar no chip alterna a categoria e "Limpar filtros" desmarca sem reativar', async () => {

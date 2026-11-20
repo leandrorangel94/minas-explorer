@@ -77,3 +77,10 @@ Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda
 - **Mapa:** `--me-map-*` (fundo, máscara, contorno e filtro dos tiles: no escuro `invert + hue-rotate`, sem trocar de provedor). `MinasMap` relê as cores ao trocar de tema e redesenha contorno e máscara.
 - **Categorias:** a cor de cada categoria é clareada no escuro com `color-mix(... white)` controlado por `--me-cat-lighten` (0% no claro, 48% no escuro) onde vira texto, ícone ou borda; o ícone do marcador selecionado usa `--me-on-marker`.
 - **Contraste:** `core/theme-contrast.spec.ts` calcula WCAG AA a partir dos próprios tokens nos dois temas (texto ≥ 4,5:1; interface ≥ 3:1) e das cores das categorias. Ao criar um token de cor, ele precisa ter valor no escuro (o teste cobra).
+
+## Ícones e acessibilidade (Etapa 10)
+- **Ícones:** `core/utils/icons.ts` é o registro único (Lucide, SVG puro) de ícones de interface e de categorias; `me-icon` (`shared/components/icon`) os renderiza, sempre `aria-hidden`. Um ícone novo precisa ser importado e registrado ali (o teste `shared-a11y.spec.ts` garante que os ícones de `categories.json` existam). O pacote `@lucide/angular` foi removido: não tem tree-shaking e custava 87 kB no bundle inicial.
+- **Troca de página** (`app.ts`): foco no `<main>`, anúncio do título via `LiveAnnouncer` e rolagem ao topo; o link "Ir para o conteúdo" é tratado em código, pois com hash routing `href="#conteudo"` viraria rota.
+- **Títulos:** cada página tem um único `<h1>` (`me-section-title [level]="1"`, hero da home ou `me-empty-state [level]="1"` nas páginas "não encontrada").
+- **Imagens:** cada foto tem `url` (960 px) e `thumbUrl` (480 px); cards e galeria usam `srcset`/`sizes` e `decoding="async"`.
+- Detalhes e resultados da revisão em [qualidade.md](qualidade.md).

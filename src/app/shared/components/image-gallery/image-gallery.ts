@@ -1,6 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, input, signal } from '@angular/core';
-import { LucideImageOff } from '@lucide/angular';
 import { CatalogImage } from '../../../core/models/catalog.models';
+import { Icon } from '../icon/icon';
 
 /**
  * Galeria de fotografias com créditos obrigatórios (autor, licença, fonte).
@@ -8,7 +8,9 @@ import { CatalogImage } from '../../../core/models/catalog.models';
  */
 @Component({
   selector: 'me-image-gallery',
-  imports: [LucideImageOff],
+  imports: [
+    Icon,
+  ],
   templateUrl: './image-gallery.html',
   styleUrl: './image-gallery.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

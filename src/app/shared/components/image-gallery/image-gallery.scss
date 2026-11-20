@@ -11,7 +11,7 @@
 }
 .me-gallery__credit {
   display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .8rem; color: var(--me-muted);
-  a { color: var(--me-forest); }
+  a { color: var(--me-forest); display: inline-block; padding-block: 4px; }
 }
 .me-gallery__thumbs {
   list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px;

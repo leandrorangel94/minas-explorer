@@ -1,16 +1,18 @@
 import { ChangeDetectionStrategy, Component, computed, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideRoute, LucideTriangleAlert } from '@lucide/angular';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { SectionTitle } from '../../shared/components/section-title/section-title';
 import { ExplorerStore } from '../explore/explorer.store';
 import { EditorialNote } from './editorial-note';
+import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-itineraries-page',
-  imports: [RouterLink, MatButtonModule, LucideRoute, LucideTriangleAlert, EmptyState, SectionTitle, EditorialNote],
+  imports: [
+    RouterLink, MatButtonModule, EmptyState, SectionTitle, EditorialNote, Icon,
+  ],
   templateUrl: './itineraries-page.html',
   styleUrl: './itineraries-page.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

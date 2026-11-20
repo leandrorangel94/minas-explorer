@@ -14,7 +14,7 @@ Fonte: prompt mestre (etapas 0 a 11) + etapa adicional definida durante o desenv
 | 7 | Detalhes de cidades e atrações | concluída |
 | 8 | Favoritos e roteiros | concluída |
 | 9 | Curadoria e expansão do catálogo | concluída |
-| 10 | Qualidade, acessibilidade e otimização | pendente |
+| 10 | Qualidade, acessibilidade e otimização | concluída |
 | 11 | GitHub Pages e documentação final | pendente |
 | 12 | Modo escuro (dark mode) (adicionada) | concluída |
 

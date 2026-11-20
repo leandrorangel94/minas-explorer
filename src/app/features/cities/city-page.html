@@ -4,8 +4,8 @@
       <p class="me-note" role="status">Carregando…</p>
     }
     @case ('error') {
-      <me-empty-state title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">
-        <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+      <me-empty-state [level]="1" title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">
+        <me-icon icon name="triangle-alert" [size]="28" />
       </me-empty-state>
     }
     @default {
@@ -18,12 +18,12 @@
           <p class="me-detail__lead">{{ city.description }}</p>
           <div class="me-detail__actions">
             <button matButton="filled" type="button" (click)="showOnMap()">
-              <svg lucideMap [size]="18" aria-hidden="true"></svg>
+              <me-icon name="map" [size]="18" />
               Ver no mapa
             </button>
             <me-favorite-button kind="city" [id]="city.id" [label]="city.name" />
             <a matButton="outlined" [href]="mapsUrl()" target="_blank" rel="noopener noreferrer">
-              <svg lucideExternalLink [size]="18" aria-hidden="true"></svg>
+              <me-icon name="external-link" [size]="18" />
               Abrir no Google Maps<span class="me-visually-hidden"> (abre em nova aba)</span>
             </a>
           </div>
@@ -38,8 +38,8 @@
           <section aria-labelledby="atracoes">
             <h2 id="atracoes">Atrações</h2>
             @if (attractions().length === 0) {
-              <me-empty-state title="Nenhuma atração cadastrada" description="Ainda não há atrações desta cidade no catálogo.">
-                <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+              <me-empty-state [level]="1" title="Nenhuma atração cadastrada" description="Ainda não há atrações desta cidade no catálogo.">
+                <me-icon icon name="search-x" [size]="28" />
               </me-empty-state>
             } @else {
               <ul class="me-detail__cards">
@@ -51,6 +51,7 @@
                       [categoryIcon]="categoryOf(a.categoryId)?.icon"
                       [categoryColor]="categoryOf(a.categoryId)?.color"
                       [imageUrl]="a.images[0]?.url"
+                      [imageThumbUrl]="a.images[0]?.thumbUrl"
                       [imageAlt]="a.images[0]?.alt ?? ''"
                       [compact]="true"
                     >
@@ -74,8 +75,8 @@
           <p>Última verificação: {{ verifiedOn() }}.</p>
         </section>
       } @else {
-        <me-empty-state title="Cidade não encontrada" description="Não encontramos essa cidade no catálogo.">
-          <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+        <me-empty-state [level]="1" title="Cidade não encontrada" description="Não encontramos essa cidade no catálogo.">
+          <me-icon icon name="search-x" [size]="28" />
           <a matButton="filled" routerLink="/">Voltar ao mapa</a>
         </me-empty-state>
       }

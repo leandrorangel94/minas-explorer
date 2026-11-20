@@ -1,6 +1,6 @@
 @if (items().length === 0) {
   <me-empty-state title="Nenhum destino encontrado" description="Tente outro termo de busca ou remova alguns filtros.">
-    <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+    <me-icon icon name="search-x" [size]="28" />
     @if (filtersActive()) {
       <button type="button" class="me-results__clear" (click)="filtersCleared.emit()">Limpar filtros</button>
     }
@@ -16,6 +16,7 @@
           [categoryIcon]="item.category?.icon"
           [categoryColor]="item.category?.color"
           [imageUrl]="item.attraction.images[0]?.url"
+          [imageThumbUrl]="item.attraction.images[0]?.thumbUrl"
           [imageAlt]="item.attraction.images[0]?.alt ?? ''"
           [selected]="item.attraction.id === selectedId()"
           [compact]="compact()"

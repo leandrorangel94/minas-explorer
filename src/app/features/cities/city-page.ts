@@ -1,7 +1,6 @@
 import { ChangeDetectionStrategy, Component, computed, effect, inject, input } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { LucideExternalLink, LucideMap, LucideSearchX, LucideTriangleAlert } from '@lucide/angular';
 import { PageMetaService } from '../../core/services/page-meta.service';
 import { attractionsOfCity, findCityBySlug } from '../../core/utils/catalog.utils';
 import { googleMapsPlaceUrl } from '../../core/utils/external-links';
@@ -12,12 +11,12 @@ import { EmptyState } from '../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../shared/components/favorite-button/favorite-button';
 import { ImageGallery } from '../../shared/components/image-gallery/image-gallery';
 import { ExplorerStore } from '../explore/explorer.store';
+import { Icon } from '../../shared/components/icon/icon';
 
 @Component({
   selector: 'me-city-page',
   imports: [
-    RouterLink, MatButtonModule, LucideExternalLink, LucideMap, LucideSearchX, LucideTriangleAlert,
-    Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, ImageGallery,
+    RouterLink, MatButtonModule, Breadcrumbs, DestinationCard, EmptyState, FavoriteButton, ImageGallery, Icon,
   ],
   templateUrl: './city-page.html',
   styleUrl: './city-page.scss',

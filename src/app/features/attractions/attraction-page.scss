@@ -4,7 +4,7 @@
   display: inline-flex; align-items: center; gap: 6px; justify-self: start;
   color: color-mix(in srgb, var(--chip-color, var(--me-heading)) calc(100% - var(--me-cat-lighten)), white); font-size: .85rem; font-weight: 600;
 }
-.me-detail__city { color: var(--me-muted); a { color: var(--me-forest); font-weight: 600; } }
+.me-detail__city { color: var(--me-muted); a { color: var(--me-forest); font-weight: 600; display: inline-block; padding-block: 4px; } }
 .me-detail__lead { font-size: 1.1rem; }
 .me-detail__actions { display: flex; flex-wrap: wrap; gap: 12px; }
 .me-detail__grid { display: grid; gap: 32px; h2 { margin-bottom: 12px; } }

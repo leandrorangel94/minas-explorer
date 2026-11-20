@@ -20,8 +20,8 @@ export function fakeMapSize(width = 800, height = 600): () => void {
 export function mapDestinationCount(root: HTMLElement): number {
   let total = 0;
   for (const icon of Array.from(root.querySelectorAll('.leaflet-marker-icon'))) {
-    const cluster = icon.querySelector('.me-cluster span');
-    total += cluster ? Number(cluster.textContent) : 1;
+    const cluster = icon.querySelector('.me-cluster');
+    total += cluster ? Number(cluster.getAttribute('data-count')) : 1;
   }
   return total;
 }

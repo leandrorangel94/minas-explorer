@@ -4,7 +4,6 @@ import { Location } from '@angular/common';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { MatButtonModule } from '@angular/material/button';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
-import { LucideList, LucideMap, LucideSlidersHorizontal, LucideTriangleAlert } from '@lucide/angular';
 import { catchError, map, of } from 'rxjs';
 import { GeoDataService } from '../../core/services/geo-data.service';
 import { EmptyState } from '../../shared/components/empty-state/empty-state';
@@ -13,14 +12,14 @@ import { ExplorerStore } from '../explore/explorer.store';
 import { FiltersPanel } from '../explore/filters-panel/filters-panel';
 import { ResultsList } from '../explore/results-list/results-list';
 import { MapPoint, MinasMap } from '../map/minas-map';
+import { Icon } from '../../shared/components/icon/icon';
 
 type View = 'map' | 'list';
 
 @Component({
   selector: 'me-home-page',
   imports: [
-    MatButtonModule, MatButtonToggleModule, LucideList, LucideMap, LucideSlidersHorizontal, LucideTriangleAlert,
-    EmptyState, SectionTitle, MinasMap, FiltersPanel, ResultsList,
+    MatButtonModule, MatButtonToggleModule, EmptyState, SectionTitle, MinasMap, FiltersPanel, ResultsList, Icon,
   ],
   templateUrl: './home-page.html',
   styleUrl: './home-page.scss',

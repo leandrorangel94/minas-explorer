@@ -3,14 +3,15 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
-import { LucideFilterX } from '@lucide/angular';
-import { CategoryIcon } from '../../../shared/components/category-icon/category-icon';
 import { ExplorerStore } from '../explorer.store';
+import { Icon } from '../../../shared/components/icon/icon';
 
 /** Filtros por categoria (que também funcionam como legenda do mapa) e região. */
 @Component({
   selector: 'me-filters-panel',
-  imports: [MatButtonModule, MatChipsModule, MatFormFieldModule, MatSelectModule, LucideFilterX, CategoryIcon],
+  imports: [
+    MatButtonModule, MatChipsModule, MatFormFieldModule, MatSelectModule, Icon,
+  ],
   templateUrl: './filters-panel.html',
   styleUrl: './filters-panel.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

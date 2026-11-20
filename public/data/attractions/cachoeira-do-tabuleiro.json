@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/cachoeira-do-tabuleiro.webp",
+      "thumbUrl": "images/cachoeira-do-tabuleiro-480.webp",
       "alt": "Vista frontal da Cachoeira do Tabuleiro, queda d'água entre paredões de rocha",
       "author": "Rafael dos Reis Pereira",
       "license": "CC BY-SA 3.0",

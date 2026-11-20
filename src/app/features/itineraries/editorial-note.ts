@@ -1,13 +1,15 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { LucideInfo } from '@lucide/angular';
+import { Icon } from '../../shared/components/icon/icon';
 
 /** Aviso fixo: roteiros são sugestões editoriais, sem dados logísticos. */
 @Component({
   selector: 'me-editorial-note',
-  imports: [LucideInfo],
+  imports: [
+    Icon,
+  ],
   template: `
     <p class="me-editorial" role="note">
-      <svg lucideInfo [size]="18" aria-hidden="true"></svg>
+      <me-icon name="info" [size]="18" />
       <span>
         <strong>Sugestão editorial.</strong> Os roteiros indicam apenas destinos e uma ordem temática. Não informamos distâncias, tempos de
         deslocamento nem duração ideal: planeje o trajeto e confirme horários e condições de acesso antes de viajar.

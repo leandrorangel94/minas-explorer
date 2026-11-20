@@ -1,15 +1,17 @@
 import { ChangeDetectionStrategy, Component, ElementRef, effect, inject, input, output } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { LucideSearchX } from '@lucide/angular';
 import { DestinationCard } from '../../../shared/components/destination-card/destination-card';
 import { EmptyState } from '../../../shared/components/empty-state/empty-state';
 import { FavoriteButton } from '../../../shared/components/favorite-button/favorite-button';
 import { ExplorerItem } from '../explorer.store';
+import { Icon } from '../../../shared/components/icon/icon';
 
 /** Lista de resultados: alternativa ao mapa e painel lateral. Mesmos itens do mapa. */
 @Component({
   selector: 'me-results-list',
-  imports: [RouterLink, DestinationCard, EmptyState, FavoriteButton, LucideSearchX],
+  imports: [
+    RouterLink, DestinationCard, EmptyState, FavoriteButton, Icon,
+  ],
   templateUrl: './results-list.html',
   styleUrl: './results-list.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,

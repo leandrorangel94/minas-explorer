@@ -1,6 +1,6 @@
-<a class="me-skip-link" href="#conteudo">Ir para o conteúdo</a>
+<a class="me-skip-link" href="#conteudo" (click)="skipToContent($event)">Ir para o conteúdo</a>
 <me-header />
-<main id="conteudo" tabindex="-1">
+<main #main id="conteudo" tabindex="-1">
   <router-outlet />
 </main>
 <me-footer />

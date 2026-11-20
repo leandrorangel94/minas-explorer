@@ -18,7 +18,7 @@
     @case ('error') {
       <div class="mt-6">
         <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
-          <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+          <me-icon icon name="triangle-alert" [size]="28" />
         </me-empty-state>
       </div>
     }
@@ -28,12 +28,12 @@
 
         <div class="me-toolbar__mobile">
           <button matButton="outlined" type="button" [attr.aria-expanded]="filtersOpen()" aria-controls="painel-filtros" (click)="filtersOpen.set(!filtersOpen())">
-            <svg lucideSlidersHorizontal [size]="18" aria-hidden="true"></svg>
+            <me-icon name="sliders-horizontal" [size]="18" />
             Filtros@if (store.activeFilterCount() > 0) { ({{ store.activeFilterCount() }}) }
           </button>
           <mat-button-toggle-group aria-label="Modo de visualização" hideSingleSelectionIndicator [value]="view()" (change)="view.set($event.value)">
-            <mat-button-toggle value="map"><svg lucideMap [size]="16" aria-hidden="true"></svg> Mapa</mat-button-toggle>
-            <mat-button-toggle value="list"><svg lucideList [size]="16" aria-hidden="true"></svg> Lista</mat-button-toggle>
+            <mat-button-toggle value="map"><me-icon name="map" [size]="16" /> Mapa</mat-button-toggle>
+            <mat-button-toggle value="list"><me-icon name="list" [size]="16" /> Lista</mat-button-toggle>
           </mat-button-toggle-group>
         </div>
       </div>

@@ -28,7 +28,7 @@ export interface Crumb {
   styles: `
     .me-crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 8px; font-size: .9rem; color: var(--me-muted); }
     .me-crumbs li:not(:last-child)::after { content: '/'; margin-left: 8px; color: var(--me-border); }
-    .me-crumbs a { color: var(--me-forest); }
+    .me-crumbs a { color: var(--me-forest); display: inline-block; padding-block: 4px; }
     .me-crumbs [aria-current] { color: var(--me-ink); font-weight: 600; }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

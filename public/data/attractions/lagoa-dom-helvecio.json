@@ -16,6 +16,7 @@
   "images": [
     {
       "url": "images/lagoa-dom-helvecio.webp",
+      "thumbUrl": "images/lagoa-dom-helvecio-480.webp",
       "alt": "Vista da Lagoa Dom Helvécio cercada por mata",
       "author": "Fernando Marino",
       "license": "CC BY-SA 3.0",

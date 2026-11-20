@@ -12,7 +12,10 @@ export interface SourceRef {
 }
 
 export interface CatalogImage {
+  /** Versão principal (960 px de largura). */
   readonly url: string;
+  /** Miniatura (480 px) para cards e galeria; carregada via `srcset`. */
+  readonly thumbUrl?: string;
   readonly alt: string;
   readonly author?: string;
   readonly license?: string;

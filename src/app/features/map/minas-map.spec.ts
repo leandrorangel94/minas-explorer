@@ -57,6 +57,35 @@ describe('MinasMap', () => {
     expect(el.querySelectorAll('.leaflet-overlay-pane path').length).toBe(0);
   });
 
+  it('controles e rótulos estão em português', async () => {
+    const fixture = await create();
+    const el = fixture.nativeElement as HTMLElement;
+    expect(el.querySelector('.leaflet-control-zoom-in')?.getAttribute('aria-label')).toBe('Aproximar');
+    expect(el.querySelector('.leaflet-control-zoom-out')?.getAttribute('aria-label')).toBe('Afastar');
+    expect(el.querySelector('.me-map__reset')?.getAttribute('aria-label')).toBe('Voltar ao enquadramento de Minas Gerais');
+  });
+
+  it('marcadores e grupos têm nome acessível', async () => {
+    const fixture = await create();
+    const el = fixture.nativeElement as HTMLElement;
+    fixture.componentRef.setInput('points', [
+      { id: 'a', name: 'Lugar A', subtitle: 'Cidade X', categoryName: 'Parques', icon: 'trees', latitude: -19, longitude: -44 },
+      { id: 'b', name: 'Lugar B', subtitle: 'Cidade Y', categoryName: 'Museus', icon: 'building-2', latitude: -19.0001, longitude: -44.0001 },
+    ]);
+    await fixture.whenStable();
+    // Muito próximos: viram um grupo, cujo nome vem de texto visualmente oculto.
+    const cluster = el.querySelector('.me-cluster')!;
+    expect(cluster.getAttribute('data-count')).toBe('2');
+    expect(cluster.querySelector('.me-visually-hidden')?.textContent).toContain('2 destinos agrupados');
+    expect(cluster.querySelector('[aria-hidden="true"]')?.textContent).toBe('2');
+
+    fixture.componentRef.setInput('points', [
+      { id: 'a', name: 'Lugar A', subtitle: 'Cidade X', categoryName: 'Parques', icon: 'trees', latitude: -19, longitude: -44 },
+    ]);
+    await fixture.whenStable();
+    expect(el.querySelector('.leaflet-marker-icon')?.getAttribute('aria-label')).toBe('Lugar A, Cidade X, Parques');
+  });
+
   it('removes the map on destroy without errors', async () => {
     const fixture = await create();
     const container = (fixture.nativeElement as HTMLElement).querySelector('.me-map__canvas') as HTMLElement;

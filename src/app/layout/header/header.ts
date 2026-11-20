@@ -2,10 +2,10 @@ import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
 import { MatMenuModule } from '@angular/material/menu';
-import { LucideCheck, LucideCompass, LucideMenu, LucideMonitor, LucideMoon, LucideSearch, LucideSun } from '@lucide/angular';
 import { ThemePreference, ThemeService } from '../../core/services/theme.service';
 import { ExplorerStore } from '../../features/explore/explorer.store';
 import { FavoritesService } from '../../core/services/favorites.service';
+import { Icon } from '../../shared/components/icon/icon';
 
 export interface NavItem {
   readonly label: string;
@@ -15,8 +15,7 @@ export interface NavItem {
 @Component({
   selector: 'me-header',
   imports: [
-    RouterLink, RouterLinkActive, MatButtonModule, MatMenuModule,
-    LucideCheck, LucideCompass, LucideMenu, LucideMonitor, LucideMoon, LucideSearch, LucideSun,
+    RouterLink, RouterLinkActive, MatButtonModule, MatMenuModule, Icon,
   ],
   templateUrl: './header.html',
   styleUrl: './header.scss',

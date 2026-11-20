@@ -61,7 +61,8 @@ describe('CityPage', () => {
   it('cidade inexistente mostra "não encontrada" com volta ao mapa', async () => {
     const { el } = await create(CityPage, { citySlug: 'nao-existe' });
     expect(el.querySelector('me-empty-state')?.textContent).toContain('Cidade não encontrada');
-    expect(el.querySelector('h1')).toBeNull();
+    expect(el.querySelectorAll('h1').length).toBe(1); // o título do estado vazio é o h1 da página
+    expect(el.querySelector('h1')?.textContent).toContain('Cidade não encontrada');
   });
 
   it('define o título da página', async () => {
