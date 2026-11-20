@@ -1,0 +1,26 @@
+{
+  "id": "3118106",
+  "name": "Congonhas do Norte",
+  "slug": "congonhas-do-norte",
+  "regionId": "3101",
+  "description": "Município de Minas Gerais, na região intermediária de Belo Horizonte.",
+  "coordinates": {
+    "latitude": -18.806944,
+    "longitude": -43.680833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1792271)",
+    "url": "https://www.wikidata.org/wiki/Q1792271#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1792271)",
+      "url": "https://www.wikidata.org/wiki/Q1792271"
+    },
+    {
+      "name": "IBGE – Localidades (Congonhas do Norte)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118106"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "3104908",
+  "name": "Baependi",
+  "slug": "baependi",
+  "regionId": "3109",
+  "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+  "coordinates": {
+    "latitude": -21.958889,
+    "longitude": -44.89
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q947342)",
+    "url": "https://www.wikidata.org/wiki/Q947342#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q947342)",
+      "url": "https://www.wikidata.org/wiki/Q947342"
+    },
+    {
+      "name": "IBGE – Localidades (Baependi)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3104908"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

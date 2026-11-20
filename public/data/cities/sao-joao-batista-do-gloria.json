@@ -1,0 +1,26 @@
+{
+  "id": "3162203",
+  "name": "São João Batista do Glória",
+  "slug": "sao-joao-batista-do-gloria",
+  "regionId": "3108",
+  "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+  "coordinates": {
+    "latitude": -20.640833,
+    "longitude": -46.505833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1787319)",
+    "url": "https://www.wikidata.org/wiki/Q1787319#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1787319)",
+      "url": "https://www.wikidata.org/wiki/Q1787319"
+    },
+    {
+      "name": "IBGE – Localidades (São João Batista do Glória)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3162203"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

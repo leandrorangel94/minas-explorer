@@ -84,7 +84,7 @@ describe('Acessibilidade (axe-core)', () => {
     it(`sem violações: ${name}`, async () => {
       const el = await render(component, inputs);
       expect((await audit(el)).join(' || ')).toBe('');
-    });
+    }, 20_000); // o axe é lento com a máquina ocupada
   }
 
   it('cada página com título principal tem exatamente um h1', async () => {

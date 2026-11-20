@@ -1,0 +1,26 @@
+{
+  "id": "3137601",
+  "name": "Lagoa Santa",
+  "slug": "lagoa-santa",
+  "regionId": "3101",
+  "description": "Município de Minas Gerais, na região intermediária de Belo Horizonte.",
+  "coordinates": {
+    "latitude": -19.635738,
+    "longitude": -43.896613
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q178667)",
+    "url": "https://www.wikidata.org/wiki/Q178667#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q178667)",
+      "url": "https://www.wikidata.org/wiki/Q178667"
+    },
+    {
+      "name": "IBGE – Localidades (Lagoa Santa)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3137601"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

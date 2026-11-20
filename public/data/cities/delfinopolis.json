@@ -1,0 +1,26 @@
+{
+  "id": "3121209",
+  "name": "Delfinópolis",
+  "slug": "delfinopolis",
+  "regionId": "3108",
+  "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+  "coordinates": {
+    "latitude": -20.343889,
+    "longitude": -46.853889
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1792047)",
+    "url": "https://www.wikidata.org/wiki/Q1792047#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1792047)",
+      "url": "https://www.wikidata.org/wiki/Q1792047"
+    },
+    {
+      "name": "IBGE – Localidades (Delfinópolis)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3121209"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

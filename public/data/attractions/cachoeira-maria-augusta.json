@@ -1,0 +1,39 @@
+{
+  "id": "3121209-cachoeira-maria-augusta",
+  "name": "Cachoeira Maria Augusta",
+  "slug": "cachoeira-maria-augusta",
+  "cityId": "3121209",
+  "categoryId": "waterfall",
+  "description": "Cachoeira em Delfinópolis.",
+  "coordinates": {
+    "latitude": -20.501831,
+    "longitude": -46.520173
+  },
+  "coordinatesSource": {
+    "name": "OpenStreetMap",
+    "url": "https://www.openstreetmap.org/node/3940935950"
+  },
+  "images": [
+    {
+      "url": "images/cachoeira-maria-augusta.webp",
+      "thumbUrl": "images/cachoeira-maria-augusta-480.webp",
+      "alt": "Alta queda d’água ao lado de um paredão de mata, com lagoa ao pé",
+      "author": "AkyrA artx",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_maria_augusta_panorama.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "cachoeira"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/node/3940935950"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

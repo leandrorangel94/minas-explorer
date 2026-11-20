@@ -1,0 +1,26 @@
+{
+  "id": "3132404",
+  "name": "Itajubá",
+  "slug": "itajuba",
+  "regionId": "3109",
+  "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+  "coordinates": {
+    "latitude": -22.425833,
+    "longitude": -45.452778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q985585)",
+    "url": "https://www.wikidata.org/wiki/Q985585#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q985585)",
+      "url": "https://www.wikidata.org/wiki/Q985585"
+    },
+    {
+      "name": "IBGE – Localidades (Itajubá)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3132404"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

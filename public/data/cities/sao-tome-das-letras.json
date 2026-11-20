@@ -1,0 +1,26 @@
+{
+  "id": "3165206",
+  "name": "São Tomé das Letras",
+  "slug": "sao-tome-das-letras",
+  "regionId": "3108",
+  "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+  "coordinates": {
+    "latitude": -21.721944,
+    "longitude": -44.985
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1638397)",
+    "url": "https://www.wikidata.org/wiki/Q1638397#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1638397)",
+      "url": "https://www.wikidata.org/wiki/Q1638397"
+    },
+    {
+      "name": "IBGE – Localidades (São Tomé das Letras)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3165206"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

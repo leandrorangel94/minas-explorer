@@ -1,0 +1,26 @@
+{
+  "id": "3107208",
+  "name": "Bocaina de Minas",
+  "slug": "bocaina-de-minas",
+  "regionId": "3106",
+  "description": "Município de Minas Gerais, na região intermediária de Juiz de Fora.",
+  "coordinates": {
+    "latitude": -22.167778,
+    "longitude": -44.395
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1756950)",
+    "url": "https://www.wikidata.org/wiki/Q1756950#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1756950)",
+      "url": "https://www.wikidata.org/wiki/Q1756950"
+    },
+    {
+      "name": "IBGE – Localidades (Bocaina de Minas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3107208"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

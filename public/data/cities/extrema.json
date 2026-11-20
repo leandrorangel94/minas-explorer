@@ -1,0 +1,26 @@
+{
+  "id": "3125101",
+  "name": "Extrema",
+  "slug": "extrema",
+  "regionId": "3109",
+  "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+  "coordinates": {
+    "latitude": -22.855,
+    "longitude": -46.317778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q2008030)",
+    "url": "https://www.wikidata.org/wiki/Q2008030#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q2008030)",
+      "url": "https://www.wikidata.org/wiki/Q2008030"
+    },
+    {
+      "name": "IBGE – Localidades (Extrema)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125101"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

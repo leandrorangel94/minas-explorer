@@ -27,6 +27,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3104908",
+      "name": "Baependi",
+      "slug": "baependi",
+      "regionId": "3109",
+      "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+      "coordinates": {
+        "latitude": -21.958889,
+        "longitude": -44.89
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q947342)",
+        "url": "https://www.wikidata.org/wiki/Q947342#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q947342)",
+          "url": "https://www.wikidata.org/wiki/Q947342"
+        },
+        {
+          "name": "IBGE – Localidades (Baependi)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3104908"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3106200",
       "name": "Belo Horizonte",
       "slug": "belo-horizonte",
@@ -48,6 +74,32 @@
         {
           "name": "IBGE – Localidades (Belo Horizonte)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3107208",
+      "name": "Bocaina de Minas",
+      "slug": "bocaina-de-minas",
+      "regionId": "3106",
+      "description": "Município de Minas Gerais, na região intermediária de Juiz de Fora.",
+      "coordinates": {
+        "latitude": -22.167778,
+        "longitude": -44.395
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1756950)",
+        "url": "https://www.wikidata.org/wiki/Q1756950#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1756950)",
+          "url": "https://www.wikidata.org/wiki/Q1756950"
+        },
+        {
+          "name": "IBGE – Localidades (Bocaina de Minas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3107208"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -209,6 +261,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3118106",
+      "name": "Congonhas do Norte",
+      "slug": "congonhas-do-norte",
+      "regionId": "3101",
+      "description": "Município de Minas Gerais, na região intermediária de Belo Horizonte.",
+      "coordinates": {
+        "latitude": -18.806944,
+        "longitude": -43.680833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1792271)",
+        "url": "https://www.wikidata.org/wiki/Q1792271#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1792271)",
+          "url": "https://www.wikidata.org/wiki/Q1792271"
+        },
+        {
+          "name": "IBGE – Localidades (Congonhas do Norte)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118106"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3118908",
       "name": "Cordisburgo",
       "slug": "cordisburgo",
@@ -230,6 +308,32 @@
         {
           "name": "IBGE – Localidades (Cordisburgo)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118908"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121209",
+      "name": "Delfinópolis",
+      "slug": "delfinopolis",
+      "regionId": "3108",
+      "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+      "coordinates": {
+        "latitude": -20.343889,
+        "longitude": -46.853889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1792047)",
+        "url": "https://www.wikidata.org/wiki/Q1792047#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1792047)",
+          "url": "https://www.wikidata.org/wiki/Q1792047"
+        },
+        {
+          "name": "IBGE – Localidades (Delfinópolis)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3121209"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -282,6 +386,32 @@
         {
           "name": "IBGE – Localidades (Divinópolis)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3122306"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3125101",
+      "name": "Extrema",
+      "slug": "extrema",
+      "regionId": "3109",
+      "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+      "coordinates": {
+        "latitude": -22.855,
+        "longitude": -46.317778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q2008030)",
+        "url": "https://www.wikidata.org/wiki/Q2008030#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q2008030)",
+          "url": "https://www.wikidata.org/wiki/Q2008030"
+        },
+        {
+          "name": "IBGE – Localidades (Extrema)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3125101"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -391,6 +521,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3132404",
+      "name": "Itajubá",
+      "slug": "itajuba",
+      "regionId": "3109",
+      "description": "Município de Minas Gerais, na região intermediária de Pouso Alegre.",
+      "coordinates": {
+        "latitude": -22.425833,
+        "longitude": -45.452778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q985585)",
+        "url": "https://www.wikidata.org/wiki/Q985585#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q985585)",
+          "url": "https://www.wikidata.org/wiki/Q985585"
+        },
+        {
+          "name": "IBGE – Localidades (Itajubá)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3132404"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3135209",
       "name": "Januária",
       "slug": "januaria",
@@ -438,6 +594,32 @@
         {
           "name": "IBGE – Localidades (Juiz de Fora)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3136702"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3137601",
+      "name": "Lagoa Santa",
+      "slug": "lagoa-santa",
+      "regionId": "3101",
+      "description": "Município de Minas Gerais, na região intermediária de Belo Horizonte.",
+      "coordinates": {
+        "latitude": -19.635738,
+        "longitude": -43.896613
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q178667)",
+        "url": "https://www.wikidata.org/wiki/Q178667#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q178667)",
+          "url": "https://www.wikidata.org/wiki/Q178667"
+        },
+        {
+          "name": "IBGE – Localidades (Lagoa Santa)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3137601"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -703,6 +885,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3162203",
+      "name": "São João Batista do Glória",
+      "slug": "sao-joao-batista-do-gloria",
+      "regionId": "3108",
+      "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+      "coordinates": {
+        "latitude": -20.640833,
+        "longitude": -46.505833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1787319)",
+        "url": "https://www.wikidata.org/wiki/Q1787319#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1787319)",
+          "url": "https://www.wikidata.org/wiki/Q1787319"
+        },
+        {
+          "name": "IBGE – Localidades (São João Batista do Glória)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3162203"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3162500",
       "name": "São João del Rei",
       "slug": "sao-joao-del-rei",
@@ -750,6 +958,32 @@
         {
           "name": "IBGE – Localidades (São Roque de Minas)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3164308"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3165206",
+      "name": "São Tomé das Letras",
+      "slug": "sao-tome-das-letras",
+      "regionId": "3108",
+      "description": "Município de Minas Gerais, na região intermediária de Varginha.",
+      "coordinates": {
+        "latitude": -21.721944,
+        "longitude": -44.985
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1638397)",
+        "url": "https://www.wikidata.org/wiki/Q1638397#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1638397)",
+          "url": "https://www.wikidata.org/wiki/Q1638397"
+        },
+        {
+          "name": "IBGE – Localidades (São Tomé das Letras)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3165206"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -917,6 +1151,45 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3118106-bicame",
+      "name": "Bicame",
+      "slug": "bicame",
+      "cityId": "3118106",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Congonhas do Norte.",
+      "coordinates": {
+        "latitude": -19.019124,
+        "longitude": -43.719817
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/6930655392"
+      },
+      "images": [
+        {
+          "url": "images/bicame.webp",
+          "thumbUrl": "images/bicame-480.webp",
+          "alt": "Duas quedas d’água em um paredão de rocha, vistas do alto, com poço escuro embaixo",
+          "author": "Douver Ferreira",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_Bicame_Reserva_na_Particular_do_Patrim%C3%B4nio_Natural_Brumas_do_Espinha%C3%A7o_(02).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/6930655392"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3112802-cachoeira-da-capivara",
       "name": "Cachoeira da Capivara",
       "slug": "cachoeira-da-capivara",
@@ -956,6 +1229,84 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3162203-cachoeira-da-cascata",
+      "name": "Cachoeira da Cascata",
+      "slug": "cachoeira-da-cascata",
+      "cityId": "3162203",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em São João Batista do Glória.",
+      "coordinates": {
+        "latitude": -20.65029,
+        "longitude": -46.279183
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/5372821823"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-da-cascata.webp",
+          "thumbUrl": "images/cachoeira-da-cascata-480.webp",
+          "alt": "Corredeiras sobre o leito de rocha de um rio, em campo aberto de morros suaves",
+          "author": "Gustavo Piassi Costa",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cascata_EcoParque%2C_MG_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/5372821823"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3132404-cachoeira-da-estancia",
+      "name": "Cachoeira da Estância",
+      "slug": "cachoeira-da-estancia",
+      "cityId": "3132404",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Itajubá.",
+      "coordinates": {
+        "latitude": -22.481151,
+        "longitude": -45.425865
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11350052599"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-da-estancia.webp",
+          "thumbUrl": "images/cachoeira-da-estancia-480.webp",
+          "alt": "Cachoeira em meio à vegetação, com um cavalo bebendo água no poço",
+          "author": "Py4nf",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Horse_waterfall_estancia_brazil.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11350052599"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3146107-cachoeira-das-andorinhas",
       "name": "Cachoeira das Andorinhas",
       "slug": "cachoeira-das-andorinhas",
@@ -980,6 +1331,123 @@
         {
           "name": "Wikidata (Q18466482)",
           "url": "https://www.wikidata.org/wiki/Q18466482"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3104908-cachoeira-do-itauna",
+      "name": "Cachoeira do Itaúna",
+      "slug": "cachoeira-do-itauna",
+      "cityId": "3104908",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Baependi.",
+      "coordinates": {
+        "latitude": -22.04196,
+        "longitude": -44.820515
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/12645652801"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-do-itauna.webp",
+          "thumbUrl": "images/cachoeira-do-itauna-480.webp",
+          "alt": "Larga cachoeira em degraus sobre um rio, cercada de mata",
+          "author": "Mori Morine",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:750_Cachoeira_de_Itauna.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12645652801"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3107208-cachoeira-do-paiol",
+      "name": "Cachoeira do Paiol",
+      "slug": "cachoeira-do-paiol",
+      "cityId": "3107208",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Bocaina de Minas.",
+      "coordinates": {
+        "latitude": -22.166744,
+        "longitude": -44.516522
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/8244010907"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-do-paiol.webp",
+          "thumbUrl": "images/cachoeira-do-paiol-480.webp",
+          "alt": "Cachoeira de água branca descendo entre rochas, cercada de mata fechada",
+          "author": "TMbux",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Watewrfall_-_Cachoeira_Cinco_Estrelas_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/8244010907"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3125101-cachoeira-do-salto",
+      "name": "Cachoeira do Salto",
+      "slug": "cachoeira-do-salto",
+      "cityId": "3125101",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Extrema.",
+      "coordinates": {
+        "latitude": -22.846156,
+        "longitude": -46.266122
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/4812128366"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-do-salto.webp",
+          "thumbUrl": "images/cachoeira-do-salto-480.webp",
+          "alt": "Rio com corredeiras sobre pedras, em meio à vegetação",
+          "author": "Felipe Guimarães from Camanducaia, Brasil",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_do_Salto_(9674537837).jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4812128366"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -1063,6 +1531,123 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3102050-cachoeira-dos-sete-piloes",
+      "name": "Cachoeira dos Sete Pilões",
+      "slug": "cachoeira-dos-sete-piloes",
+      "cityId": "3102050",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Alto Caparaó.",
+      "coordinates": {
+        "latitude": -20.482509,
+        "longitude": -41.83068
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11100188505"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-dos-sete-piloes.webp",
+          "thumbUrl": "images/cachoeira-dos-sete-piloes-480.webp",
+          "alt": "Queda d’água descendo por um canal de rocha, em meio à vegetação",
+          "author": "EduardoMSNeves",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_dos_Sete_Pil%C3%B5es.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11100188505"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121209-cachoeira-maria-augusta",
+      "name": "Cachoeira Maria Augusta",
+      "slug": "cachoeira-maria-augusta",
+      "cityId": "3121209",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em Delfinópolis.",
+      "coordinates": {
+        "latitude": -20.501831,
+        "longitude": -46.520173
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/3940935950"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-maria-augusta.webp",
+          "thumbUrl": "images/cachoeira-maria-augusta-480.webp",
+          "alt": "Alta queda d’água ao lado de um paredão de mata, com lagoa ao pé",
+          "author": "AkyrA artx",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_maria_augusta_panorama.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3940935950"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3164308-cachoeira-rasga-canga",
+      "name": "Cachoeira Rasga Canga",
+      "slug": "cachoeira-rasga-canga",
+      "cityId": "3164308",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em São Roque de Minas.",
+      "coordinates": {
+        "latitude": -20.174748,
+        "longitude": -46.560108
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/7042327216"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-rasga-canga.webp",
+          "thumbUrl": "images/cachoeira-rasga-canga-480.webp",
+          "alt": "Série de pequenas quedas entre blocos de rocha avermelhada, com poço ao fundo",
+          "author": "Halley Pacheco de Oliveira",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PNSC_Cachoeira_Rasga_Canga.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/7042327216"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3159001-cachoeira-serra-morena",
       "name": "Cachoeira Serra Morena",
       "slug": "cachoeira-serra-morena",
@@ -1098,6 +1683,45 @@
         {
           "name": "Wikidata (Q124386442)",
           "url": "https://www.wikidata.org/wiki/Q124386442"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3165206-cachoeira-veu-de-noiva",
+      "name": "Cachoeira Véu de Noiva",
+      "slug": "cachoeira-veu-de-noiva",
+      "cityId": "3165206",
+      "categoryId": "waterfall",
+      "description": "Cachoeira em São Tomé das Letras.",
+      "coordinates": {
+        "latitude": -21.760009,
+        "longitude": -44.987422
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/11146719906"
+      },
+      "images": [
+        {
+          "url": "images/cachoeira-veu-de-noiva.webp",
+          "thumbUrl": "images/cachoeira-veu-de-noiva-480.webp",
+          "alt": "Cachoeira estreita caindo em um poço de água escura cor de chá",
+          "author": "Kamila Penha Pereira de Novaes",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_V%C3%A9u_da_Noiva_-_S%C3%A3o_Thom%C3%A9_das_Letras.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/11146719906"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -1495,6 +2119,45 @@
         {
           "name": "Wikidata (Q10276309)",
           "url": "https://www.wikidata.org/wiki/Q10276309"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3137601-gruta-da-lapinha",
+      "name": "Gruta da Lapinha",
+      "slug": "gruta-da-lapinha",
+      "cityId": "3137601",
+      "categoryId": "other",
+      "description": "Gruta em Lagoa Santa.",
+      "coordinates": {
+        "latitude": -19.561979,
+        "longitude": -43.959305
+      },
+      "coordinatesSource": {
+        "name": "OpenStreetMap",
+        "url": "https://www.openstreetmap.org/node/251386328"
+      },
+      "images": [
+        {
+          "url": "images/gruta-da-lapinha.webp",
+          "thumbUrl": "images/gruta-da-lapinha-480.webp",
+          "alt": "Interior de gruta calcária, com paredões de rocha e formações",
+          "author": "Paulo JC Nogueira",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gruta_da_Lapinha_-_Entrada_da_Gruta%2C_Lagoa_Santa_-_MG_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "gruta"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/251386328"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
