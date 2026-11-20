@@ -46,7 +46,7 @@ Dados do catálogo: JSON em `public/data` (Etapa 5). Roteamento e publicação: 
 Técnicas combinadas, sem trocar de provedor de tiles (continua OpenStreetMap):
 1. **Tiles dessaturados por CSS** (`--me-map-tile-filter`: tons de cinza, contraste e brilho suaves) em `styles/_leaflet.scss`.
 2. **Máscara fora de MG**: polígono "mundo" com buraco no formato do estado (contorno IBGE), numa pane própria entre tiles e contorno; cor em `--me-map-mask`.
-3. **Navegação limitada** ao entorno do estado (`setMaxBounds` com folga de 12% + `minZoom` calculado), com `zoomSnap` 0,25 para enquadrar melhor.
+3. **Navegação limitada** ao entorno do estado (`setMaxBounds` com folga de 12% + `minZoom` calculado), com `zoomSnap` 1 (inteiro): o `leaflet.markercluster` agrupa por nível inteiro e, com zoom fracionado (ex.: 0,25), marcadores chegavam a sumir ao aproximar e afastar.
 4. Controles, atribuição, popup e marcadores com visual discreto, todos via variáveis CSS (preparado para o modo escuro).
 Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda mais limpo e com variante escura), por depender de outro provedor e de termos de uso a confirmar; a troca continua possível em `TILE_PROVIDER`.
 

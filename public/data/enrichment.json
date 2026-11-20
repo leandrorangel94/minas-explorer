@@ -2691,6 +2691,281 @@
           "retrievedAt": "2026-11-20"
         }
       }
+    },
+    "3167103-matriz-de-nossa-senhora-da-conceicao": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada do Queijo",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 143,
+            "phone": "+55 38 3541 1239",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495937"
+          },
+          {
+            "name": "Pousada Serrana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 397,
+            "phone": "+55 38 3541 1949",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495928"
+          },
+          {
+            "name": "Pousada Mariana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 772,
+            "phone": "+55 38 3541 1569",
+            "osmUrl": "https://www.openstreetmap.org/node/10035103612"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3131703-memorial-carlos-drummond-de-andrade": {
+      "about": {
+        "description": "Carlos Drummond de Andrade (Itabira, 31 de outubro de 1902 – Rio de Janeiro, 17 de agosto de 1987) foi um poeta, contista e cronista brasileiro, considerado por muitos o mais influente poeta brasileiro do século XX. Drummond foi um dos principais poetas da segunda geração do modernismo brasileiro, embora sua obra não se restrinja a formas e temáticas de movimentos específicos.",
+        "curiosities": [
+          "As características formais e estilísticas de sua obra também são vastas, destacando-se, por vezes, o dialeto mineiro."
+        ],
+        "source": {
+          "name": "Wikipédia: Carlos Drummond de Andrade",
+          "url": "https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Italia",
+            "type": "Hotel",
+            "distanceMeters": 1301,
+            "osmUrl": "https://www.openstreetmap.org/node/7201320975"
+          },
+          {
+            "name": "Hotel It",
+            "type": "Hotel",
+            "distanceMeters": 1375,
+            "website": "https://ititabirahotel.com.br/",
+            "phone": "+55313833-4050",
+            "osmUrl": "https://www.openstreetmap.org/node/7208731343"
+          },
+          {
+            "name": "Domus Hoteis",
+            "type": "Hotel",
+            "distanceMeters": 1602,
+            "osmUrl": "https://www.openstreetmap.org/node/7208750910"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3106200-mercado-central": {
+      "about": {
+        "description": "O Mercado Novo é um mercado e edifício comercial no Centro de Belo Horizonte, com entrada principal pela Avenida Olegário Maciel. Erguido no terreno de uma antiga garagem e oficina de bondes, abriu em 1963 para receber os comerciantes do antigo Mercado Municipal, que depois passou a se chamar Mercado Central.",
+        "curiosities": [
+          "A transferência não ocorreu, pois os lojistas compraram o terreno que já ocupavam e permaneceram ali, deixando o novo empreendimento sem os compradores esperados e com parte da obra inacabada.",
+          "Projetado por Fernando Graça e Sandoval Azevedo Filho, o edifício modernista tem estrutura de concreto, fachadas fechadas por cobogós e corredores de pequenos boxes, ligados por rampas que também recebem veículos.",
+          "As lojas pertencem a proprietários privados, e a laje superior é do município."
+        ],
+        "source": {
+          "name": "Wikipédia: Mercado Novo (Belo Horizonte)",
+          "url": "https://pt.wikipedia.org/wiki/Mercado_Novo_(Belo_Horizonte)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "website": "http://www.pbh.gov.br/",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/246671856",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hostel Mineirinho",
+            "type": "Hostel",
+            "distanceMeters": 361,
+            "osmUrl": "https://www.openstreetmap.org/node/12593467101"
+          },
+          {
+            "name": "Ibis Budget Minascentro",
+            "type": "Hotel",
+            "distanceMeters": 489,
+            "osmUrl": "https://www.openstreetmap.org/way/433275972"
+          },
+          {
+            "name": "Bristol",
+            "type": "Hotel",
+            "distanceMeters": 537,
+            "osmUrl": "https://www.openstreetmap.org/node/1849662584"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140001-mina-da-passagem": {
+      "about": {
+        "description": "A Mina da Passagem é uma das maiores minas ainda existentes para visitação no mundo, localizada no município brasileiro de Mariana, na área do Quadrilátero Ferrífero, no estado de Minas Gerais. Situada no distrito de Passagem de Mariana e com cerca de 7 200 km² de extensão, a Mina da Passagem é a maior mina dessa região com os seus 30 km de túneis, com lagos subterrâneos de águas cristalinas.",
+        "curiosities": [
+          "No ano de 1729 foram descobertas as primeiras jazidas da mina, que só começaram a ser exploradas mais de 100 anos depois.",
+          "Durante o ciclo do ouro em Minas Gerais pelos portugueses e ingleses que chegaram a extrair 35 toneladas de ouro.",
+          "A mina foi paralisada em 1954, mas foi reaberta para visitação na década de 1970."
+        ],
+        "source": {
+          "name": "Wikipédia: Mina da Passagem",
+          "url": "https://pt.wikipedia.org/wiki/Mina_da_Passagem",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Serrinha",
+            "type": "Hotel",
+            "distanceMeters": 928,
+            "osmUrl": "https://www.openstreetmap.org/node/2069912884"
+          },
+          {
+            "name": "Hotel Brasil Real",
+            "type": "Hotel",
+            "distanceMeters": 1697,
+            "website": "https://hotelbrasilreal.com.br/",
+            "osmUrl": "https://www.openstreetmap.org/node/12768199702"
+          },
+          {
+            "name": "Hotel Aguas Claras",
+            "type": "Hotel",
+            "distanceMeters": 1845,
+            "osmUrl": "https://www.openstreetmap.org/node/4423745893"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3106200-museu-casa-kubitschek": {
+      "about": {
+        "description": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado.",
+        "curiosities": [
+          "Com uma área de aproximadamente 331 km², possui uma geografia diversificada, com morros e baixadas.",
+          "Dista cerca de 716 km de Brasília, é a segunda capital estadual mais próxima da capital federal, depois de Goiânia.",
+          "Sofreu um inesperado crescimento populacional acelerado, chegando a mais de um milhão de habitantes com quase setenta anos de fundação."
+        ],
+        "source": {
+          "name": "Wikipédia: Belo Horizonte",
+          "url": "https://pt.wikipedia.org/wiki/Belo_Horizonte",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "openingHours": "We-Su 10:00-18:00",
+        "fee": "no",
+        "website": "https://prefeitura.pbh.gov.br/fundacao-municipal-de-cultura/museus/casakubitschek",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/461697702",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Woods Hostel",
+            "type": "Hostel",
+            "distanceMeters": 420,
+            "osmUrl": "https://www.openstreetmap.org/way/1391665907"
+          },
+          {
+            "name": "San Diego Concept Pampulha",
+            "type": "Hotel",
+            "distanceMeters": 440,
+            "phone": "+55 31 36146500",
+            "osmUrl": "https://www.openstreetmap.org/way/501473259"
+          },
+          {
+            "name": "Da Orla Pampulha Hostel",
+            "type": "Hostel",
+            "distanceMeters": 633,
+            "osmUrl": "https://www.openstreetmap.org/node/4922764762"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-museu-da-inconfidencia": {
+      "about": {
+        "description": "Museu da Inconfidência é um museu histórico e artístico que ocupa a antiga Casa de Câmara e Cadeia de Vila Rica e mais quatro prédios auxiliares na cidade de Ouro Preto, no estado de Minas Gerais. O museu é dedicado à preservação da memória da Inconfidência Mineira e também oferece um rico painel da sociedade e cultura mineiras no período do ciclo do ouro e dos diamantes no século XVIII, incluindo obras de Manuel da Costa Ataíde e Aleijadinho.",
+        "curiosities": [
+          "Localiza-se na praça Tiradentes, em frente ao monumento a Joaquim José da Silva Xavier, o mais famoso ativista da Inconfidência."
+        ],
+        "source": {
+          "name": "Wikipédia: Museu da Inconfidência",
+          "url": "https://pt.wikipedia.org/wiki/Museu_da_Inconfid%C3%AAncia",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Itacolomy",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 34,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290455"
+          },
+          {
+            "name": "Rock in Hostel",
+            "type": "Hostel",
+            "distanceMeters": 41,
+            "website": "www.rockinhostelouropreto.com.br",
+            "phone": "+553135513165",
+            "osmUrl": "https://www.openstreetmap.org/node/4156348444"
+          },
+          {
+            "name": "Pousada Tiradentes",
+            "type": "Hotel",
+            "distanceMeters": 43,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290429"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
     }
   }
 }

@@ -148,7 +148,7 @@ export class MinasMap {
     const reduceMotion = prefersReducedMotion();
     const map = L.map(this.mapEl().nativeElement, {
       zoomControl: false, // adicionado abaixo, com rótulos em português
-      zoomSnap: 0.25,
+      zoomSnap: 1, // o markercluster agrupa por zoom inteiro: com zoom fracionado marcadores somem
       maxBoundsViscosity: 0.9,
       worldCopyJump: false,
       zoomAnimation: !reduceMotion,
