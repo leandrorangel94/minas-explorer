@@ -1,0 +1,26 @@
+{
+  "id": "3102050",
+  "name": "Alto Caparaó",
+  "slug": "alto-caparao",
+  "regionId": "3106",
+  "description": "Município na divisa com o Espírito Santo, no entorno do Parque Nacional de Caparaó.",
+  "coordinates": {
+    "latitude": -20.433889,
+    "longitude": -41.867778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q118945)",
+    "url": "https://www.wikidata.org/wiki/Q118945#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q118945)",
+      "url": "https://www.wikidata.org/wiki/Q118945"
+    },
+    {
+      "name": "IBGE – Localidades (Alto Caparaó)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3102050"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

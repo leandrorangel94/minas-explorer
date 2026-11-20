@@ -1,0 +1,38 @@
+{
+  "id": "3136702-museu-mariano-procopio",
+  "name": "Museu Mariano Procópio",
+  "slug": "museu-mariano-procopio",
+  "cityId": "3136702",
+  "categoryId": "museum",
+  "description": "Museu em Juiz de Fora.",
+  "coordinates": {
+    "latitude": -21.7461,
+    "longitude": -43.3597
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q6762387)",
+    "url": "https://www.wikidata.org/wiki/Q6762387#P625"
+  },
+  "images": [
+    {
+      "url": "images/museu-mariano-procopio.webp",
+      "alt": "Edifício do Museu Mariano Procópio, com jardim e palmeira",
+      "author": "Rodrigo Tetsuo Argenton",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_Mariano_Proc%C3%B3pio_por_Rodrigo_Tetsuo_Argenton_%2809%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "museu",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q6762387)",
+      "url": "https://www.wikidata.org/wiki/Q6762387"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

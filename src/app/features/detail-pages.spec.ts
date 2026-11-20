@@ -39,8 +39,9 @@ describe('CityPage', () => {
     const regionId = catalogJson.cities.find((c) => c.slug === 'ouro-preto')!.regionId;
     const regionName = regionsJson.find((r) => r.id === regionId)!.name;
     expect(el.querySelector('.me-detail__eyebrow')?.textContent).toContain(regionName);
-    expect(el.querySelectorAll('me-destination-card').length).toBe(1);
-    expect(el.querySelector('.me-detail__more')?.getAttribute('href')).toBe('/cidades/ouro-preto/museu-da-inconfidencia');
+    expect(el.querySelectorAll('me-destination-card').length).toBe(catalogJson.attractions.filter((a) => a.cityId === '3146107').length);
+    const hrefs = [...el.querySelectorAll('.me-detail__more')].map((a) => a.getAttribute('href'));
+    expect(hrefs).toContain('/cidades/ouro-preto/museu-da-inconfidencia');
     expect(el.querySelector('.me-detail__sources a')?.getAttribute('href')).toMatch(/^https:\/\/www\.wikidata\.org/);
   });
 
@@ -53,7 +54,7 @@ describe('CityPage', () => {
   });
 
   it('mostra galeria vazia honesta quando não há foto', async () => {
-    const { el } = await create(CityPage, { citySlug: 'ouro-preto' });
+    const { el } = await create(CityPage, { citySlug: 'ouro-preto' }); // cidades ainda não têm foto própria
     expect(el.querySelector('.me-gallery__empty')?.textContent).toContain('direitos de uso verificados');
   });
 

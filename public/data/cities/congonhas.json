@@ -1,0 +1,26 @@
+{
+  "id": "3118007",
+  "name": "Congonhas",
+  "slug": "congonhas",
+  "regionId": "3107",
+  "description": "Cidade histórica onde fica o Santuário do Bom Jesus de Matosinhos.",
+  "coordinates": {
+    "latitude": -20.5,
+    "longitude": -43.857778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q275654)",
+    "url": "https://www.wikidata.org/wiki/Q275654#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q275654)",
+      "url": "https://www.wikidata.org/wiki/Q275654"
+    },
+    {
+      "name": "IBGE – Localidades (Congonhas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118007"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

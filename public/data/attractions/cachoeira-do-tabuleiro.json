@@ -13,7 +13,16 @@
     "name": "Wikidata, propriedade P625 (Q5478900)",
     "url": "https://www.wikidata.org/wiki/Q5478900#P625"
   },
-  "images": [],
+  "images": [
+    {
+      "url": "images/cachoeira-do-tabuleiro.webp",
+      "alt": "Vista frontal da Cachoeira do Tabuleiro, queda d'água entre paredões de rocha",
+      "author": "Rafael dos Reis Pereira",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirante_tabuleiro.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
   "tags": [
     "natureza",
     "cachoeira"

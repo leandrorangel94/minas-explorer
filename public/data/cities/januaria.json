@@ -1,0 +1,26 @@
+{
+  "id": "3135209",
+  "name": "Januária",
+  "slug": "januaria",
+  "regionId": "3102",
+  "description": "Município do norte de Minas, no entorno do Parque Nacional Cavernas do Peruaçu.",
+  "coordinates": {
+    "latitude": -15.487778,
+    "longitude": -44.361944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q22062457)",
+    "url": "https://www.wikidata.org/wiki/Q22062457#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q22062457)",
+      "url": "https://www.wikidata.org/wiki/Q22062457"
+    },
+    {
+      "name": "IBGE – Localidades (Januária)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3135209"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

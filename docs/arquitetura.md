@@ -63,3 +63,8 @@ Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda
 - `me-favorite-button` (alternância com `aria-pressed`), usado na lista, nas páginas de cidade/atração, na tela de favoritos e nos roteiros. O cabeçalho mostra o contador.
 - `features/favorites/favorites-page`: lista cidades e atrações favoritas, explica que ficam apenas neste navegador/dispositivo e não sincronizam, "Remover todos" com confirmação e limpeza de favoritos que não existem mais no catálogo.
 - Roteiros: `public/data/itineraries.json` (escrito à mão e validado por `npm run catalog`). Rotas `/roteiros` e `/roteiros/:slug`. São **editoriais**: dias e paradas por id de atração, sem distância, duração ou trajeto (o validador recusa esses campos). Cada parada abre detalhes, o mapa interno e o Google Maps.
+
+## Clustering (Etapa 9)
+`leaflet.markercluster` agrupa marcadores próximos (Belo Horizonte, Ouro Preto e Mariana ficam a poucos km). Grupos usam o mesmo ícone/cor da marca, `disableClusteringAtZoom: 13` e, ao selecionar um destino dentro de um grupo, o mapa aproxima até ele aparecer e abre o popup.
+
+**Armadilha:** com `import * as L from 'leaflet'`, o bundle de produção cria uma cópia do módulo antes de o plugin se registrar, e `L.markerClusterGroup` some. Por isso `minas-map.ts` usa o import default para obter a função. O Vitest não reproduz isso: valide mudanças no mapa também no build de produção.

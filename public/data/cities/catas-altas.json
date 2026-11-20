@@ -1,0 +1,26 @@
+{
+  "id": "3115359",
+  "name": "Catas Altas",
+  "slug": "catas-altas",
+  "regionId": "3101",
+  "description": "Município onde fica o Santuário do Caraça.",
+  "coordinates": {
+    "latitude": -20.075,
+    "longitude": -43.407778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q771327)",
+    "url": "https://www.wikidata.org/wiki/Q771327#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q771327)",
+      "url": "https://www.wikidata.org/wiki/Q771327"
+    },
+    {
+      "name": "IBGE – Localidades (Catas Altas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3115359"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

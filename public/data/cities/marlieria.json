@@ -1,0 +1,26 @@
+{
+  "id": "3140308",
+  "name": "Marliéria",
+  "slug": "marlieria",
+  "regionId": "3105",
+  "description": "Município onde fica a Lagoa Dom Helvécio.",
+  "coordinates": {
+    "latitude": -19.711944,
+    "longitude": -42.731944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1754892)",
+    "url": "https://www.wikidata.org/wiki/Q1754892#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1754892)",
+      "url": "https://www.wikidata.org/wiki/Q1754892"
+    },
+    {
+      "name": "IBGE – Localidades (Marliéria)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3140308"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

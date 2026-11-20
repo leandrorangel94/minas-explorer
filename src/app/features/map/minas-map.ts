@@ -16,6 +16,15 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { LucideLocateFixed } from '@lucide/angular';
 import type { FeatureCollection, Polygon } from 'geojson';
 import * as L from 'leaflet';
+import LeafletModule from 'leaflet';
+import 'leaflet.markercluster';
+
+/**
+ * `import * as L` gera uma CÓPIA do módulo no bundle de produção, feita antes de o plugin se registrar,
+ * então `L.markerClusterGroup` não existe nela. O import default é o próprio objeto do módulo
+ * (que o plugin estende). Os testes (Vitest) não reproduzem isso: confira sempre no build de produção.
+ */
+const markerClusterGroup = (LeafletModule as unknown as typeof L).markerClusterGroup;
 import {
   BOUNDARY_STYLE, FOCUS_PADDING, MASK_PANE, MASK_STYLE, MINAS_FALLBACK_VIEW, MINAS_VIEW_BOUNDS, RESULTS_FIT_OPTIONS,
   TILE_PROVIDER,
@@ -66,7 +75,23 @@ export class MinasMap {
   private readonly zone = inject(NgZone);
 
   private map?: L.Map;
-  private readonly markerLayer = L.layerGroup();
+  /** Agrupa marcadores próximos (ex.: Belo Horizonte, Ouro Preto e Mariana em zoom de estado). */
+  private readonly markerLayer = markerClusterGroup({
+    showCoverageOnHover: false,
+    maxClusterRadius: 44,
+    spiderfyOnMaxZoom: true,
+    zoomToBoundsOnClick: true,
+    disableClusteringAtZoom: 13,
+    animate: false,
+    iconCreateFunction: (cluster) => {
+      const n = cluster.getChildCount();
+      return L.divIcon({
+        html: `<div class="me-cluster" aria-label="${n} destinos agrupados"><span>${n}</span></div>`,
+        className: 'me-cluster-wrap',
+        iconSize: [40, 40],
+      });
+    },
+  });
   private readonly markers = new Map<string, L.Marker>();
   private readonly boundaryLayer = L.geoJSON(undefined, { style: () => BOUNDARY_STYLE });
   private maskLayer?: L.Polygon;
@@ -188,7 +213,10 @@ export class MinasMap {
     const marker = selectedId ? this.markers.get(selectedId) : undefined;
     if (marker) {
       marker.setZIndexOffset(1000);
-      if (!marker.isPopupOpen()) marker.openPopup();
+      // Se o marcador estiver dentro de um grupo, aproxima o zoom até ele aparecer e então abre o popup.
+      this.markerLayer.zoomToShowLayer(marker, () => {
+        if (!marker.isPopupOpen()) marker.openPopup();
+      });
     } else {
       this.map.closePopup();
     }

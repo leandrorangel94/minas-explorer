@@ -13,7 +13,16 @@
     "name": "Wikidata, propriedade P625 (Q7455211)",
     "url": "https://www.wikidata.org/wiki/Q7455211#P625"
   },
-  "images": [],
+  "images": [
+    {
+      "url": "images/parque-nacional-da-serra-da-canastra.webp",
+      "alt": "Paisagem de serras cobertas de vegetação sob céu nublado, no Parque Nacional da Serra da Canastra",
+      "author": "Jairo Abud from São Paulo, Brazil",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_da_Canastra.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
   "tags": [
     "natureza",
     "serra",

@@ -1,0 +1,38 @@
+{
+  "id": "3115359-santuario-do-caraca",
+  "name": "Santuário do Caraça",
+  "slug": "santuario-do-caraca",
+  "cityId": "3115359",
+  "categoryId": "historic-heritage",
+  "description": "Santuário em Catas Altas.",
+  "coordinates": {
+    "latitude": -20.097935,
+    "longitude": -43.488253
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q56641251)",
+    "url": "https://www.wikidata.org/wiki/Q56641251#P625"
+  },
+  "images": [
+    {
+      "url": "images/santuario-do-caraca.webp",
+      "alt": "Santuário do Caraça entre montanhas cobertas de mata",
+      "author": "Sérgio Mourão",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cara%C3%A7a_da_floresta.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "serra"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q56641251)",
+      "url": "https://www.wikidata.org/wiki/Q56641251"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

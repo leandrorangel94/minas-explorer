@@ -1,0 +1,26 @@
+{
+  "id": "3167202",
+  "name": "Sete Lagoas",
+  "slug": "sete-lagoas",
+  "regionId": "3101",
+  "description": "Município no centro de Minas Gerais, onde fica a Gruta Rei do Mato.",
+  "coordinates": {
+    "latitude": -19.465833,
+    "longitude": -44.246944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q841226)",
+    "url": "https://www.wikidata.org/wiki/Q841226#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q841226)",
+      "url": "https://www.wikidata.org/wiki/Q841226"
+    },
+    {
+      "name": "IBGE – Localidades (Sete Lagoas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3167202"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

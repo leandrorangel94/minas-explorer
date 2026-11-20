@@ -1,0 +1,29 @@
+{
+  "id": "3167202-gruta-rei-do-mato",
+  "name": "Gruta Rei do Mato",
+  "slug": "gruta-rei-do-mato",
+  "cityId": "3167202",
+  "categoryId": "other",
+  "description": "Caverna em Sete Lagoas.",
+  "coordinates": {
+    "latitude": -19.4957,
+    "longitude": -44.2838
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q2301571)",
+    "url": "https://www.wikidata.org/wiki/Q2301571#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "caverna"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q2301571)",
+      "url": "https://www.wikidata.org/wiki/Q2301571"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

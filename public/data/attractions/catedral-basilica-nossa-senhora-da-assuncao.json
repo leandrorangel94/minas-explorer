@@ -1,0 +1,38 @@
+{
+  "id": "3140001-catedral-basilica-nossa-senhora-da-assuncao",
+  "name": "Catedral Basílica Nossa Senhora da Assunção",
+  "slug": "catedral-basilica-nossa-senhora-da-assuncao",
+  "cityId": "3140001",
+  "categoryId": "church",
+  "description": "Catedral Basílica em Mariana.",
+  "coordinates": {
+    "latitude": -20.378083,
+    "longitude": -43.416417
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q18482288)",
+    "url": "https://www.wikidata.org/wiki/Q18482288#P625"
+  },
+  "images": [
+    {
+      "url": "images/catedral-basilica-nossa-senhora-da-assuncao.webp",
+      "alt": "Fachada da Catedral Basílica Nossa Senhora da Assunção, em Mariana",
+      "author": "Pedro Vilela / MTur Destinos",
+      "license": "Domínio público",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:PedroVilela_Catedral_Nossa_Senhora_da_Assun%C3%A7%C3%A3o_Mariana_MG_%2840866847401%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q18482288)",
+      "url": "https://www.wikidata.org/wiki/Q18482288"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

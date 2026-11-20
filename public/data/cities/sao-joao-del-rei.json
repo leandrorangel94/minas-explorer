@@ -1,0 +1,26 @@
+{
+  "id": "3162500",
+  "name": "São João del Rei",
+  "slug": "sao-joao-del-rei",
+  "regionId": "3107",
+  "description": "Cidade histórica do período colonial.",
+  "coordinates": {
+    "latitude": -21.135833,
+    "longitude": -44.261944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q740965)",
+    "url": "https://www.wikidata.org/wiki/Q740965#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q740965)",
+      "url": "https://www.wikidata.org/wiki/Q740965"
+    },
+    {
+      "name": "IBGE – Localidades (São João del Rei)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3162500"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

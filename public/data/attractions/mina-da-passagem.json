@@ -1,0 +1,38 @@
+{
+  "id": "3140001-mina-da-passagem",
+  "name": "Mina da Passagem",
+  "slug": "mina-da-passagem",
+  "cityId": "3140001",
+  "categoryId": "historic-heritage",
+  "description": "Mina de ouro em Mariana (Passagem de Mariana).",
+  "coordinates": {
+    "latitude": -20.390824,
+    "longitude": -43.439482
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10330195)",
+    "url": "https://www.wikidata.org/wiki/Q10330195#P625"
+  },
+  "images": [
+    {
+      "url": "images/mina-da-passagem.webp",
+      "alt": "Entrada da recepção da Mina de Ouro, na Mina da Passagem, em Mariana",
+      "author": "Túllio F",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mina_da_Passagem_-_Passagem_de_Mariana_%28Mariana_-_MG%29_45.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "mineração",
+    "história"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10330195)",
+      "url": "https://www.wikidata.org/wiki/Q10330195"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

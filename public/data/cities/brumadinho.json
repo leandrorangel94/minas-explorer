@@ -1,0 +1,26 @@
+{
+  "id": "3109006",
+  "name": "Brumadinho",
+  "slug": "brumadinho",
+  "regionId": "3101",
+  "description": "Município onde fica o Instituto Inhotim, centro de arte contemporânea.",
+  "coordinates": {
+    "latitude": -20.142778,
+    "longitude": -44.2
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1751212)",
+    "url": "https://www.wikidata.org/wiki/Q1751212#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1751212)",
+      "url": "https://www.wikidata.org/wiki/Q1751212"
+    },
+    {
+      "name": "IBGE – Localidades (Brumadinho)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3109006"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

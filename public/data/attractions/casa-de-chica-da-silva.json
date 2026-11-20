@@ -13,7 +13,16 @@
     "name": "Wikidata, propriedade P625 (Q55763725)",
     "url": "https://www.wikidata.org/wiki/Q55763725#P625"
   },
-  "images": [],
+  "images": [
+    {
+      "url": "images/casa-de-chica-da-silva.webp",
+      "alt": "Casarão colonial de paredes brancas e janelas verdes, com rua de pedras na frente",
+      "author": "Raquel Mendes Silva",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_Chica_da_Silva.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
   "tags": [
     "história",
     "casarão"

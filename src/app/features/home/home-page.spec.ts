@@ -5,6 +5,7 @@ import { provideRouter } from '@angular/router';
 import catalogJson from '../../../../public/data/catalog.json';
 import categoriesJson from '../../../../public/data/categories.json';
 import regionsJson from '../../../../public/data/regions.json';
+import { fakeMapSize, mapDestinationCount } from '../../testing/leaflet-test-utils';
 import { ExplorerStore } from '../explore/explorer.store';
 import { HomePage } from './home-page';
 
@@ -28,9 +29,13 @@ async function create() {
 }
 
 const cards = (el: HTMLElement) => el.querySelectorAll('me-destination-card').length;
-const markers = (el: HTMLElement) => el.querySelectorAll('.leaflet-marker-icon').length;
+const markers = (el: HTMLElement) => mapDestinationCount(el);
 
 describe('HomePage: mapa e lista sincronizados', () => {
+  let restoreSize: () => void;
+  beforeEach(() => (restoreSize = fakeMapSize()));
+  afterEach(() => restoreSize());
+
   it('mostra os mesmos destinos na lista e no mapa', async () => {
     const { fixture, store, el } = await create();
     const total = catalogJson.attractions.length;
@@ -41,8 +46,10 @@ describe('HomePage: mapa e lista sincronizados', () => {
     store.setQuery('parque nacional');
     fixture.detectChanges();
     await fixture.whenStable();
-    expect(cards(el)).toBe(2);
-    expect(markers(el)).toBe(2);
+    const nationalParks = catalogJson.attractions.filter((a) => a.name.startsWith('Parque Nacional')).length;
+    expect(nationalParks).toBeGreaterThan(1);
+    expect(cards(el)).toBe(nationalParks);
+    expect(markers(el)).toBe(nationalParks);
   });
 
   it('mostra estado de nenhum resultado e permite limpar filtros', async () => {
@@ -72,6 +79,10 @@ describe('HomePage: mapa e lista sincronizados', () => {
 
   it('marcadores trazem ícone da categoria (não só cor)', async () => {
     const { el } = await create();
-    expect(el.querySelectorAll('.me-marker svg').length).toBe(catalogJson.attractions.length);
+    // Em zoom de estado alguns destinos ficam agrupados; os marcadores soltos devem ter ícone, e os grupos, contagem.
+    const icons = el.querySelectorAll('.me-marker svg').length;
+    const clustered = [...el.querySelectorAll('.me-cluster span')].reduce((n, c) => n + Number(c.textContent), 0);
+    expect(icons + clustered).toBe(catalogJson.attractions.length);
+    expect(el.querySelectorAll('.me-marker:not(:has(svg))').length).toBe(0);
   });
 });

@@ -1,0 +1,26 @@
+{
+  "id": "3136702",
+  "name": "Juiz de Fora",
+  "slug": "juiz-de-fora",
+  "regionId": "3106",
+  "description": "Cidade da Zona da Mata mineira.",
+  "coordinates": {
+    "latitude": -21.75,
+    "longitude": -43.35
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q193019)",
+    "url": "https://www.wikidata.org/wiki/Q193019#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q193019)",
+      "url": "https://www.wikidata.org/wiki/Q193019"
+    },
+    {
+      "name": "IBGE – Localidades (Juiz de Fora)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3136702"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

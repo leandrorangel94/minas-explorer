@@ -11,6 +11,7 @@
  *
  * Falha (exit 1) se houver qualquer erro de validação. Ver docs/catalogo.md.
  */
+import { existsSync } from 'node:fs';
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -40,10 +41,17 @@ function checkCoordinates(where, c) {
   if (c.latitude < BOUNDS.south || c.latitude > BOUNDS.north || c.longitude < BOUNDS.west || c.longitude > BOUNDS.east)
     err(where, `coordenadas fora de Minas Gerais (${c.latitude}, ${c.longitude})`);
 }
+// Licenças que permitem redistribuição com atribuição (ver docs/catalogo.md).
+const ALLOWED_LICENSES = /^(Domínio público|Public domain|CC0( 1\.0)?|CC BY( \d\.\d)?|CC BY-SA( \d\.\d)?)$/;
 function checkImage(where, img) {
-  if (!isUrl(img?.url) || !isStr(img?.alt)) return err(where, 'imagem precisa de url http(s) e alt');
+  // Só imagens versionadas no repositório (sem hotlink): caminho relativo "images/arquivo.ext".
+  if (!isStr(img?.url) || !/^images\/[\w.-]+\.(webp|jpe?g|png|avif)$/.test(img.url)) return err(where, 'url deve ser um arquivo local em "images/" (hotlink não é permitido)');
+  if (!existsSync(join(data, '..', img.url))) err(where, `arquivo ${img.url} não existe em public/`);
+  if (!isStr(img.alt) || img.alt.length < 10) err(where, 'alt descritivo obrigatório');
   for (const k of ['author', 'license', 'sourceUrl', 'attribution'])
     if (!isStr(img[k])) err(where, `imagem sem "${k}" (procedência obrigatória)`);
+  if (isStr(img.license) && !ALLOWED_LICENSES.test(img.license)) err(where, `licença "${img.license}" não permitida para redistribuição`);
+  if (isStr(img.sourceUrl) && !isUrl(img.sourceUrl)) err(where, 'sourceUrl inválida');
 }
 function checkCommon(where, e, ids) {
   if (!isStr(e.id)) err(where, 'id obrigatório');
@@ -137,4 +145,18 @@ if (errors.length) {
 const byName = (a, b) => a.name.localeCompare(b.name, 'pt-BR');
 await writeFile(join(data, 'catalog.json'),
   JSON.stringify({ cities: cities.sort(byName), attractions: attractions.sort(byName) }, null, 2) + '\n');
+// Créditos das fotografias, gerados a partir do catálogo (docs/creditos.md).
+const rowsMd = attractions.flatMap((a) => a.images.map((i) => `| ${a.name} | ${i.author.replace(/\|/g, '/')} | ${i.license} | [página original](${i.sourceUrl}) |`));
+await writeFile(join(data, '..', '..', 'docs', 'creditos.md'), [
+  '# Créditos das fotografias',
+  '',
+  '> Gerado por `npm run catalog` a partir de `public/data/attractions/*.json`. Não edite à mão.',
+  '',
+  'Todas as fotografias vêm do Wikimedia Commons, foram redimensionadas e convertidas para WebP, e são redistribuídas sob as licenças indicadas (domínio público, CC BY ou CC BY-SA). Quem reutilizar uma foto deve manter autor, licença e link.',
+  '',
+  '| Destino | Autor | Licença | Fonte |',
+  '|---|---|---|---|',
+  ...rowsMd,
+  '',
+].join('\n'));
 console.log(`OK: ${cities.length} cidades, ${attractions.length} atrações, ${categories.length} categorias, ${itineraries.length} roteiros.`);

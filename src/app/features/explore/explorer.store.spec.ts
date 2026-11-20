@@ -47,12 +47,14 @@ describe('ExplorerStore', () => {
     respond();
 
     store.setQuery('ouro preto');
-    expect(store.results().map((i) => i.attraction.slug)).toEqual(['museu-da-inconfidencia']);
+    const ouroPreto = catalogJson.attractions.filter((a) => a.cityId === '3146107').map((a) => a.slug).sort();
+    expect(store.results().map((i) => i.attraction.slug).sort()).toEqual(ouroPreto);
+    expect(ouroPreto).toContain('museu-da-inconfidencia');
 
     store.clearFilters();
     store.toggleCategory('park');
     expect(store.results().every((i) => i.attraction.categoryId === 'park')).toBe(true);
-    expect(store.results().length).toBe(2);
+    expect(store.results().length).toBe(catalogJson.attractions.filter((a) => a.categoryId === 'park').length);
     expect(store.activeFilterCount()).toBe(1);
 
     store.toggleCategory('park');

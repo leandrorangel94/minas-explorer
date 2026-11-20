@@ -13,7 +13,16 @@
     "name": "Wikidata, propriedade P625 (Q9850285)",
     "url": "https://www.wikidata.org/wiki/Q9850285#P625"
   },
-  "images": [],
+  "images": [
+    {
+      "url": "images/conjunto-arquitetonico-da-pampulha.webp",
+      "alt": "Lagoa da Pampulha com edificações e vegetação na margem",
+      "author": "Daniel Raposo",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olhar_sobre_a_Lagoa_da_Pampulha.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
   "tags": [
     "arquitetura",
     "modernismo"

@@ -8,7 +8,10 @@
     "days": [
       {
         "title": "Dia 1",
-        "stopIds": ["3106200-conjunto-arquitetonico-da-pampulha", "3106200-mercado-central"]
+        "stopIds": [
+          "3106200-conjunto-arquitetonico-da-pampulha",
+          "3106200-mercado-central"
+        ]
       }
     ],
     "lastReviewedAt": "2026-11-20"
@@ -20,9 +23,48 @@
     "summary": "Três dias com destinos de história e natureza na região de Belo Horizonte: Ouro Preto, Serra do Cipó e Conceição do Mato Dentro.",
     "regionId": "3101",
     "days": [
-      { "title": "Dia 1: história", "stopIds": ["3146107-museu-da-inconfidencia"] },
-      { "title": "Dia 2: serra", "stopIds": ["3159001-parque-nacional-da-serra-do-cipo"] },
-      { "title": "Dia 3: cachoeira", "stopIds": ["3117504-cachoeira-do-tabuleiro"] }
+      {
+        "title": "Dia 1: história",
+        "stopIds": [
+          "3146107-museu-da-inconfidencia"
+        ]
+      },
+      {
+        "title": "Dia 2: serra",
+        "stopIds": [
+          "3159001-parque-nacional-da-serra-do-cipo"
+        ]
+      },
+      {
+        "title": "Dia 3: cachoeira",
+        "stopIds": [
+          "3117504-cachoeira-do-tabuleiro"
+        ]
+      }
+    ],
+    "lastReviewedAt": "2026-11-20"
+  },
+  {
+    "id": "mariana-e-ouro-preto-historia",
+    "slug": "mariana-e-ouro-preto-historia",
+    "title": "Mariana e Ouro Preto: história e fé",
+    "summary": "Dois dias entre igrejas, museu e mina de ouro nas cidades históricas de Mariana e Ouro Preto.",
+    "regionId": "3101",
+    "days": [
+      {
+        "title": "Dia 1: Mariana",
+        "stopIds": [
+          "3140001-catedral-basilica-nossa-senhora-da-assuncao",
+          "3140001-mina-da-passagem"
+        ]
+      },
+      {
+        "title": "Dia 2: Ouro Preto",
+        "stopIds": [
+          "3146107-museu-da-inconfidencia",
+          "3146107-basilica-nossa-senhora-do-pilar"
+        ]
+      }
     ],
     "lastReviewedAt": "2026-11-20"
   }

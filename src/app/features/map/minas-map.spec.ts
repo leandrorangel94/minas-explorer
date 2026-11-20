@@ -1,7 +1,12 @@
 import { TestBed } from '@angular/core/testing';
+import { fakeMapSize, mapDestinationCount } from '../../testing/leaflet-test-utils';
 import { MinasMap } from './minas-map';
 
 describe('MinasMap', () => {
+  let restoreSize: () => void;
+  beforeEach(() => (restoreSize = fakeMapSize()));
+  afterEach(() => restoreSize());
+
   async function create() {
     const fixture = TestBed.createComponent(MinasMap);
     fixture.detectChanges();
@@ -26,11 +31,11 @@ describe('MinasMap', () => {
       { id: 'b', name: 'B', latitude: -20, longitude: -45 },
     ]);
     await fixture.whenStable();
-    expect(el.querySelectorAll('.leaflet-marker-icon').length).toBe(2);
+    expect(mapDestinationCount(el)).toBe(2);
 
     fixture.componentRef.setInput('points', [{ id: 'a', name: 'A', latitude: -19, longitude: -44 }]);
     await fixture.whenStable();
-    expect(el.querySelectorAll('.leaflet-marker-icon').length).toBe(1);
+    expect(mapDestinationCount(el)).toBe(1);
   });
 
   it('draws and clears the state boundary', async () => {

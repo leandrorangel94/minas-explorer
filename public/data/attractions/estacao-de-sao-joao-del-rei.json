@@ -1,0 +1,29 @@
+{
+  "id": "3162500-estacao-de-sao-joao-del-rei",
+  "name": "Estação de São João del-Rei",
+  "slug": "estacao-de-sao-joao-del-rei",
+  "cityId": "3162500",
+  "categoryId": "historic-heritage",
+  "description": "Estação ferroviária de São João del-Rei, bem ferroviário reconhecido pelo IPHAN.",
+  "coordinates": {
+    "latitude": -21.133028,
+    "longitude": -44.257125
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10276309)",
+    "url": "https://www.wikidata.org/wiki/Q10276309#P625"
+  },
+  "images": [],
+  "tags": [
+    "história",
+    "ferrovia"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10276309)",
+      "url": "https://www.wikidata.org/wiki/Q10276309"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

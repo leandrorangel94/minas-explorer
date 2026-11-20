@@ -52,3 +52,25 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 
 ## Roteiros editoriais
 `public/data/itineraries.json` lista os roteiros: `id`, `slug`, `title`, `summary`, `regionId`, `days[{title, stopIds[]}]` e `lastReviewedAt`. Os `stopIds` são ids de atrações existentes. Roteiros são sugestões editoriais: **não** incluem distância, duração nem trajeto, e `npm run catalog` recusa esses campos. Para criar um, agrupe destinos da mesma região/cidade e rode o comando.
+
+## Curadoria da Etapa 9 (20/11/2026)
+
+**Estado do catálogo:** 23 cidades, 22 atrações (17 com fotografia), 10 das 13 regiões do IBGE representadas, 3 roteiros. Faltam cidades nas regiões de Governador Valadares, Uberaba e Patos de Minas.
+
+**Como foi levantado**
+- Candidatos: consulta SPARQL ao Wikidata (itens turísticos com coordenadas, município com código IBGE e número de artigos) e buscas por nome. Descartados os sem coordenadas (Parque do Sabiá, Serra do Papagaio) ou sem município (Lago de Furnas).
+- Coordenadas e município: Wikidata (P625, P131), conferidos contra o índice IBGE; o validador recusa divergências.
+- Parques que abrangem vários municípios foram associados a um deles, e a descrição diz isso.
+- Descrições: textos curtos editoriais, escritos pelo projeto a partir dos dados do Wikidata. Os mais genéricos (ex.: "Caverna em Sete Lagoas") são propositalmente simples para não afirmar nada não verificado; vale enriquecê-los com fonte local.
+
+**Fotografias (Wikimedia Commons)**
+- Para cada foto: licença, autor e página conferidos pela API do Commons; só entram domínio público, CC0, CC BY e CC BY-SA.
+- Versionadas em `public/images` (sem hotlink), redimensionadas a 960 px e convertidas para WebP. Cada foto foi conferida visualmente e recebeu texto alternativo escrito pelo projeto.
+- Descartadas: fotos de baixa resolução, foto com criança identificável e fotos que não representam o item.
+- Créditos completos em [creditos.md](creditos.md) (gerado por `npm run catalog`).
+- `npm run catalog` recusa imagem remota, arquivo inexistente, licença fora da lista ou sem autor/fonte.
+
+**Pendências de curadoria**
+- Atrações sem foto: Peruaçu, Gruta Rei do Mato, Basílica do Pilar, Centro Histórico de Diamantina e Estação de São João del-Rei (as fotos candidatas tinham baixa resolução ou não representavam o item).
+- Nenhuma informação prática (horário, entrada) foi cadastrada: sem fonte oficial recente, não se publica.
+- Revisão das descrições por fonte local e ampliação nas 3 regiões sem cidades.

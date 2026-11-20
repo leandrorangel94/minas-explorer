@@ -1,0 +1,30 @@
+{
+  "id": "3146107-basilica-nossa-senhora-do-pilar",
+  "name": "Basílica Nossa Senhora do Pilar",
+  "slug": "basilica-nossa-senhora-do-pilar",
+  "cityId": "3146107",
+  "categoryId": "church",
+  "description": "Igreja matriz (basílica menor) de Nossa Senhora do Pilar, em Ouro Preto.",
+  "coordinates": {
+    "latitude": -20.386728,
+    "longitude": -43.507649
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10300071)",
+    "url": "https://www.wikidata.org/wiki/Q10300071#P625"
+  },
+  "images": [],
+  "tags": [
+    "história",
+    "barroco",
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10300071)",
+      "url": "https://www.wikidata.org/wiki/Q10300071"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

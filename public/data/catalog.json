@@ -1,6 +1,32 @@
 {
   "cities": [
     {
+      "id": "3102050",
+      "name": "Alto Caparaó",
+      "slug": "alto-caparao",
+      "regionId": "3106",
+      "description": "Município na divisa com o Espírito Santo, no entorno do Parque Nacional de Caparaó.",
+      "coordinates": {
+        "latitude": -20.433889,
+        "longitude": -41.867778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q118945)",
+        "url": "https://www.wikidata.org/wiki/Q118945#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q118945)",
+          "url": "https://www.wikidata.org/wiki/Q118945"
+        },
+        {
+          "name": "IBGE – Localidades (Alto Caparaó)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3102050"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3106200",
       "name": "Belo Horizonte",
       "slug": "belo-horizonte",
@@ -22,6 +48,32 @@
         {
           "name": "IBGE – Localidades (Belo Horizonte)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3109006",
+      "name": "Brumadinho",
+      "slug": "brumadinho",
+      "regionId": "3101",
+      "description": "Município onde fica o Instituto Inhotim, centro de arte contemporânea.",
+      "coordinates": {
+        "latitude": -20.142778,
+        "longitude": -44.2
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1751212)",
+        "url": "https://www.wikidata.org/wiki/Q1751212#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1751212)",
+          "url": "https://www.wikidata.org/wiki/Q1751212"
+        },
+        {
+          "name": "IBGE – Localidades (Brumadinho)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3109006"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -79,6 +131,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3115359",
+      "name": "Catas Altas",
+      "slug": "catas-altas",
+      "regionId": "3101",
+      "description": "Município onde fica o Santuário do Caraça.",
+      "coordinates": {
+        "latitude": -20.075,
+        "longitude": -43.407778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q771327)",
+        "url": "https://www.wikidata.org/wiki/Q771327#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q771327)",
+          "url": "https://www.wikidata.org/wiki/Q771327"
+        },
+        {
+          "name": "IBGE – Localidades (Catas Altas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3115359"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3117504",
       "name": "Conceição do Mato Dentro",
       "slug": "conceicao-do-mato-dentro",
@@ -100,6 +178,32 @@
         {
           "name": "IBGE – Localidades (Conceição do Mato Dentro)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3117504"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3118007",
+      "name": "Congonhas",
+      "slug": "congonhas",
+      "regionId": "3107",
+      "description": "Cidade histórica onde fica o Santuário do Bom Jesus de Matosinhos.",
+      "coordinates": {
+        "latitude": -20.5,
+        "longitude": -43.857778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q275654)",
+        "url": "https://www.wikidata.org/wiki/Q275654#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q275654)",
+          "url": "https://www.wikidata.org/wiki/Q275654"
+        },
+        {
+          "name": "IBGE – Localidades (Congonhas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3118007"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -131,6 +235,110 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3122306",
+      "name": "Divinópolis",
+      "slug": "divinopolis",
+      "regionId": "3113",
+      "description": "Município do centro-oeste de Minas Gerais.",
+      "coordinates": {
+        "latitude": -20.138889,
+        "longitude": -44.883889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q926606)",
+        "url": "https://www.wikidata.org/wiki/Q926606#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q926606)",
+          "url": "https://www.wikidata.org/wiki/Q926606"
+        },
+        {
+          "name": "IBGE – Localidades (Divinópolis)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3122306"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3135209",
+      "name": "Januária",
+      "slug": "januaria",
+      "regionId": "3102",
+      "description": "Município do norte de Minas, no entorno do Parque Nacional Cavernas do Peruaçu.",
+      "coordinates": {
+        "latitude": -15.487778,
+        "longitude": -44.361944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q22062457)",
+        "url": "https://www.wikidata.org/wiki/Q22062457#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q22062457)",
+          "url": "https://www.wikidata.org/wiki/Q22062457"
+        },
+        {
+          "name": "IBGE – Localidades (Januária)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3135209"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3136702",
+      "name": "Juiz de Fora",
+      "slug": "juiz-de-fora",
+      "regionId": "3106",
+      "description": "Cidade da Zona da Mata mineira.",
+      "coordinates": {
+        "latitude": -21.75,
+        "longitude": -43.35
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q193019)",
+        "url": "https://www.wikidata.org/wiki/Q193019#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q193019)",
+          "url": "https://www.wikidata.org/wiki/Q193019"
+        },
+        {
+          "name": "IBGE – Localidades (Juiz de Fora)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3136702"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3138609",
+      "name": "Lima Duarte",
+      "slug": "lima-duarte",
+      "regionId": "3106",
+      "description": "Município onde fica o Parque Estadual do Ibitipoca.",
+      "coordinates": {
+        "latitude": -21.842778,
+        "longitude": -43.792778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1754844)",
+        "url": "https://www.wikidata.org/wiki/Q1754844#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1754844)",
+          "url": "https://www.wikidata.org/wiki/Q1754844"
+        },
+        {
+          "name": "IBGE – Localidades (Lima Duarte)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3138609"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3140001",
       "name": "Mariana",
       "slug": "mariana",
@@ -152,6 +360,32 @@
         {
           "name": "IBGE – Localidades (Mariana)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3140001"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140308",
+      "name": "Marliéria",
+      "slug": "marlieria",
+      "regionId": "3105",
+      "description": "Município onde fica a Lagoa Dom Helvécio.",
+      "coordinates": {
+        "latitude": -19.711944,
+        "longitude": -42.731944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1754892)",
+        "url": "https://www.wikidata.org/wiki/Q1754892#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1754892)",
+          "url": "https://www.wikidata.org/wiki/Q1754892"
+        },
+        {
+          "name": "IBGE – Localidades (Marliéria)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3140308"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -235,6 +469,32 @@
       "lastVerifiedAt": "2026-11-20"
     },
     {
+      "id": "3162500",
+      "name": "São João del Rei",
+      "slug": "sao-joao-del-rei",
+      "regionId": "3107",
+      "description": "Cidade histórica do período colonial.",
+      "coordinates": {
+        "latitude": -21.135833,
+        "longitude": -44.261944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q740965)",
+        "url": "https://www.wikidata.org/wiki/Q740965#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q740965)",
+          "url": "https://www.wikidata.org/wiki/Q740965"
+        },
+        {
+          "name": "IBGE – Localidades (São João del Rei)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3162500"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3164308",
       "name": "São Roque de Minas",
       "slug": "sao-roque-de-minas",
@@ -256,6 +516,32 @@
         {
           "name": "IBGE – Localidades (São Roque de Minas)",
           "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3164308"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3167202",
+      "name": "Sete Lagoas",
+      "slug": "sete-lagoas",
+      "regionId": "3101",
+      "description": "Município no centro de Minas Gerais, onde fica a Gruta Rei do Mato.",
+      "coordinates": {
+        "latitude": -19.465833,
+        "longitude": -44.246944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q841226)",
+        "url": "https://www.wikidata.org/wiki/Q841226#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q841226)",
+          "url": "https://www.wikidata.org/wiki/Q841226"
+        },
+        {
+          "name": "IBGE – Localidades (Sete Lagoas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3167202"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -315,6 +601,36 @@
   ],
   "attractions": [
     {
+      "id": "3146107-basilica-nossa-senhora-do-pilar",
+      "name": "Basílica Nossa Senhora do Pilar",
+      "slug": "basilica-nossa-senhora-do-pilar",
+      "cityId": "3146107",
+      "categoryId": "church",
+      "description": "Igreja matriz (basílica menor) de Nossa Senhora do Pilar, em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.386728,
+        "longitude": -43.507649
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10300071)",
+        "url": "https://www.wikidata.org/wiki/Q10300071#P625"
+      },
+      "images": [],
+      "tags": [
+        "história",
+        "barroco",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10300071)",
+          "url": "https://www.wikidata.org/wiki/Q10300071"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
       "id": "3117504-cachoeira-do-tabuleiro",
       "name": "Cachoeira do Tabuleiro",
       "slug": "cachoeira-do-tabuleiro",
@@ -329,7 +645,16 @@
         "name": "Wikidata, propriedade P625 (Q5478900)",
         "url": "https://www.wikidata.org/wiki/Q5478900#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/cachoeira-do-tabuleiro.webp",
+          "alt": "Vista frontal da Cachoeira do Tabuleiro, queda d'água entre paredões de rocha",
+          "author": "Rafael dos Reis Pereira",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mirante_tabuleiro.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "natureza",
         "cachoeira"
@@ -358,7 +683,16 @@
         "name": "Wikidata, propriedade P625 (Q55763725)",
         "url": "https://www.wikidata.org/wiki/Q55763725#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/casa-de-chica-da-silva.webp",
+          "alt": "Casarão colonial de paredes brancas e janelas verdes, com rua de pedras na frente",
+          "author": "Raquel Mendes Silva",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Casa_de_Chica_da_Silva.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "história",
         "casarão"
@@ -368,6 +702,110 @@
         {
           "name": "Wikidata (Q55763725)",
           "url": "https://www.wikidata.org/wiki/Q55763725"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001-catedral-basilica-nossa-senhora-da-assuncao",
+      "name": "Catedral Basílica Nossa Senhora da Assunção",
+      "slug": "catedral-basilica-nossa-senhora-da-assuncao",
+      "cityId": "3140001",
+      "categoryId": "church",
+      "description": "Catedral Basílica em Mariana.",
+      "coordinates": {
+        "latitude": -20.378083,
+        "longitude": -43.416417
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q18482288)",
+        "url": "https://www.wikidata.org/wiki/Q18482288#P625"
+      },
+      "images": [
+        {
+          "url": "images/catedral-basilica-nossa-senhora-da-assuncao.webp",
+          "alt": "Fachada da Catedral Basílica Nossa Senhora da Assunção, em Mariana",
+          "author": "Pedro Vilela / MTur Destinos",
+          "license": "Domínio público",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PedroVilela_Catedral_Nossa_Senhora_da_Assun%C3%A7%C3%A3o_Mariana_MG_%2840866847401%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q18482288)",
+          "url": "https://www.wikidata.org/wiki/Q18482288"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3122306-catedral-divino-espirito-santo",
+      "name": "Catedral Divino Espírito Santo",
+      "slug": "catedral-divino-espirito-santo",
+      "cityId": "3122306",
+      "categoryId": "church",
+      "description": "Catedral em Divinópolis.",
+      "coordinates": {
+        "latitude": -20.138972,
+        "longitude": -44.883833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q18242792)",
+        "url": "https://www.wikidata.org/wiki/Q18242792#P625"
+      },
+      "images": [
+        {
+          "url": "images/catedral-divino-espirito-santo.webp",
+          "alt": "Fachada amarela da Catedral Divino Espírito Santo, em Divinópolis",
+          "author": "Paulo JC Nogueira",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Divin%C3%B3polis_-_MG_-_panoramio.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "igreja"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q18242792)",
+          "url": "https://www.wikidata.org/wiki/Q18242792"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-centro-historico-de-diamantina",
+      "name": "Centro Histórico de Diamantina",
+      "slug": "centro-historico-de-diamantina",
+      "cityId": "3121605",
+      "categoryId": "historic-heritage",
+      "description": "Centro histórico de Diamantina, inscrito como Patrimônio Mundial pela UNESCO em 1999.",
+      "coordinates": {
+        "latitude": -18.233333,
+        "longitude": -43.6
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q8343760)",
+        "url": "https://www.wikidata.org/wiki/Q8343760#P625"
+      },
+      "images": [],
+      "tags": [
+        "história",
+        "patrimônio"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q8343760)",
+          "url": "https://www.wikidata.org/wiki/Q8343760"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -387,7 +825,16 @@
         "name": "Wikidata, propriedade P625 (Q9850285)",
         "url": "https://www.wikidata.org/wiki/Q9850285#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/conjunto-arquitetonico-da-pampulha.webp",
+          "alt": "Lagoa da Pampulha com edificações e vegetação na margem",
+          "author": "Daniel Raposo",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olhar_sobre_a_Lagoa_da_Pampulha.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "arquitetura",
         "modernismo"
@@ -397,6 +844,141 @@
         {
           "name": "Wikidata (Q9850285)",
           "url": "https://www.wikidata.org/wiki/Q9850285"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3162500-estacao-de-sao-joao-del-rei",
+      "name": "Estação de São João del-Rei",
+      "slug": "estacao-de-sao-joao-del-rei",
+      "cityId": "3162500",
+      "categoryId": "historic-heritage",
+      "description": "Estação ferroviária de São João del-Rei, bem ferroviário reconhecido pelo IPHAN.",
+      "coordinates": {
+        "latitude": -21.133028,
+        "longitude": -44.257125
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10276309)",
+        "url": "https://www.wikidata.org/wiki/Q10276309#P625"
+      },
+      "images": [],
+      "tags": [
+        "história",
+        "ferrovia"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10276309)",
+          "url": "https://www.wikidata.org/wiki/Q10276309"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3167202-gruta-rei-do-mato",
+      "name": "Gruta Rei do Mato",
+      "slug": "gruta-rei-do-mato",
+      "cityId": "3167202",
+      "categoryId": "other",
+      "description": "Caverna em Sete Lagoas.",
+      "coordinates": {
+        "latitude": -19.4957,
+        "longitude": -44.2838
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q2301571)",
+        "url": "https://www.wikidata.org/wiki/Q2301571#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "caverna"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q2301571)",
+          "url": "https://www.wikidata.org/wiki/Q2301571"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3109006-inhotim",
+      "name": "Instituto Inhotim",
+      "slug": "inhotim",
+      "cityId": "3109006",
+      "categoryId": "museum",
+      "description": "Centro de arte contemporânea em Brumadinho.",
+      "coordinates": {
+        "latitude": -20.124128,
+        "longitude": -44.218785
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q478245)",
+        "url": "https://www.wikidata.org/wiki/Q478245#P625"
+      },
+      "images": [
+        {
+          "url": "images/inhotim.webp",
+          "alt": "Vista aérea de jardins e lagos do Inhotim, em meio à mata",
+          "author": "Oswalney Costa Galvã…",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inhotim_-_panoramio_%28cropped%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "arte",
+        "museu",
+        "jardim"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q478245)",
+          "url": "https://www.wikidata.org/wiki/Q478245"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140308-lagoa-dom-helvecio",
+      "name": "Lagoa Dom Helvécio",
+      "slug": "lagoa-dom-helvecio",
+      "cityId": "3140308",
+      "categoryId": "water",
+      "description": "Lagoa em Marliéria.",
+      "coordinates": {
+        "latitude": -19.7749,
+        "longitude": -42.59653
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q22044629)",
+        "url": "https://www.wikidata.org/wiki/Q22044629#P625"
+      },
+      "images": [
+        {
+          "url": "images/lagoa-dom-helvecio.webp",
+          "alt": "Vista da Lagoa Dom Helvécio cercada por mata",
+          "author": "Fernando Marino",
+          "license": "CC BY-SA 3.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:PE_Rio_Doce_MG.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "lagoa"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q22044629)",
+          "url": "https://www.wikidata.org/wiki/Q22044629"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -416,7 +998,16 @@
         "name": "Wikidata, propriedade P625 (Q10328758)",
         "url": "https://www.wikidata.org/wiki/Q10328758#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/mercado-central.webp",
+          "alt": "Fachada do Mercado Central de Belo Horizonte, com palmeiras na frente",
+          "author": "Paulo SP/ Wikimedia",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mercado_Central%2C_Belo_Horizonte%2C_Minas_Gerais_-_2023-11-05_-_DSC01893_%28cropped%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "mercado",
         "gastronomia"
@@ -426,6 +1017,44 @@
         {
           "name": "Wikidata (Q10328758)",
           "url": "https://www.wikidata.org/wiki/Q10328758"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001-mina-da-passagem",
+      "name": "Mina da Passagem",
+      "slug": "mina-da-passagem",
+      "cityId": "3140001",
+      "categoryId": "historic-heritage",
+      "description": "Mina de ouro em Mariana (Passagem de Mariana).",
+      "coordinates": {
+        "latitude": -20.390824,
+        "longitude": -43.439482
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10330195)",
+        "url": "https://www.wikidata.org/wiki/Q10330195#P625"
+      },
+      "images": [
+        {
+          "url": "images/mina-da-passagem.webp",
+          "alt": "Entrada da recepção da Mina de Ouro, na Mina da Passagem, em Mariana",
+          "author": "Túllio F",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mina_da_Passagem_-_Passagem_de_Mariana_%28Mariana_-_MG%29_45.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "mineração",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10330195)",
+          "url": "https://www.wikidata.org/wiki/Q10330195"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -445,7 +1074,16 @@
         "name": "Wikidata, propriedade P625 (Q10333699)",
         "url": "https://www.wikidata.org/wiki/Q10333699#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/museu-da-inconfidencia.webp",
+          "alt": "Fachada do Museu da Inconfidência, em Ouro Preto",
+          "author": "Ministério da Cultura",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_da_Inconfid%C3%AAncia_%2803%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "história",
         "museu",
@@ -456,6 +1094,113 @@
         {
           "name": "Wikidata (Q10333699)",
           "url": "https://www.wikidata.org/wiki/Q10333699"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3136702-museu-mariano-procopio",
+      "name": "Museu Mariano Procópio",
+      "slug": "museu-mariano-procopio",
+      "cityId": "3136702",
+      "categoryId": "museum",
+      "description": "Museu em Juiz de Fora.",
+      "coordinates": {
+        "latitude": -21.7461,
+        "longitude": -43.3597
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q6762387)",
+        "url": "https://www.wikidata.org/wiki/Q6762387#P625"
+      },
+      "images": [
+        {
+          "url": "images/museu-mariano-procopio.webp",
+          "alt": "Edifício do Museu Mariano Procópio, com jardim e palmeira",
+          "author": "Rodrigo Tetsuo Argenton",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_Mariano_Proc%C3%B3pio_por_Rodrigo_Tetsuo_Argenton_%2809%29.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "museu",
+        "história"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q6762387)",
+          "url": "https://www.wikidata.org/wiki/Q6762387"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3138609-parque-estadual-do-ibitipoca",
+      "name": "Parque Estadual do Ibitipoca",
+      "slug": "parque-estadual-do-ibitipoca",
+      "cityId": "3138609",
+      "categoryId": "park",
+      "description": "Unidade de conservação estadual em Lima Duarte.",
+      "coordinates": {
+        "latitude": -21.716667,
+        "longitude": -43.9
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10345074)",
+        "url": "https://www.wikidata.org/wiki/Q10345074#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-estadual-do-ibitipoca.webp",
+          "alt": "Cachoeira no Lago dos Espelhos, no circuito das águas do Parque Estadual do Ibitipoca",
+          "author": "Econt",
+          "license": "Domínio público",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibitipoca1.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "serra",
+        "unidade de conservação"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q10345074)",
+          "url": "https://www.wikidata.org/wiki/Q10345074"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3135209-parque-nacional-cavernas-do-peruacu",
+      "name": "Parque Nacional Cavernas do Peruaçu",
+      "slug": "parque-nacional-cavernas-do-peruacu",
+      "cityId": "3135209",
+      "categoryId": "park",
+      "description": "Parque nacional no norte de Minas com cavernas e cânions. O parque abrange os municípios de Januária, Itacarambi e São João das Missões; aqui está associado a Januária.",
+      "coordinates": {
+        "latitude": -15.111111,
+        "longitude": -44.223889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1051873)",
+        "url": "https://www.wikidata.org/wiki/Q1051873#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "cavernas",
+        "unidade de conservação"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q1051873)",
+          "url": "https://www.wikidata.org/wiki/Q1051873"
         }
       ],
       "lastVerifiedAt": "2026-11-20"
@@ -475,7 +1220,16 @@
         "name": "Wikidata, propriedade P625 (Q7455211)",
         "url": "https://www.wikidata.org/wiki/Q7455211#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/parque-nacional-da-serra-da-canastra.webp",
+          "alt": "Paisagem de serras cobertas de vegetação sob céu nublado, no Parque Nacional da Serra da Canastra",
+          "author": "Jairo Abud from São Paulo, Brazil",
+          "license": "CC BY 2.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Serra_da_Canastra.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "natureza",
         "serra",
@@ -505,7 +1259,16 @@
         "name": "Wikidata, propriedade P625 (Q1136747)",
         "url": "https://www.wikidata.org/wiki/Q1136747#P625"
       },
-      "images": [],
+      "images": [
+        {
+          "url": "images/parque-nacional-da-serra-do-cipo.webp",
+          "alt": "Riacho entre paredões de rocha, com pequena cachoeira ao fundo",
+          "author": "Felipe L.",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cachoeira_cachoeirosa_com_caverna_cavernosa.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
       "tags": [
         "natureza",
         "serra",
@@ -516,6 +1279,122 @@
         {
           "name": "Wikidata (Q1136747)",
           "url": "https://www.wikidata.org/wiki/Q1136747"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3102050-parque-nacional-de-caparao",
+      "name": "Parque Nacional de Caparaó",
+      "slug": "parque-nacional-de-caparao",
+      "cityId": "3102050",
+      "categoryId": "park",
+      "description": "Parque nacional na divisa entre Minas Gerais e Espírito Santo, onde fica o Pico da Bandeira. O parque abrange vários municípios; aqui está associado a Alto Caparaó, um dos municípios listados na fonte.",
+      "coordinates": {
+        "latitude": -20.450176,
+        "longitude": -41.783752
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q174228)",
+        "url": "https://www.wikidata.org/wiki/Q174228#P625"
+      },
+      "images": [
+        {
+          "url": "images/parque-nacional-de-caparao.webp",
+          "alt": "Formação rochosa conhecida como Face de Cristo, em meio à vegetação",
+          "author": "RonanW Humberto do Lago Müller",
+          "license": "Domínio público",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Facedecristo.JPG",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "natureza",
+        "montanha",
+        "unidade de conservação"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q174228)",
+          "url": "https://www.wikidata.org/wiki/Q174228"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3118007-santuario-do-bom-jesus-de-matosinhos",
+      "name": "Santuário do Bom Jesus de Matosinhos",
+      "slug": "santuario-do-bom-jesus-de-matosinhos",
+      "cityId": "3118007",
+      "categoryId": "church",
+      "description": "Conjunto com igreja de escadaria adornada por esculturas dos doze profetas e capelas dos Passos da Paixão, em Congonhas; Patrimônio Mundial da UNESCO desde 1985.",
+      "coordinates": {
+        "latitude": -20.507778,
+        "longitude": -43.860694
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1595417)",
+        "url": "https://www.wikidata.org/wiki/Q1595417#P625"
+      },
+      "images": [
+        {
+          "url": "images/santuario-do-bom-jesus-de-matosinhos.webp",
+          "alt": "Vista geral do Santuário do Bom Jesus de Matosinhos e das capelas ao redor",
+          "author": "Antônio Ricardo Gomes de Souza",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_vis%C3%A3o_geral.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "barroco",
+        "igreja"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q1595417)",
+          "url": "https://www.wikidata.org/wiki/Q1595417"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3115359-santuario-do-caraca",
+      "name": "Santuário do Caraça",
+      "slug": "santuario-do-caraca",
+      "cityId": "3115359",
+      "categoryId": "historic-heritage",
+      "description": "Santuário em Catas Altas.",
+      "coordinates": {
+        "latitude": -20.097935,
+        "longitude": -43.488253
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q56641251)",
+        "url": "https://www.wikidata.org/wiki/Q56641251#P625"
+      },
+      "images": [
+        {
+          "url": "images/santuario-do-caraca.webp",
+          "alt": "Santuário do Caraça entre montanhas cobertas de mata",
+          "author": "Sérgio Mourão",
+          "license": "CC BY-SA 4.0",
+          "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cara%C3%A7a_da_floresta.jpg",
+          "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+        }
+      ],
+      "tags": [
+        "história",
+        "serra"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q56641251)",
+          "url": "https://www.wikidata.org/wiki/Q56641251"
         }
       ],
       "lastVerifiedAt": "2026-11-20"

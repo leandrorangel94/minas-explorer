@@ -1,0 +1,26 @@
+{
+  "id": "3138609",
+  "name": "Lima Duarte",
+  "slug": "lima-duarte",
+  "regionId": "3106",
+  "description": "Município onde fica o Parque Estadual do Ibitipoca.",
+  "coordinates": {
+    "latitude": -21.842778,
+    "longitude": -43.792778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1754844)",
+    "url": "https://www.wikidata.org/wiki/Q1754844#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1754844)",
+      "url": "https://www.wikidata.org/wiki/Q1754844"
+    },
+    {
+      "name": "IBGE – Localidades (Lima Duarte)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3138609"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "3118007-santuario-do-bom-jesus-de-matosinhos",
+  "name": "Santuário do Bom Jesus de Matosinhos",
+  "slug": "santuario-do-bom-jesus-de-matosinhos",
+  "cityId": "3118007",
+  "categoryId": "church",
+  "description": "Conjunto com igreja de escadaria adornada por esculturas dos doze profetas e capelas dos Passos da Paixão, em Congonhas; Patrimônio Mundial da UNESCO desde 1985.",
+  "coordinates": {
+    "latitude": -20.507778,
+    "longitude": -43.860694
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1595417)",
+    "url": "https://www.wikidata.org/wiki/Q1595417#P625"
+  },
+  "images": [
+    {
+      "url": "images/santuario-do-bom-jesus-de-matosinhos.webp",
+      "alt": "Vista geral do Santuário do Bom Jesus de Matosinhos e das capelas ao redor",
+      "author": "Antônio Ricardo Gomes de Souza",
+      "license": "CC BY-SA 4.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Santu%C3%A1rio_do_Bom_Jesus_de_Matosinhos_vis%C3%A3o_geral.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "história",
+    "barroco",
+    "igreja"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q1595417)",
+      "url": "https://www.wikidata.org/wiki/Q1595417"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

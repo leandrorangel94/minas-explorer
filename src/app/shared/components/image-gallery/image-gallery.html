@@ -14,9 +14,6 @@
       <img [src]="current().url" [alt]="current().alt" loading="lazy" (error)="onError(current())" />
     }
     <figcaption class="me-gallery__credit">
-      @if (current().attribution) {
-        <span>{{ current().attribution }}</span>
-      }
       @if (current().author) {
         <span>Foto: {{ current().author }}</span>
       }
@@ -25,6 +22,9 @@
       }
       @if (current().sourceUrl) {
         <a [href]="current().sourceUrl" target="_blank" rel="noopener noreferrer">Fonte original</a>
+      }
+      @if (current().attribution) {
+        <span>{{ current().attribution }}</span>
       }
     </figcaption>
   </figure>

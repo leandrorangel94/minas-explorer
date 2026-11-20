@@ -1,0 +1,30 @@
+{
+  "id": "3135209-parque-nacional-cavernas-do-peruacu",
+  "name": "Parque Nacional Cavernas do Peruaçu",
+  "slug": "parque-nacional-cavernas-do-peruacu",
+  "cityId": "3135209",
+  "categoryId": "park",
+  "description": "Parque nacional no norte de Minas com cavernas e cânions. O parque abrange os municípios de Januária, Itacarambi e São João das Missões; aqui está associado a Januária.",
+  "coordinates": {
+    "latitude": -15.111111,
+    "longitude": -44.223889
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1051873)",
+    "url": "https://www.wikidata.org/wiki/Q1051873#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "cavernas",
+    "unidade de conservação"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q1051873)",
+      "url": "https://www.wikidata.org/wiki/Q1051873"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

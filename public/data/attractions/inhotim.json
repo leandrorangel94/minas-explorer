@@ -1,0 +1,39 @@
+{
+  "id": "3109006-inhotim",
+  "name": "Instituto Inhotim",
+  "slug": "inhotim",
+  "cityId": "3109006",
+  "categoryId": "museum",
+  "description": "Centro de arte contemporânea em Brumadinho.",
+  "coordinates": {
+    "latitude": -20.124128,
+    "longitude": -44.218785
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q478245)",
+    "url": "https://www.wikidata.org/wiki/Q478245#P625"
+  },
+  "images": [
+    {
+      "url": "images/inhotim.webp",
+      "alt": "Vista aérea de jardins e lagos do Inhotim, em meio à mata",
+      "author": "Oswalney Costa Galvã…",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inhotim_-_panoramio_%28cropped%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "arte",
+    "museu",
+    "jardim"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q478245)",
+      "url": "https://www.wikidata.org/wiki/Q478245"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -68,3 +68,12 @@
 }
 
 .me-popup-link { display: inline-block; margin-top: 6px; color: var(--me-forest); font-weight: 600; }
+
+// Grupos de marcadores (clustering)
+.me-cluster-wrap { background: transparent; border: 0; }
+.me-cluster {
+  display: grid; place-items: center; width: 100%; height: 100%;
+  border-radius: 50%; background: var(--me-forest); color: #fff;
+  border: 3px solid var(--me-surface); box-shadow: var(--me-shadow-hover);
+  font-weight: 600; font-size: .9rem;
+}

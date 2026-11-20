@@ -1,0 +1,37 @@
+{
+  "id": "3122306-catedral-divino-espirito-santo",
+  "name": "Catedral Divino Espírito Santo",
+  "slug": "catedral-divino-espirito-santo",
+  "cityId": "3122306",
+  "categoryId": "church",
+  "description": "Catedral em Divinópolis.",
+  "coordinates": {
+    "latitude": -20.138972,
+    "longitude": -44.883833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q18242792)",
+    "url": "https://www.wikidata.org/wiki/Q18242792#P625"
+  },
+  "images": [
+    {
+      "url": "images/catedral-divino-espirito-santo.webp",
+      "alt": "Fachada amarela da Catedral Divino Espírito Santo, em Divinópolis",
+      "author": "Paulo JC Nogueira",
+      "license": "CC BY-SA 3.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Catedral_de_Divin%C3%B3polis_-_MG_-_panoramio.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "igreja"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q18242792)",
+      "url": "https://www.wikidata.org/wiki/Q18242792"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

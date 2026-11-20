@@ -1,0 +1,29 @@
+{
+  "id": "3121605-centro-historico-de-diamantina",
+  "name": "Centro Histórico de Diamantina",
+  "slug": "centro-historico-de-diamantina",
+  "cityId": "3121605",
+  "categoryId": "historic-heritage",
+  "description": "Centro histórico de Diamantina, inscrito como Patrimônio Mundial pela UNESCO em 1999.",
+  "coordinates": {
+    "latitude": -18.233333,
+    "longitude": -43.6
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q8343760)",
+    "url": "https://www.wikidata.org/wiki/Q8343760#P625"
+  },
+  "images": [],
+  "tags": [
+    "história",
+    "patrimônio"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q8343760)",
+      "url": "https://www.wikidata.org/wiki/Q8343760"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

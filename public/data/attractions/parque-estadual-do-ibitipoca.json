@@ -1,0 +1,39 @@
+{
+  "id": "3138609-parque-estadual-do-ibitipoca",
+  "name": "Parque Estadual do Ibitipoca",
+  "slug": "parque-estadual-do-ibitipoca",
+  "cityId": "3138609",
+  "categoryId": "park",
+  "description": "Unidade de conservação estadual em Lima Duarte.",
+  "coordinates": {
+    "latitude": -21.716667,
+    "longitude": -43.9
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10345074)",
+    "url": "https://www.wikidata.org/wiki/Q10345074#P625"
+  },
+  "images": [
+    {
+      "url": "images/parque-estadual-do-ibitipoca.webp",
+      "alt": "Cachoeira no Lago dos Espelhos, no circuito das águas do Parque Estadual do Ibitipoca",
+      "author": "Econt",
+      "license": "Domínio público",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ibitipoca1.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "serra",
+    "unidade de conservação"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q10345074)",
+      "url": "https://www.wikidata.org/wiki/Q10345074"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

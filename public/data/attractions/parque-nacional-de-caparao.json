@@ -1,0 +1,39 @@
+{
+  "id": "3102050-parque-nacional-de-caparao",
+  "name": "Parque Nacional de Caparaó",
+  "slug": "parque-nacional-de-caparao",
+  "cityId": "3102050",
+  "categoryId": "park",
+  "description": "Parque nacional na divisa entre Minas Gerais e Espírito Santo, onde fica o Pico da Bandeira. O parque abrange vários municípios; aqui está associado a Alto Caparaó, um dos municípios listados na fonte.",
+  "coordinates": {
+    "latitude": -20.450176,
+    "longitude": -41.783752
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q174228)",
+    "url": "https://www.wikidata.org/wiki/Q174228#P625"
+  },
+  "images": [
+    {
+      "url": "images/parque-nacional-de-caparao.webp",
+      "alt": "Formação rochosa conhecida como Face de Cristo, em meio à vegetação",
+      "author": "RonanW Humberto do Lago Müller",
+      "license": "Domínio público",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Facedecristo.JPG",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
+  "tags": [
+    "natureza",
+    "montanha",
+    "unidade de conservação"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q174228)",
+      "url": "https://www.wikidata.org/wiki/Q174228"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

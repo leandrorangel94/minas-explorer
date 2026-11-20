@@ -13,7 +13,16 @@
     "name": "Wikidata, propriedade P625 (Q10333699)",
     "url": "https://www.wikidata.org/wiki/Q10333699#P625"
   },
-  "images": [],
+  "images": [
+    {
+      "url": "images/museu-da-inconfidencia.webp",
+      "alt": "Fachada do Museu da Inconfidência, em Ouro Preto",
+      "author": "Ministério da Cultura",
+      "license": "CC BY 2.0",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Museu_da_Inconfid%C3%AAncia_%2803%29.jpg",
+      "attribution": "Via Wikimedia Commons. Imagem redimensionada e convertida para WebP."
+    }
+  ],
   "tags": [
     "história",
     "museu",
