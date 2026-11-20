@@ -92,7 +92,18 @@
   font-weight: 600; font-size: .9rem;
 }
 
+.me-popup-muni {
+  display: grid; justify-items: start; gap: 8px; min-width: 150px;
+  strong { font-family: var(--me-font-display); font-size: 1.05rem; line-height: 1.2; }
+}
+.leaflet-container a.me-popup-link--button {
+  margin: 0; padding: 6px 14px; border-radius: 999px; text-decoration: none;
+  background: var(--me-primary); color: var(--me-on-primary); font-size: .85rem;
+  &:hover { filter: brightness(1.1); }
+  &:focus-visible { outline: 2px solid var(--me-forest); outline-offset: 2px; }
+}
 .me-popup-links { display: flex; flex-wrap: wrap; gap: 4px 16px; }
+.leaflet-fade-anim .leaflet-tooltip.me-municipality-tooltip { transition: none; } // some na hora, sem sobrar rótulo em fade
 .me-municipality-tooltip {
   background: var(--me-surface); color: var(--me-heading); border: 1px solid var(--me-border);
   border-radius: var(--me-radius-sm); box-shadow: var(--me-shadow-hover); font-weight: 600; padding: 4px 10px;

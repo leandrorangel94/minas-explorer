@@ -119,6 +119,7 @@ export class MinasMap {
   private readonly boundaryLayer = L.geoJSON(undefined, { style: () => this.boundaryStyle() });
   private maskLayer?: L.Polygon;
   private municipalityLayer?: L.GeoJSON;
+  private clearMunicipalityHover: () => void = () => undefined;
   private resizeObserver?: ResizeObserver;
 
   constructor() {
@@ -338,6 +339,7 @@ export class MinasMap {
   /** Divisas municipais: linhas finas; no hover, realça a área e mostra o nome. */
   private renderMunicipalities(mesh: FeatureCollection | null, info: ReadonlyMap<string, MunicipalityInfo>): void {
     if (!this.map) return;
+    this.clearMunicipalityHover();
     this.municipalityLayer?.remove();
     this.municipalityLayer = undefined;
     if (!mesh) return;
@@ -350,16 +352,35 @@ export class MinasMap {
       fillOpacity: 0.001, // quase transparente, mas capta o mouse
     });
     const hover = (): L.PathOptions => ({ weight: 2, opacity: 1, fillOpacity: 0.28 });
+    const tooltip = L.tooltip({ direction: 'top', offset: [0, -8], className: 'me-municipality-tooltip', permanent: false });
+    let hovered: L.Path | undefined;
+    const clearHover = (): void => {
+      hovered?.setStyle(base());
+      hovered = undefined;
+      tooltip.remove();
+    };
+    this.map.off('zoomstart movestart dragstart mouseout', this.clearMunicipalityHover);
+    this.clearMunicipalityHover = clearHover;
+    this.map.on('zoomstart movestart dragstart mouseout', clearHover);
     this.municipalityLayer = L.geoJSON(mesh, {
       style: base,
       onEachFeature: (feature, layer) => {
         const entry = info.get(String(feature.properties?.['id']));
         if (!entry) return;
         const path = layer as L.Path;
-        layer.bindTooltip(entry.name, { sticky: true, direction: 'top', className: 'me-municipality-tooltip' });
-        layer.on('mouseover', () => { path.setStyle(hover()); path.bringToFront(); });
-        layer.on('mouseout', () => path.setStyle(base()));
+        // Um único tooltip e um único destaque por vez; qualquer movimento do mapa os limpa
+        // (durante o zoom o `mouseout` não dispara e os rótulos ficariam presos).
+        layer.on('mouseover', (e: L.LeafletMouseEvent) => {
+          clearHover();
+          hovered = path;
+          path.setStyle(hover());
+          path.bringToFront();
+          tooltip.setContent(entry.name).setLatLng(e.latlng).addTo(this.map!);
+        });
+        layer.on('mousemove', (e: L.LeafletMouseEvent) => tooltip.setLatLng(e.latlng));
+        layer.on('mouseout', () => { if (hovered === path) clearHover(); });
         const box = document.createElement('div');
+        box.className = 'me-popup-muni';
         const title = document.createElement('strong');
         title.textContent = entry.name;
         box.appendChild(title);
@@ -367,7 +388,7 @@ export class MinasMap {
           const a = document.createElement('a');
           a.href = entry.href;
           a.textContent = 'Ver município';
-          a.className = 'me-popup-link';
+          a.className = 'me-popup-link me-popup-link--button';
           box.appendChild(a);
         }
         layer.bindPopup(box, { closeButton: true, autoPan: true });

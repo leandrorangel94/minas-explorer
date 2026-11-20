@@ -2511,6 +2511,186 @@
           "retrievedAt": "2026-11-20"
         }
       }
+    },
+    "3168804-igreja-matriz-de-santo-antonio": {
+      "about": {
+        "description": "Tiradentes é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira e ocupa uma área de cerca de 80 km², sendo que 5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi estimada em 7 744 habitantes em 2022.",
+          "Anteriormente denominada São José del Rei, foi uma das mais importantes vilas mineiras do Brasil Colônia, sendo um dos polos da produção aurífera.",
+          "O seu atual nome é uma homenagem a Tiradentes."
+        ],
+        "source": {
+          "name": "Wikipédia: Tiradentes (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Amaryllis",
+            "type": "Hotel",
+            "distanceMeters": 254,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508738"
+          },
+          {
+            "name": "Pousada Rústica",
+            "type": "Hotel",
+            "distanceMeters": 260,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508737"
+          },
+          {
+            "name": "Pousada Arco Iris",
+            "type": "Hotel",
+            "distanceMeters": 263,
+            "osmUrl": "https://www.openstreetmap.org/node/4146511048"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3106200-igrejinha-da-pampulha": {
+      "about": {
+        "description": "O Santuário Arquidiocesano São Francisco de Assis ou Igreja São Francisco de Assis, popularmente conhecida como Igrejinha da Pampulha é um templo católico brasileiro localizado no bairro da Pampulha, em Belo Horizonte, Minas Gerais. O santuário tem projeto arquitetônico de Oscar Niemeyer, cálculo estrutural do engenheiro Joaquim Cardozo e foi inaugurado em 1943, sendo o último prédio a ser inaugurado do Conjunto Arquitetônico da Pampulha.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de São Francisco de Assis (Belo Horizonte)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Belo_Horizonte)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Woods Hostel",
+            "type": "Hostel",
+            "distanceMeters": 308,
+            "osmUrl": "https://www.openstreetmap.org/way/1391665907"
+          },
+          {
+            "name": "Da Orla Pampulha Hostel",
+            "type": "Hostel",
+            "distanceMeters": 311,
+            "osmUrl": "https://www.openstreetmap.org/node/4922764762"
+          },
+          {
+            "name": "San Diego Concept Pampulha",
+            "type": "Hotel",
+            "distanceMeters": 357,
+            "phone": "+55 31 36146500",
+            "osmUrl": "https://www.openstreetmap.org/way/501473259"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3109006-inhotim": {
+      "about": {
+        "description": "Inhotim é uma parte do distrito de Conceição de Itaguá (mais conhecido como Brumado), no município de Brumadinho, em Minas Gerais, no Brasil.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Inhotim",
+          "url": "https://pt.wikipedia.org/wiki/Inhotim",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "fee": "yes",
+        "wheelchair": "yes",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/964260249",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Clara Arte Resort",
+            "type": "Hotel",
+            "distanceMeters": 247,
+            "website": "https://clararesorts.com.br/clara-arte",
+            "osmUrl": "https://www.openstreetmap.org/way/1388892663"
+          },
+          {
+            "name": "Pousada Nossa Fazendinha",
+            "type": "Hotel",
+            "distanceMeters": 1962,
+            "osmUrl": "https://www.openstreetmap.org/node/9687138391"
+          },
+          {
+            "name": "Pousada Dona Carmita",
+            "type": "Hotel",
+            "distanceMeters": 2241,
+            "osmUrl": "https://www.openstreetmap.org/node/5182349024"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140308-lagoa-dom-helvecio": {
+      "about": {
+        "description": "A Lagoa Dom Helvécio, também conhecida como Lagoa do Bispo, é uma lagoa localizada no município brasileiro de Marliéria, no interior do estado de Minas Gerais. Possui área de 6,7 km² e alcança 32,5 metros de profundidade, sendo apontada como a lagoa mais profunda do Brasil.",
+        "curiosities": [
+          "Encontra-se protegida pelas matas do Parque Estadual do Rio Doce (PERD), que é considerado a maior reserva de Mata Atlântica de Minas Gerais e abrange um dos cinco maiores sistemas lacustres do mundo, que envolve mais de 40 lagoas.",
+          "Seu nome é uma homenagem a Dom Helvécio Gomes de Oliveira, arcebispo de Mariana, que ficou maravilhado com as florestas locais nas ocasiões em que esteve em Marliéria.",
+          "Em 1935, visitou a então Lagoa Nova, atual Lagoa Dom Helvécio, onde já existia uma capela."
+        ],
+        "source": {
+          "name": "Wikipédia: Lagoa Dom Helvécio",
+          "url": "https://pt.wikipedia.org/wiki/Lagoa_Dom_Helv%C3%A9cio",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Camping",
+            "type": "Camping",
+            "distanceMeters": 807,
+            "osmUrl": "https://www.openstreetmap.org/node/3789274585"
+          },
+          {
+            "name": "Pousada",
+            "type": "Hotel",
+            "distanceMeters": 4971,
+            "osmUrl": "https://www.openstreetmap.org/node/3779477271"
+          },
+          {
+            "name": "Pousada Solar das Hortências",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 16826,
+            "osmUrl": "https://www.openstreetmap.org/node/2374328108"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
     }
   }
 }
