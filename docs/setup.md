@@ -21,9 +21,8 @@ Mudanças no `angular.json` (assets, estilos) exigem reiniciar o `npm start`.
 | `npm start` | valida o catálogo e inicia o servidor de desenvolvimento |
 | `npm test` | valida o catálogo e roda os testes (Vitest + jsdom) |
 | `npm run lint` | ESLint com `angular-eslint` (inclui acessibilidade de templates) |
-| `npm run build` | valida o catálogo e gera o build de produção em `dist/minas-explorer/browser` |
-| `npm run build:pages` | build de publicação (`--base-href /minas-explorer/`) |
-| `npm run preview:pages` | serve o build de publicação em `http://localhost:4600/minas-explorer/` |
+| `npm run build` | valida o catálogo, gera o build de produção em `dist/minas-explorer/browser` e aplica a URL do site (`scripts/apply-site-url.mjs`) |
+| `npm run preview` | serve o build de produção em `http://localhost:4600/` |
 | `npm run catalog` | valida e consolida o catálogo; gera `public/data/catalog.json` e `docs/creditos.md` |
 | `npm run geo` | baixa e trata os dados geográficos do IBGE (`scripts/prepare-geo-data.mjs`) |
 

@@ -9,7 +9,7 @@ export interface Catalog {
   readonly attractions: readonly Attraction[];
 }
 
-/** Lê o catálogo estático. URLs relativas ao `<base href>` (GitHub Pages em subdiretório). */
+/** Lê o catálogo estático. URLs relativas ao `<base href>` (funciona na raiz ou em subdiretório). */
 @Injectable({ providedIn: 'root' })
 export class CatalogService {
   private readonly http = inject(HttpClient);

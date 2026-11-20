@@ -1,69 +1,85 @@
-# Publicação no GitHub Pages
+# Publicação na Vercel
 
-O site é estático e é publicado por GitHub Actions em **https://leandrorangel94.github.io/minas-explorer/**.
+O site é estático e é publicado pela **Vercel** (plano gratuito "Hobby", que aceita repositórios privados), a partir do repositório no GitHub. A Vercel faz o build e a publicação; o GitHub Actions só roda verificações.
 
-> Nada é publicado até você fazer `git push` na `main` e habilitar o Pages (passos abaixo). O workflow não roda localmente.
+> Nada é publicado até você importar o projeto na Vercel (passos abaixo). Depois disso, cada `git push` na `main` publica sozinho, e cada branch ou pull request ganha um endereço de prévia.
 
 ## Como funciona
 
 | Peça | Arquivo |
 |---|---|
-| Build de publicação | `npm run build:pages` → `ng build --base-href /minas-explorer/` (saída em `dist/minas-explorer/browser`) |
-| Workflow | [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml): em push na `main` (ou manualmente), roda `npm ci`, `npm run lint`, `npm test`, `npm run build:pages` e publica o artefato |
-| Roteamento | **hash routing** (`/minas-explorer/#/cidades/ouro-preto`): recarregar e abrir links diretos sempre funciona, sem fallback de servidor |
-| 404 | `public/404.html`: página do site para endereços inexistentes (o GitHub Pages a usa) |
-| SEO | `robots.txt`, `sitemap.xml`, `canonical`, Open Graph/Twitter e `og-image.png` em `public/` e `src/index.html` |
-| Atualização das actions | [`.github/dependabot.yml`](../.github/dependabot.yml) abre PRs mensais para as versões das actions |
+| Configuração da Vercel | [`vercel.json`](../vercel.json): `npm ci`, `npm run build`, saída em `dist/minas-explorer/browser`, cabeçalhos de segurança e de cache |
+| Build | `npm run build` valida o catálogo, gera o site e roda `scripts/apply-site-url.mjs` |
+| URL do site | marcador no código, trocado no build (seção abaixo) |
+| Roteamento | **hash routing** (`/#/cidades/ouro-preto`): recarregar e abrir links diretos sempre funciona, sem regras de reescrita |
+| 404 | `public/404.html`: página do site para endereços inexistentes (a Vercel a usa) |
+| SEO | `robots.txt`, `sitemap.xml`, `canonical`, Open Graph/Twitter e `og-image.png` |
+| Verificações | [`.github/workflows/ci.yml`](../.github/workflows/ci.yml): lint, testes e build em cada push e pull request |
 
-Os dados (`public/data`) e as imagens (`public/images`) são lidos por **caminhos relativos ao `<base href>`**, por isso funcionam no subdiretório `/minas-explorer/`.
+Dados (`public/data`) e imagens (`public/images`) são lidos por **caminhos relativos ao `<base href>`**, então o site funciona na raiz do domínio (como na Vercel) ou em subdiretório.
 
-## Habilitar o Pages (uma vez)
+## Publicar pela primeira vez
 
-1. No GitHub: repositório → **Settings** → **Pages**.
-2. Em **Build and deployment** → **Source**, escolha **GitHub Actions**.
-3. Faça `git push` na `main` (ou rode o workflow em **Actions** → *Deploy no GitHub Pages* → *Run workflow*).
-4. Acompanhe em **Actions**; ao terminar, o endereço aparece no job *deploy* e em **Settings → Pages**.
+1. Crie conta em [vercel.com](https://vercel.com) e entre com o GitHub (**Continue with GitHub**).
+2. **Add New → Project**. Se o repositório for privado, autorize a Vercel a acessá-lo (ela pede permissão ao GitHub).
+3. Escolha o repositório `minas-explorer` e confira (a Vercel lê o `vercel.json`):
+   - **Framework Preset:** Angular (ou *Other*)
+   - **Build Command:** `npm run build`
+   - **Output Directory:** `dist/minas-explorer/browser`
+   - **Install Command:** `npm ci`
+   - **Node.js Version:** `24.x` (em *Settings → General*; o Angular 22 exige Node `^22.22.3`, `^24.15.0` ou `>=26`)
+4. Clique em **Deploy**. Em cerca de 1 a 2 minutos o site abre em `https://<projeto>.vercel.app`.
 
-Para publicar manualmente depois: `git push origin main` (cada push na `main` publica).
+O endereço só é conhecido depois do primeiro deploy. Se o nome do projeto for `minas-explorer` e estiver livre, será `https://minas-explorer.vercel.app` (o padrão usado no build). **Confira o endereço real em *Domains* e veja a seção seguinte.**
 
-## Testar o artefato antes de publicar
+## URL do site (canonical, Open Graph, robots, sitemap)
+
+`src/index.html`, `public/robots.txt` e `public/sitemap.xml` usam o marcador `%SITE_URL%`, trocado **no build** por `scripts/apply-site-url.mjs`. A URL é escolhida nesta ordem:
+
+1. variável `SITE_URL`, se existir (ex.: domínio próprio);
+2. `VERCEL_PROJECT_PRODUCTION_URL`, que **a Vercel define sozinha** em todo build (o domínio de produção do projeto, também nas prévias);
+3. `https://minas-explorer.vercel.app`, o padrão (build local).
+
+Na prática, **não precisa configurar nada**: a Vercel já fornece o endereço de produção. Só defina `SITE_URL` (*Settings → Environment Variables*) se usar domínio próprio. Depois de publicar, confira abrindo `/robots.txt` e o código-fonte da página (`canonical`).
+
+## Domínio próprio (opcional)
+
+*Settings → Domains → Add*, siga a configuração de DNS indicada e defina `SITE_URL=https://seu-dominio.com.br` nas variáveis de ambiente. O site fica na raiz do domínio, então nada mais muda.
+
+## Testar o build antes de publicar
 
 ```powershell
-npm run build:pages
-npm run preview:pages   # http://localhost:4600/minas-explorer/
+npm run build
+npm run preview   # http://localhost:4600/
 ```
 
-O `preview:pages` serve o build **exatamente em `/minas-explorer/`**, como o Pages, e devolve `404.html` para o resto. Confira: mapa e tiles, miniaturas, `/#/cidades/...` com recarga, `/minas-explorer/robots.txt` e um endereço inexistente.
-
-## Se o nome do repositório ou o endereço mudar
-
-Troque `minas-explorer` / `leandrorangel94.github.io` nestes lugares:
-
-1. `package.json`: script `build:pages` (`--base-href /<repo>/`).
-2. `scripts/preview-pages.mjs`: constante `BASE`.
-3. `src/index.html`: `canonical`, `og:url`, `og:image`, `twitter:image`.
-4. `public/robots.txt` e `public/sitemap.xml`.
-5. `public/404.html`: link e ícone (`/minas-explorer/`).
-
-**Domínio próprio:** configure o domínio em Settings → Pages, use `--base-href /` e atualize os itens 3 a 5.
+O `preview` serve o build como a hospedagem fará e devolve `404.html` para caminhos inexistentes. Para simular um subdiretório: `$env:BASE="/subpasta/"; npm run preview` (exige build com `ng build --base-href /subpasta/`).
 
 ## Roteamento e indexação
 
-Escolha feita: **hash routing**. Com History API, o GitHub Pages não tem fallback de SPA (links diretos viriam com status 404), e sem pré-renderização isso não melhoraria a indexação.
+Escolha: **hash routing**. Com History API seria preciso configurar reescritas (a Vercel suporta), mas sem pré-renderização isso não melhoraria a indexação.
 
 - O Google e outros buscadores ignoram o fragmento (`#/...`); por isso o `sitemap.xml` lista só a URL real. As páginas de cidade e atração funcionam para pessoas, mas não são páginas separadas para busca.
-- **Pré-renderização estática** foi avaliada e adiada: exigiria renderização no servidor (`@angular/ssr`), tornar o Leaflet seguro para SSR (usa `window`) e ler o catálogo durante o build. Se a indexação das páginas internas passar a ser prioridade, é a evolução natural (e as URLs pré-renderizadas entrariam no `sitemap.xml`).
+- **Pré-renderização estática** foi avaliada e adiada: exigiria renderização no servidor (`@angular/ssr`), tornar o Leaflet seguro para SSR (usa `window`) e ler o catálogo durante o build. Se a indexação das páginas internas virar prioridade, é a evolução natural (e as URLs entrariam no `sitemap.xml`).
 
-## Versões das actions
+## Cabeçalhos (`vercel.json`)
 
-O workflow usa `actions/checkout@v4`, `actions/setup-node@v4`, `actions/upload-pages-artifact@v3` e `actions/deploy-pages@v4` (versões estáveis conhecidas). **Não foi possível consultar as versões mais novas neste ambiente**; o Dependabot sugere atualizações. Se o GitHub avisar que uma versão está obsoleta, altere o número da versão no workflow.
+- Segurança: `X-Content-Type-Options: nosniff`, `Referrer-Policy: strict-origin-when-cross-origin`, `X-Frame-Options: DENY`, `Permissions-Policy` sem câmera, microfone, localização e pagamento.
+- Cache: `images/` por 1 dia (com revalidação em segundo plano) e `media/` (arquivos com hash) por 1 ano.
+- **Sem `Content-Security-Policy` por enquanto:** o site carrega tiles do OpenStreetMap e fontes do Google, e uma política errada quebraria o mapa. Pode ser adicionada com testes no navegador.
+
+## Plano gratuito: o que considerar
+
+- O plano Hobby é para uso **pessoal e não comercial**; um portfólio ou guia sem fins lucrativos se enquadra. Confirme os termos e limites atuais em vercel.com/docs (não consegui consultá-los neste ambiente).
+- O site é **público** na internet; só o repositório fica privado.
 
 ## Solução de problemas
 
 | Sintoma | Causa provável |
 |---|---|
-| Página em branco / `404` em `main.js` | `--base-href` diferente do nome do repositório |
+| Build falha em `npm ci` | `package-lock.json` desatualizado: rode `npm install` e faça commit |
+| Build falha com erro de versão do Node | em *Settings → General*, defina Node.js Version `24.x` |
+| Página em branco com `404` nos arquivos `.js` | *Output Directory* diferente de `dist/minas-explorer/browser` |
 | Mapa sem tiles | bloqueio de rede ao `tile.openstreetmap.org` (servidor público, sem SLA) |
-| Workflow falha em `npm ci` | `package-lock.json` desatualizado: rode `npm install` e faça commit |
-| Workflow falha em *Testes* | rode `npm test` localmente: o catálogo e os dados são validados antes |
-| Deploy não aparece | **Settings → Pages → Source** não está em *GitHub Actions* |
+| `canonical` com endereço errado | defina `SITE_URL` nas variáveis de ambiente e faça novo deploy |
+| Aviso de GitHub Pages falhando | o workflow de Pages foi removido; apague quaisquer execuções antigas e desative o Pages em *Settings → Pages* se quiser |

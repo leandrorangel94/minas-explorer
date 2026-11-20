@@ -71,7 +71,7 @@ Outras medidas já existentes: rotas e mapa em chunks lazy (Leaflet só carrega 
 
 - Título e `meta description` por página (`PageMetaService`), `lang="pt-BR"`, favicon da marca (SVG + PNG), `apple-touch-icon`, `theme-color` por esquema, Open Graph/Twitter básicos.
 - **Limitação:** o app usa hash routing e é uma SPA; buscadores indexam principalmente a página inicial, e as páginas de cidade e atração (`/#/cidades/...`) não são rastreadas como páginas separadas. Isso é inerente à hospedagem estática com hash routing; avaliar pré-renderização na Etapa 11.
-- `og:image`, `og:url`, `robots.txt` e `sitemap.xml` dependem da URL final de publicação e ficam para a **Etapa 11**, para não publicar URLs que não existem.
+- `og:image`, `og:url`, `robots.txt` e `sitemap.xml` usam a URL de publicação, aplicada no build (Etapa 11; ver [publicacao.md](publicacao.md)).
 
 ## Limitações conhecidas
 

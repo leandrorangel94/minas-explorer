@@ -15,7 +15,7 @@ Fonte: prompt mestre (etapas 0 a 11) + etapa adicional definida durante o desenv
 | 8 | Favoritos e roteiros | concluída |
 | 9 | Curadoria e expansão do catálogo | concluída |
 | 10 | Qualidade, acessibilidade e otimização | concluída |
-| 11 | GitHub Pages e documentação final | concluída (publicação aguarda push e habilitar o Pages) |
+| 11 | Publicação (inicialmente GitHub Pages; migrada para a Vercel) e documentação final | concluída (publicação na Vercel; ver [publicacao.md](publicacao.md)) |
 | 12 | Modo escuro (dark mode) (adicionada) | concluída |
 
 ## Etapa 12 — Modo escuro (dark mode)

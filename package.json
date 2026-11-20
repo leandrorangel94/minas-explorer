@@ -6,12 +6,11 @@
     "catalog": "node scripts/build-catalog.mjs",
     "geo": "node scripts/prepare-geo-data.mjs",
     "start": "npm run catalog && ng serve",
-    "build": "npm run catalog && ng build",
+    "build": "npm run catalog && ng build && node scripts/apply-site-url.mjs",
+    "preview": "node scripts/preview.mjs",
     "watch": "ng build --watch --configuration development",
     "test": "npm run catalog && ng test",
-    "lint": "eslint \"src/**/*.{ts,html}\"",
-    "build:pages": "npm run catalog && ng build --base-href /minas-explorer/",
-    "preview:pages": "node scripts/preview-pages.mjs"
+    "lint": "eslint \"src/**/*.{ts,html}\""
   },
   "private": true,
   "packageManager": "npm@12.2.2",
@@ -49,5 +48,8 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.73.0",
     "vitest": "^5.0.0"
+  },
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26"
   }
 }

@@ -1,0 +1,41 @@
+name: CI
+
+# Verifica lint, testes e build a cada push e pull request.
+# A PUBLICAÇÃO é feita pela Vercel (integração com o GitHub), não por este workflow.
+# Ver docs/publicacao.md.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o código
+        uses: actions/checkout@v4
+
+      - name: Instalar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24 # o Angular 22 exige Node ^22.22.3, ^24.15.0 ou >=26
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Testes (valida o catálogo e roda a suíte)
+        run: npm test
+
+      - name: Build de produção
+        run: npm run build
