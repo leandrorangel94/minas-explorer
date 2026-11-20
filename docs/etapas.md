@@ -16,7 +16,7 @@ Fonte: prompt mestre (etapas 0 a 11) + etapa adicional definida durante o desenv
 | 9 | Curadoria e expansão do catálogo | concluída |
 | 10 | Qualidade, acessibilidade e otimização | pendente |
 | 11 | GitHub Pages e documentação final | pendente |
-| **12** | **Modo escuro (dark mode)** | **pendente (adicionada)** |
+| 12 | Modo escuro (dark mode) (adicionada) | concluída |
 
 ## Etapa 12 — Modo escuro (dark mode)
 

@@ -30,7 +30,7 @@
   position: absolute; left: 10px; top: 10px;
   display: inline-flex; align-items: center; gap: 6px;
   padding: 4px 10px; border-radius: 999px;
-  background: var(--me-surface); color: var(--chip-color, var(--me-forest-dark));
+  background: var(--me-surface); color: color-mix(in srgb, var(--chip-color, var(--me-heading)) calc(100% - var(--me-cat-lighten)), white);
   font-size: .75rem; font-weight: 600;
 }
 .me-card__body { display: grid; gap: 4px; padding: 14px 16px 16px; }
@@ -50,7 +50,7 @@
 
 .me-card__category {
   display: inline-flex; align-items: center; gap: 6px;
-  color: var(--chip-color, var(--me-forest-dark)); font-size: .8rem; font-weight: 600;
+  color: color-mix(in srgb, var(--chip-color, var(--me-heading)) calc(100% - var(--me-cat-lighten)), white); font-size: .8rem; font-weight: 600;
 }
 .me-card--compact {
   flex-direction: row; align-items: stretch;

@@ -5,7 +5,7 @@ Aplicação 100% frontend (sem backend), publicável no GitHub Pages.
 
 > Minas Gerais está mais perto do que você imagina.
 
-**Status:** Etapa 9 (curadoria e expansão do catálogo) concluída. Roteiro completo em [docs/etapas.md](docs/etapas.md), incluindo a Etapa 12 (modo escuro). Créditos das fotos em [docs/creditos.md](docs/creditos.md).
+**Status:** Etapas 0 a 9 e 12 (modo escuro) concluídas; faltam 10 (qualidade, acessibilidade e otimização) e 11 (GitHub Pages). Roteiro em [docs/etapas.md](docs/etapas.md).
 
 ## Tecnologias
 

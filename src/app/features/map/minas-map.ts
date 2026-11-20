@@ -30,6 +30,7 @@ import {
   TILE_PROVIDER,
 } from '../../core/config/map.config';
 import { createCategoryIcon } from '../../core/utils/category-icons';
+import { ThemeService } from '../../core/services/theme.service';
 import { configureLeafletIcons } from '../../core/utils/leaflet-icons';
 
 export interface MapPoint {
@@ -73,6 +74,7 @@ export class MinasMap {
 
   private readonly mapEl = viewChild.required<ElementRef<HTMLDivElement>>('mapEl');
   private readonly zone = inject(NgZone);
+  private readonly theme = inject(ThemeService);
 
   private map?: L.Map;
   /** Agrupa marcadores próximos (ex.: Belo Horizonte, Ouro Preto e Mariana em zoom de estado). */
@@ -93,7 +95,7 @@ export class MinasMap {
     },
   });
   private readonly markers = new Map<string, L.Marker>();
-  private readonly boundaryLayer = L.geoJSON(undefined, { style: () => BOUNDARY_STYLE });
+  private readonly boundaryLayer = L.geoJSON(undefined, { style: () => this.boundaryStyle() });
   private maskLayer?: L.Polygon;
   private resizeObserver?: ResizeObserver;
 
@@ -101,6 +103,7 @@ export class MinasMap {
     configureLeafletIcons();
     afterNextRender(() => this.zone.runOutsideAngular(() => this.initMap()));
     effect(() => {
+      this.theme.effective(); // redesenha contorno e máscara com as cores do tema atual
       this.renderBoundary(this.boundary());
     });
     effect(() => {
@@ -266,8 +269,21 @@ export class MinasMap {
     if (!ring) return;
     const world: L.LatLngTuple[] = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
     const hole = ring.map(([lng, lat]) => [lat, lng] as L.LatLngTuple);
-    const fill = getComputedStyle(this.mapEl().nativeElement).getPropertyValue('--me-map-mask').trim();
-    this.maskLayer = L.polygon([world, hole], { ...MASK_STYLE, ...(fill ? { fillColor: fill } : {}), pane: MASK_PANE }).addTo(this.map);
+    this.maskLayer = L.polygon([world, hole], { ...MASK_STYLE, fillColor: this.cssVar('--me-map-mask', '#f4f1e8'), pane: MASK_PANE }).addTo(this.map);
+  }
+
+  /** Cores do contorno vindas dos tokens CSS do tema atual. */
+  private boundaryStyle(): L.PathOptions {
+    return {
+      ...BOUNDARY_STYLE,
+      color: this.cssVar('--me-map-boundary', '#1f4d3a'),
+      fillColor: this.cssVar('--me-map-boundary-fill', '#8fa98b'),
+    };
+  }
+
+  private cssVar(name: string, fallback: string): string {
+    const value = getComputedStyle(this.mapEl().nativeElement).getPropertyValue(name).trim();
+    return value || fallback;
   }
 
   private destroyMap(): void {

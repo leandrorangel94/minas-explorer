@@ -1,26 +1,102 @@
-// Tokens de design do Minas Explorer.
+// Tokens de design do Minas Explorer, com tema claro (padrão) e escuro.
+//
+// Regra de ativação do escuro:
+//  - [data-theme='dark']  → escuro forçado pelo usuário
+//  - [data-theme='light'] → claro forçado pelo usuário
+//  - sem atributo         → segue prefers-color-scheme do sistema
+// O atributo é aplicado por ThemeService (e por um script inline em index.html, antes do 1º render).
+//
+// Nunca use cores fixas nos componentes: use estes tokens.
+
+@mixin dark-tokens {
+  color-scheme: dark;
+
+  // Superfícies e texto
+  --me-offwhite: #111a15;      // fundo da página
+  --me-surface: #1a2620;       // cards, cabeçalho, popups
+  --me-ink: #e6eee8;
+  --me-muted: #a6b5ac;
+  --me-border: #2e3d35;
+
+  // Marca
+  --me-forest: #8fd0a8;        // links, bordas de destaque, ícones de marca
+  --me-heading: #d3ecdc;       // títulos
+  --me-forest-dark: #0c1712;
+  --me-sage: #6f8f78;
+  --me-sage-light: #223a2e;    // fundos suaves (hero, chips, placeholders)
+  --me-sand: #2b2d24;
+  --me-primary: #8fd0a8;       // fundo de botões primários / selos
+  --me-on-primary: #0d2418;
+  --me-on-forest: #0d2418;     // texto sobre fundos "forest" (selo, cluster)
+  --me-footer-bg: #0c1712;
+  --me-footer-text: #b9cdbf;
+  --me-on-footer: #ffffff;
+  --me-focus: #7db2ff;
+
+  // Estados
+  --me-warn-bg: #3a3010;
+  --me-warn-fg: #ffe3a0;
+  --me-danger: #ff9a90;
+
+  // Categorias: clareia a cor da categoria para manter contraste no fundo escuro
+  --me-cat-lighten: 48%;
+  --me-on-marker: #0f1a15;
+
+  // Mapa (minimalista, escuro)
+  --me-map-bg: #16201b;
+  --me-map-mask: #0b110e;
+  --me-map-tile-filter: invert(1) hue-rotate(180deg) grayscale(0.85) brightness(0.72) contrast(0.9);
+  --me-map-boundary: #8fd0a8;
+  --me-map-boundary-fill: #8fd0a8;
+
+  --me-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 4px 14px rgb(0 0 0 / 0.3);
+  --me-shadow-hover: 0 2px 4px rgb(0 0 0 / 0.45), 0 10px 24px rgb(0 0 0 / 0.4);
+}
+
 :root {
-  // Paleta
+  color-scheme: light;
+
+  // Superfícies e texto
+  --me-offwhite: #faf8f3;
+  --me-surface: #ffffff;
+  --me-ink: #1d2a24;
+  --me-muted: #55645b;
+  --me-border: #e1ddd0;
+
+  // Marca
   --me-forest: #1f4d3a;
+  --me-heading: #153528;
   --me-forest-dark: #153528;
   --me-sage: #8fa98b;
   --me-sage-light: #dde7da;
   --me-sand: #e9dfc9;
-  --me-offwhite: #faf8f3;
-  --me-surface: #ffffff;
-  --me-ink: #1d2a24;
-  --me-muted: #5b6a62;
-  --me-border: #e1ddd0;
+  --me-primary: #1f4d3a;
+  --me-on-primary: #ffffff;
+  --me-on-forest: #ffffff;
+  --me-footer-bg: #153528;
+  --me-footer-text: #dde7da;
+  --me-on-footer: #ffffff;
   --me-focus: #0b5fff;
 
-  // Tipografia
-  --me-font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --me-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  // Estados
+  --me-warn-bg: #fff4d6;
+  --me-warn-fg: #5c4400;
+  --me-danger: #b3261e;
+
+  // Categorias (0% = cor original da categoria)
+  --me-cat-lighten: 0%;
+  --me-on-marker: #ffffff;
 
   // Mapa (minimalista)
   --me-map-bg: #eef1ea;
   --me-map-mask: #f4f1e8;
   --me-map-tile-filter: grayscale(0.9) contrast(0.88) brightness(1.06);
+  --me-map-boundary: #1f4d3a;
+  --me-map-boundary-fill: #8fa98b;
+
+  // Tipografia
+  --me-font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --me-font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   // Forma
   --me-radius: 14px;
@@ -32,3 +108,18 @@
   --me-header-height: 64px;
   --me-container: 1280px;
 }
+
+// Sistema escuro, a menos que o usuário tenha forçado o claro
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    @include dark-tokens;
+  }
+}
+
+// Escuro forçado pelo usuário
+:root[data-theme='dark'] {
+  @include dark-tokens;
+}
+
+// Cor da categoria, clareada no tema escuro (usar onde a cor vira texto, ícone ou borda)
+// Uso em CSS: color: color-mix(in srgb, var(--cat, #1f4d3a) calc(100% - var(--me-cat-lighten)), white)

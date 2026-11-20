@@ -23,7 +23,7 @@ import { FavoriteKind, FavoritesService } from '../../../core/services/favorites
   styles: `
     :host { display: inline-flex; position: relative; z-index: 1; }
     .me-fav { color: var(--me-muted); }
-    .me-fav--on { color: #b3261e; }
+    .me-fav--on { color: var(--me-danger); }
     .me-fav--on svg { fill: currentColor; }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

@@ -26,6 +26,41 @@
 
     <button
       matIconButton
+      class="me-theme-btn"
+      type="button"
+      [attr.aria-label]="'Tema: ' + themeLabel() + '. Alterar tema'"
+      [matMenuTriggerFor]="themeMenu"
+    >
+      @if (theme.effective() === 'dark') {
+        <svg lucideMoon [size]="20" aria-hidden="true"></svg>
+      } @else {
+        <svg lucideSun [size]="20" aria-hidden="true"></svg>
+      }
+    </button>
+    <mat-menu #themeMenu="matMenu" xPosition="before" aria-label="Tema da interface">
+      @for (opt of themeOptions; track opt.value) {
+        <button
+          mat-menu-item
+          type="button"
+          role="menuitemradio"
+          [attr.aria-checked]="theme.preference() === opt.value"
+          (click)="theme.set(opt.value)"
+        >
+          @switch (opt.value) {
+            @case ('light') { <svg lucideSun [size]="18" aria-hidden="true"></svg> }
+            @case ('dark') { <svg lucideMoon [size]="18" aria-hidden="true"></svg> }
+            @default { <svg lucideMonitor [size]="18" aria-hidden="true"></svg> }
+          }
+          <span>{{ opt.label }}</span>
+          @if (theme.preference() === opt.value) {
+            <svg lucideCheck class="me-theme-check" [size]="16" aria-hidden="true"></svg>
+          }
+        </button>
+      }
+    </mat-menu>
+
+    <button
+      matIconButton
       class="me-mobile-only"
       type="button"
       aria-label="Abrir menu de navegação"

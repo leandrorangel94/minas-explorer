@@ -5,4 +5,4 @@
 .me-filters__clear { justify-self: start; }
 
 mat-chip-option { --mdc-chip-label-text-color: var(--me-ink); }
-mat-chip-option me-category-icon { color: var(--cat-color); }
+mat-chip-option me-category-icon { color: color-mix(in srgb, var(--cat-color) calc(100% - var(--me-cat-lighten)), white); }

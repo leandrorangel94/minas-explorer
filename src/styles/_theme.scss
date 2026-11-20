@@ -1,16 +1,30 @@
 @use '@angular/material' as mat;
 
 html {
-  color-scheme: light;
+  // O Material usa light-dark(): acompanha a propriedade color-scheme definida em _tokens.scss
   @include mat.theme((
-    color: mat.$green-palette,
+    color: (primary: mat.$green-palette, theme-type: color-scheme),
     typography: (plain-family: 'Inter', brand-family: 'Fraunces'),
     density: 0,
   ));
-  // Ajustes de superfície alinhados à identidade
-  --mat-sys-primary: var(--me-forest);
+
+  // Papéis do Material ligados aos tokens do projeto (mudam sozinhos com o tema)
+  --mat-sys-primary: var(--me-primary);
+  --mat-sys-on-primary: var(--me-on-primary);
   --mat-sys-background: var(--me-offwhite);
+  --mat-sys-on-background: var(--me-ink);
   --mat-sys-surface: var(--me-surface);
+  --mat-sys-on-surface: var(--me-ink);
+  --mat-sys-on-surface-variant: var(--me-muted);
+  --mat-sys-surface-variant: var(--me-sage-light);
+  --mat-sys-surface-container: var(--me-surface);
+  --mat-sys-surface-container-low: var(--me-surface);
+  --mat-sys-surface-container-high: var(--me-surface);
+  --mat-sys-surface-container-highest: var(--me-sage-light);
+  --mat-sys-outline: var(--me-muted);
+  --mat-sys-outline-variant: var(--me-border);
+  --mat-sys-secondary-container: var(--me-sage-light);
+  --mat-sys-on-secondary-container: var(--me-heading);
 }
 
 *,
@@ -31,7 +45,7 @@ body {
 
 h1, h2, h3 {
   font-family: var(--me-font-display);
-  color: var(--me-forest-dark);
+  color: var(--me-heading);
   line-height: 1.2;
   margin: 0;
 }
@@ -77,8 +91,8 @@ a { color: var(--me-forest); }
   top: -48px;
   z-index: 100;
   padding: 10px 16px;
-  background: var(--me-forest-dark);
-  color: #fff;
+  background: var(--me-footer-bg);
+  color: var(--me-on-footer);
   border-radius: var(--me-radius-sm);
   &:focus { top: 8px; }
 }

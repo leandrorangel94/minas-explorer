@@ -41,20 +41,17 @@ export const RESULTS_FIT_OPTIONS = { padding: [48, 48] as [number, number], maxZ
 /** Pane da máscara que esmaece o entorno de MG (fica entre tiles e contorno). */
 export const MASK_PANE = 'me-mask';
 
-/** Estilo da máscara fora de MG; a cor vem da variável CSS `--me-map-mask` quando definida. */
+/** Máscara fora de MG; a cor vem de `--me-map-mask` (muda com o tema). */
 export const MASK_STYLE = {
   stroke: false,
-  fillColor: '#faf8f3',
   fillOpacity: 0.72,
   interactive: false,
 } as const;
 
-/** Estilo do contorno estadual: apenas visual, sem interação. */
+/** Estilo do contorno estadual: apenas visual; cores vêm de `--me-map-boundary*` (mudam com o tema). */
 export const BOUNDARY_STYLE = {
-  color: '#1f4d3a',
   weight: 2.5,
   opacity: 0.9,
-  fillColor: '#8fa98b',
   fillOpacity: 0.08,
   interactive: false,
 } as const;

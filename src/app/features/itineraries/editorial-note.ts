@@ -16,7 +16,7 @@ import { LucideInfo } from '@lucide/angular';
   `,
   styles: `
     .me-editorial { display: flex; gap: 10px; align-items: flex-start; margin: 16px 0 0; padding: 12px 14px;
-      border-radius: var(--me-radius-sm); background: var(--me-sage-light); color: var(--me-forest-dark); font-size: .9rem; }
+      border-radius: var(--me-radius-sm); background: var(--me-sage-light); color: var(--me-heading); font-size: .9rem; }
     svg { flex: none; margin-top: 2px; }
   `,
   changeDetection: ChangeDetectionStrategy.OnPush,

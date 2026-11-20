@@ -74,3 +74,5 @@ Campos obrigatórios; ids e slugs únicos; `cityId` existente; `categoryId` exis
 - Atrações sem foto: Peruaçu, Gruta Rei do Mato, Basílica do Pilar, Centro Histórico de Diamantina e Estação de São João del-Rei (as fotos candidatas tinham baixa resolução ou não representavam o item).
 - Nenhuma informação prática (horário, entrada) foi cadastrada: sem fonte oficial recente, não se publica.
 - Revisão das descrições por fonte local e ampliação nas 3 regiões sem cidades.
+
+> Nota (Etapa 12): a cor de `categories.json` precisa ter contraste ≥ 4,5:1 sobre branco (é usada como texto); o teste `theme-contrast.spec.ts` verifica isso também no tema escuro, onde a cor é clareada automaticamente.

@@ -2,7 +2,7 @@
 .me-detail__header { display: grid; gap: 12px; margin-block: 16px 32px; max-width: 70ch; }
 .me-detail__category {
   display: inline-flex; align-items: center; gap: 6px; justify-self: start;
-  color: var(--chip-color, var(--me-forest-dark)); font-size: .85rem; font-weight: 600;
+  color: color-mix(in srgb, var(--chip-color, var(--me-heading)) calc(100% - var(--me-cat-lighten)), white); font-size: .85rem; font-weight: 600;
 }
 .me-detail__city { color: var(--me-muted); a { color: var(--me-forest); font-weight: 600; } }
 .me-detail__lead { font-size: 1.1rem; }

@@ -68,3 +68,12 @@ Alternativa avaliada e **não adotada**: tiles "Positron" da CARTO (estilo ainda
 `leaflet.markercluster` agrupa marcadores próximos (Belo Horizonte, Ouro Preto e Mariana ficam a poucos km). Grupos usam o mesmo ícone/cor da marca, `disableClusteringAtZoom: 13` e, ao selecionar um destino dentro de um grupo, o mapa aproxima até ele aparecer e abre o popup.
 
 **Armadilha:** com `import * as L from 'leaflet'`, o bundle de produção cria uma cópia do módulo antes de o plugin se registrar, e `L.markerClusterGroup` some. Por isso `minas-map.ts` usa o import default para obter a função. O Vitest não reproduz isso: valide mudanças no mapa também no build de produção.
+
+## Modo escuro (Etapa 12)
+- **Tokens** em `src/styles/_tokens.scss`: tema claro em `:root`; escuro no mixin `dark-tokens`, aplicado em `@media (prefers-color-scheme: dark)` (quando não há `data-theme="light"`) e em `:root[data-theme='dark']`. Componentes nunca usam cores fixas: só tokens (`--me-*`). Papéis do Material (`--mat-sys-*`) apontam para os tokens, e `mat.theme` usa `theme-type: color-scheme`.
+- **`ThemeService`** (`core/services/theme.service.ts`): preferência `system | light | dark` em LocalStorage (`minas-explorer:theme:v1`, com `try/catch`; inválido ou indisponível = sistema). Só define `data-theme` quando o usuário escolhe claro/escuro; em "sistema" o CSS segue o SO. Acompanha mudanças do SO (`matchMedia`) e de outras abas (`storage`).
+- **Sem "flash":** script inline em `index.html` aplica `data-theme` antes do primeiro render; `<meta name="color-scheme" content="light dark">`.
+- **Alternador** no cabeçalho (menu com Sistema/Claro/Escuro, `role="menuitemradio"`, `aria-checked`, rótulo com o tema atual).
+- **Mapa:** `--me-map-*` (fundo, máscara, contorno e filtro dos tiles: no escuro `invert + hue-rotate`, sem trocar de provedor). `MinasMap` relê as cores ao trocar de tema e redesenha contorno e máscara.
+- **Categorias:** a cor de cada categoria é clareada no escuro com `color-mix(... white)` controlado por `--me-cat-lighten` (0% no claro, 48% no escuro) onde vira texto, ícone ou borda; o ícone do marcador selecionado usa `--me-on-marker`.
+- **Contraste:** `core/theme-contrast.spec.ts` calcula WCAG AA a partir dos próprios tokens nos dois temas (texto ≥ 4,5:1; interface ≥ 3:1) e das cores das categorias. Ao criar um token de cor, ele precisa ter valor no escuro (o teste cobra).

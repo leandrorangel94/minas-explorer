@@ -81,5 +81,8 @@
 
 .me-badge {
   display: inline-grid; place-items: center; min-width: 20px; height: 20px; margin-left: 6px; padding: 0 6px;
-  border-radius: 999px; background: var(--me-forest); color: #fff; font-size: .75rem; font-weight: 600;
+  border-radius: 999px; background: var(--me-primary); color: var(--me-on-primary); font-size: .75rem; font-weight: 600;
 }
+
+.me-theme-btn { color: var(--me-ink); }
+.me-theme-check { margin-left: auto; margin-right: 0; }
