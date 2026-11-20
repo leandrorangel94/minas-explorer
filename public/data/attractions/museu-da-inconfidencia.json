@@ -1,0 +1,30 @@
+{
+  "id": "3146107-museu-da-inconfidencia",
+  "name": "Museu da Inconfidência",
+  "slug": "museu-da-inconfidencia",
+  "cityId": "3146107",
+  "categoryId": "museum",
+  "description": "Museu histórico e de arte instalado na antiga Casa de Câmara e Cadeia de Vila Rica, em Ouro Preto.",
+  "coordinates": {
+    "latitude": -20.386152,
+    "longitude": -43.503718
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10333699)",
+    "url": "https://www.wikidata.org/wiki/Q10333699#P625"
+  },
+  "images": [],
+  "tags": [
+    "história",
+    "museu",
+    "barroco"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q10333699)",
+      "url": "https://www.wikidata.org/wiki/Q10333699"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

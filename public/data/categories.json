@@ -1,0 +1,12 @@
+[
+  { "id": "historic-heritage", "name": "Patrimônio histórico", "slug": "patrimonio-historico", "description": "Conjuntos urbanos, edificações e monumentos históricos.", "icon": "landmark", "color": "#8a5a2b" },
+  { "id": "museum", "name": "Museus", "slug": "museus", "description": "Museus e espaços de memória e cultura.", "icon": "building-2", "color": "#6b4e9b" },
+  { "id": "church", "name": "Igrejas", "slug": "igrejas", "description": "Igrejas e templos de valor histórico, artístico ou religioso.", "icon": "church", "color": "#a33f5b" },
+  { "id": "waterfall", "name": "Cachoeiras e poços", "slug": "cachoeiras-e-pocos", "description": "Cachoeiras, quedas d'água e poços naturais.", "icon": "droplets", "color": "#1f7a9c" },
+  { "id": "park", "name": "Parques e unidades de conservação", "slug": "parques-e-unidades-de-conservacao", "description": "Parques nacionais, estaduais, municipais e outras áreas protegidas.", "icon": "trees", "color": "#2f7d4f" },
+  { "id": "mountain", "name": "Serras, trilhas e mirantes", "slug": "serras-trilhas-e-mirantes", "description": "Serras, montanhas, trilhas e mirantes.", "icon": "mountain", "color": "#5f6b3a" },
+  { "id": "water", "name": "Lagos, rios e cânions", "slug": "lagos-rios-e-canions", "description": "Lagos, represas, rios e cânions.", "icon": "waves", "color": "#2a5f9e" },
+  { "id": "rural", "name": "Turismo rural", "slug": "turismo-rural", "description": "Fazendas, vilarejos e experiências no campo.", "icon": "wheat", "color": "#9a7b1a" },
+  { "id": "gastronomy", "name": "Gastronomia", "slug": "gastronomia", "description": "Mercados, cozinha típica e experiências gastronômicas locais.", "icon": "utensils", "color": "#b5541c" },
+  { "id": "other", "name": "Outros pontos de interesse", "slug": "outros", "description": "Outros pontos de interesse turístico.", "icon": "map-pin", "color": "#4d5a53" }
+]

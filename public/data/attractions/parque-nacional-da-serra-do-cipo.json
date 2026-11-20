@@ -1,0 +1,30 @@
+{
+  "id": "3159001-parque-nacional-da-serra-do-cipo",
+  "name": "Parque Nacional da Serra do Cipó",
+  "slug": "parque-nacional-da-serra-do-cipo",
+  "cityId": "3159001",
+  "categoryId": "park",
+  "description": "Parque nacional na Serra do Cipó. O parque abrange mais de um município; aqui está associado a Santana do Riacho, um dos municípios listados na fonte.",
+  "coordinates": {
+    "latitude": -19.388333,
+    "longitude": -43.547222
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1136747)",
+    "url": "https://www.wikidata.org/wiki/Q1136747#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "serra",
+    "unidade de conservação"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q1136747)",
+      "url": "https://www.wikidata.org/wiki/Q1136747"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

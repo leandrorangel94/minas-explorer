@@ -1,0 +1,26 @@
+{
+  "id": "3114600",
+  "name": "Carrancas",
+  "slug": "carrancas",
+  "regionId": "3108",
+  "description": "Município do sul de Minas conhecido pelas cachoeiras e pela paisagem de serras.",
+  "coordinates": {
+    "latitude": -21.487778,
+    "longitude": -44.642778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1756048)",
+    "url": "https://www.wikidata.org/wiki/Q1756048#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1756048)",
+      "url": "https://www.wikidata.org/wiki/Q1756048"
+    },
+    {
+      "name": "IBGE – Localidades (Carrancas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3114600"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

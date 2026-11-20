@@ -1,0 +1,22 @@
+@if (info() && rows().length > 0) {
+  @if (stale()) {
+    <p class="me-pinfo__alert" role="note">
+      Estas informações foram verificadas em {{ verifiedOn() }} e podem estar desatualizadas. Confirme na fonte antes de ir.
+    </p>
+  }
+  <dl class="me-pinfo">
+    @for (row of rows(); track row.label) {
+      <div class="me-pinfo__row">
+        <dt>{{ row.label }}</dt>
+        <dd>{{ row.value }}</dd>
+      </div>
+    }
+  </dl>
+  <p class="me-pinfo__source">
+    Verificado em {{ verifiedOn() }}. Fonte:
+    <a [href]="info()!.source.url" target="_blank" rel="noopener noreferrer">{{ info()!.source.name }}</a>.
+    Horários, preços e condições mudam; confirme antes de viajar.
+  </p>
+} @else {
+  <p class="me-pinfo__none">Informações práticas (horário, entrada, agendamento) ainda não verificadas para este destino.</p>
+}

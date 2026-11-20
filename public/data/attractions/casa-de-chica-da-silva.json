@@ -1,0 +1,29 @@
+{
+  "id": "3121605-casa-de-chica-da-silva",
+  "name": "Casa de Chica da Silva",
+  "slug": "casa-de-chica-da-silva",
+  "cityId": "3121605",
+  "categoryId": "historic-heritage",
+  "description": "Casa histórica associada a Chica da Silva, figura da época do ciclo do diamante em Diamantina.",
+  "coordinates": {
+    "latitude": -18.246685,
+    "longitude": -43.596775
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q55763725)",
+    "url": "https://www.wikidata.org/wiki/Q55763725#P625"
+  },
+  "images": [],
+  "tags": [
+    "história",
+    "casarão"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q55763725)",
+      "url": "https://www.wikidata.org/wiki/Q55763725"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

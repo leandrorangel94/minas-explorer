@@ -1,0 +1,255 @@
+import {
+  afterNextRender,
+  ChangeDetectionStrategy,
+  Component,
+  DestroyRef,
+  effect,
+  ElementRef,
+  inject,
+  input,
+  NgZone,
+  output,
+  viewChild,
+} from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { LucideLocateFixed } from '@lucide/angular';
+import type { FeatureCollection, Polygon } from 'geojson';
+import * as L from 'leaflet';
+import {
+  BOUNDARY_STYLE, FOCUS_PADDING, MASK_PANE, MASK_STYLE, MINAS_FALLBACK_VIEW, MINAS_VIEW_BOUNDS, RESULTS_FIT_OPTIONS,
+  TILE_PROVIDER,
+} from '../../core/config/map.config';
+import { createCategoryIcon } from '../../core/utils/category-icons';
+import { configureLeafletIcons } from '../../core/utils/leaflet-icons';
+
+export interface MapPoint {
+  readonly id: string;
+  readonly name: string;
+  readonly latitude: number;
+  readonly longitude: number;
+  /** Texto secundário do popup (ex.: cidade). */
+  readonly subtitle?: string;
+  /** Nome do ícone Lucide da categoria; sem ele usa o marcador padrão do Leaflet. */
+  readonly icon?: string;
+  readonly color?: string;
+  /** Nome da categoria (texto acessível do marcador). */
+  readonly categoryName?: string;
+  /** Link da página de detalhes (já pronto para `href`, compatível com a estratégia de rotas). */
+  readonly href?: string;
+}
+
+/**
+ * Mapa Leaflet encapsulado. Toda a interação com o Leaflet fica nesta classe,
+ * fora da zona do Angular, e a instância é destruída junto com o componente.
+ * Visual minimalista: tiles dessaturados (CSS), área fora de MG esmaecida por uma máscara,
+ * navegação limitada ao entorno do estado.
+ */
+@Component({
+  selector: 'me-minas-map',
+  imports: [MatButtonModule, MatTooltipModule, LucideLocateFixed],
+  templateUrl: './minas-map.html',
+  styleUrl: './minas-map.scss',
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class MinasMap {
+  readonly points = input<readonly MapPoint[]>([]);
+  /** Contorno do estado (GeoJSON do IBGE): desenhado e usado para esmaecer o entorno. */
+  readonly boundary = input<FeatureCollection | null>(null);
+  readonly selectedId = input<string | null>(null);
+  /** Quando verdadeiro, o mapa se ajusta aos pontos; senão, ao estado inteiro. */
+  readonly fitToPoints = input(false);
+  readonly pointSelected = output<string>();
+  readonly selectionCleared = output<void>();
+
+  private readonly mapEl = viewChild.required<ElementRef<HTMLDivElement>>('mapEl');
+  private readonly zone = inject(NgZone);
+
+  private map?: L.Map;
+  private readonly markerLayer = L.layerGroup();
+  private readonly markers = new Map<string, L.Marker>();
+  private readonly boundaryLayer = L.geoJSON(undefined, { style: () => BOUNDARY_STYLE });
+  private maskLayer?: L.Polygon;
+  private resizeObserver?: ResizeObserver;
+
+  constructor() {
+    configureLeafletIcons();
+    afterNextRender(() => this.zone.runOutsideAngular(() => this.initMap()));
+    effect(() => {
+      this.renderBoundary(this.boundary());
+    });
+    effect(() => {
+      const points = this.points();
+      const fit = this.fitToPoints();
+      this.renderMarkers(points);
+      this.applyViewport(points, fit);
+    });
+    effect(() => this.applySelection(this.selectedId()));
+    inject(DestroyRef).onDestroy(() => this.destroyMap());
+  }
+
+  protected resetView(): void {
+    this.fitState();
+  }
+
+  private initMap(): void {
+    const map = L.map(this.mapEl().nativeElement, {
+      zoomControl: true,
+      zoomSnap: 0.25,
+      maxBoundsViscosity: 0.9,
+      worldCopyJump: false,
+    });
+    L.tileLayer(TILE_PROVIDER.urlTemplate, {
+      attribution: TILE_PROVIDER.attribution,
+      minZoom: TILE_PROVIDER.minZoom,
+      maxZoom: TILE_PROVIDER.maxZoom,
+    }).addTo(map);
+    map.createPane(MASK_PANE).style.zIndex = '250'; // entre os tiles (200) e o contorno (400)
+    map.getPane(MASK_PANE)!.style.pointerEvents = 'none';
+    this.boundaryLayer.addTo(map);
+    this.markerLayer.addTo(map);
+    this.map = map;
+
+    this.fitState();
+    this.renderBoundary(this.boundary());
+    this.renderMarkers(this.points());
+    this.applyViewport(this.points(), this.fitToPoints());
+    this.applySelection(this.selectedId());
+
+    if (typeof ResizeObserver !== 'undefined') {
+      this.resizeObserver = new ResizeObserver(() => {
+        this.map?.invalidateSize();
+        this.updateLimits();
+      });
+      this.resizeObserver.observe(this.mapEl().nativeElement);
+    }
+  }
+
+  /** Enquadra Minas Gerais inteira e restringe a navegação ao entorno do estado. */
+  private fitState(): void {
+    const map = this.map;
+    if (!map) return;
+    map.invalidateSize();
+    const size = map.getSize();
+    if (size.x > 0 && size.y > 0) {
+      map.fitBounds(MINAS_VIEW_BOUNDS, { animate: false });
+      this.updateLimits();
+    } else {
+      map.setView(MINAS_FALLBACK_VIEW.center, MINAS_FALLBACK_VIEW.zoom);
+    }
+  }
+
+  /** Limita pan/zoom ao entorno de Minas (o estado continua ocupando a maior parte da tela). */
+  private updateLimits(): void {
+    const map = this.map;
+    if (!map || map.getSize().x === 0) return;
+    const padded = L.latLngBounds(MINAS_VIEW_BOUNDS).pad(FOCUS_PADDING);
+    map.setMaxBounds(padded);
+    map.setMinZoom(Math.max(TILE_PROVIDER.minZoom, map.getBoundsZoom(padded, false)));
+  }
+
+  private applyViewport(points: readonly MapPoint[], fit: boolean): void {
+    const map = this.map;
+    if (!map) return;
+    if (fit && points.length > 0) {
+      map.fitBounds(L.latLngBounds(points.map((p) => [p.latitude, p.longitude] as [number, number])), RESULTS_FIT_OPTIONS);
+    } else {
+      this.fitState();
+    }
+  }
+
+  private renderMarkers(points: readonly MapPoint[]): void {
+    if (!this.map) return;
+    this.markerLayer.clearLayers();
+    this.markers.clear();
+    for (const point of points) {
+      const marker = L.marker([point.latitude, point.longitude], {
+        title: point.name,
+        alt: [point.name, point.subtitle, point.categoryName].filter(Boolean).join(', '),
+        icon: point.icon ? this.categoryDivIcon(point, false) : new L.Icon.Default(),
+        riseOnHover: true,
+      })
+        .bindPopup(this.popupContent(point), { closeButton: true, autoPan: true, offset: [0, -8] })
+        .on('click', () => this.zone.run(() => this.pointSelected.emit(point.id)))
+        .on('popupclose', () => {
+          if (this.selectedId() === point.id) this.zone.run(() => this.selectionCleared.emit());
+        })
+        .addTo(this.markerLayer);
+      this.markers.set(point.id, marker);
+    }
+  }
+
+  private applySelection(selectedId: string | null): void {
+    if (!this.map) return;
+    for (const point of this.points()) {
+      const marker = this.markers.get(point.id);
+      if (marker && point.icon) marker.setIcon(this.categoryDivIcon(point, point.id === selectedId));
+    }
+    const marker = selectedId ? this.markers.get(selectedId) : undefined;
+    if (marker) {
+      marker.setZIndexOffset(1000);
+      if (!marker.isPopupOpen()) marker.openPopup();
+    } else {
+      this.map.closePopup();
+    }
+  }
+
+  private categoryDivIcon(point: MapPoint, selected: boolean): L.DivIcon {
+    const size = selected ? 44 : 34;
+    const el = document.createElement('div');
+    el.className = `me-marker${selected ? ' me-marker--selected' : ''}`;
+    el.style.setProperty('--me-marker-color', point.color ?? '#1f4d3a');
+    el.appendChild(createCategoryIcon(point.icon, selected ? 22 : 18));
+    return L.divIcon({ html: el, className: 'me-marker-wrap', iconSize: [size, size], iconAnchor: [size / 2, size / 2] });
+  }
+
+  /** Popup montado com nós de DOM (textContent), sem injetar HTML. */
+  private popupContent(point: MapPoint): HTMLElement {
+    const box = document.createElement('div');
+    const title = document.createElement('strong');
+    title.textContent = point.name;
+    box.appendChild(title);
+    for (const line of [point.subtitle, point.categoryName]) {
+      if (!line) continue;
+      const p = document.createElement('div');
+      p.textContent = line;
+      box.appendChild(p);
+    }
+    if (point.href) {
+      const a = document.createElement('a');
+      a.href = point.href;
+      a.textContent = 'Ver detalhes';
+      a.className = 'me-popup-link';
+      box.appendChild(a);
+    }
+    return box;
+  }
+
+  private renderBoundary(boundary: FeatureCollection | null): void {
+    if (!this.map) return;
+    this.boundaryLayer.clearLayers();
+    this.maskLayer?.remove();
+    this.maskLayer = undefined;
+    if (!boundary) return;
+    this.boundaryLayer.addData(boundary);
+
+    // Máscara: retângulo "mundo" com um buraco no formato de Minas Gerais.
+    const ring = (boundary.features[0]?.geometry as Polygon | undefined)?.coordinates[0];
+    if (!ring) return;
+    const world: L.LatLngTuple[] = [[-85, -180], [-85, 180], [85, 180], [85, -180]];
+    const hole = ring.map(([lng, lat]) => [lat, lng] as L.LatLngTuple);
+    const fill = getComputedStyle(this.mapEl().nativeElement).getPropertyValue('--me-map-mask').trim();
+    this.maskLayer = L.polygon([world, hole], { ...MASK_STYLE, ...(fill ? { fillColor: fill } : {}), pane: MASK_PANE }).addTo(this.map);
+  }
+
+  private destroyMap(): void {
+    this.resizeObserver?.disconnect();
+    this.resizeObserver = undefined;
+    this.boundaryLayer.clearLayers();
+    this.markerLayer.clearLayers();
+    this.markers.clear();
+    this.maskLayer = undefined;
+    this.map?.remove();
+    this.map = undefined;
+  }
+}

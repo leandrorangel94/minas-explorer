@@ -1,0 +1,26 @@
+{
+  "id": "3146107",
+  "name": "Ouro Preto",
+  "slug": "ouro-preto",
+  "regionId": "3101",
+  "description": "Cidade histórica do ciclo do ouro, com casario colonial e igrejas barrocas; Patrimônio Mundial da UNESCO desde 1980.",
+  "coordinates": {
+    "latitude": -20.385278,
+    "longitude": -43.503611
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q188905)",
+    "url": "https://www.wikidata.org/wiki/Q188905#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q188905)",
+      "url": "https://www.wikidata.org/wiki/Q188905"
+    },
+    {
+      "name": "IBGE – Localidades (Ouro Preto)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3146107"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

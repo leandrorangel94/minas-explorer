@@ -1,0 +1,34 @@
+<div class="me-filters">
+  <section aria-labelledby="flt-cat">
+    <h3 id="flt-cat" class="me-filters__title">Categorias <span class="me-filters__hint">(também é a legenda do mapa)</span></h3>
+    <mat-chip-set class="me-filters__chips" aria-label="Filtrar por categoria" multiple>
+      @for (cat of store.categories(); track cat.id) {
+        <mat-chip-option
+          [selected]="store.categoryIds().includes(cat.id)"
+          (selectionChange)="onCategoryChange(cat.id, $event.selected)"
+          [style.--cat-color]="cat.color"
+        >
+          <me-category-icon matChipAvatar [name]="cat.icon" [size]="16" />
+          {{ cat.name }}
+        </mat-chip-option>
+      }
+    </mat-chip-set>
+  </section>
+
+  <mat-form-field appearance="outline" subscriptSizing="dynamic" class="me-filters__region">
+    <mat-label>Região</mat-label>
+    <mat-select [value]="store.regionId()" (selectionChange)="store.setRegion($event.value)">
+      <mat-option [value]="null">Todas as regiões</mat-option>
+      @for (region of store.regions(); track region.id) {
+        <mat-option [value]="region.id">{{ region.name }}</mat-option>
+      }
+    </mat-select>
+  </mat-form-field>
+
+  @if (store.filtersActive()) {
+    <button matButton type="button" class="me-filters__clear" (click)="store.clearFilters()">
+      <svg lucideFilterX [size]="18" aria-hidden="true"></svg>
+      Limpar filtros
+    </button>
+  }
+</div>

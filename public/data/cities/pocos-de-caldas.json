@@ -1,0 +1,26 @@
+{
+  "id": "3151800",
+  "name": "Poços de Caldas",
+  "slug": "pocos-de-caldas",
+  "regionId": "3109",
+  "description": "Cidade do sul de Minas conhecida historicamente pelas águas termais e pelo turismo.",
+  "coordinates": {
+    "latitude": -21.787778,
+    "longitude": -46.560833
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q817216)",
+    "url": "https://www.wikidata.org/wiki/Q817216#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q817216)",
+      "url": "https://www.wikidata.org/wiki/Q817216"
+    },
+    {
+      "name": "IBGE – Localidades (Poços de Caldas)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3151800"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

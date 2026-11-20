@@ -1,0 +1,80 @@
+.me-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--me-surface);
+  border-bottom: 1px solid var(--me-border);
+}
+
+.me-header__bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: var(--me-header-height);
+}
+
+.me-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--me-forest);
+  text-decoration: none;
+  min-height: 44px;
+}
+.me-brand__name {
+  font-family: var(--me-font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.me-search {
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  max-width: 440px;
+  margin-inline: auto;
+  padding: 0 14px;
+  height: 44px;
+  background: var(--me-offwhite);
+  border: 1px solid var(--me-border);
+  border-radius: 999px;
+  color: var(--me-muted);
+
+  &:focus-within { border-color: var(--me-forest); }
+
+  input {
+    flex: 1;
+    min-width: 0;
+    border: 0;
+    background: transparent;
+    font: inherit;
+    color: var(--me-ink);
+    outline: none;
+  }
+}
+.me-search--mobile {
+  display: flex;
+  max-width: none;
+  margin: 0 16px 12px;
+  width: calc(100% - 32px);
+}
+
+.me-nav-link {
+  color: var(--me-ink);
+  &--active {
+    color: var(--me-forest);
+    font-weight: 600;
+    background: var(--me-sage-light);
+  }
+}
+
+.me-nav { align-items: center; gap: 4px; }
+
+// Visibilidade responsiva (SCSS, pois o CSS de componentes tem prioridade sobre as utilities do Tailwind)
+.me-desktop-only { display: none !important; }
+.me-mobile-only { display: inline-flex; }
+@media (min-width: 768px) {
+  .me-desktop-only { display: flex !important; }
+  .me-mobile-only { display: none !important; }
+}

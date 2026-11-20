@@ -1,0 +1,70 @@
+// Mapa minimalista. Variáveis --me-map-* vêm de _tokens.scss, o que permite um tema escuro depois.
+
+.leaflet-container {
+  font-family: var(--me-font-body);
+  background: var(--me-map-bg);
+}
+
+// Tiles do OSM dessaturados e suaves: o mapa recua e o conteúdo (estado, marcadores) se destaca.
+.leaflet-tile-pane {
+  filter: var(--me-map-tile-filter);
+}
+
+// Atribuição discreta (mantida e legível: exigência de licença do OSM).
+.leaflet-container .leaflet-control-attribution {
+  background: color-mix(in srgb, var(--me-surface) 82%, transparent);
+  color: var(--me-muted);
+  font-size: 11px;
+  a { color: var(--me-forest); }
+}
+
+// Controles de zoom discretos
+.leaflet-bar {
+  border: 1px solid var(--me-border) !important;
+  box-shadow: var(--me-shadow) !important;
+  a {
+    background: var(--me-surface);
+    color: var(--me-forest);
+    border-bottom-color: var(--me-border);
+    &:hover { background: var(--me-sage-light); }
+  }
+}
+
+// Marcadores por categoria: círculo + ícone (a categoria nunca depende só da cor)
+.me-marker-wrap { background: transparent; border: 0; }
+.me-marker {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: var(--me-surface);
+  color: var(--me-marker-color);
+  border: 2px solid var(--me-marker-color);
+  box-shadow: var(--me-shadow);
+  transition: transform 0.15s ease;
+
+  &--selected {
+    background: var(--me-marker-color);
+    color: #fff;
+    border-color: var(--me-surface);
+    box-shadow: 0 0 0 3px var(--me-marker-color), var(--me-shadow-hover);
+  }
+}
+.leaflet-marker-icon:focus-visible .me-marker { outline: 3px solid var(--me-focus); outline-offset: 2px; }
+
+// Popup
+.leaflet-popup-content-wrapper {
+  background: var(--me-surface);
+  color: var(--me-ink);
+  border-radius: var(--me-radius-sm);
+  box-shadow: var(--me-shadow-hover);
+}
+.leaflet-popup-tip { background: var(--me-surface); }
+.leaflet-popup-content { margin: 12px 16px; font-size: 0.9rem; line-height: 1.4; strong { font-size: 1rem; color: var(--me-forest-dark); } }
+
+@media (prefers-reduced-motion: reduce) {
+  .leaflet-zoom-anim .leaflet-zoom-animated { transition: none !important; }
+}
+
+.me-popup-link { display: inline-block; margin-top: 6px; color: var(--me-forest); font-weight: 600; }

@@ -1,0 +1,61 @@
+.me-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--me-surface);
+  border: 1px solid var(--me-border);
+  border-radius: var(--me-radius);
+  box-shadow: var(--me-shadow);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+
+  &:hover { box-shadow: var(--me-shadow-hover); }
+  &--selected { border-color: var(--me-forest); box-shadow: 0 0 0 2px var(--me-forest); }
+  &:focus-within { outline: 3px solid var(--me-focus); outline-offset: 2px; }
+}
+.me-card__media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--me-sage-light);
+
+  img { width: 100%; height: 100%; object-fit: cover; display: block; }
+}
+.me-card__placeholder {
+  display: grid; place-items: center; width: 100%; height: 100%;
+  background: linear-gradient(135deg, var(--me-sage-light), var(--me-sand));
+  color: var(--me-muted);
+}
+.me-card__chip {
+  position: absolute; left: 10px; top: 10px;
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: 999px;
+  background: var(--me-surface); color: var(--chip-color, var(--me-forest-dark));
+  font-size: .75rem; font-weight: 600;
+}
+.me-card__body { display: grid; gap: 4px; padding: 14px 16px 16px; }
+.me-card__city { color: var(--me-muted); font-size: .9rem; }
+.me-card__actions { margin-top: 8px; }
+.me-card__actions:empty { display: none; }
+
+// Botão do título cobre o card inteiro (padrão de "card clicável" acessível)
+.me-card__title {
+  all: unset;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  &::after { content: ''; position: absolute; inset: 0; }
+  &:focus-visible { outline: none; } // o foco aparece no card (:focus-within)
+}
+
+.me-card__category {
+  display: inline-flex; align-items: center; gap: 6px;
+  color: var(--chip-color, var(--me-forest-dark)); font-size: .8rem; font-weight: 600;
+}
+.me-card--compact {
+  flex-direction: row; align-items: stretch;
+  .me-card__media { flex: none; width: 88px; aspect-ratio: auto; }
+  .me-card__body { padding: 10px 12px; gap: 2px; align-content: center; }
+  .me-card__placeholder svg { width: 24px; height: 24px; }
+  h3 { font-size: 1rem; }
+}

@@ -1,0 +1,11 @@
+.me-results {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+.me-results__clear {
+  min-height: 44px; padding: 0 16px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--me-forest); background: transparent; color: var(--me-forest); font: inherit; font-weight: 500;
+}
+.me-results--compact { grid-template-columns: 1fr; gap: 8px; }
+.me-results__more { position: relative; z-index: 1; color: var(--me-forest); font-size: .85rem; font-weight: 600; }

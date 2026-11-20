@@ -1,0 +1,26 @@
+{
+  "id": "3140001",
+  "name": "Mariana",
+  "slug": "mariana",
+  "regionId": "3101",
+  "description": "Uma das cidades mais antigas de Minas Gerais, ligada ao ciclo do ouro, com conjunto histórico colonial.",
+  "coordinates": {
+    "latitude": -20.37787,
+    "longitude": -43.41635
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q984567)",
+    "url": "https://www.wikidata.org/wiki/Q984567#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q984567)",
+      "url": "https://www.wikidata.org/wiki/Q984567"
+    },
+    {
+      "name": "IBGE – Localidades (Mariana)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3140001"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

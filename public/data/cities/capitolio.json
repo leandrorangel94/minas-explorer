@@ -1,0 +1,26 @@
+{
+  "id": "3112802",
+  "name": "Capitólio",
+  "slug": "capitolio",
+  "regionId": "3108",
+  "description": "Município às margens do Lago de Furnas, conhecido pelos cânions e pelos passeios de barco.",
+  "coordinates": {
+    "latitude": -20.615,
+    "longitude": -46.05
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1257195)",
+    "url": "https://www.wikidata.org/wiki/Q1257195#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1257195)",
+      "url": "https://www.wikidata.org/wiki/Q1257195"
+    },
+    {
+      "name": "IBGE – Localidades (Capitólio)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3112802"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

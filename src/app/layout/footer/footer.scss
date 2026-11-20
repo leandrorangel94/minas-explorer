@@ -1,0 +1,11 @@
+.me-footer {
+  margin-top: 48px;
+  background: var(--me-forest-dark);
+  color: var(--me-sage-light);
+  padding-block: 32px;
+
+  a { color: #fff; }
+}
+.me-footer__inner { display: grid; gap: 8px; }
+.me-footer__slogan { font-family: var(--me-font-display); font-size: 1.1rem; color: #fff; }
+.me-footer__note { font-size: 0.875rem; }

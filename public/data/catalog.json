@@ -1,0 +1,524 @@
+{
+  "cities": [
+    {
+      "id": "3106200",
+      "name": "Belo Horizonte",
+      "slug": "belo-horizonte",
+      "regionId": "3101",
+      "description": "Capital de Minas Gerais, cidade planejada e inaugurada em 1897.",
+      "coordinates": {
+        "latitude": -19.928056,
+        "longitude": -43.941944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q42800)",
+        "url": "https://www.wikidata.org/wiki/Q42800#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q42800)",
+          "url": "https://www.wikidata.org/wiki/Q42800"
+        },
+        {
+          "name": "IBGE – Localidades (Belo Horizonte)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3112802",
+      "name": "Capitólio",
+      "slug": "capitolio",
+      "regionId": "3108",
+      "description": "Município às margens do Lago de Furnas, conhecido pelos cânions e pelos passeios de barco.",
+      "coordinates": {
+        "latitude": -20.615,
+        "longitude": -46.05
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1257195)",
+        "url": "https://www.wikidata.org/wiki/Q1257195#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1257195)",
+          "url": "https://www.wikidata.org/wiki/Q1257195"
+        },
+        {
+          "name": "IBGE – Localidades (Capitólio)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3112802"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3114600",
+      "name": "Carrancas",
+      "slug": "carrancas",
+      "regionId": "3108",
+      "description": "Município do sul de Minas conhecido pelas cachoeiras e pela paisagem de serras.",
+      "coordinates": {
+        "latitude": -21.487778,
+        "longitude": -44.642778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1756048)",
+        "url": "https://www.wikidata.org/wiki/Q1756048#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1756048)",
+          "url": "https://www.wikidata.org/wiki/Q1756048"
+        },
+        {
+          "name": "IBGE – Localidades (Carrancas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3114600"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3117504",
+      "name": "Conceição do Mato Dentro",
+      "slug": "conceicao-do-mato-dentro",
+      "regionId": "3101",
+      "description": "Município na Serra do Espinhaço, conhecido pelas cachoeiras e áreas de natureza, como a Cachoeira do Tabuleiro.",
+      "coordinates": {
+        "latitude": -19.036944,
+        "longitude": -43.425
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1792783)",
+        "url": "https://www.wikidata.org/wiki/Q1792783#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1792783)",
+          "url": "https://www.wikidata.org/wiki/Q1792783"
+        },
+        {
+          "name": "IBGE – Localidades (Conceição do Mato Dentro)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3117504"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605",
+      "name": "Diamantina",
+      "slug": "diamantina",
+      "regionId": "3103",
+      "description": "Cidade histórica ligada ao ciclo do diamante, com centro histórico inscrito como Patrimônio Mundial pela UNESCO em 1999.",
+      "coordinates": {
+        "latitude": -18.248889,
+        "longitude": -43.6
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q34028)",
+        "url": "https://www.wikidata.org/wiki/Q34028#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q34028)",
+          "url": "https://www.wikidata.org/wiki/Q34028"
+        },
+        {
+          "name": "IBGE – Localidades (Diamantina)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3121605"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3140001",
+      "name": "Mariana",
+      "slug": "mariana",
+      "regionId": "3101",
+      "description": "Uma das cidades mais antigas de Minas Gerais, ligada ao ciclo do ouro, com conjunto histórico colonial.",
+      "coordinates": {
+        "latitude": -20.37787,
+        "longitude": -43.41635
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q984567)",
+        "url": "https://www.wikidata.org/wiki/Q984567#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q984567)",
+          "url": "https://www.wikidata.org/wiki/Q984567"
+        },
+        {
+          "name": "IBGE – Localidades (Mariana)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3140001"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107",
+      "name": "Ouro Preto",
+      "slug": "ouro-preto",
+      "regionId": "3101",
+      "description": "Cidade histórica do ciclo do ouro, com casario colonial e igrejas barrocas; Patrimônio Mundial da UNESCO desde 1980.",
+      "coordinates": {
+        "latitude": -20.385278,
+        "longitude": -43.503611
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q188905)",
+        "url": "https://www.wikidata.org/wiki/Q188905#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q188905)",
+          "url": "https://www.wikidata.org/wiki/Q188905"
+        },
+        {
+          "name": "IBGE – Localidades (Ouro Preto)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3146107"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3151800",
+      "name": "Poços de Caldas",
+      "slug": "pocos-de-caldas",
+      "regionId": "3109",
+      "description": "Cidade do sul de Minas conhecida historicamente pelas águas termais e pelo turismo.",
+      "coordinates": {
+        "latitude": -21.787778,
+        "longitude": -46.560833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q817216)",
+        "url": "https://www.wikidata.org/wiki/Q817216#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q817216)",
+          "url": "https://www.wikidata.org/wiki/Q817216"
+        },
+        {
+          "name": "IBGE – Localidades (Poços de Caldas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3151800"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3159001",
+      "name": "Santana do Riacho",
+      "slug": "santana-do-riacho",
+      "regionId": "3101",
+      "description": "Município na Serra do Cipó, parte do território do Parque Nacional da Serra do Cipó.",
+      "coordinates": {
+        "latitude": -19.168889,
+        "longitude": -43.713889
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1755714)",
+        "url": "https://www.wikidata.org/wiki/Q1755714#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1755714)",
+          "url": "https://www.wikidata.org/wiki/Q1755714"
+        },
+        {
+          "name": "IBGE – Localidades (Santana do Riacho)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3159001"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3164308",
+      "name": "São Roque de Minas",
+      "slug": "sao-roque-de-minas",
+      "regionId": "3108",
+      "description": "Município próximo à Serra da Canastra, ponto de partida para visitas ao Parque Nacional.",
+      "coordinates": {
+        "latitude": -20.245,
+        "longitude": -46.365833
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1755169)",
+        "url": "https://www.wikidata.org/wiki/Q1755169#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1755169)",
+          "url": "https://www.wikidata.org/wiki/Q1755169"
+        },
+        {
+          "name": "IBGE – Localidades (São Roque de Minas)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3164308"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3168804",
+      "name": "Tiradentes",
+      "slug": "tiradentes",
+      "regionId": "3107",
+      "description": "Cidade histórica do período colonial, conhecida pelo casario e pelas igrejas barrocas; o nome homenageia Tiradentes.",
+      "coordinates": {
+        "latitude": -21.11,
+        "longitude": -44.177778
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1003423)",
+        "url": "https://www.wikidata.org/wiki/Q1003423#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q1003423)",
+          "url": "https://www.wikidata.org/wiki/Q1003423"
+        },
+        {
+          "name": "IBGE – Localidades (Tiradentes)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3168804"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3170206",
+      "name": "Uberlândia",
+      "slug": "uberlandia",
+      "regionId": "3111",
+      "description": "Um dos maiores municípios do Triângulo Mineiro e importante centro urbano e econômico do interior do estado.",
+      "coordinates": {
+        "latitude": -18.918889,
+        "longitude": -48.276944
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q194328)",
+        "url": "https://www.wikidata.org/wiki/Q194328#P625"
+      },
+      "sources": [
+        {
+          "name": "Wikidata (Q194328)",
+          "url": "https://www.wikidata.org/wiki/Q194328"
+        },
+        {
+          "name": "IBGE – Localidades (Uberlândia)",
+          "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3170206"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    }
+  ],
+  "attractions": [
+    {
+      "id": "3117504-cachoeira-do-tabuleiro",
+      "name": "Cachoeira do Tabuleiro",
+      "slug": "cachoeira-do-tabuleiro",
+      "cityId": "3117504",
+      "categoryId": "waterfall",
+      "description": "Cachoeira de grande altura, descrita no Wikidata como uma das maiores quedas d'água do Brasil.",
+      "coordinates": {
+        "latitude": -19.088056,
+        "longitude": -43.551667
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q5478900)",
+        "url": "https://www.wikidata.org/wiki/Q5478900#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "cachoeira"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q5478900)",
+          "url": "https://www.wikidata.org/wiki/Q5478900"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3121605-casa-de-chica-da-silva",
+      "name": "Casa de Chica da Silva",
+      "slug": "casa-de-chica-da-silva",
+      "cityId": "3121605",
+      "categoryId": "historic-heritage",
+      "description": "Casa histórica associada a Chica da Silva, figura da época do ciclo do diamante em Diamantina.",
+      "coordinates": {
+        "latitude": -18.246685,
+        "longitude": -43.596775
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q55763725)",
+        "url": "https://www.wikidata.org/wiki/Q55763725#P625"
+      },
+      "images": [],
+      "tags": [
+        "história",
+        "casarão"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q55763725)",
+          "url": "https://www.wikidata.org/wiki/Q55763725"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-conjunto-arquitetonico-da-pampulha",
+      "name": "Conjunto Arquitetônico da Pampulha",
+      "slug": "conjunto-arquitetonico-da-pampulha",
+      "cityId": "3106200",
+      "categoryId": "historic-heritage",
+      "description": "Conjunto de edificações modernistas à margem da Lagoa da Pampulha, em Belo Horizonte; Patrimônio Mundial da UNESCO desde 2016.",
+      "coordinates": {
+        "latitude": -19.851944,
+        "longitude": -43.973611
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q9850285)",
+        "url": "https://www.wikidata.org/wiki/Q9850285#P625"
+      },
+      "images": [],
+      "tags": [
+        "arquitetura",
+        "modernismo"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q9850285)",
+          "url": "https://www.wikidata.org/wiki/Q9850285"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3106200-mercado-central",
+      "name": "Mercado Central de Belo Horizonte",
+      "slug": "mercado-central",
+      "cityId": "3106200",
+      "categoryId": "gastronomy",
+      "description": "Mercado tradicional no centro de Belo Horizonte, com lojas de produtos mineiros e alimentação.",
+      "coordinates": {
+        "latitude": -19.9225,
+        "longitude": -43.943056
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10328758)",
+        "url": "https://www.wikidata.org/wiki/Q10328758#P625"
+      },
+      "images": [],
+      "tags": [
+        "mercado",
+        "gastronomia"
+      ],
+      "featured": false,
+      "sources": [
+        {
+          "name": "Wikidata (Q10328758)",
+          "url": "https://www.wikidata.org/wiki/Q10328758"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3146107-museu-da-inconfidencia",
+      "name": "Museu da Inconfidência",
+      "slug": "museu-da-inconfidencia",
+      "cityId": "3146107",
+      "categoryId": "museum",
+      "description": "Museu histórico e de arte instalado na antiga Casa de Câmara e Cadeia de Vila Rica, em Ouro Preto.",
+      "coordinates": {
+        "latitude": -20.386152,
+        "longitude": -43.503718
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q10333699)",
+        "url": "https://www.wikidata.org/wiki/Q10333699#P625"
+      },
+      "images": [],
+      "tags": [
+        "história",
+        "museu",
+        "barroco"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q10333699)",
+          "url": "https://www.wikidata.org/wiki/Q10333699"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3164308-parque-nacional-da-serra-da-canastra",
+      "name": "Parque Nacional da Serra da Canastra",
+      "slug": "parque-nacional-da-serra-da-canastra",
+      "cityId": "3164308",
+      "categoryId": "park",
+      "description": "Parque nacional que protege a Serra da Canastra, de planaltos e chapadões. O parque abrange vários municípios; aqui está associado a São Roque de Minas, um dos municípios listados na fonte.",
+      "coordinates": {
+        "latitude": -20.25,
+        "longitude": -46.5
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q7455211)",
+        "url": "https://www.wikidata.org/wiki/Q7455211#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "serra",
+        "unidade de conservação"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q7455211)",
+          "url": "https://www.wikidata.org/wiki/Q7455211"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    },
+    {
+      "id": "3159001-parque-nacional-da-serra-do-cipo",
+      "name": "Parque Nacional da Serra do Cipó",
+      "slug": "parque-nacional-da-serra-do-cipo",
+      "cityId": "3159001",
+      "categoryId": "park",
+      "description": "Parque nacional na Serra do Cipó. O parque abrange mais de um município; aqui está associado a Santana do Riacho, um dos municípios listados na fonte.",
+      "coordinates": {
+        "latitude": -19.388333,
+        "longitude": -43.547222
+      },
+      "coordinatesSource": {
+        "name": "Wikidata, propriedade P625 (Q1136747)",
+        "url": "https://www.wikidata.org/wiki/Q1136747#P625"
+      },
+      "images": [],
+      "tags": [
+        "natureza",
+        "serra",
+        "unidade de conservação"
+      ],
+      "featured": true,
+      "sources": [
+        {
+          "name": "Wikidata (Q1136747)",
+          "url": "https://www.wikidata.org/wiki/Q1136747"
+        }
+      ],
+      "lastVerifiedAt": "2026-11-20"
+    }
+  ]
+}

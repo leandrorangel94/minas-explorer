@@ -1,0 +1,71 @@
+<section class="me-hero">
+  <div class="me-container me-hero__inner">
+    <p class="me-hero__eyebrow">Guia turístico de Minas Gerais</p>
+    <h1>Minas Gerais está mais perto do que você imagina.</h1>
+    <p class="me-hero__lead">Descubra cidades históricas, cachoeiras, serras e sabores de Minas em um mapa interativo.</p>
+  </div>
+</section>
+
+<section class="me-container py-8" aria-labelledby="explorar-titulo">
+  <div id="explorar-titulo">
+    <me-section-title eyebrow="Explorar" title="Mapa de destinos" subtitle="Busque por cidade ou atração e filtre por categoria e região." />
+  </div>
+
+  @switch (store.status()) {
+    @case ('loading') {
+      <p class="me-note" role="status">Carregando destinos…</p>
+    }
+    @case ('error') {
+      <div class="mt-6">
+        <me-empty-state title="Não foi possível carregar os destinos" description="Verifique sua conexão e recarregue a página.">
+          <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+        </me-empty-state>
+      </div>
+    }
+    @default {
+      <div class="me-toolbar">
+        <p class="me-toolbar__count" aria-live="polite" role="status">{{ countLabel() }}</p>
+
+        <div class="me-toolbar__mobile">
+          <button matButton="outlined" type="button" [attr.aria-expanded]="filtersOpen()" aria-controls="painel-filtros" (click)="filtersOpen.set(!filtersOpen())">
+            <svg lucideSlidersHorizontal [size]="18" aria-hidden="true"></svg>
+            Filtros@if (store.activeFilterCount() > 0) { ({{ store.activeFilterCount() }}) }
+          </button>
+          <mat-button-toggle-group aria-label="Modo de visualização" hideSingleSelectionIndicator [value]="view()" (change)="view.set($event.value)">
+            <mat-button-toggle value="map"><svg lucideMap [size]="16" aria-hidden="true"></svg> Mapa</mat-button-toggle>
+            <mat-button-toggle value="list"><svg lucideList [size]="16" aria-hidden="true"></svg> Lista</mat-button-toggle>
+          </mat-button-toggle-group>
+        </div>
+      </div>
+
+      <div class="me-explorer">
+        <aside class="me-explorer__panel" aria-label="Filtros e resultados">
+          <div id="painel-filtros" class="me-explorer__filters" [class.is-collapsed]="!filtersOpen()">
+            <me-filters-panel />
+          </div>
+          <div class="me-explorer__list" [class.is-hidden-mobile]="view() !== 'list'">
+            <me-results-list
+              [items]="store.results()"
+              [selectedId]="store.selectedId()"
+              [filtersActive]="store.filtersActive()"
+              [compact]="isDesktop()"
+              (itemSelected)="store.select($event)"
+              (filtersCleared)="store.clearFilters()"
+            />
+          </div>
+        </aside>
+
+        <div class="me-explorer__map" [class.is-hidden-mobile]="view() !== 'map'">
+          <me-minas-map
+            [points]="points()"
+            [boundary]="boundary()"
+            [selectedId]="store.selectedId()"
+            [fitToPoints]="store.filtersActive()"
+            (pointSelected)="store.select($event)"
+            (selectionCleared)="store.select(null)"
+          />
+        </div>
+      </div>
+    }
+  }
+</section>

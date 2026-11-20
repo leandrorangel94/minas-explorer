@@ -1,0 +1,30 @@
+{
+  "id": "3164308-parque-nacional-da-serra-da-canastra",
+  "name": "Parque Nacional da Serra da Canastra",
+  "slug": "parque-nacional-da-serra-da-canastra",
+  "cityId": "3164308",
+  "categoryId": "park",
+  "description": "Parque nacional que protege a Serra da Canastra, de planaltos e chapadões. O parque abrange vários municípios; aqui está associado a São Roque de Minas, um dos municípios listados na fonte.",
+  "coordinates": {
+    "latitude": -20.25,
+    "longitude": -46.5
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q7455211)",
+    "url": "https://www.wikidata.org/wiki/Q7455211#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "serra",
+    "unidade de conservação"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q7455211)",
+      "url": "https://www.wikidata.org/wiki/Q7455211"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

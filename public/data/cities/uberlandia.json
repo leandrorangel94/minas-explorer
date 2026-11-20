@@ -1,0 +1,26 @@
+{
+  "id": "3170206",
+  "name": "Uberlândia",
+  "slug": "uberlandia",
+  "regionId": "3111",
+  "description": "Um dos maiores municípios do Triângulo Mineiro e importante centro urbano e econômico do interior do estado.",
+  "coordinates": {
+    "latitude": -18.918889,
+    "longitude": -48.276944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q194328)",
+    "url": "https://www.wikidata.org/wiki/Q194328#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q194328)",
+      "url": "https://www.wikidata.org/wiki/Q194328"
+    },
+    {
+      "name": "IBGE – Localidades (Uberlândia)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3170206"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

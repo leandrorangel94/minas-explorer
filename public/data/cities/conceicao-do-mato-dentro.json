@@ -1,0 +1,26 @@
+{
+  "id": "3117504",
+  "name": "Conceição do Mato Dentro",
+  "slug": "conceicao-do-mato-dentro",
+  "regionId": "3101",
+  "description": "Município na Serra do Espinhaço, conhecido pelas cachoeiras e áreas de natureza, como a Cachoeira do Tabuleiro.",
+  "coordinates": {
+    "latitude": -19.036944,
+    "longitude": -43.425
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1792783)",
+    "url": "https://www.wikidata.org/wiki/Q1792783#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1792783)",
+      "url": "https://www.wikidata.org/wiki/Q1792783"
+    },
+    {
+      "name": "IBGE – Localidades (Conceição do Mato Dentro)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3117504"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

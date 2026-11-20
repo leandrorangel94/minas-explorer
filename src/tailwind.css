@@ -1,0 +1,3 @@
+/* Tailwind: apenas utilitários de layout/espaçamento. Tema fica com Material + SCSS. */
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);

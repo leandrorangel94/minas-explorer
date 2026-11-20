@@ -1,0 +1,53 @@
+@if (images().length === 0) {
+  <div class="me-gallery__empty" role="img" [attr.aria-label]="'Sem fotografia de ' + subject()">
+    <svg lucideImageOff [size]="36" aria-hidden="true"></svg>
+    <p>Ainda não há fotografia de {{ subject() }} com direitos de uso verificados.</p>
+  </div>
+} @else {
+  <figure class="me-gallery__main">
+    @if (currentFailed()) {
+      <div class="me-gallery__placeholder" role="img" aria-label="Imagem indisponível">
+        <svg lucideImageOff [size]="36" aria-hidden="true"></svg>
+        <p>Imagem indisponível no momento.</p>
+      </div>
+    } @else {
+      <img [src]="current().url" [alt]="current().alt" loading="lazy" (error)="onError(current())" />
+    }
+    <figcaption class="me-gallery__credit">
+      @if (current().attribution) {
+        <span>{{ current().attribution }}</span>
+      }
+      @if (current().author) {
+        <span>Foto: {{ current().author }}</span>
+      }
+      @if (current().license) {
+        <span>Licença: {{ current().license }}</span>
+      }
+      @if (current().sourceUrl) {
+        <a [href]="current().sourceUrl" target="_blank" rel="noopener noreferrer">Fonte original</a>
+      }
+    </figcaption>
+  </figure>
+
+  @if (images().length > 1) {
+    <ul class="me-gallery__thumbs" aria-label="Fotografias">
+      @for (img of images(); track img.url; let i = $index) {
+        <li>
+          <button
+            type="button"
+            [class.is-current]="i === index()"
+            [attr.aria-current]="i === index() ? 'true' : null"
+            [attr.aria-label]="'Ver fotografia ' + (i + 1) + ' de ' + images().length + ': ' + img.alt"
+            (click)="select(i)"
+          >
+            @if (isFailed(img)) {
+              <svg lucideImageOff [size]="20" aria-hidden="true"></svg>
+            } @else {
+              <img [src]="img.url" alt="" loading="lazy" (error)="onError(img)" />
+            }
+          </button>
+        </li>
+      }
+    </ul>
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3106200-mercado-central",
+  "name": "Mercado Central de Belo Horizonte",
+  "slug": "mercado-central",
+  "cityId": "3106200",
+  "categoryId": "gastronomy",
+  "description": "Mercado tradicional no centro de Belo Horizonte, com lojas de produtos mineiros e alimentação.",
+  "coordinates": {
+    "latitude": -19.9225,
+    "longitude": -43.943056
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q10328758)",
+    "url": "https://www.wikidata.org/wiki/Q10328758#P625"
+  },
+  "images": [],
+  "tags": [
+    "mercado",
+    "gastronomia"
+  ],
+  "featured": false,
+  "sources": [
+    {
+      "name": "Wikidata (Q10328758)",
+      "url": "https://www.wikidata.org/wiki/Q10328758"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,48 @@
+<header class="me-header">
+  <div class="me-container me-header__bar">
+    <a routerLink="/" class="me-brand" aria-label="Minas Explorer – página inicial">
+      <svg lucideCompass [size]="26" aria-hidden="true"></svg>
+      <span class="me-brand__name">Minas Explorer</span>
+    </a>
+
+    <form class="me-search me-desktop-only" role="search" (submit)="onSearchSubmit($event)">
+      <label for="me-search-desktop" class="me-visually-hidden">Buscar cidade ou atração</label>
+      <svg lucideSearch [size]="18" aria-hidden="true"></svg>
+      <input id="me-search-desktop" type="search" placeholder="Buscar cidade ou atração" autocomplete="off" [value]="store.query()" (input)="onSearchInput($event)" />
+    </form>
+
+    <nav class="me-nav me-desktop-only" aria-label="Principal">
+      @for (item of navItems; track item.path) {
+        <a
+          matButton
+          class="me-nav-link"
+          [routerLink]="item.path"
+          routerLinkActive="me-nav-link--active"
+          [routerLinkActiveOptions]="{ exact: true }"
+          ariaCurrentWhenActive="page"
+        >{{ item.label }}</a>
+      }
+    </nav>
+
+    <button
+      matIconButton
+      class="me-mobile-only"
+      type="button"
+      aria-label="Abrir menu de navegação"
+      [matMenuTriggerFor]="mobileMenu"
+    >
+      <svg lucideMenu [size]="24" aria-hidden="true"></svg>
+    </button>
+    <mat-menu #mobileMenu="matMenu" xPosition="before">
+      @for (item of navItems; track item.path) {
+        <a mat-menu-item [routerLink]="item.path">{{ item.label }}</a>
+      }
+    </mat-menu>
+  </div>
+
+  <form class="me-container me-search me-search--mobile me-mobile-only" role="search" (submit)="onSearchSubmit($event)">
+    <label for="me-search-mobile" class="me-visually-hidden">Buscar cidade ou atração</label>
+    <svg lucideSearch [size]="18" aria-hidden="true"></svg>
+    <input id="me-search-mobile" type="search" placeholder="Buscar cidade ou atração" autocomplete="off" [value]="store.query()" (input)="onSearchInput($event)" />
+  </form>
+</header>

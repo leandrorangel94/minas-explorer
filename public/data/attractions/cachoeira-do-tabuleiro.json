@@ -1,0 +1,29 @@
+{
+  "id": "3117504-cachoeira-do-tabuleiro",
+  "name": "Cachoeira do Tabuleiro",
+  "slug": "cachoeira-do-tabuleiro",
+  "cityId": "3117504",
+  "categoryId": "waterfall",
+  "description": "Cachoeira de grande altura, descrita no Wikidata como uma das maiores quedas d'água do Brasil.",
+  "coordinates": {
+    "latitude": -19.088056,
+    "longitude": -43.551667
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q5478900)",
+    "url": "https://www.wikidata.org/wiki/Q5478900#P625"
+  },
+  "images": [],
+  "tags": [
+    "natureza",
+    "cachoeira"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q5478900)",
+      "url": "https://www.wikidata.org/wiki/Q5478900"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

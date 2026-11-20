@@ -1,0 +1,26 @@
+{
+  "id": "3106200",
+  "name": "Belo Horizonte",
+  "slug": "belo-horizonte",
+  "regionId": "3101",
+  "description": "Capital de Minas Gerais, cidade planejada e inaugurada em 1897.",
+  "coordinates": {
+    "latitude": -19.928056,
+    "longitude": -43.941944
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q42800)",
+    "url": "https://www.wikidata.org/wiki/Q42800#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q42800)",
+      "url": "https://www.wikidata.org/wiki/Q42800"
+    },
+    {
+      "name": "IBGE – Localidades (Belo Horizonte)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3106200"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

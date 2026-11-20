@@ -1,0 +1,83 @@
+<div class="me-container py-8">
+  @switch (store.status()) {
+    @case ('loading') {
+      <p class="me-note" role="status">Carregando…</p>
+    }
+    @case ('error') {
+      <me-empty-state title="Não foi possível carregar os dados" description="Verifique sua conexão e recarregue a página.">
+        <svg icon lucideTriangleAlert [size]="28" aria-hidden="true"></svg>
+      </me-empty-state>
+    }
+    @default {
+      @if (city(); as city) {
+        <me-breadcrumbs [items]="[{ label: 'Explorar', link: '/' }, { label: city.name }]" />
+
+        <header class="me-detail__header">
+          <p class="me-detail__eyebrow">{{ regionName() ?? 'Minas Gerais' }}</p>
+          <h1>{{ city.name }}</h1>
+          <p class="me-detail__lead">{{ city.description }}</p>
+          <div class="me-detail__actions">
+            <button matButton="filled" type="button" (click)="showOnMap()">
+              <svg lucideMap [size]="18" aria-hidden="true"></svg>
+              Ver no mapa
+            </button>
+            <a matButton="outlined" [href]="mapsUrl()" target="_blank" rel="noopener noreferrer">
+              <svg lucideExternalLink [size]="18" aria-hidden="true"></svg>
+              Abrir no Google Maps<span class="me-visually-hidden"> (abre em nova aba)</span>
+            </a>
+          </div>
+        </header>
+
+        <div class="me-detail__grid">
+          <section aria-labelledby="fotos">
+            <h2 id="fotos">Fotografias</h2>
+            <me-image-gallery [images]="images()" [subject]="city.name" />
+          </section>
+
+          <section aria-labelledby="atracoes">
+            <h2 id="atracoes">Atrações</h2>
+            @if (attractions().length === 0) {
+              <me-empty-state title="Nenhuma atração cadastrada" description="Ainda não há atrações desta cidade no catálogo.">
+                <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+              </me-empty-state>
+            } @else {
+              <ul class="me-detail__cards">
+                @for (a of attractions(); track a.id) {
+                  <li>
+                    <me-destination-card
+                      [name]="a.name"
+                      [category]="categoryOf(a.categoryId)?.name"
+                      [categoryIcon]="categoryOf(a.categoryId)?.icon"
+                      [categoryColor]="categoryOf(a.categoryId)?.color"
+                      [imageUrl]="a.images[0]?.url"
+                      [imageAlt]="a.images[0]?.alt ?? ''"
+                      [compact]="true"
+                    >
+                      <a class="me-detail__more" [routerLink]="['/cidades', city.slug, a.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ a.name }}</span></a>
+                    </me-destination-card>
+                  </li>
+                }
+              </ul>
+            }
+          </section>
+        </div>
+
+        <section class="me-detail__sources" aria-labelledby="fontes">
+          <h2 id="fontes">Fontes</h2>
+          <p>Coordenadas: <a [href]="city.coordinatesSource.url" target="_blank" rel="noopener noreferrer">{{ city.coordinatesSource.name }}</a>.</p>
+          <ul>
+            @for (s of city.sources; track s.url) {
+              <li><a [href]="s.url" target="_blank" rel="noopener noreferrer">{{ s.name }}</a></li>
+            }
+          </ul>
+          <p>Última verificação: {{ verifiedOn() }}.</p>
+        </section>
+      } @else {
+        <me-empty-state title="Cidade não encontrada" description="Não encontramos essa cidade no catálogo.">
+          <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+          <a matButton="filled" routerLink="/">Voltar ao mapa</a>
+        </me-empty-state>
+      }
+    }
+  }
+</div>

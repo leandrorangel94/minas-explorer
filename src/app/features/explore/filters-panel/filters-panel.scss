@@ -1,0 +1,8 @@
+.me-filters { display: grid; gap: 16px; }
+.me-filters__title { font-family: var(--me-font-body); font-size: .8rem; text-transform: uppercase; letter-spacing: .08em; color: var(--me-muted); margin-bottom: 8px; }
+.me-filters__hint { text-transform: none; letter-spacing: 0; font-weight: 400; }
+.me-filters__region { width: 100%; }
+.me-filters__clear { justify-self: start; }
+
+mat-chip-option { --mdc-chip-label-text-color: var(--me-ink); }
+mat-chip-option me-category-icon { color: var(--cat-color); }

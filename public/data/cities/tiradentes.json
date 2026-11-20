@@ -1,0 +1,26 @@
+{
+  "id": "3168804",
+  "name": "Tiradentes",
+  "slug": "tiradentes",
+  "regionId": "3107",
+  "description": "Cidade histórica do período colonial, conhecida pelo casario e pelas igrejas barrocas; o nome homenageia Tiradentes.",
+  "coordinates": {
+    "latitude": -21.11,
+    "longitude": -44.177778
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q1003423)",
+    "url": "https://www.wikidata.org/wiki/Q1003423#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q1003423)",
+      "url": "https://www.wikidata.org/wiki/Q1003423"
+    },
+    {
+      "name": "IBGE – Localidades (Tiradentes)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3168804"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

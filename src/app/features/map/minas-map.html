@@ -1,0 +1,13 @@
+<div class="me-map">
+  <div #mapEl class="me-map__canvas" role="region" aria-label="Mapa interativo de Minas Gerais"></div>
+  <button
+    matIconButton
+    class="me-map__reset"
+    type="button"
+    aria-label="Voltar ao enquadramento de Minas Gerais"
+    matTooltip="Voltar a Minas Gerais"
+    (click)="resetView()"
+  >
+    <svg lucideLocateFixed [size]="20" aria-hidden="true"></svg>
+  </button>
+</div>

@@ -1,0 +1,26 @@
+{
+  "id": "3121605",
+  "name": "Diamantina",
+  "slug": "diamantina",
+  "regionId": "3103",
+  "description": "Cidade histórica ligada ao ciclo do diamante, com centro histórico inscrito como Patrimônio Mundial pela UNESCO em 1999.",
+  "coordinates": {
+    "latitude": -18.248889,
+    "longitude": -43.6
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q34028)",
+    "url": "https://www.wikidata.org/wiki/Q34028#P625"
+  },
+  "sources": [
+    {
+      "name": "Wikidata (Q34028)",
+      "url": "https://www.wikidata.org/wiki/Q34028"
+    },
+    {
+      "name": "IBGE – Localidades (Diamantina)",
+      "url": "https://servicodados.ibge.gov.br/api/v1/localidades/municipios/3121605"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}

@@ -1,0 +1,29 @@
+@if (items().length === 0) {
+  <me-empty-state title="Nenhum destino encontrado" description="Tente outro termo de busca ou remova alguns filtros.">
+    <svg icon lucideSearchX [size]="28" aria-hidden="true"></svg>
+    @if (filtersActive()) {
+      <button type="button" class="me-results__clear" (click)="filtersCleared.emit()">Limpar filtros</button>
+    }
+  </me-empty-state>
+} @else {
+  <ul class="me-results" [class.me-results--compact]="compact()">
+    @for (item of items(); track item.attraction.id) {
+      <li [attr.data-id]="item.attraction.id">
+        <me-destination-card
+          [name]="item.attraction.name"
+          [city]="item.city.name"
+          [category]="item.category?.name"
+          [categoryIcon]="item.category?.icon"
+          [categoryColor]="item.category?.color"
+          [imageUrl]="item.attraction.images[0]?.url"
+          [imageAlt]="item.attraction.images[0]?.alt ?? ''"
+          [selected]="item.attraction.id === selectedId()"
+          [compact]="compact()"
+          (activated)="itemSelected.emit(item.attraction.id)"
+        >
+          <a class="me-results__more" [routerLink]="['/cidades', item.city.slug, item.attraction.slug]">Ver detalhes<span class="me-visually-hidden"> de {{ item.attraction.name }}</span></a>
+        </me-destination-card>
+      </li>
+    }
+  </ul>
+}

@@ -1,0 +1,29 @@
+{
+  "id": "3106200-conjunto-arquitetonico-da-pampulha",
+  "name": "Conjunto Arquitetônico da Pampulha",
+  "slug": "conjunto-arquitetonico-da-pampulha",
+  "cityId": "3106200",
+  "categoryId": "historic-heritage",
+  "description": "Conjunto de edificações modernistas à margem da Lagoa da Pampulha, em Belo Horizonte; Patrimônio Mundial da UNESCO desde 2016.",
+  "coordinates": {
+    "latitude": -19.851944,
+    "longitude": -43.973611
+  },
+  "coordinatesSource": {
+    "name": "Wikidata, propriedade P625 (Q9850285)",
+    "url": "https://www.wikidata.org/wiki/Q9850285#P625"
+  },
+  "images": [],
+  "tags": [
+    "arquitetura",
+    "modernismo"
+  ],
+  "featured": true,
+  "sources": [
+    {
+      "name": "Wikidata (Q9850285)",
+      "url": "https://www.wikidata.org/wiki/Q9850285"
+    }
+  ],
+  "lastVerifiedAt": "2026-11-20"
+}
