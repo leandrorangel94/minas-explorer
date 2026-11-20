@@ -2118,6 +2118,399 @@
           "retrievedAt": "2026-11-20"
         }
       }
+    },
+    "3162500-estacao-de-sao-joao-del-rei": {
+      "about": {
+        "description": "O Centro Histórico de São João del-Rei é o núcleo urbano mais antigo e historicamente preservado do município de São João del-Rei, em Minas Gerais, constituindo um dos principais conjuntos arquitetônicos e urbanísticos do período colonial brasileiro. Formado a partir da ocupação setecentista da antiga vila mineradora, o centro histórico reúne igrejas, capelas, pontes, chafarizes, sobrados, casas térreas, edifícios públicos e traçados viários associados ao processo de formação urbana do sul de Minas Gerais.",
+        "curiosities": [
+          "O conjunto arquitetônico e urbanístico da cidade foi tombado em nível federal pelo então Serviço do Patrimônio Histórico e Artístico Nacional (SPHAN), em 1938, tendo sua delimitação territorial definida em 1947.",
+          "O sítio histórico constitui um dos mais relevantes acervos patrimoniais urbanos do estado de Minas Gerais."
+        ],
+        "source": {
+          "name": "Wikipédia: Centro Histórico de São João del-Rei",
+          "url": "https://pt.wikipedia.org/wiki/Centro_Hist%C3%B3rico_de_S%C3%A3o_Jo%C3%A3o_del-Rei",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Estação do Trem",
+            "type": "Hotel",
+            "distanceMeters": 125,
+            "osmUrl": "https://www.openstreetmap.org/way/963289928"
+          },
+          {
+            "name": "Solara Hotel",
+            "type": "Hotel",
+            "distanceMeters": 471,
+            "osmUrl": "https://www.openstreetmap.org/node/3213890566"
+          },
+          {
+            "name": "Vereda park hotel",
+            "type": "Hotel",
+            "distanceMeters": 636,
+            "osmUrl": "https://www.openstreetmap.org/node/4675437924"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3118908-gruta-de-maquine": {
+      "about": {
+        "description": "Cordisburgo é um município brasileiro localizado no estado de Minas Gerais.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Cordisburgo",
+          "url": "https://pt.wikipedia.org/wiki/Cordisburgo",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Gruta da Guiné - Estac Apoio",
+            "type": "Camping",
+            "distanceMeters": 7,
+            "osmUrl": "https://www.openstreetmap.org/node/7868515185"
+          },
+          {
+            "name": "Hotel Fazenda Arraial do Conto",
+            "type": "Hotel",
+            "distanceMeters": 7947,
+            "osmUrl": "https://www.openstreetmap.org/way/396098257"
+          },
+          {
+            "name": "Pousada",
+            "type": "Motel",
+            "distanceMeters": 14709,
+            "osmUrl": "https://www.openstreetmap.org/way/233808991"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3167202-gruta-rei-do-mato": {
+      "about": {
+        "description": "A Gruta Rei do Mato é uma caverna que fica a 62 quilômetros de Belo Horizonte, pela BR-040, junto ao trevo de acesso a Sete Lagoas. O monumento tem 998 metros de extensão, dos quais 220 metros estão abertos à visitação pública.",
+        "curiosities": [
+          "O desnível chega aos 31 metros, e possui quatro salões cujas pinturas rupestres, datam de seis mil anos e mostram predominância de figuras monocrômicas e de temática zoomórfica.",
+          "Suas formações de estalagmite e estalactite, que são cilíndricas com o diâmetro de aproximadamente 20 cm e 12 pés (3.65 m) de altura, segundo os geólogos, são raras no mundo.",
+          "Além disso, há a estalagmite bebê, que é muito importante para a diversificação dos espeleotemas."
+        ],
+        "source": {
+          "name": "Wikipédia: Gruta Rei do Mato",
+          "url": "https://pt.wikipedia.org/wiki/Gruta_Rei_do_Mato",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Motel Omni",
+            "type": "Motel",
+            "distanceMeters": 2118,
+            "osmUrl": "https://www.openstreetmap.org/node/2866349538"
+          },
+          {
+            "name": "Hotel e Spa Veredas",
+            "type": "Hotel",
+            "distanceMeters": 2867,
+            "osmUrl": "https://www.openstreetmap.org/way/282569655"
+          },
+          {
+            "name": "Tulip Inn Sete Lagoas",
+            "type": "Hotel",
+            "distanceMeters": 2964,
+            "osmUrl": "https://www.openstreetmap.org/way/399239136"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-igreja-de-nossa-senhora-do-carmo": {
+      "about": {
+        "description": "Ouro Preto é um município brasileiro do estado de Minas Gerais, Região Sudeste do país. Localiza-se a cerca de 100 km a sudeste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 1 250 km², sendo que 23 km² estão em área urbana, e sua população foi estimada em 77 914 habitantes em 2025.",
+          "Situa-se na latitude 20º23'08\" sul, longitude 43º30'29\" oeste e altitude média de 1 179 metros.",
+          "No município há treze distritos: Amarantina, Antônio Pereira, Cachoeira do Campo, Engenheiro Correia, Glaura, Lavras Novas, Miguel Burnier, Santa Rita de Ouro Preto, Santo Antônio do Leite, Santo Antônio do Salto, São Bartolomeu e Rodrigo Silva, além da sede."
+        ],
+        "source": {
+          "name": "Wikipédia: Ouro Preto",
+          "url": "https://pt.wikipedia.org/wiki/Ouro_Preto",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Rock in Hostel",
+            "type": "Hostel",
+            "distanceMeters": 58,
+            "website": "www.rockinhostelouropreto.com.br",
+            "phone": "+553135513165",
+            "osmUrl": "https://www.openstreetmap.org/node/4156348444"
+          },
+          {
+            "name": "Pousada Tiradentes",
+            "type": "Hotel",
+            "distanceMeters": 63,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290429"
+          },
+          {
+            "name": "Teatro Hotel Boutique",
+            "type": "Hotel",
+            "distanceMeters": 72,
+            "website": "https://www.teatrohotelboutique.com.br/",
+            "phone": "+55 31 997744674",
+            "osmUrl": "https://www.openstreetmap.org/node/9750211105"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3156700-igreja-de-nossa-senhora-do-o": {
+      "about": {
+        "description": "É particularmente notória por ter recebido a contribuição do mestre Aleijadinho em vários elementos de sua decoração, e a Irmandade que a governa ainda preserva tradições seculares.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de Nossa Senhora do Carmo (Sabará)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_do_Carmo_(Sabar%C3%A1)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Beira Rio",
+            "type": "Hotel",
+            "distanceMeters": 11323,
+            "osmUrl": "https://www.openstreetmap.org/node/2148101829"
+          },
+          {
+            "name": "Chalé Mineiro Hostel",
+            "type": "Hostel",
+            "distanceMeters": 13088,
+            "website": "http://www.chalemineirohostel.com.br/",
+            "phone": "+55 31 34671576",
+            "osmUrl": "https://www.openstreetmap.org/node/1651200805"
+          },
+          {
+            "name": "Alcoboca",
+            "type": "Hotel",
+            "distanceMeters": 13180,
+            "osmUrl": "https://www.openstreetmap.org/node/5902467892"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3170107-igreja-de-santa-rita": {
+      "about": {
+        "description": "Uberaba é um município brasileiro no interior do estado de Minas Gerais, localizado no Triângulo Mineiro a 481 km a oeste da capital estadual. Possui uma área de 4 523,957 km², e sua população, segundo a estimativa do Instituto Brasileiro de Geografia e Estatística para o ano de 2026, reúne 359 275 habitantes, sendo o sétimo município mais populoso do estado.",
+        "curiosities": [
+          "A demografia de Uberaba, segundo o censo demográfico do Brasil de 2022, revela uma densidade populacional de 74,68 habitantes por quilômetro quadrado.",
+          "A maioria da população reside na periferia, com uma média de 2,66 moradores por residência.",
+          "A faixa etária predominante está entre 40 e 44 anos, e a cidade apresenta uma distribuição de gênero com 175.301 mulheres e 162.535 homens."
+        ],
+        "source": {
+          "name": "Wikipédia: Uberaba",
+          "url": "https://pt.wikipedia.org/wiki/Uberaba",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Metrópole",
+            "type": "Hotel",
+            "distanceMeters": 185,
+            "osmUrl": "https://www.openstreetmap.org/node/5212436032"
+          },
+          {
+            "name": "Hotel Tamareiras",
+            "type": "Hotel",
+            "distanceMeters": 738,
+            "osmUrl": "https://www.openstreetmap.org/node/2629963332"
+          },
+          {
+            "name": "Havana Palace Hotel II",
+            "type": "Hotel",
+            "distanceMeters": 1598,
+            "osmUrl": "https://www.openstreetmap.org/node/14040191157"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140001-igreja-de-sao-francisco-de-assis-mariana": {
+      "about": {
+        "description": "A Igreja de São Francisco de Assis, é uma igreja localizada em Mariana, no estilo rococó, que constitui uma etapa posterior, na evolução do barroco mineiro.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de São Francisco de Assis (Mariana)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Mariana)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Providência",
+            "type": "Hotel",
+            "distanceMeters": 271,
+            "osmUrl": "https://www.openstreetmap.org/node/4712293591"
+          },
+          {
+            "name": "Hotel Müller",
+            "type": "Hotel",
+            "distanceMeters": 300,
+            "osmUrl": "https://www.openstreetmap.org/node/650842002"
+          },
+          {
+            "name": "Hotel Brasil Real",
+            "type": "Hotel",
+            "distanceMeters": 1106,
+            "website": "https://hotelbrasilreal.com.br/",
+            "osmUrl": "https://www.openstreetmap.org/node/12768199702"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3167103-igreja-do-senhor-bom-jesus-de-matosinhos": {
+      "about": {
+        "description": "Serro é um município brasileiro da região geográfica imediata de Diamantina, no estado de Minas Gerais. Sua população foi estimada em 22 550 habitantes em 2024.",
+        "curiosities": [
+          "Situado no centro-nordeste de Minas Gerais, na região central da Serra do Espinhaço, Serro fica a 325 quilômetros de Belo Horizonte.",
+          "Faz parte do Caminho dos Diamantes e da Estrada Real, uma herança das minas que atraíram os bandeirantes paulistas e nordestinos no século XVIII.",
+          "Município rodeado por serras, morros, rios e cachoeiras, o Serro se apresenta como destino para os apreciadores do turismo histórico e ecológico."
+        ],
+        "source": {
+          "name": "Wikipédia: Serro",
+          "url": "https://pt.wikipedia.org/wiki/Serro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada do Queijo",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 410,
+            "phone": "+55 38 3541 1239",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495937"
+          },
+          {
+            "name": "Pousada Serrana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 623,
+            "phone": "+55 38 3541 1949",
+            "osmUrl": "https://www.openstreetmap.org/node/10054495928"
+          },
+          {
+            "name": "Pousada Mariana",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 992,
+            "phone": "+55 38 3541 1569",
+            "osmUrl": "https://www.openstreetmap.org/node/10035103612"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3147006-igreja-matriz-de-paracatu": {
+      "about": {
+        "description": "Paracatu é um município brasileiro do estado de Minas Gerais, localizado na Mesorregião Noroeste do estado. Paracatu é o principal município da sua microrregião, sendo um polo atrativo educacional e de trabalho devido à presença de várias instituições de ensino e de empresas.",
+        "curiosities": [
+          "O município da sinais de desenvolvimento e consumo, com muitos comerciantes e produtores de materiais voltados para agricultura e pecuária (selas, botinas e calçados de couro).",
+          "Fabricações de doces de leite e de frutas, queijos, quitandas, pão de queijo.",
+          "Algumas fábricas de cachaça também estão presentes no município."
+        ],
+        "source": {
+          "name": "Wikipédia: Paracatu",
+          "url": "https://pt.wikipedia.org/wiki/Paracatu",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Presidente",
+            "type": "Hotel",
+            "distanceMeters": 690,
+            "osmUrl": "https://www.openstreetmap.org/node/4359226246"
+          },
+          {
+            "name": "Hotel Albernaz",
+            "type": "Hotel",
+            "distanceMeters": 710,
+            "osmUrl": "https://www.openstreetmap.org/node/7174110812"
+          },
+          {
+            "name": "Paracatu Plaza Hotel",
+            "type": "Hotel",
+            "distanceMeters": 868,
+            "osmUrl": "https://www.openstreetmap.org/node/3269745874"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
     }
   }
 }

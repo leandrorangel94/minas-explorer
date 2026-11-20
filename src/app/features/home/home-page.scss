@@ -1,4 +1,3 @@
-// ---- Hero compacto: o mapa é o protagonista, então o hero ocupa pouco espaço vertical ----
 .me-hero {
   background: linear-gradient(160deg, var(--me-sage-light), var(--me-sand));
   padding-block: clamp(20px, 2.4vw, 40px);
@@ -65,4 +64,32 @@
   }
   .me-explorer__map { grid-area: map; }
   .me-explorer__panel.is-hidden-mobile, .me-explorer__map.is-hidden-mobile { display: block; }
+}
+
+// ---- Desktop: a home cabe na janela, sem rolagem da página (lista e filtros rolam por dentro, se preciso) ----
+@media (min-width: 1024px) and (min-height: 640px) {
+  :host {
+    display: flex; flex-direction: column;
+    height: calc(100dvh - var(--me-header-height) - 1px - var(--me-footer-height));
+    overflow: hidden;
+  }
+  .me-hero { padding-block: var(--me-space-2); flex: none; }
+  .me-hero__grid { grid-template-columns: minmax(0, 1fr) auto; gap: var(--me-space-4); }
+  .me-hero__copy { gap: 0; max-width: none; }
+  .me-hero__eyebrow, .me-hero__lead { display: none; }
+  .me-hero h1 { font-size: clamp(1.25rem, .6vw + 1rem, 1.75rem); }
+  .me-hero__stats { grid-template-columns: repeat(3, auto); width: auto; gap: var(--me-space-2); }
+  .me-stat { display: flex; flex-direction: row; align-items: baseline; gap: var(--me-space-2); padding: 4px var(--me-space-3); box-shadow: none; }
+  .me-stat dd { order: 0; font-size: 1.25rem; }
+
+  .me-section { flex: 1 1 0; min-height: 0; display: flex; flex-direction: column; padding-block: var(--me-space-2); }
+  .me-toolbar { flex: none; margin-bottom: var(--me-space-1); }
+  .me-toolbar__title { font-size: 1.05rem; }
+  .me-explorer {
+    flex: 1 1 0; min-height: 0; --me-explorer-height: 100%;
+    grid-template-rows: auto minmax(0, 1fr); align-items: stretch; gap: var(--me-space-2) var(--me-space-3);
+  }
+  .me-explorer__panel { max-height: none; min-height: 0; height: 100%; }
+  .me-explorer__map { min-height: 0; height: 100%; }
+  me-minas-map { display: block; height: 100%; }
 }

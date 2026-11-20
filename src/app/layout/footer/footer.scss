@@ -9,3 +9,11 @@
 .me-footer__inner { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--me-space-2) var(--me-space-6); }
 .me-footer__slogan { font-family: var(--me-font-display); font-size: 1.1rem; color: var(--me-on-footer); }
 .me-footer__note { font-size: 0.875rem; max-width: 64ch; }
+
+// Desktop: rodapé de uma linha (a home ocupa exatamente a janela, sem rolagem)
+@media (min-width: 1024px) and (min-height: 640px) {
+  .me-footer { margin-top: 0; padding-block: 0; height: var(--me-footer-height); display: flex; align-items: center; }
+  .me-footer__inner { flex-wrap: nowrap; width: 100%; gap: var(--me-space-4); }
+  .me-footer__slogan { font-size: .95rem; white-space: nowrap; }
+  .me-footer__note { font-size: .75rem; max-width: none; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}
