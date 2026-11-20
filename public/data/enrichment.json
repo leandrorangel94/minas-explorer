@@ -2966,6 +2966,188 @@
           "retrievedAt": "2026-11-20"
         }
       }
+    },
+    "3106200-museu-de-arte-da-pampulha": {
+      "about": {
+        "description": "O Museu de Arte da Pampulha, antigo Cassino da Pampulha, é uma edificação integrante do Conjunto Arquitetônico da Pampulha, em Belo Horizonte. O edifício foi projetado pelo arquiteto Oscar Niemeyer por encomenda do então prefeito da cidade, Juscelino Kubitschek, e é, junto com o restante do conjunto, reconhecido pela Unesco como Património Mundial desde 2016.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Museu de Arte da Pampulha",
+          "url": "https://pt.wikipedia.org/wiki/Museu_de_Arte_da_Pampulha",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "San Diego Concept Pampulha",
+            "type": "Hotel",
+            "distanceMeters": 560,
+            "phone": "+55 31 36146500",
+            "osmUrl": "https://www.openstreetmap.org/way/501473259"
+          },
+          {
+            "name": "Woods Hostel",
+            "type": "Hostel",
+            "distanceMeters": 608,
+            "osmUrl": "https://www.openstreetmap.org/way/1391665907"
+          },
+          {
+            "name": "Da Orla Pampulha Hostel",
+            "type": "Hostel",
+            "distanceMeters": 803,
+            "osmUrl": "https://www.openstreetmap.org/node/4922764762"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3140001-museu-de-arte-sacra-de-mariana": {
+      "about": {
+        "description": "Mariana é um município brasileiro do estado de Minas Gerais, Região Sudeste do país. Localiza-se a cerca de 120 km a sudeste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 1 190 km², sendo que 12 km² estão em área urbana, e sua população foi estimada em 64 506 habitantes em 2025.",
+          "No entanto, possui uma população flutuante, girando em torno, provavelmente, de 30 mil habitantes.",
+          "A economia local depende principalmente do turismo e da extração de minérios."
+        ],
+        "source": {
+          "name": "Wikipédia: Mariana",
+          "url": "https://pt.wikipedia.org/wiki/Mariana",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "website": "https://museudemariana.org.br/",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/12769346933",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Providência",
+            "type": "Hotel",
+            "distanceMeters": 315,
+            "osmUrl": "https://www.openstreetmap.org/node/4712293591"
+          },
+          {
+            "name": "Hotel Müller",
+            "type": "Hotel",
+            "distanceMeters": 317,
+            "osmUrl": "https://www.openstreetmap.org/node/650842002"
+          },
+          {
+            "name": "Hotel Aguas Claras",
+            "type": "Hotel",
+            "distanceMeters": 1140,
+            "osmUrl": "https://www.openstreetmap.org/node/4423745893"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3106200-museu-de-artes-e-oficios": {
+      "about": {
+        "description": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado.",
+        "curiosities": [
+          "Com uma área de aproximadamente 331 km², possui uma geografia diversificada, com morros e baixadas.",
+          "Dista cerca de 716 km de Brasília, é a segunda capital estadual mais próxima da capital federal, depois de Goiânia.",
+          "Sofreu um inesperado crescimento populacional acelerado, chegando a mais de um milhão de habitantes com quase setenta anos de fundação."
+        ],
+        "source": {
+          "name": "Wikipédia: Belo Horizonte",
+          "url": "https://pt.wikipedia.org/wiki/Belo_Horizonte",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sul América Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 241,
+            "osmUrl": "https://www.openstreetmap.org/node/13353238411"
+          },
+          {
+            "name": "Rio Jordao",
+            "type": "Hotel",
+            "distanceMeters": 448,
+            "osmUrl": "https://www.openstreetmap.org/node/640118631"
+          },
+          {
+            "name": "Hotel Financial",
+            "type": "Hotel",
+            "distanceMeters": 574,
+            "osmUrl": "https://www.openstreetmap.org/node/3435733890"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3160702-museu-de-cabangu": {
+      "about": {
+        "description": "Santos Dumont é um município da Mesorregião da Zona da Mata, e microrregião de Juiz de Fora, no estado de Minas Gerais, no Brasil. Distante, aproximadamente 207 km de Belo Horizonte, a capital do estado; e 900 km de Brasília, capital brasileira.",
+        "curiosities": [
+          "O município faz parte do trajeto da BR‑040, entre as cidades de Barbacena e Juiz de Fora.",
+          "É conhecido como \"Terra do Pai da Aviação\".",
+          "É uma cidade rica em manifestações culturais e em pontos turísticos, principalmente em belezas naturais, fazendo parte do Circuito Turístico Caminho Novo e também integra o renomado circuito da Estrada Real."
+        ],
+        "source": {
+          "name": "Wikipédia: Santos Dumont (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Santos_Dumont_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Fazenda Alvorada",
+            "type": "Hotel",
+            "distanceMeters": 12135,
+            "osmUrl": "https://www.openstreetmap.org/way/1575776016"
+          },
+          {
+            "name": "Hotel São Luiz",
+            "type": "Motel",
+            "distanceMeters": 12733,
+            "osmUrl": "https://www.openstreetmap.org/node/5351620110"
+          },
+          {
+            "name": "Pousada Villa Dumont",
+            "type": "Hotel",
+            "distanceMeters": 13240,
+            "osmUrl": "https://www.openstreetmap.org/node/5343985759"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
     }
   }
 }
