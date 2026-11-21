@@ -43,6 +43,48 @@
         }
       }
     },
+    "3104908": {
+      "about": {
+        "description": "Baependi é um município brasileiro no sul do estado de Minas Gerais. De acordo com o censo demográfico de 2022, sua população é de 18 366 habitantes.",
+        "curiosities": [
+          "Um dos municípios mais antigos do sul mineiro, se destaca pelo turismo natural, devido às suas várias cachoeiras, e religioso, por nele ter vivido desde pequena a beata Nhá Chica."
+        ],
+        "source": {
+          "name": "Wikipédia: Baependi",
+          "url": "https://pt.wikipedia.org/wiki/Baependi",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Caxambu",
+            "type": "Hotel",
+            "distanceMeters": 5034,
+            "osmUrl": "https://www.openstreetmap.org/node/12193011694"
+          },
+          {
+            "name": "Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 5070,
+            "osmUrl": "https://www.openstreetmap.org/node/4828780074"
+          },
+          {
+            "name": "Hotel Gloria Caxambu",
+            "type": "Hotel",
+            "distanceMeters": 5265,
+            "osmUrl": "https://www.openstreetmap.org/node/2505445099"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3106200": {
       "about": {
         "description": "Belo Horizonte é a capital do estado brasileiro de Minas Gerais. Sua população é de 2 315 560 habitantes, segundo o censo de 2022, sendo o sexto município mais populoso do país, o terceiro da Região Sudeste e o primeiro de seu estado.",
@@ -77,6 +119,51 @@
             "type": "Hotel",
             "distanceMeters": 190,
             "osmUrl": "https://www.openstreetmap.org/way/1328225612"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3107208": {
+      "about": {
+        "description": "Bocaina de Minas é um município brasileiro do estado de Minas Gerais, na microrregião de Andrelândia. De acordo com o censo realizado pelo Instituto Brasileiro de Geografia e Estatística em 2022, sua população naquele ano era de 5 348 habitantes.",
+        "curiosities": [
+          "A área é de 502,7 km², a altitude de 1.210 metros, e a densidade demográfica de 10,62 hab/km²."
+        ],
+        "source": {
+          "name": "Wikipédia: Bocaina de Minas",
+          "url": "https://pt.wikipedia.org/wiki/Bocaina_de_Minas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sítio Pau Brasil",
+            "type": "Chalé",
+            "distanceMeters": 9831,
+            "osmUrl": "https://www.openstreetmap.org/node/4919263821"
+          },
+          {
+            "name": "Pousada Fazenda Caminho dos Ipês",
+            "type": "Hotel",
+            "distanceMeters": 10147,
+            "website": "https://www.pousadacaminhodosipes.com/",
+            "phone": "+5521999826305",
+            "osmUrl": "https://www.openstreetmap.org/node/6652179623"
+          },
+          {
+            "name": "Pousada Pedra Selada",
+            "type": "Chalé",
+            "distanceMeters": 10423,
+            "website": "http://www.pedraselada.com.br/",
+            "osmUrl": "https://www.openstreetmap.org/node/1069548880"
           }
         ],
         "source": {
@@ -349,6 +436,40 @@
         }
       }
     },
+    "3118106": {
+      "about": {
+        "description": "Congonhas do Norte é um município brasileiro do estado de Minas Gerais. Sua população recenseada em 2022 era de 4 831 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Congonhas do Norte",
+          "url": "https://pt.wikipedia.org/wiki/Congonhas_do_Norte",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada do Valtinho",
+            "type": "Hotel",
+            "distanceMeters": 20513,
+            "osmUrl": "https://www.openstreetmap.org/node/4680309659"
+          },
+          {
+            "name": "Solar Laurindo Cruz e Geralda Alves",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 20817,
+            "osmUrl": "https://www.openstreetmap.org/node/10050644876"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3118908": {
       "about": {
         "description": "Cordisburgo é um município brasileiro localizado no estado de Minas Gerais.",
@@ -379,6 +500,49 @@
             "type": "Motel",
             "distanceMeters": 16917,
             "osmUrl": "https://www.openstreetmap.org/way/233808991"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121209": {
+      "about": {
+        "description": "Delfinópolis é um município brasileiro localizado na Região Imediata de Passos, Região Geográfica Intermediária de Varginha, Sudoeste do estado de Minas Gerais. Reconhecida contemporaneamente como um pólo de ecoturismo e produção agropecuária, a cidade funciona como o portal sul de entrada para o Parque Nacional da Serra da Canastra.",
+        "curiosities": [
+          "Distante 401 quilômetros de Belo Horizonte, estendendo-se por uma área total de 1.171 km² elevada a 689 metros de altitude na sede municipal.",
+          "Sua população recenseada em 2022 era de 8 393 habitantes."
+        ],
+        "source": {
+          "name": "Wikipédia: Delfinópolis",
+          "url": "https://pt.wikipedia.org/wiki/Delfin%C3%B3polis",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Trilhas de Minas",
+            "type": "Camping",
+            "distanceMeters": 524,
+            "osmUrl": "https://www.openstreetmap.org/node/4913858821"
+          },
+          {
+            "name": "Pousada Zelito",
+            "type": "Chalé",
+            "distanceMeters": 3014,
+            "osmUrl": "https://www.openstreetmap.org/node/3613910425"
+          },
+          {
+            "name": "Pusada Mirante do Cerrado",
+            "type": "Hotel",
+            "distanceMeters": 3181,
+            "osmUrl": "https://www.openstreetmap.org/way/761104145"
           }
         ],
         "source": {
@@ -482,6 +646,48 @@
         }
       }
     },
+    "3125101": {
+      "about": {
+        "description": "Extrema é um município brasileiro localizado no extremo sul do estado de Minas Gerais. Situada estrategicamente na divisa com o estado de São Paulo, a cidade encontra-se a aproximadamente 492 km da capital mineira, Belo Horizonte, e a cerca de 100 km da cidade de São Paulo.",
+        "curiosities": [
+          "A localização confere ao município características singulares em termos demográficos e de desenvolvimento industrial no contexto da região Sudeste."
+        ],
+        "source": {
+          "name": "Wikipédia: Extrema",
+          "url": "https://pt.wikipedia.org/wiki/Extrema",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel San Marco",
+            "type": "Hotel",
+            "distanceMeters": 64,
+            "osmUrl": "https://www.openstreetmap.org/way/599986162"
+          },
+          {
+            "name": "Hotel Fazenda Amoreiras",
+            "type": "Hotel",
+            "distanceMeters": 2052,
+            "osmUrl": "https://www.openstreetmap.org/node/4812121431"
+          },
+          {
+            "name": "Hotel Pousada Muxarabi",
+            "type": "Hotel",
+            "distanceMeters": 2528,
+            "osmUrl": "https://www.openstreetmap.org/node/4812116228"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3125507": {
       "about": {
         "description": "São Gonçalo do Rio Preto é um município brasileiro do estado de Minas Gerais. Sua população em 2022 era de 3 032 habitantes.",
@@ -502,6 +708,50 @@
             "website": "https://www.pousadaraizparque.com/",
             "phone": "+55 31 98470 3785",
             "osmUrl": "https://www.openstreetmap.org/node/11008690563"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3125952": {
+      "about": {
+        "description": "Fervedouro é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na Zona da Mata Mineira, estando situado a cerca de 330 km a sudeste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 360 km², sendo que 1 km² está em área urbana, e sua população foi estimada em 10 705 habitantes em 2025.",
+          "Em 1953, Fervedouro atingiu a condição de distrito de Carangola, tornando-se emancipado após plebiscito em 15 de novembro de 1991 que atingiu 2.715 votos a favor do mesmo.",
+          "Após sua elevação, Bom Jesus do Madeira e São Pedro do Glória tornaram-se distritos do município."
+        ],
+        "source": {
+          "name": "Wikipédia: Fervedouro",
+          "url": "https://pt.wikipedia.org/wiki/Fervedouro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Cachoeira do Gloria",
+            "type": "Hotel",
+            "distanceMeters": 5663,
+            "osmUrl": "https://www.openstreetmap.org/node/3497472342"
+          },
+          {
+            "name": "Pousada",
+            "type": "Hotel",
+            "distanceMeters": 15111,
+            "osmUrl": "https://www.openstreetmap.org/node/3499441722"
+          },
+          {
+            "name": "Pousada Vale das Luas",
+            "type": "Hotel",
+            "distanceMeters": 19271,
+            "osmUrl": "https://www.openstreetmap.org/node/4364735522"
           }
         ],
         "source": {
@@ -689,6 +939,47 @@
         }
       }
     },
+    "3132404": {
+      "about": {
+        "description": "Itajubá é um município brasileiro no sul do estado de Minas Gerais, Região Sudeste do país. Sua população em julho de 2025, segundo a estimativa do Instituto Brasileiro de Geografia e Estatística (IBGE), era de 96 855 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Itajubá",
+          "url": "https://pt.wikipedia.org/wiki/Itajub%C3%A1",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Embaixador",
+            "type": "Hotel",
+            "distanceMeters": 288,
+            "osmUrl": "https://www.openstreetmap.org/node/4644404678"
+          },
+          {
+            "name": "Hotel Oriente",
+            "type": "Hotel",
+            "distanceMeters": 711,
+            "phone": "+55 35 3623 4112",
+            "osmUrl": "https://www.openstreetmap.org/node/4347247793"
+          },
+          {
+            "name": "Hotel Coroados",
+            "type": "Hotel",
+            "distanceMeters": 755,
+            "osmUrl": "https://www.openstreetmap.org/way/473321546"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3135209": {
       "about": {
         "description": "Januária é um município brasileiro do estado de Minas Gerais situado na região do Médio São Francisco, localizada ao lado esquerdo do rio do mesmo nome. De acordo com o censo realizado em 2022 sua população era de 65 150 habitantes.",
@@ -741,6 +1032,51 @@
             "distanceMeters": 1131,
             "phone": "+55 32 3229 9800",
             "osmUrl": "https://www.openstreetmap.org/way/343536361"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3137601": {
+      "about": {
+        "description": "Lagoa Santa é um município brasileiro do estado de Minas Gerais, localizado na Região Metropolitana de Belo Horizonte. Situa-se a cerca de 35 km da capital estadual, a uma altitude média de 800 metros.",
+        "curiosities": [
+          "Possui área de 231,9 km² e população de 75 145 habitantes, segundo o censo de 2022.",
+          "O município localiza-se em uma região de relevo cárstico e abriga importante patrimônio natural, espeleológico, paleontológico, arqueológico, histórico e cultural.",
+          "Desde o século XIX, a área é objeto de pesquisas científicas, iniciadas pelo naturalista dinamarquês Peter Wilhelm Lund, que encontrou restos esqueletais humanos e fósseis da fauna pleistocênica."
+        ],
+        "source": {
+          "name": "Wikipédia: Lagoa Santa (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Lagoa_Santa_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Ramada Airport Lagoa Santa",
+            "type": "Hotel",
+            "distanceMeters": 1029,
+            "website": "http://www.ramada.com/hotels/brazil/lagoa-santa/ramada-lagoa-santa-international-airport/hotel-overview",
+            "osmUrl": "https://www.openstreetmap.org/way/239004017"
+          },
+          {
+            "name": "Hotel Hora",
+            "type": "Hotel",
+            "distanceMeters": 1181,
+            "osmUrl": "https://www.openstreetmap.org/node/2621384991"
+          },
+          {
+            "name": "Bristol Lagoa Santa Hotel",
+            "type": "Hotel",
+            "distanceMeters": 1219,
+            "osmUrl": "https://www.openstreetmap.org/way/296492574"
           }
         ],
         "source": {
@@ -883,6 +1219,46 @@
         }
       }
     },
+    "3143500": {
+      "about": {
+        "description": "Morada Nova de Minas é um município brasileiro do estado de Minas Gerais, localizado na Mesorregião Central Mineira.. De acordo com o censo realizado em 2022 sua população era de 9 067 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Morada Nova de Minas",
+          "url": "https://pt.wikipedia.org/wiki/Morada_Nova_de_Minas",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Marajá",
+            "type": "Hotel",
+            "distanceMeters": 268,
+            "osmUrl": "https://www.openstreetmap.org/way/598137793"
+          },
+          {
+            "name": "Pousada Recanto Dos Buganvílias",
+            "type": "Hotel",
+            "distanceMeters": 1442,
+            "osmUrl": "https://www.openstreetmap.org/way/596673812"
+          },
+          {
+            "name": "sitio",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 22766,
+            "osmUrl": "https://www.openstreetmap.org/node/10591687705"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3146107": {
       "about": {
         "description": "Grande Hotel de Ouro Preto é um hotel localizado em Ouro Preto, Minas Gerais. Construído em 1940, é uma das primeiras obras do arquiteto Oscar Niemeyer (1907-2012).",
@@ -972,6 +1348,88 @@
         }
       }
     },
+    "3147600": {
+      "about": {
+        "description": "Passa Quatro é um município brasileiro do estado de Minas Gerais, localizado no sul do estado. Localizada nas proximidades da Serra da Mantiqueira, é uma estância hidromineral e região turística.",
+        "curiosities": [
+          "Com área é de 277,221 km², possui uma população, conforme estimativas do IBGE de 2025, de 15 847 habitantes."
+        ],
+        "source": {
+          "name": "Wikipédia: Passa Quatro",
+          "url": "https://pt.wikipedia.org/wiki/Passa_Quatro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "São Raphael",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 333,
+            "osmUrl": "https://www.openstreetmap.org/node/6340228386"
+          },
+          {
+            "name": "Recanto da Mantiqueira",
+            "type": "Hotel",
+            "distanceMeters": 438,
+            "osmUrl": "https://www.openstreetmap.org/node/13791861767"
+          },
+          {
+            "name": "Recanto das Hortências",
+            "type": "Hotel",
+            "distanceMeters": 479,
+            "osmUrl": "https://www.openstreetmap.org/node/5569889874"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3151404": {
+      "about": {
+        "description": "Pitangui é um município da Mesorregião Metropolitana de Belo Horizonte, no estado de Minas Gerais, no Brasil. Sua população, conforme recenseamento realizado em 2022, era de 26 685 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Pitangui",
+          "url": "https://pt.wikipedia.org/wiki/Pitangui",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Santa Felicidade",
+            "type": "Hotel",
+            "distanceMeters": 1890,
+            "osmUrl": "https://www.openstreetmap.org/way/320702717"
+          },
+          {
+            "name": "Divina Gula",
+            "type": "Hotel",
+            "distanceMeters": 14484,
+            "osmUrl": "https://www.openstreetmap.org/node/6426697654"
+          },
+          {
+            "name": "Líber Hotel",
+            "type": "Hotel",
+            "distanceMeters": 23270,
+            "osmUrl": "https://www.openstreetmap.org/way/220771836"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3151800": {
       "about": {
         "description": "Poços de Caldas é um município brasileiro do estado de Minas Gerais, na Região Sudeste do país. Está localizado na Região Imediata de Poços de Caldas e na Região Geográfica Intermediária de Pouso Alegre.",
@@ -1004,6 +1462,47 @@
             "type": "Hotel",
             "distanceMeters": 532,
             "osmUrl": "https://www.openstreetmap.org/way/1025373783"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3154804": {
+      "about": {
+        "description": "Rio Acima é um município brasileiro do estado de Minas Gerais. Sua população recenseada em 2022 era de 10 261 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Rio Acima",
+          "url": "https://pt.wikipedia.org/wiki/Rio_Acima",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Camping",
+            "type": "Camping",
+            "distanceMeters": 3678,
+            "osmUrl": "https://www.openstreetmap.org/node/11537895873"
+          },
+          {
+            "name": "Entrada Cachoeira Rio Acima",
+            "type": "Camping",
+            "distanceMeters": 4052,
+            "osmUrl": "https://www.openstreetmap.org/node/4583282889"
+          },
+          {
+            "name": "Pousada e camping do Eduardo",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 9731,
+            "phone": "+55 31 98509 4632",
+            "osmUrl": "https://www.openstreetmap.org/node/11748945169"
           }
         ],
         "source": {
@@ -1147,6 +1646,49 @@
         }
       }
     },
+    "3162203": {
+      "about": {
+        "description": "São João Batista do Glória é um município brasileiro situado no sul do estado de Minas Gerais, sendo parte da Região Geográfica Imediata de Passos. Sua população recenseada pelo IBGE em 2022 era de 7 652 habitantes distribuídos em uma área total de 547,908km².",
+        "curiosities": [
+          "É conhecido por seus moradores e pela região simplesmente como \"Glória\". ==Referências=="
+        ],
+        "source": {
+          "name": "Wikipédia: São João Batista do Glória",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_Batista_do_Gl%C3%B3ria",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Caminho das Trilhas",
+            "type": "Hotel",
+            "distanceMeters": 7166,
+            "osmUrl": "https://www.openstreetmap.org/node/8458605356"
+          },
+          {
+            "name": "Pousada das Orquídeas",
+            "type": "Hotel",
+            "distanceMeters": 12505,
+            "website": "https://www.serradacanastra.com.br/pousadas/pousadadasorquideas.html",
+            "osmUrl": "https://www.openstreetmap.org/node/2388632694"
+          },
+          {
+            "name": "Camping Cocão",
+            "type": "Camping",
+            "distanceMeters": 13294,
+            "osmUrl": "https://www.openstreetmap.org/node/9711271422"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
     "3162500": {
       "about": {
         "description": "São João del-Rei é um município brasileiro localizado no interior do estado de Minas Gerais, na região Sudeste do Brasil. Mesmo com o declínio da mineração a partir da segunda metade do século XVIII, a cidade manteve vitalidade econômica e urbana, apoiada na diversificação produtiva e na centralidade administrativa regional.",
@@ -1221,6 +1763,36 @@
             "type": "Hotel",
             "distanceMeters": 2167,
             "osmUrl": "https://www.openstreetmap.org/node/9718116615"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3165206": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Flor de Cactus",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 59,
+            "osmUrl": "https://www.openstreetmap.org/way/940592568"
+          },
+          {
+            "name": "Pousada Serra de São Thomé",
+            "type": "Hostel",
+            "distanceMeters": 181,
+            "osmUrl": "https://www.openstreetmap.org/node/10931617594"
+          },
+          {
+            "name": "Pousada Renascer",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 181,
+            "osmUrl": "https://www.openstreetmap.org/node/11146016105"
           }
         ],
         "source": {
@@ -4054,6 +4626,1362 @@
             "type": "Hotel",
             "distanceMeters": 4394,
             "osmUrl": "https://www.openstreetmap.org/way/753327218"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3118106-bicame": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Camping Bromelias",
+            "type": "Camping",
+            "distanceMeters": 11738,
+            "osmUrl": "https://www.openstreetmap.org/node/8952601116"
+          },
+          {
+            "name": "Camping Central",
+            "type": "Camping",
+            "distanceMeters": 11759,
+            "phone": "+55 31 99753 0967",
+            "osmUrl": "https://www.openstreetmap.org/way/1348647411"
+          },
+          {
+            "name": "Ateliê Braccini",
+            "type": "Chalé",
+            "distanceMeters": 11842,
+            "osmUrl": "https://www.openstreetmap.org/node/9364462484"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3162203-cachoeira-da-cascata": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Cascata Eco Parque",
+            "type": "Hostel",
+            "distanceMeters": 330,
+            "phone": "+55 35 99904-0001",
+            "osmUrl": "https://www.openstreetmap.org/way/452299988"
+          },
+          {
+            "name": "Camping Tamanduá",
+            "type": "Camping",
+            "distanceMeters": 763,
+            "osmUrl": "https://www.openstreetmap.org/node/7098389093"
+          },
+          {
+            "name": "Lagoa Azul",
+            "type": "Hotel",
+            "distanceMeters": 2159,
+            "website": "https://www.lagoazul.tur.br/",
+            "phone": "+55 35 3584-0626",
+            "osmUrl": "https://www.openstreetmap.org/way/452299987"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3132404-cachoeira-da-estancia": {
+      "about": {
+        "description": "Itajubá é um município brasileiro no sul do estado de Minas Gerais, Região Sudeste do país. Sua população em julho de 2025, segundo a estimativa do Instituto Brasileiro de Geografia e Estatística (IBGE), era de 96 855 habitantes.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Itajubá",
+          "url": "https://pt.wikipedia.org/wiki/Itajub%C3%A1",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sítio Pedra Aguda",
+            "type": "Camping",
+            "distanceMeters": 3274,
+            "osmUrl": "https://www.openstreetmap.org/node/6993973302"
+          },
+          {
+            "name": "Hotel Embaixador",
+            "type": "Hotel",
+            "distanceMeters": 7003,
+            "osmUrl": "https://www.openstreetmap.org/node/4644404678"
+          },
+          {
+            "name": "Hotel Amantykir",
+            "type": "Hotel",
+            "distanceMeters": 7029,
+            "osmUrl": "https://www.openstreetmap.org/node/5178730342"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3104908-cachoeira-do-itauna": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Haras",
+            "type": "Hotel",
+            "distanceMeters": 11377,
+            "osmUrl": "https://www.openstreetmap.org/node/5064110086"
+          },
+          {
+            "name": "Cachoeira caldeirão",
+            "type": "Camping",
+            "distanceMeters": 13176,
+            "osmUrl": "https://www.openstreetmap.org/node/4988265021"
+          },
+          {
+            "name": "Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 13485,
+            "osmUrl": "https://www.openstreetmap.org/node/4828780074"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3107208-cachoeira-do-paiol": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Camping do PikoSam",
+            "type": "Camping",
+            "distanceMeters": 10130,
+            "website": "https://www.campingdopikosam.com.br/o-camping",
+            "osmUrl": "https://www.openstreetmap.org/node/10537564922"
+          },
+          {
+            "name": "Sítio das Araucarias",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 12090,
+            "osmUrl": "https://www.openstreetmap.org/node/11214452437"
+          },
+          {
+            "name": "Pousada Pedra Selada",
+            "type": "Chalé",
+            "distanceMeters": 12675,
+            "website": "http://www.pedraselada.com.br/",
+            "osmUrl": "https://www.openstreetmap.org/node/1069548880"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3125101-cachoeira-do-salto": {
+      "about": {
+        "description": "Extrema é um município brasileiro localizado no extremo sul do estado de Minas Gerais. Situada estrategicamente na divisa com o estado de São Paulo, a cidade encontra-se a aproximadamente 492 km da capital mineira, Belo Horizonte, e a cerca de 100 km da cidade de São Paulo.",
+        "curiosities": [
+          "A localização confere ao município características singulares em termos demográficos e de desenvolvimento industrial no contexto da região Sudeste."
+        ],
+        "source": {
+          "name": "Wikipédia: Extrema",
+          "url": "https://pt.wikipedia.org/wiki/Extrema",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Dias",
+            "type": "Hotel",
+            "distanceMeters": 4584,
+            "phone": "+55 35 3435-4858",
+            "osmUrl": "https://www.openstreetmap.org/way/865169481"
+          },
+          {
+            "name": "Hotel San Marco",
+            "type": "Hotel",
+            "distanceMeters": 5437,
+            "osmUrl": "https://www.openstreetmap.org/way/599986162"
+          },
+          {
+            "name": "Hotel Pousada Muxarabi",
+            "type": "Hotel",
+            "distanceMeters": 6899,
+            "osmUrl": "https://www.openstreetmap.org/node/4812116228"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3102050-cachoeira-dos-sete-piloes": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Macieira",
+            "type": "Camping",
+            "distanceMeters": 210,
+            "osmUrl": "https://www.openstreetmap.org/way/103483273"
+          },
+          {
+            "name": "Parque Caparaó - Casa Queimada",
+            "type": "Camping",
+            "distanceMeters": 3571,
+            "osmUrl": "https://www.openstreetmap.org/node/280384431"
+          },
+          {
+            "name": "Pousada Alto das Colinas",
+            "type": "Hotel",
+            "distanceMeters": 3595,
+            "osmUrl": "https://www.openstreetmap.org/way/787553942"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121209-cachoeira-maria-augusta": {
+      "about": {
+        "description": "Delfinópolis é um município brasileiro localizado na Região Imediata de Passos, Região Geográfica Intermediária de Varginha, Sudoeste do estado de Minas Gerais. Reconhecida contemporaneamente como um pólo de ecoturismo e produção agropecuária, a cidade funciona como o portal sul de entrada para o Parque Nacional da Serra da Canastra.",
+        "curiosities": [
+          "Distante 401 quilômetros de Belo Horizonte, estendendo-se por uma área total de 1.171 km² elevada a 689 metros de altitude na sede municipal.",
+          "Sua população recenseada em 2022 era de 8 393 habitantes."
+        ],
+        "source": {
+          "name": "Wikipédia: Delfinópolis",
+          "url": "https://pt.wikipedia.org/wiki/Delfin%C3%B3polis",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Mata do Engenho",
+            "type": "Hotel",
+            "distanceMeters": 1789,
+            "osmUrl": "https://www.openstreetmap.org/node/4150768471"
+          },
+          {
+            "name": "Pousada Villa Canastra",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 2185,
+            "osmUrl": "https://www.openstreetmap.org/node/12705766919"
+          },
+          {
+            "name": "pousada vale do céu",
+            "type": "Hotel",
+            "distanceMeters": 2316,
+            "osmUrl": "https://www.openstreetmap.org/way/737142750"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3164308-cachoeira-rasga-canga": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Vila Canastra",
+            "type": "Hotel",
+            "distanceMeters": 11060,
+            "osmUrl": "https://www.openstreetmap.org/way/425102446"
+          },
+          {
+            "name": "Camping Vila Canastra",
+            "type": "Camping",
+            "distanceMeters": 11061,
+            "osmUrl": "https://www.openstreetmap.org/way/364025783"
+          },
+          {
+            "name": "Casa Vila Canastra",
+            "type": "Hotel",
+            "distanceMeters": 11096,
+            "osmUrl": "https://www.openstreetmap.org/way/425003237"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3165206-cachoeira-veu-de-noiva": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Chácara Filhos da Terra",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 779,
+            "osmUrl": "https://www.openstreetmap.org/node/13348931839"
+          },
+          {
+            "name": "Palácio da Montanha Hostel",
+            "type": "Hostel",
+            "distanceMeters": 3810,
+            "phone": "+55 35 9 9872 5869",
+            "osmUrl": "https://www.openstreetmap.org/node/6375967086"
+          },
+          {
+            "name": "Pousada Rosa Mística",
+            "type": "Hostel",
+            "distanceMeters": 3926,
+            "osmUrl": "https://www.openstreetmap.org/node/11004348370"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3137601-gruta-da-lapinha": {
+      "about": {
+        "description": "Lagoa Santa é um município brasileiro do estado de Minas Gerais, localizado na Região Metropolitana de Belo Horizonte. Situa-se a cerca de 35 km da capital estadual, a uma altitude média de 800 metros.",
+        "curiosities": [
+          "Possui área de 231,9 km² e população de 75 145 habitantes, segundo o censo de 2022.",
+          "O município localiza-se em uma região de relevo cárstico e abriga importante patrimônio natural, espeleológico, paleontológico, arqueológico, histórico e cultural.",
+          "Desde o século XIX, a área é objeto de pesquisas científicas, iniciadas pelo naturalista dinamarquês Peter Wilhelm Lund, que encontrou restos esqueletais humanos e fósseis da fauna pleistocênica."
+        ],
+        "source": {
+          "name": "Wikipédia: Lagoa Santa (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Lagoa_Santa_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "openingHours": "Tu-Su 09:00-16:00",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/251386328",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sítio Roda d'Água",
+            "type": "Hotel",
+            "distanceMeters": 1010,
+            "website": "https://www.instagram.com/sitiorodadagualapinha/",
+            "phone": "+5531996718240",
+            "osmUrl": "https://www.openstreetmap.org/node/11162478344"
+          },
+          {
+            "name": "Hotel Hora",
+            "type": "Hotel",
+            "distanceMeters": 9926,
+            "osmUrl": "https://www.openstreetmap.org/node/2621384991"
+          },
+          {
+            "name": "Ramada Airport Lagoa Santa",
+            "type": "Hotel",
+            "distanceMeters": 10561,
+            "website": "http://www.ramada.com/hotels/brazil/lagoa-santa/ramada-lagoa-santa-international-airport/hotel-overview",
+            "osmUrl": "https://www.openstreetmap.org/way/239004017"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3168804-capela-de-nossa-senhora-das-merces-tiradentes": {
+      "about": {
+        "description": "Tiradentes é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira e ocupa uma área de cerca de 80 km², sendo que 5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi estimada em 7 744 habitantes em 2022.",
+          "Anteriormente denominada São José del Rei, foi uma das mais importantes vilas mineiras do Brasil Colônia, sendo um dos polos da produção aurífera.",
+          "O seu atual nome é uma homenagem a Tiradentes."
+        ],
+        "source": {
+          "name": "Wikipédia: Tiradentes (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pouso da Gerais",
+            "type": "Hotel",
+            "distanceMeters": 263,
+            "osmUrl": "https://www.openstreetmap.org/node/3844433746"
+          },
+          {
+            "name": "Pousada Mãe d`Água",
+            "type": "Hotel",
+            "distanceMeters": 274,
+            "osmUrl": "https://www.openstreetmap.org/node/1885844339"
+          },
+          {
+            "name": "Pousada Coração Inconfidente",
+            "type": "Hotel",
+            "distanceMeters": 286,
+            "osmUrl": "https://www.openstreetmap.org/node/3844433747"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3156700-casa-azul-sabara": {
+      "about": {
+        "description": "Sabará é um município brasileiro no estado de Minas Gerais, Região Sudeste do país. Localiza-se na Região Metropolitana de Belo Horizonte e ocupa uma área de 302,453 km², sendo que 31 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi recenseada em 129 372 habitantes em 2022.",
+          "É constituído pelos distritos de Carvalho de Brito, Ravena e Mestre Caetano, além do distrito-sede."
+        ],
+        "source": {
+          "name": "Wikipédia: Sabará",
+          "url": "https://pt.wikipedia.org/wiki/Sabar%C3%A1",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Chalé Mineiro Hostel",
+            "type": "Hostel",
+            "distanceMeters": 11346,
+            "website": "http://www.chalemineirohostel.com.br/",
+            "phone": "+55 31 34671576",
+            "osmUrl": "https://www.openstreetmap.org/node/1651200805"
+          },
+          {
+            "name": "HI La em Casa Hostel",
+            "type": "Hostel",
+            "distanceMeters": 11981,
+            "osmUrl": "https://www.openstreetmap.org/node/4182330589"
+          },
+          {
+            "name": "Ouro Minas Palace Hotel",
+            "type": "Hotel",
+            "distanceMeters": 12467,
+            "osmUrl": "https://www.openstreetmap.org/way/326991188"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3151404-casa-do-padre-belchior-pitangui": {
+      "about": {
+        "description": "A Casa do Padre Belchior é um casarão histórico, construído no final do século XVIII, para ser residência do Capitão-Mor Francisco José da Silva Capanema. Também foi residência do padre Belchior Pinheiro de Oliveira, confidente e conselheiro de Dom Pedro I.",
+        "curiosities": [
+          "A casa está localizada na cidade de Pitangui, no estado de Minas Gerais.",
+          "É um patrimônio histórico tombado pelo Instituto do Patrimônio Histórico e Artístico Nacional (IPHAN), na data de 18 de abril de 1980, sob o processo de nº 937.T.1975."
+        ],
+        "source": {
+          "name": "Wikipédia: Casa do Padre Belchior",
+          "url": "https://pt.wikipedia.org/wiki/Casa_do_Padre_Belchior",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Hotel Santa Felicidade",
+            "type": "Hotel",
+            "distanceMeters": 2049,
+            "osmUrl": "https://www.openstreetmap.org/way/320702717"
+          },
+          {
+            "name": "Divina Gula",
+            "type": "Hotel",
+            "distanceMeters": 14323,
+            "osmUrl": "https://www.openstreetmap.org/node/6426697654"
+          },
+          {
+            "name": "Líber Hotel",
+            "type": "Hotel",
+            "distanceMeters": 23212,
+            "osmUrl": "https://www.openstreetmap.org/way/220771836"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3162500-catedral-basilica-de-nossa-senhora-do-pilar-sao-joao-del-rei": {
+      "about": {
+        "description": "São João del-Rei é um município brasileiro localizado no interior do estado de Minas Gerais, na região Sudeste do Brasil. Mesmo com o declínio da mineração a partir da segunda metade do século XVIII, a cidade manteve vitalidade econômica e urbana, apoiada na diversificação produtiva e na centralidade administrativa regional.",
+        "curiosities": [
+          "No século XXI, São João del-Rei mantém sua condição de polo regional, articulando funções administrativas, educacionais, culturais e econômicas.",
+          "A presença de instituições de ensino superior, a centralidade nos serviços e o turismo histórico-cultural coexistem com desafios contemporâneos relacionados à expansão urbana, à preservação ambiental e à gestão do patrimônio cultural.",
+          "Segundo estimativa do Instituto Brasileiro de Geografia e Estatística, o município possuía cerca de 94 mil habitantes em 2024, figurando entre os mais populosos centros históricos mineiros."
+        ],
+        "source": {
+          "name": "Wikipédia: São João del-Rei",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Del Mundo Hostel",
+            "type": "Hostel",
+            "distanceMeters": 380,
+            "osmUrl": "https://www.openstreetmap.org/node/13339264902"
+          },
+          {
+            "name": "Pousada Beco do Bispo",
+            "type": "Hotel",
+            "distanceMeters": 445,
+            "osmUrl": "https://www.openstreetmap.org/way/949165892"
+          },
+          {
+            "name": "Pousada Estação do Trem",
+            "type": "Hotel",
+            "distanceMeters": 468,
+            "osmUrl": "https://www.openstreetmap.org/way/963289928"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3168804-chafariz-de-sao-jose-tiradentes": {
+      "about": {
+        "description": "Tiradentes é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira e ocupa uma área de cerca de 80 km², sendo que 5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi estimada em 7 744 habitantes em 2022.",
+          "Anteriormente denominada São José del Rei, foi uma das mais importantes vilas mineiras do Brasil Colônia, sendo um dos polos da produção aurífera.",
+          "O seu atual nome é uma homenagem a Tiradentes."
+        ],
+        "source": {
+          "name": "Wikipédia: Tiradentes (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Chafariz",
+            "type": "Hostel",
+            "distanceMeters": 71,
+            "osmUrl": "https://www.openstreetmap.org/node/3994067760"
+          },
+          {
+            "name": "Pousada Arco Iris",
+            "type": "Hotel",
+            "distanceMeters": 132,
+            "osmUrl": "https://www.openstreetmap.org/node/4146511048"
+          },
+          {
+            "name": "Pousada Rústica",
+            "type": "Hotel",
+            "distanceMeters": 146,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508737"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3156700-chafariz-do-caquende-sabara": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Chalé Mineiro Hostel",
+            "type": "Hostel",
+            "distanceMeters": 11124,
+            "website": "http://www.chalemineirohostel.com.br/",
+            "phone": "+55 31 34671576",
+            "osmUrl": "https://www.openstreetmap.org/node/1651200805"
+          },
+          {
+            "name": "HI La em Casa Hostel",
+            "type": "Hostel",
+            "distanceMeters": 11762,
+            "osmUrl": "https://www.openstreetmap.org/node/4182330589"
+          },
+          {
+            "name": "Ramada Encore by Wyndham Belo Horizonte Minascasa",
+            "type": "Hotel",
+            "distanceMeters": 12291,
+            "osmUrl": "https://www.openstreetmap.org/node/6615170884"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3143500-estacao-ecologica-de-pirapitinga": {
+      "about": {
+        "description": "A Estação Ecológica de Pirapitinga (ESEC de Pirapitinga) é uma ilha artificial e unidade de conservação de proteção integral localizada dentro do bioma Cerrado no reservatório da Usina Hidrelétrica de Três Marias. É administrada pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio), sendo proibido a visitação pública, exceto para fins educacionais, e as visitas para fins de pesquisa científica devem ser previamente autorizadas.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Estação Ecológica de Pirapitinga",
+          "url": "https://pt.wikipedia.org/wiki/Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Pirapitinga",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Chalé do Naim",
+            "type": "Camping",
+            "distanceMeters": 15572,
+            "osmUrl": "https://www.openstreetmap.org/node/6184956985"
+          },
+          {
+            "name": "Hotel Náutico",
+            "type": "Hotel",
+            "distanceMeters": 17277,
+            "osmUrl": "https://www.openstreetmap.org/node/2822957279"
+          },
+          {
+            "name": "Mar Doce",
+            "type": "Hotel",
+            "distanceMeters": 17930,
+            "osmUrl": "https://www.openstreetmap.org/node/4304804960"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3147600-floresta-nacional-de-passa-quatro": {
+      "about": {
+        "description": "Passa Quatro é um município brasileiro do estado de Minas Gerais, localizado no sul do estado. Localizada nas proximidades da Serra da Mantiqueira, é uma estância hidromineral e região turística.",
+        "curiosities": [
+          "Com área é de 277,221 km², possui uma população, conforme estimativas do IBGE de 2025, de 15 847 habitantes."
+        ],
+        "source": {
+          "name": "Wikipédia: Passa Quatro",
+          "url": "https://pt.wikipedia.org/wiki/Passa_Quatro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "São Raphael",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 2753,
+            "osmUrl": "https://www.openstreetmap.org/node/6340228386"
+          },
+          {
+            "name": "Hostel Passa4",
+            "type": "Hotel",
+            "distanceMeters": 2835,
+            "osmUrl": "https://www.openstreetmap.org/node/12233570401"
+          },
+          {
+            "name": "Recanto das Hortências",
+            "type": "Hotel",
+            "distanceMeters": 2915,
+            "osmUrl": "https://www.openstreetmap.org/node/5569889874"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-igreja-de-nossa-senhora-das-merces-e-perdoes-ouro-preto": {
+      "about": {
+        "description": "A Igreja Nossa Senhora das Mercês e Misericórdia, também conhecida como Igreja Mercês de Cima, localiza-se na cidade Ouro Preto, estado de Minas Gerais, no Brasil. A torre central foi projeto de Manuel Francisco de Araújo.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de Nossa Senhora das Mercês e Misericórdia",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_das_Merc%C3%AAs_e_Miseric%C3%B3rdia",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada dos Bandeirantes",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 41,
+            "osmUrl": "https://www.openstreetmap.org/way/192370195"
+          },
+          {
+            "name": "Pousada Ouro Preto",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 60,
+            "osmUrl": "https://www.openstreetmap.org/way/192370193"
+          },
+          {
+            "name": "Pousada Ciclo do Ouro",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 123,
+            "osmUrl": "https://www.openstreetmap.org/way/227972645"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121605-igreja-de-nossa-senhora-do-carmo-diamantina": {
+      "about": {
+        "description": "A Igreja de Nossa Senhora do Carmo localiza-se no município brasileiro de Diamantina. Constitui-se em uma das mais significativas da região diamantina, alia a arquitetura graciosa e ao mesmo tempo imponente com a delicadeza e o vigor da decoração pictórica e de talha.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de Nossa Senhora do Carmo (Diamantina)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_do_Carmo_(Diamantina)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada da Gameleira",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 100,
+            "osmUrl": "https://www.openstreetmap.org/node/9818247128"
+          },
+          {
+            "name": "Pousada Ouro de Minas",
+            "type": "Hotel",
+            "distanceMeters": 121,
+            "phone": "+55 38 3531 2306",
+            "osmUrl": "https://www.openstreetmap.org/node/9818247126"
+          },
+          {
+            "name": "Pousada Casa de Vó",
+            "type": "Hotel",
+            "distanceMeters": 124,
+            "osmUrl": "https://www.openstreetmap.org/node/9818247124"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3162500-igreja-de-nossa-senhora-do-carmo-sao-joao-del-rei": {
+      "about": {
+        "description": "São João del-Rei é um município brasileiro localizado no interior do estado de Minas Gerais, na região Sudeste do Brasil. Mesmo com o declínio da mineração a partir da segunda metade do século XVIII, a cidade manteve vitalidade econômica e urbana, apoiada na diversificação produtiva e na centralidade administrativa regional.",
+        "curiosities": [
+          "No século XXI, São João del-Rei mantém sua condição de polo regional, articulando funções administrativas, educacionais, culturais e econômicas.",
+          "A presença de instituições de ensino superior, a centralidade nos serviços e o turismo histórico-cultural coexistem com desafios contemporâneos relacionados à expansão urbana, à preservação ambiental e à gestão do patrimônio cultural.",
+          "Segundo estimativa do Instituto Brasileiro de Geografia e Estatística, o município possuía cerca de 94 mil habitantes em 2024, figurando entre os mais populosos centros históricos mineiros."
+        ],
+        "source": {
+          "name": "Wikipédia: São João del-Rei",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "wheelchair": "limited",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/2800636626",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Estação do Trem",
+            "type": "Hotel",
+            "distanceMeters": 335,
+            "osmUrl": "https://www.openstreetmap.org/way/963289928"
+          },
+          {
+            "name": "Del Mundo Hostel",
+            "type": "Hostel",
+            "distanceMeters": 610,
+            "osmUrl": "https://www.openstreetmap.org/node/13339264902"
+          },
+          {
+            "name": "Pousada Beco do Bispo",
+            "type": "Hotel",
+            "distanceMeters": 658,
+            "osmUrl": "https://www.openstreetmap.org/way/949165892"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121605-igreja-de-nossa-senhora-do-rosario-diamantina": {
+      "about": {
+        "description": "A Igreja de Nossa Senhora do Carmo localiza-se no município brasileiro de Diamantina. Constitui-se em uma das mais significativas da região diamantina, alia a arquitetura graciosa e ao mesmo tempo imponente com a delicadeza e o vigor da decoração pictórica e de talha.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de Nossa Senhora do Carmo (Diamantina)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_do_Carmo_(Diamantina)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Casa Solar do Rosário",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 34,
+            "phone": "+55 38 99925 1744",
+            "osmUrl": "https://www.openstreetmap.org/node/9818247129"
+          },
+          {
+            "name": "Pousada da Gameleira",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 85,
+            "osmUrl": "https://www.openstreetmap.org/node/9818247128"
+          },
+          {
+            "name": "Pousada Vila do Imperador",
+            "type": "Hotel",
+            "distanceMeters": 215,
+            "website": "https://pousadaviladoimperador.com.br/",
+            "phone": "+55 38 99814 0071",
+            "osmUrl": "https://www.openstreetmap.org/node/9818247127"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3168804-igreja-de-nossa-senhora-do-rosario-dos-pretos-tiradentes": {
+      "about": {
+        "description": "Tiradentes é um município brasileiro no interior do estado de Minas Gerais, Região Sudeste do país. Localiza-se na região central mineira e ocupa uma área de cerca de 80 km², sendo que 5 km² estão em perímetro urbano.",
+        "curiosities": [
+          "Sua população foi estimada em 7 744 habitantes em 2022.",
+          "Anteriormente denominada São José del Rei, foi uma das mais importantes vilas mineiras do Brasil Colônia, sendo um dos polos da produção aurífera.",
+          "O seu atual nome é uma homenagem a Tiradentes."
+        ],
+        "source": {
+          "name": "Wikipédia: Tiradentes (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Tiradentes_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Arco Iris",
+            "type": "Hotel",
+            "distanceMeters": 199,
+            "osmUrl": "https://www.openstreetmap.org/node/4146511048"
+          },
+          {
+            "name": "Pousada Rústica",
+            "type": "Hotel",
+            "distanceMeters": 208,
+            "osmUrl": "https://www.openstreetmap.org/node/4146508737"
+          },
+          {
+            "name": "Pousada Chafariz",
+            "type": "Hostel",
+            "distanceMeters": 210,
+            "osmUrl": "https://www.openstreetmap.org/node/3994067760"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3121605-igreja-de-sao-francisco-de-assis-diamantina": {
+      "about": {
+        "description": "A Igreja de São Francisco de Assis, se localiza no centro histórico da cidade de Diamantina (R. São Francisco, s/n (Centro Histórico) – Centro), Minas Gerais.",
+        "curiosities": [
+          "O início da construção da igreja data do ano de 1766, sendo as obras consideradas como concluídas no final de 1830.",
+          "É uma construção barroca com elementos decorativos em rococó, sendo um dos marcos da arquitetura mineira da época.",
+          "A Igreja foi tombada pelo Iphan no ano de 1949, e mantém até os dias de hoje o seu uso original, que é o de servir ao culto religioso católico."
+        ],
+        "source": {
+          "name": "Wikipédia: Igreja de São Francisco de Assis (Diamantina)",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_S%C3%A3o_Francisco_de_Assis_(Diamantina)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "fee": "yes",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/3342680185",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Relíquias do Tempo",
+            "type": "Hotel",
+            "distanceMeters": 52,
+            "website": "https://pousadareliquiasdotempo.com.br/",
+            "phone": "+55 38 35311627;+55 38 35316371",
+            "osmUrl": "https://www.openstreetmap.org/node/3342875165"
+          },
+          {
+            "name": "Casa Antunes",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 63,
+            "osmUrl": "https://www.openstreetmap.org/node/12035786835"
+          },
+          {
+            "name": "Pousada Pouso da Chica",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 90,
+            "website": "https://www.pousodachica.com.br/",
+            "phone": "+55 38 3531 6190",
+            "osmUrl": "https://www.openstreetmap.org/node/9818247125"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-igreja-de-sao-francisco-de-assis-ouro-preto": {
+      "about": {
+        "description": "Ouro Preto é um município brasileiro do estado de Minas Gerais, Região Sudeste do país. Localiza-se a cerca de 100 km a sudeste da capital estadual.",
+        "curiosities": [
+          "Ocupa uma área de aproximadamente 1 250 km², sendo que 23 km² estão em área urbana, e sua população foi estimada em 77 914 habitantes em 2025.",
+          "Situa-se na latitude 20º23'08\" sul, longitude 43º30'29\" oeste e altitude média de 1 179 metros.",
+          "No município há treze distritos: Amarantina, Antônio Pereira, Cachoeira do Campo, Engenheiro Correia, Glaura, Lavras Novas, Miguel Burnier, Santa Rita de Ouro Preto, Santo Antônio do Leite, Santo Antônio do Salto, São Bartolomeu e Rodrigo Silva, além da sede."
+        ],
+        "source": {
+          "name": "Wikipédia: Ouro Preto",
+          "url": "https://pt.wikipedia.org/wiki/Ouro_Preto",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Pouso dos Sinos",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 49,
+            "osmUrl": "https://www.openstreetmap.org/node/10049747233"
+          },
+          {
+            "name": "Pousada do Mondego",
+            "type": "Hotel",
+            "distanceMeters": 96,
+            "website": "https://mondego.com.br/",
+            "osmUrl": "https://www.openstreetmap.org/node/2044485220"
+          },
+          {
+            "name": "Pousada Itacolomy",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 101,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290455"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3162500-igreja-de-sao-francisco-de-assis-sao-joao-del-rei": {
+      "about": {
+        "description": "São João del-Rei é um município brasileiro localizado no interior do estado de Minas Gerais, na região Sudeste do Brasil. Mesmo com o declínio da mineração a partir da segunda metade do século XVIII, a cidade manteve vitalidade econômica e urbana, apoiada na diversificação produtiva e na centralidade administrativa regional.",
+        "curiosities": [
+          "No século XXI, São João del-Rei mantém sua condição de polo regional, articulando funções administrativas, educacionais, culturais e econômicas.",
+          "A presença de instituições de ensino superior, a centralidade nos serviços e o turismo histórico-cultural coexistem com desafios contemporâneos relacionados à expansão urbana, à preservação ambiental e à gestão do patrimônio cultural.",
+          "Segundo estimativa do Instituto Brasileiro de Geografia e Estatística, o município possuía cerca de 94 mil habitantes em 2024, figurando entre os mais populosos centros históricos mineiros."
+        ],
+        "source": {
+          "name": "Wikipédia: São João del-Rei",
+          "url": "https://pt.wikipedia.org/wiki/S%C3%A3o_Jo%C3%A3o_del-Rei",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "practical": {
+        "wheelchair": "yes",
+        "website": "https://www.minasgerais.com.br/pt/atracoes/sao-joao-del-rei/igreja-sao-francisco-de-assis-370",
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/164767346",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Villa Magnolia Pousada",
+            "type": "Hotel",
+            "distanceMeters": 56,
+            "osmUrl": "https://www.openstreetmap.org/node/2424668301"
+          },
+          {
+            "name": "Pousada Casarão",
+            "type": "Hotel",
+            "distanceMeters": 128,
+            "osmUrl": "https://www.openstreetmap.org/node/3207882063"
+          },
+          {
+            "name": "Pousada Beco do Bispo",
+            "type": "Hotel",
+            "distanceMeters": 160,
+            "osmUrl": "https://www.openstreetmap.org/node/3206626607"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3146107-igreja-nossa-senhora-das-merces-e-misericordia-ouro-preto": {
+      "about": {
+        "description": "A Igreja Nossa Senhora das Mercês e Misericórdia, também conhecida como Igreja Mercês de Cima, localiza-se na cidade Ouro Preto, estado de Minas Gerais, no Brasil. A torre central foi projeto de Manuel Francisco de Araújo.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Igreja de Nossa Senhora das Mercês e Misericórdia",
+          "url": "https://pt.wikipedia.org/wiki/Igreja_de_Nossa_Senhora_das_Merc%C3%AAs_e_Miseric%C3%B3rdia",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Brumas Hostel",
+            "type": "Hostel",
+            "distanceMeters": 65,
+            "phone": "+55 31 3551-2944",
+            "osmUrl": "https://www.openstreetmap.org/way/674805887"
+          },
+          {
+            "name": "Grande Hotel de Ouro Preto",
+            "type": "Hotel",
+            "distanceMeters": 132,
+            "osmUrl": "https://www.openstreetmap.org/way/264975250"
+          },
+          {
+            "name": "Pousada Casarão",
+            "type": "Hotel",
+            "distanceMeters": 133,
+            "osmUrl": "https://www.openstreetmap.org/node/2029290367"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3127701-monumento-natural-estadual-pico-do-ibituruna": {
+      "about": {
+        "description": "O Pico da Ibituruna é uma elevação montanhosa na cidade de Governador Valadares, no estado de Minas Gerais, no Brasil. Segundo o site TripAdvisor, o Pico da Ibituruna está em primeiro lugar na lista de melhores atrações de Governador Valadares.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Pico da Ibituruna",
+          "url": "https://pt.wikipedia.org/wiki/Pico_da_Ibituruna",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Serra",
+            "type": "Motel",
+            "distanceMeters": 282,
+            "osmUrl": "https://www.openstreetmap.org/way/316973109"
+          },
+          {
+            "name": "Pousada Aconchego",
+            "type": "Motel",
+            "distanceMeters": 1135,
+            "osmUrl": "https://www.openstreetmap.org/node/2920675457"
+          },
+          {
+            "name": "Hotel Vale Silvestre",
+            "type": "Motel",
+            "distanceMeters": 1749,
+            "osmUrl": "https://www.openstreetmap.org/way/316973102"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3167103-monumento-natural-estadual-varzea-do-lageado-e-serra-do-raio": {
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada Guerreiros da Luz",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 2070,
+            "phone": "+55 38 98836 6938",
+            "osmUrl": "https://www.openstreetmap.org/node/9949798917"
+          },
+          {
+            "name": "Pousada Sempre Viva",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 2485,
+            "osmUrl": "https://www.openstreetmap.org/node/9949798922"
+          },
+          {
+            "name": "Camping Nozinho",
+            "type": "Camping",
+            "distanceMeters": 2700,
+            "phone": "+55 38 3541 4063",
+            "osmUrl": "https://www.openstreetmap.org/node/3304991285"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3137601-parque-estadual-do-sumidouro": {
+      "about": {
+        "description": "Lagoa Santa é um município brasileiro do estado de Minas Gerais, localizado na Região Metropolitana de Belo Horizonte. Situa-se a cerca de 35 km da capital estadual, a uma altitude média de 800 metros.",
+        "curiosities": [
+          "Possui área de 231,9 km² e população de 75 145 habitantes, segundo o censo de 2022.",
+          "O município localiza-se em uma região de relevo cárstico e abriga importante patrimônio natural, espeleológico, paleontológico, arqueológico, histórico e cultural.",
+          "Desde o século XIX, a área é objeto de pesquisas científicas, iniciadas pelo naturalista dinamarquês Peter Wilhelm Lund, que encontrou restos esqueletais humanos e fósseis da fauna pleistocênica."
+        ],
+        "source": {
+          "name": "Wikipédia: Lagoa Santa (Minas Gerais)",
+          "url": "https://pt.wikipedia.org/wiki/Lagoa_Santa_(Minas_Gerais)",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Sítio Roda d'Água",
+            "type": "Hotel",
+            "distanceMeters": 1727,
+            "website": "https://www.instagram.com/sitiorodadagualapinha/",
+            "phone": "+5531996718240",
+            "osmUrl": "https://www.openstreetmap.org/node/11162478344"
+          },
+          {
+            "name": "Hotel Hora",
+            "type": "Hotel",
+            "distanceMeters": 9983,
+            "osmUrl": "https://www.openstreetmap.org/node/2621384991"
+          },
+          {
+            "name": "Ramada Airport Lagoa Santa",
+            "type": "Hotel",
+            "distanceMeters": 10780,
+            "website": "http://www.ramada.com/hotels/brazil/lagoa-santa/ramada-lagoa-santa-international-airport/hotel-overview",
+            "osmUrl": "https://www.openstreetmap.org/way/239004017"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3125952-parque-estadual-serra-do-brigadeiro": {
+      "about": {
+        "description": "O Parque Estadual Serra do Brigadeiro está localizado na região da Zona da Mata, Minas Gerais, abrangendo parte da área dos municípios de Ervália, Fervedouro, Sericita, Araponga, Miradouro, Pedra Bonita, Muriaé e Divino.",
+        "curiosities": [],
+        "source": {
+          "name": "Wikipédia: Parque Estadual Serra do Brigadeiro",
+          "url": "https://pt.wikipedia.org/wiki/Parque_Estadual_Serra_do_Brigadeiro",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada",
+            "type": "Hotel",
+            "distanceMeters": 2716,
+            "osmUrl": "https://www.openstreetmap.org/node/3499441722"
+          },
+          {
+            "name": "Pousada Serra D'Água",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 5797,
+            "website": "https://www.pousadaserradagua.com/",
+            "phone": "+55 31 98459 9704; +55 31 98308 2619",
+            "osmUrl": "https://www.openstreetmap.org/node/4080509549"
+          },
+          {
+            "name": "Pousada Vale das Luas",
+            "type": "Hotel",
+            "distanceMeters": 6353,
+            "osmUrl": "https://www.openstreetmap.org/node/4364735522"
+          }
+        ],
+        "source": {
+          "name": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/copyright",
+          "license": "ODbL 1.0",
+          "retrievedAt": "2026-11-20"
+        }
+      }
+    },
+    "3154804-parque-nacional-da-serra-do-gandarela": {
+      "about": {
+        "description": "O Parque Nacional (Parna) da Serra do Gandarela, criado em 13 de outubro de 2014, constitui-se importante área de conservação ambiental no coração do Quadrilátero Ferrífero e na porção sul da Cadeia do Espinhaço, a 40 km de Belo Horizonte, Minas Gerais. O Parque apresenta um conjunto cênico de exuberantes serras, rios e cachoeiras.",
+        "curiosities": [
+          "A vegetação é composta de um dos mais contínuos fragmentos de Mata Atlântica de Minas Gerais e formações do cerrado, como os campos rupestres ferruginosos e quartizíticos, além de cangas ferruginosas.",
+          "Esse fator também contribui para a ocorrência de dezenas de cachoeiras, que compõe uma esplêndida beleza cênica e oferecem opções de turismo e lazer gratuitos para a população local e da Região Metropolitana."
+        ],
+        "source": {
+          "name": "Wikipédia: Parque Nacional da Serra do Gandarela",
+          "url": "https://pt.wikipedia.org/wiki/Parque_Nacional_da_Serra_do_Gandarela",
+          "license": "CC BY-SA 4.0",
+          "retrievedAt": "2026-11-20"
+        }
+      },
+      "lodging": {
+        "items": [
+          {
+            "name": "Pousada e camping do Eduardo",
+            "type": "Pousada / casa de hóspedes",
+            "distanceMeters": 3688,
+            "phone": "+55 31 98509 4632",
+            "osmUrl": "https://www.openstreetmap.org/node/11748945169"
+          },
+          {
+            "name": "Camping",
+            "type": "Camping",
+            "distanceMeters": 8611,
+            "osmUrl": "https://www.openstreetmap.org/node/11537895673"
+          },
+          {
+            "name": "Entrada Cachoeira Rio Acima",
+            "type": "Camping",
+            "distanceMeters": 9105,
+            "osmUrl": "https://www.openstreetmap.org/node/4583282889"
           }
         ],
         "source": {
